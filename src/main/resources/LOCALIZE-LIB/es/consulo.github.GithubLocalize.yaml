@@ -1,0 +1,638 @@
+account.choose.as.default:
+    text: Establecer como cuenta predeterminada para el proyecto actual
+account.choose.button:
+    text: Seleccionar
+account.choose.for:
+    text: 'Seleccionar cuenta de GitHub para: {0}'
+account.choose.not.selected:
+    text: No se ha seleccionado ninguna cuenta
+account.choose.title:
+    text: Seleccionar cuenta de GitHub
+accounts.add.button:
+    text: Añadir cuenta
+accounts.add.dropdown.link:
+    text: Añadir cuenta
+accounts.default.missing:
+    text: Falta la cuenta de GitHub predeterminada
+accounts.relogin:
+    text: Volver a iniciar sesión
+action.GitHub.Timeline.DeleteMergedBranch.description:
+    text: Eliminar la rama fusionada en GitHub
+action.GitHub.Timeline.DeleteMergedBranch.text:
+    text: Eliminar rama
+action.Github.Accounts.AddGHAccount.text:
+    text: Iniciar sesión con GitHub…
+action.Github.Accounts.AddGHAccountWithToken.text:
+    text: Iniciar sesión con token…
+action.Github.Accounts.AddGHEAccount.text:
+    text: Iniciar sesión en GitHub Enterprise…
+action.Github.Add.Account.synonym:
+    text: Añadir cuenta de GitHub
+action.Github.Clone.MainMenu.text:
+    text: Clonar repositorio…
+action.Github.Clone.text:
+    text: Clonar repositorio de GitHub…
+action.Github.Create.Pull.Request.synonym1:
+    text: Nuevo Pull Request/Merge Request/Revisión de código
+action.Github.Create.Pull.Request.synonym2:
+    text: Iniciar Pull Request/Merge Request/Revisión de código
+action.Github.Create.Pull.Request.synonym3:
+    text: Crear solicitud de fusión/revisión de código
+action.Github.Open.Settings.MainMenu.text:
+    text: Administrar cuentas…
+action.Github.Open.Settings.text:
+    text: Gestionar cuentas de GitHub…
+action.Github.Pull.Request.Branch.Update.text:
+    text: Actualizar para habilitar el modo de revisión…
+action.Github.Pull.Request.Review.In.Editor.Toggle.text:
+    text: Modo de revisión
+action.Github.Pull.Request.Show.In.Toolwindow.text:
+    text: Mostrar Pull Request en la ventana de herramientas
+action.Github.PullRequest.Changed.MarkViewed.Toggle.text:
+    text: Alternar estado visto/no visto
+action.Github.PullRequest.Copy.Link.text:
+    text: Copiar URL de la pull request
+action.Github.PullRequest.Open.Link.synonym:
+    text: Abrir Pull Request en GitHub
+action.Github.PullRequest.Open.Link.text:
+    text: Ver Pull Request en el navegador
+action.Github.Share.description:
+    text: Crea un repositorio en GitHub y envía tus commits allí
+action.Github.Share.text:
+    text: Compartir proyecto en GitHub
+action.Github.View.Pull.Request.synonym1:
+    text: Ver solicitudes de fusión/revisiones de código
+action.Github.View.Pull.Request.text:
+    text: Ver pull requests
+action.comment.text:
+    text: Comentario
+button.use.token:
+    text: Usar token…
+cannot.configure.remote:
+    text: "No se puede configurar el remoto ''{0}'':\n{1}"
+cannot.create.gist:
+    text: No se puede crear el Gist
+cannot.display.item:
+    text: No se puede mostrar el elemento - {0}
+cannot.load.changes:
+    text: No se pueden cargar los cambios
+cannot.load.commits:
+    text: No se pueden cargar los commits
+cannot.load.data:
+    text: No se pueden cargar los datos
+cannot.load.details:
+    text: No se pueden cargar los detalles
+cannot.load.repo.info:
+    text: No se puede cargar la información del repositorio
+create.gist.dialog.copy.url:
+    text: Copiar URL
+create.gist.dialog.create.for.field:
+    text: 'Crear para:'
+create.gist.dialog.description.field:
+    text: 'Descripción:'
+create.gist.dialog.filename.field:
+    text: 'Nombre de archivo:'
+create.gist.dialog.open.browser:
+    text: Ver en el navegador
+create.gist.dialog.secret:
+    text: Secreto
+create.gist.dialog.title:
+    text: Crear Gist
+create.gist.error.binary.file:
+    text: 'No se puede cargar el archivo binario: {0}'
+create.gist.error.content.read:
+    text: No se pudo leer el contenido del archivo {0}
+create.gist.error.empty:
+    text: No se puede crear un gist vacío
+create.gist.process:
+    text: Creando gist…
+create.gist.success:
+    text: Gist creado con éxito
+credentials.button.generate:
+    text: Generar…
+credentials.incorrect:
+    text: "Credenciales incorrectas.\n{0}"
+credentials.invalid.auth.data:
+    text: "Datos de autenticación no válidos.\n{0}"
+credentials.invalid.server.path:
+    text: Ruta de servidor no válida
+credentials.server.cannot.be.empty:
+    text: El servidor no puede estar vacío
+credentials.server.field:
+    text: 'Servidor:'
+credentials.server.path.invalid:
+    text: La URL del servidor no es válida
+dialog.message.account.cannot.be.empty:
+    text: La cuenta no puede estar vacía
+dialog.message.login.to.continue:
+    text: Inicia sesión en GitHub para continuar
+dialog.title.add.github.account:
+    text: Añadir cuenta de GitHub
+github.actions.action.file.json.schema:
+    text: Esquema JSON de GitHub Action
+github.actions.workflow.file.json.schema:
+    text: Esquema JSON de flujo de trabajo de GitHub
+gql.error.in.field:
+    text: Error {0} en el campo {2} de {1}
+group.GitHub.Copy.Link.CopyReferencePopup.text:
+    text: URL del repositorio de GitHub
+group.GitHub.Copy.Link.text:
+    text: Copiar enlace al repositorio de GitHub
+group.Github.Open.In.Browser.EditorTabPopup.text:
+    text: Ver en el navegador
+group.Github.Open.In.Browser.GoToAction.text:
+    text: Abrir en GitHub
+group.Github.PullRequest.Details.Commit.Tree.ViewOptions.text:
+    text: Opciones de visualización
+group.Github.PullRequest.Diff.Thread.View.Options.text:
+    text: Mostrar hilos de revisión
+issue.state.closed:
+    text: Cerrado
+issue.state.open:
+    text: Abierto
+label.login.option.separator:
+    text: o
+label.login.progress:
+    text: Iniciando sesión…
+link.label.use.token:
+    text: Usar token…
+login.account.already.added:
+    text: La cuenta ''{0}'' ya ha sido añadida
+login.to.github:
+    text: Iniciar sesión en GitHub
+login.to.github.enterprise:
+    text: Iniciar sesión en GitHub Enterprise
+login.to.github.enterprise.action:
+    text: Iniciar sesión en GitHub Enterprise…
+login.token.cannot.be.empty:
+    text: El token no puede estar vacío
+login.via.github.action:
+    text: Iniciar sesión con GitHub…
+open.on.github.action:
+    text: Ver en el navegador
+open.on.github.action.description:
+    text: Ver el enlace correspondiente en el navegador
+progress.text.loading.protected.branches:
+    text: Cargando las reglas de protección de ramas de GitHub
+pull.request.adding.reviewers:
+    text: Añadiendo revisores
+pull.request.adjustment.failed:
+    text: Error al ajustar la lista
+pull.request.assignees:
+    text: 'Asignados:'
+pull.request.assignees.popup:
+    text: '{0, choice, 1#Responsable|2#Responsables}'
+pull.request.change.remote.or.account:
+    text: Cambiar repositorio o cuenta…
+pull.request.close.action:
+    text: Cerrar Pull Request
+pull.request.comment.hint:
+    text: '{0} para comentar'
+pull.request.comment.suggested.changes.applying:
+    text: Aplicando parche
+pull.request.comment.suggested.changes.committing:
+    text: Aplicando y confirmando los cambios
+pull.request.comment.suggested.changes.resolving:
+    text: Resolviendo hilo
+pull.request.commit.does.not.contain.changes:
+    text: El commit no contiene ningún cambio
+pull.request.conflicts.merge.tooltip:
+    text: No se puede fusionar la solicitud de extracción
+pull.request.create.action:
+    text: Crear Pull Request
+pull.request.create.already.exists:
+    text: El pull request ya existe
+pull.request.create.already.exists.view:
+    text: Ver
+pull.request.create.checking.branches:
+    text: Comprobando las ramas de la pull request
+pull.request.create.creating:
+    text: Creando solicitud de extracción
+pull.request.create.description:
+    text: Descripción
+pull.request.create.draft.action:
+    text: Crear borrador de pull request
+pull.request.create.error:
+    text: Error al crear la solicitud de extracción
+pull.request.create.error.details:
+    text: Detalles
+pull.request.create.failed.to.check.branches:
+    text: Error al comprobar las ramas de la solicitud de extracción
+pull.request.create.failed.to.load.changes:
+    text: Error al cargar los cambios
+pull.request.create.failed.to.load.commits:
+    text: Error al cargar los commits
+pull.request.create.input.remote.branch.comment:
+    text: Sus cambios se enviarán al repositorio remoto para crear la pull request
+pull.request.create.input.remote.branch.name:
+    text: 'Nombre de la rama remota:'
+pull.request.create.input.remote.branch.title:
+    text: Nueva rama remota para la pull request
+pull.request.create.no.changes:
+    text: No hay cambios entre ''{0}'' y ''{1}''
+pull.request.create.no.commits:
+    text: Sin commits
+pull.request.create.process.title:
+    text: Creando pull request…
+pull.request.create.pushing:
+    text: Enviando una rama de solicitud de extracción
+pull.request.create.select.branches:
+    text: Seleccione la base y el head del pull request para ver los cambios
+pull.request.create.setting.metadata:
+    text: Actualizando los campos de la pull request
+pull.request.create.title:
+    text: Título
+pull.request.details.adjusting.assignees:
+    text: Ajustando asignados…
+pull.request.details.adjusting.labels:
+    text: Ajustando etiquetas…
+pull.request.details.adjusting.reviewers:
+    text: Ajustando revisores…
+pull.request.diff.editor.title:
+    text: 'Diff de la pull request #{0,number,#}'
+pull.request.discard.pending.comments:
+    text: Descartar comentarios pendientes
+pull.request.discard.pending.comments.dialog.msg:
+    text: ¿Está seguro de que desea eliminar todos los comentarios pendientes?
+pull.request.discard.pending.comments.dialog.title:
+    text: Descartar revisión pendiente
+pull.request.does.not.contain.changes:
+    text: La solicitud de extracción no contiene ningún cambio
+pull.request.does.not.contain.commits:
+    text: La pull request no contiene ningún commit
+pull.request.editor.timeline:
+    text: Cronología del Pull Request
+pull.request.files:
+    text: Archivos
+pull.request.info:
+    text: Información
+pull.request.labels:
+    text: 'Etiquetas:'
+pull.request.labels.popup:
+    text: '{0, choice, 1#Etiqueta|2#Etiquetas}'
+pull.request.list.cannot.load:
+    text: No se pueden cargar las pull requests
+pull.request.list.error.authorization:
+    text: Error de autorización de usuario
+pull.request.list.filter.assignee:
+    text: Asignado
+pull.request.list.filter.author:
+    text: Autor
+pull.request.list.filter.label:
+    text: Etiqueta
+pull.request.list.filter.quick.assigned:
+    text: Asignado a ti
+pull.request.list.filter.quick.open:
+    text: Abiertos
+pull.request.list.filter.quick.review.requests:
+    text: Solicitudes de revisión
+pull.request.list.filter.quick.yours:
+    text: Tus solicitudes de extracción
+pull.request.list.filter.review:
+    text: Revisión
+pull.request.list.filter.review.approved.full:
+    text: Revisión aprobada
+pull.request.list.filter.review.approved.short:
+    text: Revisión aprobada
+pull.request.list.filter.review.awaiting.full:
+    text: Esperando tu revisión
+pull.request.list.filter.review.awaiting.short:
+    text: Pendiente de revisión
+pull.request.list.filter.review.change.requested.full:
+    text: Cambios solicitados
+pull.request.list.filter.review.change.requested.short:
+    text: Cambios solicitados
+pull.request.list.filter.review.no.full:
+    text: Sin revisiones
+pull.request.list.filter.review.no.short:
+    text: Sin revisiones
+pull.request.list.filter.review.not.full:
+    text: No revisado por ti
+pull.request.list.filter.review.not.short:
+    text: Sin revisar
+pull.request.list.filter.review.required.full:
+    text: Revisión necesaria
+pull.request.list.filter.review.required.short:
+    text: Revisión requerida
+pull.request.list.filter.review.reviewed.full:
+    text: Revisado por ti
+pull.request.list.filter.review.reviewed.short:
+    text: Revisado
+pull.request.list.filter.sort:
+    text: Ordenar
+pull.request.list.filter.sort.least.commented:
+    text: Menos comentados
+pull.request.list.filter.sort.least.recently.updated:
+    text: Actualizados hace más tiempo
+pull.request.list.filter.sort.most.commented:
+    text: Más comentados
+pull.request.list.filter.sort.newest:
+    text: Más recientes
+pull.request.list.filter.sort.oldest:
+    text: Más antiguos
+pull.request.list.filter.sort.recently.updated:
+    text: Actualizado recientemente
+pull.request.list.filter.state:
+    text: Estado
+pull.request.list.filter.state.closed:
+    text: Cerrado
+pull.request.list.filter.state.merged:
+    text: Fusionado
+pull.request.list.filter.state.open:
+    text: Abierto
+pull.request.list.filters.clear:
+    text: Limpiar filtros
+pull.request.list.no.matches:
+    text: No hay pull requests que coincidan con los filtros
+pull.request.list.nothing.loaded:
+    text: No hay pull requests en {0}
+pull.request.list.outdated:
+    text: La lista está desactualizada.
+pull.request.list.refresh:
+    text: Actualizar
+pull.request.loading.status:
+    text: Cargando el estado del pull request
+pull.request.merge.commit.action:
+    text: Fusionar solicitud de extracción…
+pull.request.merge.disabled:
+    text: La fusión está deshabilitada para este proyecto
+pull.request.merge.pull.request:
+    text: 'Fusionar pull request #{0,number,#}'
+pull.request.new.diff.editor.title:
+    text: Diff de la nueva Pull Request
+pull.request.no.labels:
+    text: Sin etiquetas
+pull.request.no.reviewers:
+    text: Sin revisores
+pull.request.notification.create.action:
+    text: Crear pull request
+pull.request.notification.open.action:
+    text: Ver pull request
+pull.request.on.branch:
+    text: '#{0,number,#} en {1}'
+pull.request.on.branch.description:
+    text: 'La pull request #{0,number,#} existe para la rama actual {1}'
+pull.request.on.branch.error:
+    text: 'La Pull Request #{0,number,#} existe para la rama actual {1}, pero se produjo un error al cargar sus detalles'
+pull.request.on.branch.loading:
+    text: 'Cargando cambios para la solicitud de extracción #{0,number,#}'
+pull.request.on.branch.out.of.sync:
+    text: 'La pull request #{0,number,#} existe para la rama actual {1}, pero la rama local no está sincronizada con el remoto'
+pull.request.on.branch.update.failed.title:
+    text: Error al actualizar la rama de la pull request
+pull.request.open.action:
+    text: Ver pull request
+pull.request.open.action.description:
+    text: Ver información y línea de tiempo de la pull request
+pull.request.post.action:
+    text: Publicar Pull Request
+pull.request.refresh.details.action:
+    text: Actualizar Pull Request
+pull.request.refresh.list.action:
+    text: Actualizar lista
+pull.request.removing.reviewers:
+    text: Eliminando revisores
+pull.request.reopen.action:
+    text: Reabrir solicitud de extracción
+pull.request.repo.access.required:
+    text: Se requiere acceso al repositorio para gestionar pull requests
+pull.request.repo.write.access.required:
+    text: Se requiere acceso de escritura al repositorio para fusionar pull requests
+pull.request.resolveConflicts.error.remoteNotFound:
+    text: 'No se encontró el remoto {0}: {1}'
+pull.request.resolveConflicts.error.repositoryNotFound:
+    text: No se encontró el repositorio {0}
+pull.request.review.actions.submit:
+    text: '{0, choice, 0#Enviar revisión…|1#Enviar revisión ({0})…}'
+pull.request.review.editor.add.review.comment:
+    text: Añadir comentario de revisión
+pull.request.review.editor.add.single.comment:
+    text: Añadir un solo comentario
+pull.request.review.editor.start.review:
+    text: Iniciar revisión
+pull.request.review.refresh.data.task:
+    text: Actualizar datos de la revisión
+pull.request.review.refresh.data.task.description:
+    text: Actualizar la información de revisión de la solicitud de extracción de GitHub
+pull.request.review.submit.action.description:
+    text: Enviar revisión de pull request
+pull.request.review.submit.approve.button:
+    text: Aprobar
+pull.request.review.submit.comment.button:
+    text: Comentar
+pull.request.review.submit.comment.description:
+    text: Enviar comentarios generales sin una aprobación explícita
+pull.request.review.submit.request.changes:
+    text: Solicitar cambios
+pull.request.reviewers:
+    text: 'Revisores:'
+pull.request.reviewers.popup:
+    text: '{0, choice, 1#Revisor|2#Revisores}'
+pull.request.select.action:
+    text: Seleccionar Pull Request abierta
+pull.request.timeline.approved.changes:
+    text: aprobó los cambios
+pull.request.timeline.branch.deleted:
+    text: eliminó la rama {0}
+pull.request.timeline.branch.force.pushed:
+    text: forzó el envío de la rama {0}
+pull.request.timeline.branch.head.restored:
+    text: rama head restaurada
+pull.request.timeline.cannot.load:
+    text: No se pueden cargar los elementos de la línea de tiempo
+pull.request.timeline.changed.base.branch:
+    text: cambió la rama base
+pull.request.timeline.closed:
+    text: cerró esto
+pull.request.timeline.comment.suggested.changes:
+    text: Cambio sugerido
+pull.request.timeline.comment.suggested.changes.action.commit.name:
+    text: Confirmar…
+pull.request.timeline.comment.suggested.changes.button:
+    text: Aplicar localmente
+pull.request.timeline.comment.suggested.changes.progress.bar.apply:
+    text: Aplicando el cambio sugerido
+pull.request.timeline.comment.suggested.changes.progress.bar.commit:
+    text: Confirmando los cambios sugeridos
+pull.request.timeline.comment.suggested.changes.tooltip.different.branch:
+    text: No se puede aplicar el cambio sugerido de una pull request en una rama diferente
+pull.request.timeline.comment.suggested.changes.tooltip.outdated:
+    text: Las sugerencias desactualizadas no se pueden aplicar
+pull.request.timeline.comment.suggested.changes.tooltip.resolved:
+    text: Esta sugerencia se ha resuelto
+pull.request.timeline.commit.added:
+    text: ha añadido un commit a esta pull request
+pull.request.timeline.commits.added:
+    text: se agregaron {0} commits a esta pull request
+pull.request.timeline.connected:
+    text: vinculó una incidencia que puede cerrarse con esto
+pull.request.timeline.disconnected:
+    text: eliminó un enlace a una incidencia
+pull.request.timeline.event.assigned:
+    text: asignó a {0}
+pull.request.timeline.event.assigned.and.unassigned:
+    text: asignó a {0} y desasignó a {1}
+pull.request.timeline.event.labels.added:
+    text: se añadieron las etiquetas {0}
+pull.request.timeline.event.labels.added.and.removed:
+    text: etiquetas {0} añadidas y etiquetas {1} eliminadas
+pull.request.timeline.event.labels.removed:
+    text: se eliminaron las etiquetas {0}
+pull.request.timeline.event.removed.review.request:
+    text: eliminó la solicitud de revisión de {0}
+pull.request.timeline.event.requested.review:
+    text: solicitó una revisión de {0}
+pull.request.timeline.event.requested.review.and.removed.review.request:
+    text: solicitó una revisión de {0} y eliminó la solicitud de revisión de {1}
+pull.request.timeline.event.unassigned:
+    text: se eliminó la asignación de {0}
+pull.request.timeline.marked.as.draft:
+    text: marcó esta pull request como borrador
+pull.request.timeline.marked.as.ready:
+    text: marcó esta pull request como lista para revisión
+pull.request.timeline.mentioned:
+    text: mencionó este pull request
+pull.request.timeline.merged:
+    text: fusionó esto
+pull.request.timeline.merged.commit:
+    text: se fusionó el commit {0} en {1}
+pull.request.timeline.no.description:
+    text: No se ha proporcionado ninguna descripción
+pull.request.timeline.refresh.action:
+    text: Actualizar línea de tiempo
+pull.request.timeline.refresh.action.description:
+    text: Comprobar si hay nuevos eventos en la línea de tiempo
+pull.request.timeline.renamed:
+    text: renombró esta pull request de ''{0}'' a ''{1}''
+pull.request.timeline.reopened:
+    text: reabrió esto
+pull.request.timeline.requested.changes:
+    text: cambios solicitados
+pull.request.timeline.reviewed:
+    text: revisó los cambios
+pull.request.timeline.stale.review.dismissed:
+    text: descartó la revisión obsoleta de <b>{0}</b>
+pull.request.timeline.started.review:
+    text: inició una revisión
+pull.request.unassigned:
+    text: Sin asignar
+pull.request.unresolved.comments:
+    text: '{0,choice,0#No hay comentarios sin resolver|1#{0} comentario sin resolver|2#{0} comentarios sin resolver}'
+pull.request.view.conversations.action.description:
+    text: Ver la línea de tiempo del pull request
+pull.request.view.list:
+    text: Ver pull requests
+pullRequest.timeline.merged.body.delete:
+    text: eliminar
+pullRequest.timeline.merged.body.restore:
+    text: Restaurar…
+pullRequest.timeline.merged.body.withDelete:
+    text: Ahora puede {0} {1}.
+pullRequest.timeline.merged.body.withoutDelete:
+    text: '{0} se ha eliminado. {1}'
+pullRequest.timeline.merged.title:
+    text: Pull request fusionada correctamente
+rebase.error:
+    text: No se puede realizar el rebase de GitHub
+rebase.error.failed.to.match.gh.repo:
+    text: Error al hacer coincidir los repositorios local y de GitHub
+rebase.error.multi.repo.not.supported:
+    text: No se admiten proyectos con múltiples repositorios
+rebase.error.no.default.branch:
+    text: No se puede determinar la rama upstream - no se ha establecido una rama predeterminada para el repositorio
+rebase.error.no.suitable.account.found:
+    text: No se encontró ninguna cuenta de GitHub adecuada
+rebase.error.remote.origin.not.found:
+    text: No se encontró el remoto de Git 'origin'
+rebase.error.repo.not.found:
+    text: No se encontró el repositorio {0}
+rebase.error.upstream.not.found:
+    text: No se añadió el remoto {0}
+rebase.process:
+    text: Rebasando el fork de GitHub…
+rebase.process.adding.github.parent.as.remote.host:
+    text: Añadiendo el padre de GitHub como host remoto…
+rebase.process.configuring.upstream.remote:
+    text: Configurando el remoto upstream…
+rebase.process.fetching.upstream:
+    text: Obteniendo upstream…
+rebase.process.operation.title:
+    text: Haciendo rebase
+rebase.process.rebasing.branch.onto:
+    text: Rebasando la rama actual sobre ''{0}''…
+rebase.process.success:
+    text: Se ha realizado el rebase del fork de GitHub con éxito
+request.response.0:
+    text: 'Respuesta de la solicitud: {0}.'
+retry.action:
+    text: Reintentar
+retry.link:
+    text: Reintentar
+server.unreachable:
+    text: Servidor inalcanzable
+settings.automatically.mark.as.viewed:
+    text: Marcar automáticamente los archivos abiertos como vistos
+settings.clone.ssh:
+    text: Clonar repositorios Git mediante SSH
+settings.configurable.display.name:
+    text: Asistente de IA
+settings.enable.pr.seen.markers:
+    text: Habilitar marcadores de no leído en las Pull Requests de la lista
+settings.timeout:
+    text: 'Tiempo de espera de la conexión:'
+settings.timeout.seconds:
+    text: segundos
+share.button:
+    text: Compartir
+share.dialog.account.info.load.error.prefix:
+    text: 'No se puede cargar la información de {0}:'
+share.dialog.account.info.load.process.canceled:
+    text: Proceso cancelado
+share.dialog.description:
+    text: 'Descripción:'
+share.dialog.private:
+    text: Privado
+share.dialog.remote:
+    text: 'Remoto:'
+share.dialog.repo.name:
+    text: 'Nombre del repositorio:'
+share.dialog.share.by:
+    text: 'Compartido por:'
+share.error.private.repos.not.supported:
+    text: Su cuenta no admite repositorios privados
+share.error.remote.with.selected.name.exists:
+    text: Ya existe un remoto con el nombre seleccionado
+share.error.repo.with.selected.name.exists:
+    text: Ya existe un repositorio con el nombre seleccionado
+share.on.github:
+    text: Compartir proyecto en GitHub
+share.validation.invalid.repo.name:
+    text: Nombre de repositorio no válido. El nombre debe constar de letras, números, guiones, puntos y guiones bajos
+share.validation.no.remote.name:
+    text: No se ha seleccionado un nombre remoto
+share.validation.no.repo.name:
+    text: No se seleccionó ningún nombre de repositorio
+tab.title.pull.requests.new:
+    text: Nueva solicitud de extracción en {0}
+task.comment.author:
+    text: 'Autor:'
+task.comment.date:
+    text: 'Fecha:'
+task.repo.name.field.empty.hint:
+    text: Nombre del repositorio
+task.repo.owner.field.empty.hint:
+    text: Propietario del repositorio
+task.repo.repository.field:
+    text: 'Repositorio:'
+task.repo.token.create.button:
+    text: Crear token de API
+task.repo.token.field:
+    text: 'Token de API:'
+task.repo.token.field.empty.hint:
+    text: Token OAuth2
+toolwindow.stripe.Pull_Requests:
+    text: Solicitudes de extracción
+unknown.host.error:
+    text: 'Host desconocido: {0}'
+unknown.loading.error:
+    text: Error de carga desconocido

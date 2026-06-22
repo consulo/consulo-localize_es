@@ -1,0 +1,12 @@
+identifier.expected:
+    text: Se esperaba un identificador
+type.expected:
+    text: Se esperaba un tipo
+enum.value.expected:
+    text: Se esperaba un valor de enumeración
+argument.expected:
+    text: Se esperaba un argumento
+expression.expected:
+    text: Se esperaba una expresión
+sdk.select.prompt.title:
+    text: Seleccionar intérprete

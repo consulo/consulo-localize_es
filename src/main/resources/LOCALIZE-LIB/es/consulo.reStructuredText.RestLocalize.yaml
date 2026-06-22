@@ -1,0 +1,24 @@
+ANN.duplicate.target:
+    text: Nombre de objetivo explícito duplicado ''{0}''
+ANN.inline.block:
+    text: Se requiere una línea en blanco después de un bloque literal
+ANN.unknown.target:
+    text: Nombre de objetivo desconocido ''{0}''
+ANN.unusable.anonymous.target:
+    text: El destino de hipervínculo anónimo no tiene referencia
+INSP.role.not.defined:
+    text: El rol no está definido
+runcfg.dlg.select.script.path:
+    text: 'Seleccionar ruta:'
+runcfg.docutils.command:
+    text: 'Comando:'
+runcfg.docutils.description:
+    text: Configuración de ejecución de documentación de Python
+runcfg.docutils.display_name:
+    text: Documentación de Python
+runcfg.docutils.input:
+    text: 'Entrada:'
+runcfg.docutils.options:
+    text: 'Opciones:'
+runcfg.docutils.output:
+    text: 'Salida:'

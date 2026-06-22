@@ -1,0 +1,6 @@
+color.settings.comment:
+    text: Comentario
+color.settings.parentheses:
+    text: Llaves y operadores//Paréntesis
+color.settings.semicolon:
+    text: Llaves y operadores//Punto y coma

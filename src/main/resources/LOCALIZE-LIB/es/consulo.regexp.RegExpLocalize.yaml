@@ -1,0 +1,406 @@
+action.add.pattern.text:
+    text: Añadir patrón…
+action.add.regexp.replace.inspection.text:
+    text: Añadir inspección de reemplazo con expresiones regulares…
+action.add.regexp.replace.template.text:
+    text: Añadir plantilla de reemplazo de expresión regular…
+action.add.regexp.search.inspection.text:
+    text: Añadir inspección de búsqueda por expresiones regulares…
+action.add.regexp.search.template.text:
+    text: Añadir plantilla de búsqueda de expresiones regulares…
+button.enable.replace:
+    text: Habilitar reemplazo
+button.search.only:
+    text: Solo buscar
+checker.sample.text:
+    text: Texto de ejemplo
+color.settings.bad.character:
+    text: Carácter no válido
+color.settings.brace:
+    text: Llave
+color.settings.bracket:
+    text: Corchetes
+color.settings.character.class:
+    text: Clase de caracteres
+color.settings.comma:
+    text: Coma
+color.settings.comment:
+    text: Comentario
+color.settings.dot:
+    text: Punto
+color.settings.escaped.character:
+    text: Carácter de escape
+color.settings.inline.option:
+    text: Opción en línea
+color.settings.invalid.escape.sequence:
+    text: Secuencia de escape no válida
+color.settings.matched.groups:
+    text: Grupos coincidentes
+color.settings.name:
+    text: Nombre
+color.settings.operator.character:
+    text: Carácter de operador
+color.settings.parenthesis:
+    text: Paréntesis
+color.settings.plain.character:
+    text: Carácter normal
+color.settings.quantifier:
+    text: Cuantificador
+color.settings.quote.character:
+    text: Escape de comillas
+color.settings.redundant.escape.sequence:
+    text: Secuencia de escape redundante
+color.settings.title.regexp:
+    text: Expresión regular
+dialog.message.inspection.with.name.exists.warning:
+    text: Ya existe una inspección con el nombre ''{0}''
+doc.property.block.stands.for.0:
+    text: El bloque de propiedades representa {0}
+doc.property.block.stands.for.characters.not.matching.0:
+    text: El bloque de propiedad representa los caracteres que no coinciden con {0}
+edit.metadata.button:
+    text: Editar metadatos…
+error.0.repetition.not.allowed.inside.lookbehind:
+    text: No se permite la repetición {0} dentro de una búsqueda hacia atrás
+error.alternation.alternatives.needs.to.have.the.same.length.inside.lookbehind:
+    text: Las alternativas de la alternancia deben tener la misma longitud dentro de un lookbehind
+error.atomic.groups.are.not.supported.in.this.regex.dialect:
+    text: Los grupos atómicos no son compatibles con este dialecto de expresiones regulares
+error.back.reference.is.nested.into.the.capturing.group.it.refers.to:
+    text: La referencia inversa está anidada en el grupo de captura al que hace referencia
+error.conditional.group.reference.not.allowed.inside.lookbehind:
+    text: No se permite la referencia a un grupo condicional dentro de un lookbehind
+error.conditionals.are.not.supported.in.this.regex.dialect:
+    text: No se admiten condicionales en este dialecto de regex
+error.dangling.metacharacter:
+    text: Cuantificador huérfano ''{0}''
+error.dangling.opening.bracket:
+    text: Inicio de cuantificador '{' inesperado
+error.define.subpattern.contains.more.than.one.branch:
+    text: El subpatrón DEFINE contiene más de una rama
+error.embedded.comments.are.not.supported.in.this.regex.dialect:
+    text: No se admiten comentarios incrustados en este dialecto de expresiones regulares
+error.empty.group:
+    text: Grupo vacío
+error.group.reference.is.nested.into.the.named.group.it.refers.to:
+    text: La referencia de grupo está anidada en el grupo con nombre al que se refiere
+error.group.reference.not.allowed.inside.lookbehind:
+    text: Referencia de grupo no permitida dentro de un lookbehind
+error.group.with.name.0.already.defined:
+    text: Ya se ha definido el grupo con el nombre ''{0}''
+error.illegal.character.range.to.from:
+    text: Rango de caracteres no válido (hasta < desde)
+error.illegal.hexadecimal.escape.sequence:
+    text: Secuencia de escape hexadecimal no válida
+error.illegal.octal.escape.sequence:
+    text: Secuencia de escape octal ilegal
+error.illegal.repetition.range.min.max:
+    text: Rango de repetición no válido (mín > máx)
+error.illegal.unicode.escape.sequence:
+    text: Secuencia de escape Unicode no válida
+error.illegal.unsupported.escape.sequence:
+    text: Secuencia de escape ilegal/no compatible
+error.invalid.group.name:
+    text: Nombre de grupo no válido
+error.look.behind.groups.are.not.supported.in.this.regex.dialect:
+    text: Los grupos de búsqueda hacia atrás no son compatibles en este dialecto de expresiones regulares
+error.lookaround.conditions.in.conditionals.not.supported.in.this.regex.dialect:
+    text: Las condiciones de lookaround para condicionales no son compatibles con este dialecto de expresiones regulares
+error.named.group.reference.not.allowed.inside.lookbehind:
+    text: No se permite la referencia a un grupo con nombre dentro de un lookbehind
+error.named.unicode.characters.are.not.allowed.in.this.regex.dialect:
+    text: No se permiten caracteres Unicode con nombre en este dialecto de expresiones regulares
+error.nested.quantifier.in.regexp:
+    text: Cuantificador anidado en la expresión regular
+error.property.escape.sequences.are.not.supported.in.this.regex.dialect:
+    text: Las secuencias de escape de propiedades no son compatibles en este dialecto de expresiones regulares
+error.redundant.group.nesting:
+    text: Anidamiento de grupos redundante
+error.repetition.value.too.large:
+    text: Valor de repetición demasiado grande
+error.this.boundary.is.not.supported.in.this.regex.dialect:
+    text: Este límite no es compatible con este dialecto de expresiones regulares
+error.this.hex.character.syntax.is.not.supported.in.this.regex.dialect:
+    text: Esta sintaxis de caracteres hexadecimales no es compatible con este dialecto de expresiones regulares
+error.this.kind.group.reference.condition.not.supported.in.this.regex.dialect:
+    text: Este tipo de condición de referencia a grupo no es compatible con este dialecto de expresiones regulares
+error.this.named.group.reference.syntax.is.not.supported.in.this.regex.dialect:
+    text: Esta sintaxis de referencia a grupos con nombre no es compatible con este dialecto de expresiones regulares.
+error.this.named.group.syntax.is.not.supported.in.this.regex.dialect:
+    text: Esta sintaxis de grupos con nombre no es compatible con este dialecto de expresiones regulares
+error.unequal.min.and.max.in.counted.quantifier.not.allowed.inside.lookbehind:
+    text: No se permiten valores mínimos y máximos distintos en un cuantificador numérico dentro de una búsqueda hacia atrás (lookbehind)
+error.unknown.character.category:
+    text: Categoría de caracteres desconocida
+error.unknown.character.name:
+    text: Nombre de personaje desconocido
+error.unknown.inline.option.flag:
+    text: Indicador de opción en línea desconocido
+error.unknown.posix.character.class:
+    text: Clase de caracteres POSIX desconocida
+error.unknown.property.name:
+    text: Nombre de propiedad desconocido
+error.unknown.property.value:
+    text: Valor de propiedad desconocido
+error.unresolved.back.reference:
+    text: Referencia inversa no resuelta
+error.unresolved.named.group.reference:
+    text: Referencia a un grupo con nombre no resuelta
+error.unresolved.numbered.group.reference:
+    text: Referencia a grupo numerado no resuelta
+filetype.regular.expression.description:
+    text: Expresión regular
+inspection.group.name.regexp:
+    text: Expresiones regulares
+inspection.name.anonymous.group.or.numeric.back.reference:
+    text: Grupo de captura anónimo o retrorreferencia numérica
+inspection.name.begin.or.end.anchor.in.unexpected.position:
+    text: Ancla de inicio o fin en una posición inesperada
+inspection.name.consecutive.spaces:
+    text: Espacios consecutivos
+inspection.name.custom.regexp:
+    text: Inspección de RegExp personalizada
+inspection.name.duplicate.branch.in.alternation:
+    text: Rama duplicada en alternancia
+inspection.name.duplicate.character.in.class:
+    text: Carácter duplicado en la clase de caracteres
+inspection.name.empty.branch.in.alternation:
+    text: Rama vacía en la alternancia
+inspection.name.escaped.meta.character:
+    text: Metacarácter escapado
+inspection.name.octal.escape:
+    text: Escape octal
+inspection.name.redundant.character.escape:
+    text: Escape de caracteres redundante
+inspection.name.redundant.digit.class.element:
+    text: Elementos de clase 'd', '[:digit:]' o 'D' redundantes
+inspection.name.redundant.nested.character.class:
+    text: Clase de caracteres anidada redundante
+inspection.name.simplifiable.expression:
+    text: La expresión regular puede simplificarse
+inspection.name.single.character.alternation:
+    text: Alternancia de un solo carácter
+inspection.name.suspicious.backref:
+    text: Retrorreferencia sospechosa
+inspection.name.unnecessary.non.capturing.group:
+    text: Grupo de no captura innecesario
+inspection.option.ignore.escaped.closing.brackets:
+    text: Ignorar los caracteres de cierre escapados '}' y ']'
+inspection.quick.fix.remove.duplicate.0.from.character.class:
+    text: Eliminar ''{0}'' duplicado de la clase de caracteres
+inspection.quick.fix.remove.duplicate.branch:
+    text: Eliminar rama duplicada
+inspection.quick.fix.remove.duplicate.element.from.character.class:
+    text: Eliminar el elemento duplicado de la clase de caracteres
+inspection.quick.fix.remove.empty.branch:
+    text: Eliminar rama vacía
+inspection.quick.fix.remove.redundant.0.class.element:
+    text: Eliminar ''{0}'' redundante
+inspection.quick.fix.remove.redundant.class.element:
+    text: Eliminar el elemento de clase redundante
+inspection.quick.fix.remove.redundant.escape:
+    text: Eliminar escape redundante
+inspection.quick.fix.remove.unnecessary.non.capturing.group:
+    text: Quitar el grupo de no captura innecesario
+inspection.quick.fix.replace.alternation.with.character.class:
+    text: Reemplazar alternancia con clase de caracteres
+inspection.quick.fix.replace.redundant.character.class.with.contents:
+    text: Reemplazar la clase de caracteres redundante por su contenido
+inspection.quick.fix.replace.with.character.inside.class:
+    text: Reemplazar con el carácter dentro de la clase
+inspection.quick.fix.replace.with.hexadecimal.escape:
+    text: Reemplazar por escape hexadecimal
+inspection.quick.fix.replace.with.space.and.repeated.quantifier:
+    text: Reemplazar con espacio y cuantificador repetido
+inspection.tree.create.inspection:
+    text: Usando una expresión regular…
+inspection.tree.group.description:
+    text: Utilice el botón + de la barra de herramientas para crear una nueva inspección de búsqueda estructural.<br>Las inspecciones de búsqueda estructural resaltan fragmentos de código que coinciden con la plantilla de búsqueda especificada. Se puede proporcionar una corrección rápida añadiendo una plantilla de reemplazo.<br><br><a href="action://ssr.profile.action.provider.add.group">Añadir inspección de búsqueda estructural personalizada…</a>
+inspection.warning.anchor.code.ref.code.in.unexpected.position:
+    text: Anclaje <code>#ref</code> en una posición inesperada
+inspection.warning.anonymous.capturing.group:
+    text: Grupo de captura anónimo
+inspection.warning.can.be.removed:
+    text: <code>#ref</code> es redundante
+inspection.warning.can.be.simplified:
+    text: <code>#ref</code> puede simplificarse a ''{0}''
+inspection.warning.consecutive.spaces.in.regexp:
+    text: '{0} espacios consecutivos en la expresión regular'
+inspection.warning.duplicate.branch.in.alternation:
+    text: Rama duplicada en la alternancia
+inspection.warning.empty.branch.in.alternation:
+    text: Rama vacía en la alternancia
+inspection.warning.escaped.meta.character.0:
+    text: Metacarácter escapado <code>{0}</code>
+inspection.warning.group.back.reference.are.in.different.branches:
+    text: El grupo <code>{0}</code> y esta retrorreferencia se encuentran en ramas diferentes
+inspection.warning.group.defined.after.back.reference:
+    text: El grupo <code>{0}</code> se define después de esta retrorreferencia
+inspection.warning.numeric.back.reference:
+    text: Retroreferencia numérica
+inspection.warning.octal.escape.code.ref.code.in.regexp:
+    text: Escape octal <code>#ref</code> en RegExp
+inspection.warning.potential.exponential.backtracking:
+    text: Posible retroceso exponencial
+inspection.warning.redundant.character.escape.0.in.regexp:
+    text: Escape de caracteres redundante <code>{0}</code> en la expresión regular
+inspection.warning.redundant.class.element:
+    text: '''''{0}'''' redundante en RegExp'
+inspection.warning.redundant.nested.character.class:
+    text: Clase de caracteres anidada redundante
+inspection.warning.single.character.alternation.in.regexp:
+    text: Alternancia de un solo carácter en RegExp
+inspection.warning.unnecessary.non.capturing.group:
+    text: Grupo de no captura innecesario <code>{0}</code>
+intention.family.name.replace:
+    text: Reemplazar
+intention.name.check.regexp:
+    text: Comprobar expresión regular
+label.any:
+    text: Cualquiera
+label.regexp:
+    text: 'Expresión &regular:'
+label.regexp.patterns:
+    text: 'Patrones de expresiones regulares:'
+label.sample:
+    text: 'Mue&stra:'
+no.description.provided.description:
+    text: No se proporcionó ninguna descripción
+parse.error.category.shorthand.not.allowed.in.this.regular.expression.dialect:
+    text: No se permiten abreviaturas de categoría en este dialecto de expresiones regulares
+parse.error.character.class.expected:
+    text: Se esperaba una clase de caracteres
+parse.error.character.expected:
+    text: Se esperaba un carácter
+parse.error.character.or.mysql.character.name.expected:
+    text: Se esperaba un carácter o un nombre de carácter de MySQL
+parse.error.closing.brace.expected:
+    text: Se esperaba '}'
+parse.error.closing.brace.or.number.expected:
+    text: Se esperaba '}' o un número
+parse.error.comma.expected:
+    text: Se esperaba ','
+parse.error.empty.property:
+    text: Propiedad vacía
+parse.error.group.name.expected:
+    text: Se esperaba un nombre de grupo
+parse.error.group.name.or.number.expected:
+    text: Se esperaba un nombre de grupo o un número
+parse.error.group.number.expected:
+    text: Se esperaba un número de grupo
+parse.error.illegal.category.shorthand:
+    text: Abreviatura de categoría ilegal
+parse.error.illegal.character.range:
+    text: Rango de caracteres no válido
+parse.error.negating.a.property.not.allowed.in.this.regular.expression.dialect:
+    text: No se permite negar una propiedad en este dialecto de expresiones regulares
+parse.error.number.expected:
+    text: Se esperaba un número
+parse.error.opening.brace.expected:
+    text: Se esperaba '{'
+parse.error.opening.brace.or.category.shorthand.expected:
+    text: Se esperaba '{' o una abreviatura de categoría
+parse.error.pattern.expected:
+    text: Se esperaba un patrón
+parse.error.posix.character.class.name.expected:
+    text: Se esperaba un nombre de clase de caracteres POSIX
+parse.error.property.name.expected:
+    text: Se esperaba un nombre de propiedad
+parse.error.property.value.expected:
+    text: Se esperaba un valor de propiedad
+parse.error.unclosed.character.class:
+    text: Clase de caracteres sin cerrar
+parse.error.unclosed.group:
+    text: Se esperaba ')'
+parse.error.unclosed.group.name:
+    text: Nombre de grupo sin cerrar
+parse.error.unclosed.group.reference:
+    text: Referencia a grupo no cerrada
+parse.error.unclosed.mysql.character.equivalence.class:
+    text: Clase de equivalencia de caracteres de MySQL sin cerrar
+parse.error.unclosed.mysql.character.expression:
+    text: Expresión de caracteres de MySQL sin cerrar
+parse.error.unclosed.options.group:
+    text: Grupo de opciones sin cerrar
+parse.error.unclosed.posix.bracket.expression:
+    text: Expresión de corchetes POSIX no cerrada
+parse.error.unclosed.property:
+    text: Propiedad sin cerrar
+parse.error.unicode.character.name.expected:
+    text: Se esperaba un nombre de carácter Unicode
+parse.error.unmatched.closing.bracket:
+    text: Cierre ''{0}'' no coincidente
+regexp.dialog.flag.canonical.equivalence:
+    text: Equivalencia canónica
+regexp.dialog.flag.canonical.equivalence.description:
+    text: Los caracteres se convierten a la forma normalizada de Unicode antes de la coincidencia.
+regexp.dialog.flag.case.insensitive:
+    text: No distinguir mayúsculas y minúsculas
+regexp.dialog.flag.case.insensitive.description:
+    text: Por defecto, 'No distinguir mayúsculas y minúsculas' solo reconoce el conjunto de caracteres US-ASCII. Habilite 'Mayúsculas/minúsculas de Unicode' para realizar coincidencias que no distingan entre mayúsculas y minúsculas de forma compatible con Unicode.
+regexp.dialog.flag.comments:
+    text: Comentarios
+regexp.dialog.flag.comments.description:
+    text: Ignora los espacios en blanco y los comentarios <code>#</code> hasta el final de la línea al buscar coincidencias.
+regexp.dialog.flag.dotall.description:
+    text: En el modo Dotall, <code>.</code> coincide con cualquier carácter, incluidos los caracteres de nueva línea. Por defecto, no coincide con los caracteres de nueva línea.
+regexp.dialog.flag.literal.description:
+    text: El patrón se trata como una secuencia de caracteres literales. Los metacaracteres y las secuencias de escape no tendrán ningún significado especial.
+regexp.dialog.flag.multiline:
+    text: Multilínea
+regexp.dialog.flag.multiline.description:
+    text: En el modo multilínea, <code>^</code> y <code>$</code> coinciden con el principio y el final de una línea. Por defecto, solo coinciden con el principio y el final de todo el archivo.
+regexp.dialog.flag.unicode.case:
+    text: Mayúsculas/minúsculas Unicode
+regexp.dialog.flag.unicode.case.description:
+    text: Coincidencia sin distinción de mayúsculas y minúsculas con soporte para Unicode.
+regexp.dialog.flag.unicode.character.class:
+    text: Clases de caracteres Unicode
+regexp.dialog.flag.unicode.character.class.description:
+    text: Utilizar clases de caracteres predefinidas compatibles con Unicode y clases de caracteres POSIX.
+regexp.dialog.flag.unix.lines:
+    text: Líneas Unix
+regexp.dialog.flag.unix.lines.description:
+    text: "Solo se reconoce el terminador de línea <code>\n</code> en el comportamiento de <code>.</code>, <code>^</code> y <code>$</code>."
+regexp.dialog.language:
+    text: '&Idioma:'
+regexp.dialog.regexp.flags:
+    text: Banderas de expresiones regulares
+regexp.dialog.replace.template:
+    text: 'Reemplazo:'
+regexp.dialog.search.template:
+    text: 'Buscar expresión regular:'
+regexp.dialog.title:
+    text: Expresión regular
+surrounder.atomic.group.pattern:
+    text: Grupo atómico (?:patrón)
+surrounder.capturing.group.pattern:
+    text: Grupo de captura (patrón)
+surrounder.negative.lookahead.pattern:
+    text: Búsqueda anticipada negativa (?!patrón)
+surrounder.negative.lookbehind.pattern:
+    text: Búsqueda hacia atrás negativa (?<!patrón)
+surrounder.non.capturing.group.pattern:
+    text: Grupo sin captura (?:patrón)
+surrounder.positive.lookahead.pattern:
+    text: Búsqueda anticipada positiva (?=patrón)
+surrounder.positive.lookbehind.pattern:
+    text: Búsqueda hacia atrás positiva (?<=patrón)
+tooltip.bad.pattern:
+    text: Patrón de expresión regular no válido
+tooltip.found:
+    text: Expresión encontrada en el ejemplo
+tooltip.found.multiple:
+    text: Expresión encontrada {0} veces en el ejemplo
+tooltip.matches:
+    text: ¡La expresión y el ejemplo coinciden!
+tooltip.more.input.expected:
+    text: Se esperan más entradas de ejemplo
+tooltip.no.match:
+    text: La expresión y el ejemplo no coinciden
+tooltip.pattern.is.too.complex:
+    text: El patrón de expresión regular es demasiado complejo
+warning.duplicate.character.0.inside.character.class:
+    text: Carácter ''{0}'' duplicado dentro de la clase de caracteres
+warning.duplicate.predefined.character.class.0.inside.character.class:
+    text: Clase de caracteres predefinida ''{0}'' duplicada dentro de la clase de caracteres

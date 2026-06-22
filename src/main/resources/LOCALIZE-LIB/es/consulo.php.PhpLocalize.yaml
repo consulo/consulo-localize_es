@@ -1,0 +1,40 @@
+filetype.description:
+    text: Archivo Meson
+color.settings.escape_sequence:
+    text: Cadenas//Secuencias de escape
+color.settings.operation:
+    text: Llaves y operadores//Operadores
+color.settings.brackets:
+    text: Llaves y operadores//Corchetes
+color.settings.bad_character:
+    text: Carácter desconocido
+color.settings.comma:
+    text: Coma
+color.settings.semicolon:
+    text: Llaves y operadores//Punto y coma
+color.settings.heredoc_id:
+    text: Heredoc//ID de Heredoc
+color.settings.heredoc_content:
+    text: Heredoc//Contenido Heredoc
+color.settings.var:
+    text: Identificadores//Variable
+color.settings.identifier:
+    text: Identificadores//Predeterminado
+color.settings.constant:
+    text: Identificadores//Constante
+color.settings.doccomment:
+    text: PHPDoc//Texto
+color.settings.doctag:
+    text: PHPDoc//Etiqueta
+color.settings.docmarkup:
+    text: PHPDoc//Marcado
+color.settings.exec_command:
+    text: Comando de shell
+color.settings.predefined.symbols:
+    text: Identificadores//Símbolos predefinidos
+gutter.overriding.select.title:
+    text: Seleccionar el método padre para navegar
+gutter.overriden.select.subclass.title:
+    text: Seleccionar subclase de {0}
+gutter.overriden.select.implementation.title:
+    text: Seleccionar implementación de {0}

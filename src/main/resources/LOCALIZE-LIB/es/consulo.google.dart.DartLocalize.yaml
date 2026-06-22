@@ -1,0 +1,112 @@
+all.tests.in.0:
+    text: Pruebas en {0}
+cannot.resolve.reference:
+    text: No se puede resolver la referencia
+choose.dart.main.file:
+    text: Seleccionar archivo Dart
+dart.color.settings.description.bad.character:
+    text: Carácter no válido
+dart.color.settings.description.block.comment:
+    text: Comentario de bloque
+dart.color.settings.description.braces:
+    text: Llaves
+dart.color.settings.description.brackets:
+    text: Corchetes
+dart.color.settings.description.class:
+    text: Clase
+dart.color.settings.description.comma:
+    text: coma
+dart.color.settings.description.doc.comment:
+    text: Comentario de documentación
+dart.color.settings.description.dot:
+    text: Punto
+dart.color.settings.description.invalid.string.escape:
+    text: Secuencia de escape no válida
+dart.color.settings.description.keyword:
+    text: Palabra clave
+dart.color.settings.description.label:
+    text: Etiqueta
+dart.color.settings.description.line.comment:
+    text: Comentario de línea
+dart.color.settings.description.number:
+    text: Número
+dart.color.settings.description.operator:
+    text: Operador
+dart.color.settings.description.semicolon:
+    text: Punto y coma
+dart.color.settings.description.string:
+    text: Cadena
+dart.color.settings.description.valid.string.escape:
+    text: Secuencia de escape
+dart.commandline.app.title:
+    text: Aplicación de línea de comandos de Dart
+dart.file.not.found:
+    text: 'No se encontró el archivo Dart: {0}'
+dart.fix.getter.none.found:
+    text: No se encontraron campos privados para generar getters.
+dart.fix.implement.none.found:
+    text: No se encontraron métodos para implementar
+dart.fix.override.none.found:
+    text: No se encontraron métodos para sobrescribir
+dart.fix.setter.none.found:
+    text: No se encontraron campos privados para generar un setter
+dart.generate.constructor:
+    text: Generar constructor
+dart.line.breakpoints.title:
+    text: Puntos de interrupción de línea de Dart
+dart.pub.exception:
+    text: 'Excepción: {0}'
+dart.refactoring.extract.method.error:
+    text: Error al extraer el método
+dart.sdk.bad.dartpub.path:
+    text: "No se encontró el archivo ejecutable:\n{0}"
+dart.sdk.is.not.configured:
+    text: Dart SDK no está configurado
+dart.sdk.path.label:
+    text: 'Ruta del SDK de Dart (&D):'
+dart.support.is.not.enabled.for.module.0:
+    text: El soporte de Dart no está habilitado para el módulo ''{0}''
+dart.support.is.not.enabled.for.project:
+    text: El soporte de Dart no está habilitado para el proyecto
+dart.web.app.title:
+    text: Aplicación web de Dart
+enable.dart.support:
+    text: Habilitar soporte para Dart
+error.folder.specified.as.sdk.not.exists:
+    text: 'Error: La carpeta especificada como directorio de inicio del SDK de Dart no existe.'
+error.path.to.sdk.not.specified:
+    text: 'Error: No se ha especificado la ruta al SDK de Dart.'
+error.sdk.not.found.in.specified.location:
+    text: 'Error: No se encontró el SDK de Dart en la ubicación especificada.'
+fields.to.generate.getters:
+    text: Seleccionar campos para generar getters
+fields.to.generate.getters.setters:
+    text: Seleccionar campos para generar Getters y Setters
+fields.to.generate.setters:
+    text: Seleccionar campos para generar setters
+implements.method.in:
+    text: Implementar el método ''{0}'' en ''{1}''
+livetemplate.description.itar:
+    text: Iterar sobre los elementos de un array
+livetemplate.description.iter:
+    text: Iteración (for..in)
+open.dart.settings:
+    text: Abrir la configuración de Dart
+overrides.method.in:
+    text: Sobrescribe el método ''{0}'' en ''{1}''
+path.to.dart.file.not.set:
+    text: No se ha especificado la ruta del archivo Dart
+project.0:
+    text: Proyecto {0}
+runner.command.line.configuration.name:
+    text: Aplicación de línea de comandos de Dart
+setup.dart.sdk:
+    text: Configurar SDK de Dart
+test.0.in.1:
+    text: '{0} (en {1})'
+version.label:
+    text: 'Versión:'
+warning.no.modules.selected.dart.support.will.be.disabled:
+    text: 'Advertencia: No se ha seleccionado ningún módulo. El soporte de Dart se deshabilitará para este proyecto.'
+work.dir.does.not.exist:
+    text: 'El directorio de trabajo no existe: {0}'

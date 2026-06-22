@@ -1,0 +1,118 @@
+action.prototext.InsertSchemaDirective.description:
+    text: Insertar una referencia al mensaje protobuf raíz de este archivo, lo que permite el completado, la validación y otras funciones.
+action.prototext.InsertSchemaDirective.text:
+    text: Insertar anotación de esquema
+attribute.descriptor.block.comment:
+    text: Comentario de bloque
+attribute.descriptor.braces:
+    text: Llaves
+attribute.descriptor.brackets:
+    text: Corchetes
+attribute.descriptor.comma:
+    text: Coma
+attribute.descriptor.dot:
+    text: Punto
+attribute.descriptor.enum:
+    text: Valor de enumeración
+attribute.descriptor.identifier:
+    text: Identificador
+attribute.descriptor.invalid.escape.sequence:
+    text: Secuencia de escape no válida
+attribute.descriptor.keyboard:
+    text: Palabra clave
+attribute.descriptor.line.comment:
+    text: Comentario de línea
+attribute.descriptor.number:
+    text: Número
+attribute.descriptor.operator:
+    text: Operador
+attribute.descriptor.parentheses:
+    text: Paréntesis
+attribute.descriptor.semicolon:
+    text: Punto y coma
+attribute.descriptor.string:
+    text: Cadena
+attribute.descriptor.valid.escape.sequence:
+    text: Secuencia de escape válida
+location:
+    text: Ubicación
+plugin.name:
+    text: Protocol Buffers
+prefix:
+    text: Prefijo
+proto.type.enum.value:
+    text: Valor de enumeración
+proto.type.field:
+    text: Campo
+proto.type.file:
+    text: Archivo de Protocol Buffer
+proto.type.group:
+    text: Grupo
+proto.type.message:
+    text: Mensaje
+proto.type.method:
+    text: Método
+proto.type.package:
+    text: Paquete
+proto.type.service:
+    text: Servicio
+proto.type.unknown:
+    text: Tipo desconocido
+prototext.missing.schema.ignore:
+    text: Ignorar
+prototext.missing.schema.insert.annotation:
+    text: Insertar anotación
+prototext.missing.schema.message:
+    text: No hay ningún esquema adjunto; la función de completado, la validación y otras funciones no están disponibles.
+prototext.missing.schema.settings:
+    text: Abrir configuración
+prototext.name:
+    text: Texto de Protocol Buffer
+prototext.name.sentence:
+    text: Texto de Protocol Buffers
+prototext.settings.missing.schema:
+    text: Advertir sobre la falta de asociaciones de esquema
+prototext.settings.project.display:
+    text: Formato de texto
+prototext.type.braces:
+    text: Llaves
+prototext.type.brackets:
+    text: Corchetes
+prototext.type.comma:
+    text: Coma
+prototext.type.comment.directive:
+    text: Directiva de comentario
+prototext.type.dot:
+    text: Punto
+prototext.type.enum.value:
+    text: Valor de enumeración
+prototext.type.identifier:
+    text: Identificador
+prototext.type.invalid.escape.sequence:
+    text: Secuencia de escape no válida
+prototext.type.keyword:
+    text: Palabra clave
+prototext.type.line.comment:
+    text: Comentario de línea
+prototext.type.number:
+    text: Número
+prototext.type.operator:
+    text: Operador
+prototext.type.semicolon:
+    text: Punto y coma
+prototext.type.string:
+    text: Cadena
+prototext.type.valid.escape.sequence:
+    text: Secuencia de escape válida
+settings.language.autoconfig:
+    text: Aplicar configuraciones de terceros
+settings.language.descriptor.path:
+    text: Ruta del descriptor
+settings.language.import.paths:
+    text: Rutas de importación
+template.type.extend:
+    text: Extender
+template.type.message:
+    text: Mensaje
+template.type.service:
+    text: Servicio

@@ -1,0 +1,102 @@
+Cannot.perform.undo.operation:
+    text: No se puede realizar la operación de deshacer
+Undo.disable:
+    text: Deshacer deshabilitado
+add.method:
+    text: Añadir método
+add.to.resources:
+    text: Agregar a recursos
+add.type.customizer.to.resources:
+    text: Añadir script de personalización de tipos a los recursos
+anonymous.class:
+    text: clase anónima
+call.can.throw.npe:
+    text: La cadena de llamadas puede lanzar una NullPointerException
+change.lvalue.type:
+    text: Cambiar el tipo de la variable ''{0}'' a ''{1}''
+closure:
+    text: clausura
+create.directory.command:
+    text: Crear directorio
+destination.package:
+    text: '&Paquete de destino:'
+dialog.create.class.package.chooser.title:
+    text: Seleccionar paquete de destino
+dynamic.element:
+    text: Elemento dinámico
+expected.type.0:
+    text: Se esperaba ''{0}'', se encontró ''{1}''
+fix.class:
+    text: Corregir clase {0}
+getter.0.clashes.with.getter.1:
+    text: 'Se produjo un conflicto: ''''{0}'''' con ''''{1}'''''
+gr.package.inspection.check.scripts:
+    text: Comprobar scripts
+highlight.if.groovy.object.methods.overridden:
+    text: Resaltar referencias de clases que sobrescriben invokeMethod(), getProperty() o setProperty()
+highlight.if.missing.methods.declared:
+    text: Resaltar referencias de la clase que declara missingMethod() o missingProperty()
+ignore.boolean.expressions:
+    text: Ignorar variables no asignadas en comprobaciones booleanas
+implement.class:
+    text: Implementar {0}
+java.style.property.access:
+    text: Invocación de accesores al estilo Java
+local.var.0.is.reassigned:
+    text: La variable local ''{0}'' se ha vuelto a asignar
+method.may.be.static:
+    text: El método puede ser static
+method.may.be.static.ignore.empty.method.option:
+    text: Ignorar métodos vacíos
+method.may.be.static.only.private.or.final.option:
+    text: Solo comprobar métodos final o private
+new.instance.of.singleton:
+    text: Nueva instancia de clase anotada con @groovy.lang.Singleton
+no.applicable.signature.found:
+    text: No se encontró ninguna firma aplicable
+no.return.message:
+    text: No todas las rutas de ejecución devuelven un valor
+no.type.specified:
+    text: No se ha especificado ningún tipo
+optimize.all.imports:
+    text: Optimizar las sentencias de importación no utilizadas
+optimize.imports:
+    text: Optimizar importaciones
+other:
+    text: Otro
+other.scope:
+    text: Otro ámbito
+pointless.boolean.problem.descriptor:
+    text: Operaciones booleanas redundantes
+pointless.boolean.quickfix:
+    text: Simplificar
+remove.0:
+    text: Eliminar ''.{0}''
+replace.0.with.1:
+    text: Reemplazar ''{0}'' por ''{1}''
+replace.postfix.0.with.prefix.0:
+    text: Reemplazar el postfijo ''{0}'' por el prefijo ''{0}''
+replace.qualified.name.with.import:
+    text: Reemplazar nombre calificado por importación
+rtype.cannot.contain.ltype:
+    text: '''''{1}'''' no puede contener ''''{0}'''''
+second.unsafe.call:
+    text: Segunda llamada insegura
+target.0.does.not.exist:
+    text: El objetivo ''{0}'' no existe
+target.annotation.is.unused:
+    text: '@Target no se utiliza'
+type.customizer.is.not.marked.as.a.resource.file:
+    text: El script del personalizador de tipos no está marcado como recurso del compilador
+type.doesnt.contain.method:
+    text: El tipo ''{0}'' no se puede iterar en un rango porque no tiene el método ''{1}''
+unassigned.access.tooltip:
+    text: La variable ''{0}'' podría no estar asignada
+unresolved.type.status:
+    text: El tipo ''{0}'' no se ha resuelto
+unused.0:
+    text: '''''{0}'''' no se utiliza'
+unused.assignment.tooltip:
+    text: La asignación no se utiliza
+unused.variable:
+    text: La variable no se utiliza

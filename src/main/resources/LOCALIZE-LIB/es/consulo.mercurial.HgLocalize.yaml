@@ -1,0 +1,188 @@
+action.DumbAware.HgCommittedChangesProvider.description.copy.hash.to.clipboard:
+    text: Copiar hash al portapapeles
+action.DumbAware.HgCommittedChangesProvider.text.copy.hash:
+    text: Copiar &hash
+action.hg4idea.merge.files.description:
+    text: Combinar archivos existentes
+action.hg4idea.merge.files.text:
+    text: Fusionar…
+action.hg4idea.pull.description:
+    text: Hacer pull de los commits entrantes
+action.hg4idea.resolve.mark.description:
+    text: Marcar como resuelto, eliminar los marcadores de conflicto
+action.hg4idea.resolve.mark.text:
+    text: Marcar como resuelto
+action.hg4idea.run.conflict.resolver.description:
+    text: Resolver los conflictos existentes
+action.hg4idea.run.conflict.resolver.text:
+    text: Ejecutar solucionador de conflictos
+action.hg4idea.tag.description:
+    text: Crear una etiqueta para la revisión actual
+action.hg4idea.tag.text:
+    text: Etiquetar repositorio…
+action.hg4idea.updateTo.description:
+    text: Actualizar el directorio de trabajo del repositorio al conjunto de cambios especificado.
+action.hg4idea.updateTo.text:
+    text: Actualizar a…
+checkbox.export.active.bookmarks:
+    text: Exportar marcadores activos
+configurable.UpdateConfigurable.display.name:
+    text: Actualización
+hg4idea.add.body:
+    text: "¿Desea añadir el siguiente archivo a Mercurial?\n{0}\n\nSi selecciona Cancelar, podrá añadirlo manualmente más tarde."
+hg4idea.add.progress:
+    text: Añadiendo archivos a Mercurial
+hg4idea.add.single.title:
+    text: Añadir archivo a Mercurial
+hg4idea.add.title:
+    text: Añadir archivos a Mercurial
+hg4idea.branch.bookmarks:
+    text: Marcadores
+hg4idea.branch.bookmarks.in.repo:
+    text: Marcadores en {0}
+hg4idea.branch.branches.in.repo.separator:
+    text: Ramas en {0}
+hg4idea.branch.branches.separator:
+    text: Ramas
+hg4idea.changelist.column.branch:
+    text: Rama
+hg4idea.changesets.checking.progress:
+    text: Comprobando los cambios entrantes y salientes
+hg4idea.changesets.error:
+    text: Comprobación de cambios entrantes/salientes desactivada
+hg4idea.changesets.error.msg:
+    text: Se requiere autenticación para comprobar los cambios entrantes y salientes en {0}<br/>Puede habilitar la comprobación de cambios <a href=''#''>en la configuración</a>.
+hg4idea.changesets.in:
+    text: Entrantes
+hg4idea.changesets.out:
+    text: Salientes
+hg4idea.commit:
+    text: Confirmar
+hg4idea.commit.error.messageEmpty:
+    text: Por favor, proporcione un mensaje de confirmación
+hg4idea.commit.partial.merge.message:
+    text: No se permiten los commits parciales durante la fusión y los siguientes archivos no están incluidos:<ul>{0}</ul>¿Desea realizar el commit con todos los archivos incluidos?
+hg4idea.commit.partial.merge.title:
+    text: Commit de fusión parcial
+hg4idea.configuration.ignore.whitespace.in.annotate:
+    text: Ignorar diferencias de espacios en &blanco en las anotaciones
+hg4idea.dialog.login.description:
+    text: Iniciar sesión en {0}
+hg4idea.dialog.login.password.required:
+    text: Se requiere inicio de sesión y contraseña
+hg4idea.error.debugancestor.command.description:
+    text: No se pudo recopilar información sobre el ancestro
+hg4idea.error.debugancestor.command.execution:
+    text: Error durante la ejecución del comando debugancestor
+hg4idea.error.log.command.execution:
+    text: Error durante la ejecución del comando log
+hg4idea.exception.file.not.under.hg:
+    text: El archivo {0} no está bajo el control de Mercurial.
+hg4idea.executable.notification.description:
+    text: La ruta al ejecutable hg probablemente no es válida.
+hg4idea.executable.notification.title:
+    text: No se puede iniciar Mercurial
+hg4idea.file.status.copied:
+    text: Copiado
+hg4idea.file.status.renamed:
+    text: Renombrado
+hg4idea.init.already.under.hg.description:
+    text: 'El directorio seleccionado <b><code>{0}</code></b> ya está bajo Mercurial: <b><code>{1}</code></b><br/>¿Desea crear un nuevo repositorio en la carpeta seleccionada o usar el repositorio principal?'
+hg4idea.init.already.under.hg.dialog.title:
+    text: El directorio ya está bajo hg
+hg4idea.init.already.under.hg.option.create.repo.here:
+    text: Crear nuevo repositorio aquí.
+hg4idea.init.already.under.hg.option.use.parent:
+    text: Usar el repositorio padre, pero continuar trabajando en este proyecto.
+hg4idea.init.already.under.hg.title:
+    text: Este directorio ya está bajo hg
+hg4idea.init.created.notification.description:
+    text: Se ha creado el repositorio en {0}
+hg4idea.init.created.notification.title:
+    text: Repositorio Mercurial creado
+hg4idea.init.destination.directory.description:
+    text: Seleccione el directorio donde se creará el nuevo repositorio Mercurial.
+hg4idea.init.destination.directory.title:
+    text: Seleccionar directorio para hg init
+hg4idea.init.dialog.incorrect.path:
+    text: La ruta especificada es incorrecta
+hg4idea.init.dialog.option.create.repository.for.whole.project:
+    text: '&Crear repositorio para todo el proyecto'
+hg4idea.init.dialog.option.select.folder:
+    text: '&Seleccionar dónde crear el repositorio'
+hg4idea.init.dialog.title:
+    text: Crear repositorio Mercurial
+hg4idea.init.error.description:
+    text: No se pudo crear un repositorio de Mercurial en {0}
+hg4idea.init.error.title:
+    text: Error al crear el repositorio Mercurial
+hg4idea.init.this.is.hg.root:
+    text: La carpeta seleccionada {0} ya es una raíz de Mercurial
+hg4idea.move.progress:
+    text: Moviendo archivos en el VCS…
+hg4idea.mq.progress.goto:
+    text: Ir a {0}…
+hg4idea.mq.progress.pop:
+    text: Haciendo pop de todos los parches aplicados…
+hg4idea.progress.bookmark:
+    text: Creando marcador {0}…
+hg4idea.progress.checking.ignored:
+    text: Comprobando si hay archivos ignorados…
+hg4idea.progress.countingHeads:
+    text: Comprobando el número de heads…
+hg4idea.progress.pull.with.update:
+    text: Actualizando el repositorio
+hg4idea.progress.rebase:
+    text: Rebasando repositorio
+hg4idea.progress.updating:
+    text: Actualizando {0}…
+hg4idea.progress.updatingTo:
+    text: Actualizando a {0}…
+hg4idea.progress.updatingworkingdir:
+    text: Actualizando el directorio de trabajo local
+hg4idea.remove.multiple.title:
+    text: Eliminar archivos de Mercurial
+hg4idea.remove.progress:
+    text: Eliminando archivos del VCS…
+hg4idea.remove.single.body:
+    text: "¿Desea eliminar el siguiente archivo de Mercurial?\n{0}\n\nSi selecciona Cancelar, aún podrá eliminarlo manualmente más adelante."
+hg4idea.remove.single.title:
+    text: Eliminar archivo de Mercurial
+hg4idea.revert:
+    text: '&Revertir'
+hg4idea.run.failed.title:
+    text: Error al ejecutar Hg
+hg4idea.run.success.title:
+    text: Hg ejecutado con éxito
+hg4idea.status.bar.incoming.widget.name:
+    text: Mercurial entrantes
+hg4idea.status.bar.outgoing.widget.name:
+    text: Mercurial saliente
+hg4idea.status.bar.widget.name:
+    text: Rama de Mercurial
+hg4idea.status.bar.widget.text.merge:
+    text: Combinando {0}
+hg4idea.status.bar.widget.text.rebase:
+    text: Rebasando {0}
+hg4idea.unable.to.run.hg:
+    text: 'No se puede ejecutar hg: {0}'
+hg4idea.update.error.localchanges:
+    text: cambios locales pendientes sin confirmar en el repositorio {0}, no se fusionará con el head descargado
+hg4idea.update.error.merge.multipleLocalHeads:
+    text: Hay más de un head local en el repositorio {0}, no se realizará la fusión
+hg4idea.update.error.merge.multipleRemoteHeads:
+    text: Se han extraído {0} cabeceras remotas en el repositorio {1}, no se realizará la fusión
+hg4idea.update.error.uncommittedMerge:
+    text: fusión pendiente sin confirmar en el repositorio {0}, no se actualizará ni fusionará
+hg4idea.update.progress.merging:
+    text: Fusionando con el HEAD obtenido
+hg4idea.update.progress.updating.to.pulled.head:
+    text: Actualizando al HEAD extraído
+hg4idea.update.warning.merge.conflicts:
+    text: Se ha fusionado con conflictos en el repositorio {0}. Inspeccione los conflictos y confirme la fusión cuando haya terminado.
+hg4idea.update.warning.multipleHeadsBeforeUpdate:
+    text: Múltiples heads en esta rama en el repositorio {0} antes de la actualización (use "hg heads ." y "hg merge" para fusionar)
+hg4idea.widget.tooltip.title.status.changesets:
+    text: '{0} conjuntos de cambios'
+no.changes.available:
+    text: No hay cambios disponibles

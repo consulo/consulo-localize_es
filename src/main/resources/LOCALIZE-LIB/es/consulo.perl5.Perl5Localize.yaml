@@ -1,0 +1,28 @@
+list.item.test:
+    text: Prueba
+inspection.unreachable.code.display.name:
+    text: Código inalcanzable
+attribute.descriptor.number:
+    text: Número
+attribute.descriptor.line.comment:
+    text: Comentario de línea
+attribute.descriptor.label:
+    text: Etiqueta
+attribute.descriptor.operator:
+    text: Operador
+attribute.descriptor.keyword:
+    text: Palabra clave
+attribute.descriptor.attribute:
+    text: Atributo
+attribute.descriptor.comma:
+    text: Coma
+attribute.descriptor.semicolon:
+    text: Punto y coma
+attribute.descriptor.braces:
+    text: Llaves
+attribute.descriptor.parentheses:
+    text: Paréntesis
+attribute.descriptor.brackets:
+    text: Corchetes
+command.name.introduce.variable:
+    text: Introducir variable

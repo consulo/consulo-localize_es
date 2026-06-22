@@ -1,0 +1,6 @@
+action.Terminal.OpenInTerminal.description:
+    text: Abrir la ubicación del archivo actual en la terminal
+action.Terminal.OpenInTerminal.text:
+    text: Abrir en la terminal
+configurable.name:
+    text: CodeCanvas

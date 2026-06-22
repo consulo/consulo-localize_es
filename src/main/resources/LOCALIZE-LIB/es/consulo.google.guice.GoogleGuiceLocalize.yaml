@@ -1,0 +1,124 @@
+binding.annotation.without.inject.display.name:
+    text: Anotación de vinculación sin @Inject
+binding.annotation.without.inject.problem.descriptor:
+    text: 'Anotación de vinculación sin declarar @Inject #ref #loc'
+conflicting.annotations.display.name:
+    text: Anotaciones de Guice en conflicto
+conflicting.annotations.problem.descriptor:
+    text: 'La anotación #ref entra en conflicto con otras anotaciones declaradas #loc'
+delete.binding:
+    text: Eliminar vinculación
+interception.annotation.without.runtime.retention.display.name:
+    text: Anotación de intercepción sin retención en tiempo de ejecución
+interception.annotation.without.runtime.retention.problem.descriptor:
+    text: 'La anotación #ref no tiene retención en tiempo de ejecución #loc'
+invalid.implemented.by.display.name:
+    text: Anotación @ImplementedBy no válida
+invalid.implemented.by.problem.descriptor:
+    text: 'La clase #ref no implementa la clase anotada #loc'
+invalid.provided.by.display.name:
+    text: Anotación @ProvidedBy no válida
+invalid.provided.by.problem.descriptor:
+    text: 'La clase #ref no proporciona una clase anotada #loc'
+invalid.request.parameters.display.name:
+    text: Tipo de parámetro @RequestParameters incorrecto
+invalid.request.parameters.problem.descriptor:
+    text: 'Las variables o parámetros etiquetados con #ref deben ser de tipo Map<String, String[]> #loc'
+make.injection.mandatory:
+    text: Hacer obligatoria la inyección
+make.injection.optional:
+    text: Hacer opcional la inyección
+move.binding.scope.to.class.family.name:
+    text: Mover ámbito de vinculación a la clase
+move.binding.scope.to.class.text:
+    text: Mover el ámbito de vinculación a la clase
+move.binding.to.class.family.name:
+    text: Mover vinculación a la clase
+move.binding.to.class.text:
+    text: Mover clase de vinculación a clase
+move.provider.binding.to.class.family.name:
+    text: Mover vinculación de proveedor a clase
+move.provider.binding.to.class.text:
+    text: Mover vinculación de proveedor a la clase
+multiple.binding.annotations.display.name:
+    text: Múltiples anotaciones de binding en la variable
+multiple.binding.annotations.problem.descriptor:
+    text: 'La variable #ref tiene múltiples anotaciones de vinculación #loc'
+multiple.injected.constructors.for.class.display.name:
+    text: Múltiples constructores @Inject para la clase
+multiple.injected.constructors.for.class.problem.descriptor:
+    text: 'La clase #ref tiene múltiples constructores @Inject #loc'
+new.guice.binding.annotation.action.name:
+    text: Crear anotación de vinculación de Guice
+new.guice.binding.annotation.error:
+    text: No se puede crear la anotación de vinculación de Guice
+new.guice.binding.annotation.name:
+    text: 'Creando anotación de enlace de Guice: {0}.{1}'
+new.guice.method.interceptor.action.name:
+    text: Crear interceptor de métodos de Guice
+new.guice.method.interceptor.error:
+    text: No se puede crear el interceptor de métodos de Guice
+new.guice.method.interceptor.name:
+    text: 'Creando interceptor de métodos Guice: {0}. {1}'
+new.guice.module.action.name:
+    text: Crear módulo Guice
+new.guice.module.error:
+    text: No se pudo crear el módulo Guice
+new.guice.module.name:
+    text: 'Creando el módulo Guice: {0}. {1}'
+new.guice.provider.action.name:
+    text: Crear proveedor de Guice
+new.guice.provider.error:
+    text: No se puede crear el proveedor de Guice
+new.guice.provider.name:
+    text: 'Creando proveedor Guice: {0}.{1}'
+new.guice.scope.annotation.action.name:
+    text: Crear anotación de ámbito de Guice
+new.guice.scope.annotation.error:
+    text: No se puede crear la anotación de ámbito de Guice
+pointless.binding.display.name:
+    text: Vinculación sin sentido
+pointless.binding.problem.descriptor:
+    text: 'El enlace es innecesario y puede eliminarse #loc'
+redundant.scope.binding.display.name:
+    text: Vinculación de ámbito redundante
+redundant.scope.binding.problem.descriptor:
+    text: 'La vinculación al ámbito #ref es redundante #loc'
+redundant.to.binding.display.name:
+    text: Vinculación redundante
+redundant.to.binding.problem.descriptor:
+    text: 'La vinculación a la clase #ref es redundante #loc'
+redundant.to.provider.binding.display.name:
+    text: Vinculación de proveedor redundante
+redundant.to.provider.binding.problem.descriptor:
+    text: 'La vinculación a la clase #ref es redundante #loc'
+select.provided.class:
+    text: Seleccionar la clase que se va a proporcionar
+session.scoped.injects.request.scoped.display.name:
+    text: Componente @SessionScoped inyecta componente @RequestScoped
+session.scoped.injects.request.scoped.problem.descriptor:
+    text: '@Inject de la clase @RequestScoped #ref en la clase @SessionScoped #loc'
+singleton.injects.scoped.display.name:
+    text: El componente @Singleton inyecta un componente con ámbito
+singleton.injects.scoped.problem.descriptor:
+    text: '@Inject de la clase con ámbito #ref desde la clase @Singleton #loc'
+toggle.injection.required.family.name:
+    text: Alternar inyección
+toggle.required:
+    text: Alternar 'opcional'
+uninstantiable.binding.display.name:
+    text: Vinculación no instanciable
+uninstantiable.binding.problem.descriptor:
+    text: 'La clase #ref no se puede instanciar, por lo que no se puede vincular #loc'
+uninstantiable.implemented.by.class.display.name:
+    text: Clase @ImplementedBy no instanciable
+uninstantiable.implemented.by.class.problem.descriptor:
+    text: 'La clase #ref no es instanciable, por lo que no puede ser @ImplementedBy #loc'
+uninstantiable.provided.by.class.display.name:
+    text: Clase @ProvidedBy no instanciable
+uninstantiable.provided.by.class.problem.descriptor:
+    text: 'La clase #ref no se puede instanciar, por lo que no puede ser @ProvidedBy #loc'
+unnecessary.static.injection.display.name:
+    text: Inyección estática innecesaria
+unnecessary.static.injection.problem.descriptor:
+    text: 'La clase #ref no tiene miembros static @Inject #loc'

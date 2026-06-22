@@ -1,0 +1,418 @@
+0.expressions.on.trait.fields.properties.are.not.supported.in.traits:
+    text: No se admiten expresiones {0} en campos/propiedades de traits dentro de los traits
+0.is.deprecated:
+    text: '''''{0}'''' está en desuso'
+Equals:
+    text: Igual
+Inner.methods.are.not.supported:
+    text: No se admiten métodos internos
+abstract.methods.must.not.have.body:
+    text: Los métodos abstractos no deben tener cuerpo
+abstract.visibility.presentation:
+    text: abstracto
+add.dynamic.element:
+    text: Añadir elemento dinámico
+add.dynamic.method:
+    text: Agregar método dinámico
+add.dynamic.method.0:
+    text: Añadir método dinámico ''{0}''
+add.dynamic.property:
+    text: Agregar propiedad dinámica ''{0}''
+ambiguous.code.block:
+    text: Bloque de código ambiguo
+annotation.collector.cannot.have.attributes:
+    text: El tipo de anotación anotado con @AnnotationCollector no puede tener atributos
+annotation.field.can.only.be.used.within.a.script:
+    text: La anotación @Field solo se puede utilizar dentro de un script
+annotation.field.can.only.be.used.within.a.script.body:
+    text: La anotación @Field solo se puede utilizar dentro del cuerpo de un script
+annotation.type.cannot.be.inner:
+    text: El tipo de anotación no puede ser interno
+annotation.types.may.not.have.extends.clause:
+    text: Los tipos de anotación no pueden tener una cláusula 'extends'
+annotation.types.may.not.have.implements.clause:
+    text: Los tipos de anotación no pueden tener la cláusula 'implements'
+anonymous.class.cannot.have.abstract.method:
+    text: La clase anónima no puede tener un método abstracto
+anonymous.class.derived.from.0:
+    text: clase anónima derivada de {0}
+anonymous.classes.cannot.be.created.from.traits:
+    text: Las clases anónimas de traits están disponibles desde Groovy 2.5.2
+are.you.sure.to.delete.dynamic.property:
+    text: ¿Seguro que desea eliminar ''{0}''?
+are.you.sure.to.delete.elements:
+    text: ¿Está seguro de que desea eliminar ''{0}'' elementos?
+assignment.expected:
+    text: se esperaba '='
+at.interface.0.does.not.contain.attribute:
+    text: '@interface ''''{0}'''' no contiene el atributo ''''{1}'''''
+attribute.name.expected:
+    text: Se esperaba un nombre de atributo
+break.outside.loop:
+    text: La sentencia break con etiquetas con nombre solo se permite dentro de bucles
+break.outside.loop.or.switch:
+    text: La sentencia 'break' solo se permite dentro de bucles o sentencias switch con estilo de dos puntos
+cannot.access:
+    text: El acceso a ''{0}'' excede sus derechos de acceso
+cannot.apply.constructor:
+    text: El constructor ''{0}'' en ''{1}'' no se puede aplicar a ''{2}''
+cannot.apply.default.constructor:
+    text: No se puede aplicar el constructor predeterminado para la clase ''{0}''
+cannot.apply.method.or.closure:
+    text: '''''{0}'''' no se puede aplicar a ''''{1}'''''
+cannot.apply.method1:
+    text: '''''{0}'''' en ''''{1}'''' no se puede aplicar a ''''{2}'''''
+cannot.assign:
+    text: No se puede asignar ''{0}'' a ''{1}''
+cannot.assign.a.value.to.final.field.0:
+    text: No se puede asignar un valor al campo final ''{0}''
+cannot.assign.a.value.to.final.parameter.0:
+    text: No se puede asignar un valor al parámetro final ''{0}''
+cannot.assign.string.to.enum.0:
+    text: No se puede asignar una cadena al enumerado ''{0}''
+cannot.cast:
+    text: No se puede convertir ''{0}'' a ''{1}''
+cannot.create.class.error.text:
+    text: 'No se puede crear la clase ''''{0}'''': {1}'
+cannot.create.class.error.title:
+    text: No se puede crear la clase
+cannot.find.enum.constant.0.in.enum.1:
+    text: No se puede encontrar la constante de enumeración ''{0}'' en la enumeración ''{1}''
+cannot.infer.argument.types:
+    text: No se pueden inferir los tipos de argumento
+cannot.instantiate.abstract.class:
+    text: No se puede instanciar la clase abstracta ''{0}''
+cannot.instantiate.interface:
+    text: No se puede instanciar la interfaz ''{0}''
+cannot.reference.non.static:
+    text: No se puede hacer referencia al símbolo no estático ''{0}'' desde un contexto estático
+cannot.resolve:
+    text: No se puede resolver el símbolo {0}
+cannot.return.from.constructor:
+    text: No se puede devolver un objeto desde el constructor.
+cannot.return.from.void.method:
+    text: No se puede devolver un objeto desde un método que devuelve 'void'
+cannot.return.type:
+    text: No se puede devolver ''{0}'' desde un método que devuelve ''{1}''
+catch.statement.parameter.type.should.be.a.subclass.of.throwable:
+    text: El tipo de parámetro de la sentencia catch debe ser una subclase de Throwable
+catch.without.try:
+    text: '''catch'' sin ''try'''
+change.implements.and.extends.classes:
+    text: Normalizar las listas extends e implements
+change.modifier:
+    text: Cambiar modificador
+change.modifier.family.name:
+    text: Cambiar modificadores
+change.modifier.not:
+    text: Hacer que ''{0}'' no sea {1}
+class.definition.is.not.expected.here:
+    text: No se espera una definición de clase aquí
+class.is.not.annotation:
+    text: '''''{0}'''' no es una anotación'
+closure.is.too.complex.to.analyze:
+    text: "La clausura es demasiado compleja para analizar.\nNo se infieren los tipos de las variables locales."
+collection.literal.contains.named.argument.and.expression.items:
+    text: El literal de colección contiene argumentos con nombre y de expresión al mismo tiempo
+configure.groovy.library:
+    text: Configurar Groovy SDK…
+constructor.cannot.have.static.modifier:
+    text: El constructor no puede ser static
+constructors.are.not.allowed.in.anonymous.class:
+    text: No se permiten constructores en clases anónimas
+constructors.are.not.allowed.in.interface:
+    text: Los constructores no están permitidos en la interfaz
+constructors.cannot.have.return.type:
+    text: No se permite el elemento de tipo de retorno en el constructor
+continue.outside.loop:
+    text: La sentencia continue solo se permite dentro de bucles
+create.annotation.text:
+    text: Anotar como @{0}
+create.class.family.name:
+    text: Crear clase
+create.class.text:
+    text: Crear clase ''{0}''
+create.enum:
+    text: Crear enum ''{0}''
+create.field.from.usage:
+    text: Crear campo ''{0}''
+create.interface.text:
+    text: Crear interfaz ''{0}''
+create.method.from.usage:
+    text: Crear método ''{0}''
+create.parameter.from.usage:
+    text: Crear parámetro ''{0}''
+create.trait:
+    text: Crear rasgo ''{0}''
+create.variable.from.usage:
+    text: Crear variable ''{0}''
+cyclic.inheritance.involving.0:
+    text: Herencia cíclica que involucra a ''{0}''
+debug.option:
+    text: Habilitar seguimiento de pila de &depuración
+def.visibility.presentation:
+    text: predeterminado
+default.initializers.are.not.allowed.in.abstract.method:
+    text: No se permiten inicializadores predeterminados en métodos abstractos
+doc.end.expected:
+    text: Se esperaba '*/'
+duplicate.attribute:
+    text: Atributo duplicado
+duplicate.class:
+    text: La clase ''{0}'' ya existe en ''{1}''
+duplicate.element.in.the.map:
+    text: Elemento duplicado ''{0}'' en el mapa
+duplicate.inner.class:
+    text: 'Clase duplicada: ''''{0}'''''
+duplicate.modifier:
+    text: Modificador duplicado ''{0}''
+duplicated.named.parameter:
+    text: Se encontró un parámetro con nombre duplicado ''{0}''
+dynamic.element.deletion:
+    text: Eliminación de elementos dinámicos
+dynamic.method.property.type:
+    text: 'Tipo de propiedad (&T):'
+dynamic.method.return.type:
+    text: 'Tipo de re&torno:'
+dynamic.name:
+    text: Nombre
+dynamic.properties.table.name:
+    text: Argumentos del método
+dynamic.property.deletion:
+    text: Eliminación de propiedad dinámica
+dynamic.tool.window.id:
+    text: Miembros dinámicos
+dynamic.type:
+    text: Tipo
+ellipsis.type.is.not.allowed.here:
+    text: No se permite el tipo de elipsis aquí
+else.without.if:
+    text: '''else'' sin ''if'''
+enums.may.not.have.extends.clause:
+    text: Las enumeraciones no pueden tener la cláusula 'extends'
+exception.0.has.already.been.caught:
+    text: La excepción ''{0}'' ya se ha capturado
+expected.0.to.be.inline.constant:
+    text: Se esperaba que ''{0}'' fuera una constante inline
+explicit.constructors.are.not.allowed.in.immutable.class:
+    text: No se permiten constructores explícitos en las clases @Immutable
+expression.expected:
+    text: Se esperaba una expresión
+field.already.defined:
+    text: El campo ''{0}'' ya está definido
+final.class.cannot.be.extended:
+    text: No se puede extender una clase final
+finally.without.try:
+    text: '''finally'' sin ''try'''
+fix.package.name:
+    text: Corregir nombre del paquete
+groovy.debug.disable.specific.methods:
+    text: No entrar en clases Groovy especí&ficas
+groovy.does.not.support.constructor.type.arguments:
+    text: Groovy no admite argumentos de tipo de constructor
+groovy.file.0:
+    text: Archivo Groovy ''{0}''
+groovy.file.extension.is.not.mapped.to.groovy.file.type:
+    text: "Los archivos *.groovy están asignados a ''{0}''.\nPuede asignarlos a Groovy en Ajustes | Tipos de archivo"
+groovy.library.is.not.configured.for.module:
+    text: Groovy SDK no está configurado para el módulo ''{0}''
+identifier.expected:
+    text: Se esperaba un identificador
+identifier.or.block.expected:
+    text: Se esperaba un identificador o un bloque de código
+illegal.combination.of.modifiers:
+    text: Combinación ilegal de modificadores
+illegal.combination.of.modifiers.abstract.and.final:
+    text: Combinación ilegal de los modificadores 'abstract' y 'final'
+illegal.combination.of.modifiers.volatile.and.final:
+    text: Combinación ilegal de los modificadores 'volatile' y 'final'
+illegal.escape.character.in.string.literal:
+    text: Carácter de escape no válido en el literal de cadena
+import.class:
+    text: Importar clase
+import.statement.cannot.have.modifiers:
+    text: La sentencia import no puede tener modificadores
+incorrect.number.of.values:
+    text: Número de valores incorrecto. Esperado:{0} Obtenido:{1}
+incorrect.variable.name:
+    text: Nombre de variable incorrecto
+initializer.cannot.be.0:
+    text: El inicializador no puede ser {0}
+initializer.cannot.have.annotations:
+    text: Los inicializadores no pueden tener anotaciones
+initializers.are.not.allowed.in.interface:
+    text: No se permiten inicializadores en la interfaz
+injection.should.not.contain.line.feeds:
+    text: La inyección de GString no debe contener saltos de línea.
+interface.members.are.not.allowed.to.be:
+    text: No se permite que los miembros de la interfaz sean {0}
+interface.must.have.no.static.method:
+    text: La interfaz no debe tener métodos estáticos
+invalid.lvalue:
+    text: Valor no válido para asignar
+invoke.completion.second.time.to.show.skipped.methods:
+    text: Invocar el completado por segunda vez para mostrar los métodos omitidos
+is.not.enclosing.class:
+    text: '''''{0}'''' no es una clase envolvente'
+java.style.for.each.statement.requires.a.type.declaration:
+    text: La sentencia for-each al estilo Java requiere una declaración de tipo
+label.already.used:
+    text: La etiqueta ''{0}'' ya está en uso
+method.0.cannot.have.weaker.access.privileges.1.than.2.in.3.4:
+    text: El método ''{0}'' no puede tener privilegios de acceso más débiles (''{1}'') que ''{2}'' en ''{3}'' (''{4}'')
+method.0.cannot.override.method.1.in.2.overridden.method.is.final:
+    text: El método ''{0}'' no puede sobrescribir el método ''{1}'' en ''{2}''; el método sobrescrito es final
+method.0.is.too.complex.too.analyze:
+    text: "El método ''{0}'' es demasiado complejo para analizar.\nNo se han inferido los tipos de las variables locales."
+method.call.is.ambiguous:
+    text: La llamada al método es ambigua
+method.duplicate:
+    text: El método con la firma {0} ya está definido en la clase ''{1}''
+method.has.incorrect.modifier.volatile:
+    text: El método tiene el modificador 'volatile' incorrecto
+method.is.not.implemented:
+    text: El método ''{0}'' no está implementado
+method.with.type.parameters.should.have.return.type:
+    text: El método con parámetros de tipo debe tener un tipo de retorno
+missed.attributes:
+    text: 'Atributos faltantes: {0}'
+mixing.private.and.public.protected.methods.of.the.same.name:
+    text: Mezcla de métodos private y public/protected con el mismo nombre
+modifier.transient.not.allowed.here:
+    text: El modificador 'transient' no se permite aquí
+modifier.volatile.not.allowed.here:
+    text: El modificador 'volatile' no está permitido aquí
+move.class.0.from.method:
+    text: Mover ''{0}'' a la ubicación correcta
+move.class.from.method.family.name:
+    text: Corrección rápida "Mover al lugar correcto"
+multiple.assignments.without.list.expr:
+    text: Las asignaciones múltiples sin expresiones de lista en el lado derecho no son compatibles en el modo de comprobación de tipos estática
+named.arguments.are.not.allowed.inside.index.operations:
+    text: No se permiten argumentos con nombre dentro de las operaciones de índice
+native.methods.cannot.have.body:
+    text: Los métodos nativos no pueden tener cuerpo
+native.visibility.presentation:
+    text: nativo
+new.class.dialog.title:
+    text: Nueva clase Groovy
+new.class.list.item.annotation:
+    text: Anotación
+new.class.list.item.class:
+    text: Clase
+new.class.list.item.interface:
+    text: Interfaz
+new.class.list.item.record:
+    text: Registro
+new.script.list.item.script:
+    text: Script de Groovy
+new.script.list.item.script.dsl:
+    text: Script GroovyDSL
+no.class.expected.here:
+    text: No se esperaba una clase aquí
+no.class.in.file.template:
+    text: No se encontró ninguna clase en la plantilla de archivo
+no.implements.clause.allowed.for.interface:
+    text: Las interfaces no pueden tener la cláusula 'implements'
+no.interface.expected.here:
+    text: No se esperaba una interfaz aquí
+no.such.property:
+    text: La propiedad ''{0}'' no existe
+no.super.classes.found:
+    text: No se encontraron superclases
+no.super.method.found:
+    text: No se encontraron supermétodos
+not.abstract.method.should.have.body:
+    text: El método no abstracto debe tener cuerpo
+only.abstract.class.can.have.abstract.method:
+    text: Solo las clases abstractas pueden tener métodos abstractos
+only.traits.expected.here:
+    text: Solo se esperan rasgos aquí
+package.definition.cannot.have.modifiers:
+    text: La definición del paquete no puede tener modificadores
+packageLocal.visibility.presentation:
+    text: visibilidad predeterminada
+primitive.bound.types.are.not.allowed:
+    text: No se permiten tipos de límites primitivos
+primitive.type.parameters.are.not.allowed:
+    text: No se permiten parámetros de tipos primitivos en la lista de parámetros de tipo
+private.visibility.presentation:
+    text: privado
+property.missing:
+    text: Propiedad faltante
+property.name.expected:
+    text: Se esperaba un nombre de propiedad
+protected.visibility.presentation:
+    text: protegido
+public.visibility.presentation:
+    text: público
+qualified.0.is.allowed.only.in.nested.or.inner.classes:
+    text: '{0} calificado solo se permite en clases anidadas/internas'
+qualified.new.of.static.class:
+    text: Instancia 'new' calificada de una clase estática
+recursive.constructor.invocation:
+    text: Invocación recursiva de constructor
+repetitive.method.name.0:
+    text: Nombre de método repetido ''{0}''
+return.type.is.incompatible:
+    text: El tipo de retorno de {0} en {1} es incompatible con {2} en {3}
+script.cannot.have.modifier.native:
+    text: El script no puede tener el modificador 'native'
+script.generated.with.same.name:
+    text: Se ha generado una clase sintética ''{0}'' para el código del script
+script.method.cannot.have.modifier.abstract:
+    text: El método de script no puede tener el modificador 'abstract'
+semi.expected:
+    text: se esperaba ';' o un salto de línea
+shows.parameter.names.at.function.call.sites:
+    text: Muestra los nombres de los parámetros en los puntos de llamada a funciones.
+statement.expected:
+    text: Se esperaba una sentencia
+static.visibility.presentation:
+    text: estático
+string.end.expected:
+    text: Se esperaba el final de la cadena
+super.cannot.be.used.in.static.context:
+    text: '''super'' no se puede usar en un contexto estático'
+synchronized.visibility.presentation:
+    text: sincronizado
+the.usage.of.a.map.entry.expression.to.initialize.an.enum.is.currently.not.supported:
+    text: Actualmente no se admite el uso de una expresión de entrada de mapa para inicializar un Enum
+there.is.no.default.constructor.available.in.class.0:
+    text: No hay ningún constructor predeterminado disponible en la clase ''{0}''
+throws.clause.is.not.allowed.in.at.interface:
+    text: La cláusula 'throws' no está permitida en miembros de @interface
+trait.method.cannot.be.protected:
+    text: No se permite que los métodos de trait sean protected
+transient.visibility.presentation:
+    text: transitorio
+tuple.cant.be.placed.in.class:
+    text: No se permiten asignaciones múltiples para campos
+tuple.declaration.should.end.with.def.modifier:
+    text: La declaración de tupla debe terminar con el modificador 'def'
+type.argument.0.is.not.in.its.bound.should.extend.1:
+    text: El parámetro de tipo ''{0}'' no está dentro de sus límites; debe extender ''{1}''
+type.argument.list.is.not.allowed.here:
+    text: No se permite la lista de argumentos de tipo aquí
+type.expected:
+    text: Se esperaba un tipo
+type.parameters.are.unexpected:
+    text: No se esperan parámetros de tipo
+undefined.label:
+    text: Etiqueta no definida ''{0}''
+unexpected.attribute.type.0:
+    text: 'Tipo de atributo inesperado: ''''{0}'''''
+unknown.class:
+    text: 'Clase desconocida: ''''{0}'''''
+unnecessary.type:
+    text: Excepción innecesaria ''{0}''. ''{1}'' ya está declarada
+variable.0.might.not.have.been.initialized:
+    text: Es posible que la variable ''{0}'' no se haya inicializado
+variable.already.defined:
+    text: La variable ''{0}'' ya está definida
+volatile.visibility.presentation:
+    text: volátil
+wildcards.are.not.allowed.in.extends.list:
+    text: Un supertipo no puede especificar un tipo comodín.
+wrong.number.of.type.arguments:
+    text: 'Número incorrecto de argumentos de tipo: {0}; requeridos: {1}'

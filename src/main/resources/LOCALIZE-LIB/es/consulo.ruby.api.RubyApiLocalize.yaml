@@ -1,0 +1,434 @@
+module.ruby.title:
+    text: Módulo Ruby
+module.ruby.description:
+    text: Los módulos Ruby se utilizan para desarrollar aplicaciones <b>Ruby</b> y <b>Ruby on Rails</b>.
+sdk.ruby.title:
+    text: Intérprete de Ruby
+sdk.jruby.title:
+    text: Intérprete de JRuby
+ruby.configuration.gems.bin.dir.path:
+    text: 'Directorio bin de Gems:'
+ruby.configuration.gems.bin.dir.path.tooltip:
+    text: La ruta donde se instalan los scripts ejecutables de las gemas
+ruby.configuration.gems.bin.dir.select.path:
+    text: Seleccionar el directorio bin de gems
+sdk.no.specified:
+    text: Intérprete no especificado
+sdk.type.incorrect:
+    text: El tipo de SDK para el módulo de plugin ''{0}'' es incorrecto.
+sdk.error.isnt.valid:
+    text: '''''{0}'''' no es un intérprete de Ruby válido'
+sdk.error.gems.bindir.doesnt.exist:
+    text: El directorio bin de Gems no existe
+sdk.error.gems.bindir.isnt.directory:
+    text: El directorio bin de las gemas no es un directorio
+sdk.error.no.rails.found:
+    text: '[No se encontró Rails en el intérprete]'
+execution.error.title:
+    text: Error de ejecución
+run.configuration.type.name:
+    text: Ruby
+run.configuration.test.name:
+    text: Prueba de Kotlin Mobile
+run.configuration.messages.select.working.dir:
+    text: Seleccionar directorio de trabajo
+run.configuration.messages.script.args:
+    text: Argumentos del script
+run.configuration.messages.select.module:
+    text: 'Desde el módulo:'
+run.configuration.messages.working.dir:
+    text: 'Directorio de trabajo:'
+run.configuration.messages.ruby.args:
+    text: Argumentos de Ruby
+run.configuration.messages.script.path:
+    text: 'Script de Ruby:'
+run.configuration.messages.folder.path:
+    text: 'Carpeta:'
+run.configuration.messages.select.folder.path:
+    text: Seleccionar carpeta
+run.configuration.tests.messages.method.name:
+    text: 'Método:'
+run.configuration.test.form.testtype.title:
+    text: 'Modo:'
+run.configuration.tests.dialog.components.folder:
+    text: Carpeta de pruebas
+run.configuration.tests.dialog.components.search.mask:
+    text: 'Máscara de nombre de archivo de prueba:'
+run.configuration.tests.dialog.components.file:
+    text: Script de Ruby
+run.configuration.tests.dialog.components.method:
+    text: Filtro de nombre de prueba
+run.configuration.tests.dialog.rb.allInFolder:
+    text: '&Todas las pruebas en la carpeta'
+run.configuration.tests.dialog.rb.method:
+    text: '&Método de prueba'
+rails.run.configuration.type.description:
+    text: Configuración de ejecución de Rails
+run.configuration.server.dialog.port:
+    text: Puerto
+run.configuration.server.dialog.ip:
+    text: Dirección IP
+run.configuration.server.dialog.environment:
+    text: Entorno
+run.configuration.server.dialog.server:
+    text: Servidor
+run.configuration.server.args:
+    text: Argumentos del servidor
+rspec.run.configuration.type.description:
+    text: Configuración de ejecución de ejemplos de RSpec
+rspec.run.configuration.tests.dialog.components.search.mask:
+    text: 'Máscara de nombre de archivo:'
+rspec.run.configuration.tests.dialog.components.folder:
+    text: Carpeta de especificaciones
+rspec.run.configuration.tests.dialog.rb.allInFolder:
+    text: '&Todas las especificaciones de la carpeta'
+rspec.run.configuration.tests.dialog.rb.file:
+    text: '&Script de especificación'
+rspec.run.configuration.tests.form.testtype.title:
+    text: 'Modo:'
+rspec.run.configuration.messages.script.path:
+    text: 'Script de spec:'
+rspec.run.configuration.tests.dialog.components.select.spec.custom.runner:
+    text: Seleccionar script de ejecutor RSpec personalizado
+rspec.run.configuration.tests.dialog.components.spec.custom.use:
+    text: 'Usar script ejecutor de RSpec personalizado:'
+run.configuration.script.port.bad.format:
+    text: Valor de ''Puerto'' incorrecto
+run.configuration.script.ip.bad.format:
+    text: Valor de ''dirección IP'' incorrecto
+run.configuration.script.not.specified:
+    text: No se ha especificado el script de Ruby
+run.configuration.script.not.exists:
+    text: El script Ruby no existe
+run.configuration.script.is.not.file:
+    text: El script de Ruby no parece ser un archivo
+run.configuration.no.module.specified:
+    text: No se ha especificado ningún módulo de plugin en la configuración
+run.configuration.working.directory.not.exists:
+    text: El directorio de trabajo no existe
+run.configuration.working.directory.error:
+    text: El directorio de trabajo no es un directorio
+run.configuration.test.folder.not.exists:
+    text: La carpeta de pruebas no existe
+run.configuration.test.folder.not.dir:
+    text: La carpeta de pruebas no es un directorio
+run.configuration.test.no.mask:
+    text: 'Defina la máscara para los nombres de las pruebas, p. ej.: {0}'
+run.configuration.test.script.not.exists:
+    text: El script de prueba no existe
+run.configuration.test.script.is.dir:
+    text: Un script de prueba es un directorio
+run.configuration.test.default.name:
+    text: 'Todas las pruebas en {0}: {1}'
+rspec.run.configuration.test.folder.not.exists:
+    text: La carpeta de especificaciones no existe
+rspec.run.configuration.test.folder.not.dir:
+    text: La carpeta de especificaciones no es un directorio
+rspec.run.configuration.test.script.not.exists:
+    text: El script de prueba Spec no existe
+rspec.run.configuration.test.custom.runner.not.exists:
+    text: El script ejecutor RSpec personalizado no existe
+rspec.run.configuration.test.script.is.dir:
+    text: Un script de especificación es un directorio
+rspec.run.configuration.test.default.name:
+    text: 'Todas las especificaciones en {0}: {1}'
+new.generate.common.action.prompt.title:
+    text: Generar ''{0}''
+new.generate.common.error.title:
+    text: Error de generación
+new.generate.common.action.title:
+    text: Generar ''{0}''
+new.generate.common.generating.title:
+    text: Generar script
+new.generate.common.error.script.arguments.should.be.specified:
+    text: Se deben especificar los argumentos del script.
+new.generate.common.error.no.rails:
+    text: No se encontró el script de Rails en su intérprete. Sin Rails instalado, no se pueden invocar los generadores de Rails. Elija otro intérprete en la configuración del módulo o instale Rails.
+dialog.generate.common.label.arguments.text:
+    text: '&Argumentos del generador:'
+dialog.generate.common.checkBox.pretend.text:
+    text: Simular (&P)
+dialog.generate.common.checkBox.pretend.tooltip:
+    text: Ejecutar pero no realizar ningún cambio.
+dialog.generate.common.checkBox.force.text:
+    text: Forzar (&F)
+dialog.generate.common.checkBox.force.tooltip:
+    text: Sobrescribir los archivos que ya existen.
+dialog.generate.common.checkBox.skip.text:
+    text: Omitir (&S)
+dialog.generate.common.checkBox.skip.tooltip:
+    text: Omitir archivos que ya existen.
+dialog.generate.common.checkBox.backtrace.tooltip:
+    text: 'Depuración: mostrar backtrace en caso de errores.'
+dialog.generate.common.checkBox.svn.tooltip:
+    text: 'Modificar archivos con Subversion. (Nota: svn debe estar en la ruta).'
+dialog.generate.common.help.title:
+    text: 'Ayuda para: ''''{0}'''''
+progress.dialog.generate.common.help.wait.title:
+    text: Cargando ayuda…
+new.generate.controller.description:
+    text: Generar controlador para la aplicación Rails
+new.generate.controller.action.prompt.title:
+    text: Agregar nuevo controlador
+new.generate.controller.error.title:
+    text: Error al generar el controlador
+dialog.generate.controller.label.dir.text:
+    text: '&Directorio: (p. ej. ''admin'')'
+dialog.generate.controller.label.name.text:
+    text: 'Nombre de &{0}: (p. ej. ''''CreditCard'''')'
+new.generate.model.description:
+    text: Genera el modelo para la aplicación Rails
+new.generate.model.action.prompt.title:
+    text: Añadir nuevo modelo
+new.generate.model.error.title:
+    text: Error al generar el modelo
+rails.actions.execution.run.rails.script.title:
+    text: Ejecutar script de Rails
+rails.actions.execution.run.rails.script.dialog.button.ok.caption:
+    text: Ejecutar
+rails.actions.execution.run.rails.script.dialog.description.caption:
+    text: Puede ejecutar scripts de Rails desde el directorio "[{0}]/script"
+rails.actions.execution.run.rails.script.dialog.component.script.args.caption:
+    text: Argumentos
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption.select:
+    text: Seleccionar script
+rails.actions.execution.run.rails.script.error.no.scripts.folder:
+    text: No se puede ejecutar el script de Rails. ¡No se encontró la carpeta "[{0}]/script"!
+rails.actions.execution.run.rails.script.error.script.want.found:
+    text: No se pudo ejecutar el script de Rails. ¡No se encontró el script "{0}"!
+action.registered.shortcut.execute.disabled.title:
+    text: Acción incorrecta
+color.settings.ruby.keyword:
+    text: Palabra clave
+color.settings.ruby.comment:
+    text: Comentario
+color.settings.ruby.number:
+    text: Número
+color.settings.ruby.string:
+    text: Cadenas y símbolos//Cadena
+color.settings.ruby.operation:
+    text: Llaves y operadores//Signo de operación
+color.settings.ruby.brackets:
+    text: Llaves y operadores//Corchetes
+color.settings.ruby.comma:
+    text: Llaves y operadores//Coma
+color.settings.ruby.semicolon:
+    text: Llaves y operadores//Punto y coma
+color.settings.ruby.symbol:
+    text: Cadenas y símbolos//Símbolo
+color.settings.ruby.hash_assoc:
+    text: Hashes//Hash rocket
+color.settings.ruby.line_continuation:
+    text: Llaves y operadores//Continuación de línea
+color.settings.ruby.regexp:
+    text: Cadenas y símbolos//Expresiones regulares//Límite
+color.settings.ruby.words:
+    text: Cadenas y símbolos//Palabra
+color.settings.ruby.identifier:
+    text: Identificadores//Identificador
+color.settings.ruby.local.variable:
+    text: Variables//Variable local
+color.settings.ruby.constant:
+    text: Constantes//Constante
+color.settings.ruby.nth_ref:
+    text: Cadenas y símbolos//RegExp//Referencia de grupo
+sdk.select.prompt.title:
+    text: Seleccionar intérprete
+parsing.error.expression:
+    text: expresión
+parsing.symbol.content:
+    text: contenido del símbolo
+parsing.alias.object:
+    text: objeto alias
+parsing.operation:
+    text: operación
+parsing.method.name:
+    text: nombre del método
+parsing.module.name:
+    text: nombre del módulo
+parsing.class.name:
+    text: nombre de la clase
+ruby.intentions.relative.path.to.absolute:
+    text: Convertir a ruta absoluta
+ruby.intentions.string.to.symbol:
+    text: Convertir a símbolo
+ruby.intentions.qualified.name.to.import:
+    text: Importar clase Java
+progress.indicator.title.directories.scanning:
+    text: Escaneando directorios.
+progress.indicator.title.please.wait:
+    text: Espere por favor…
+progress.backgnd.indicator.title.please.wait:
+    text: '{0}. Por favor, espere…'
+settings.title:
+    text: Configuración de la conexión de AWS
+error.report.to.jetbrains.action:
+    text: Informar a JetBrains (&R)
+codeInsight.rails.switch.to.view.title:
+    text: Ir a la vista
+annotation.error.cannot.make.alias.for.nth.variable:
+    text: No se puede crear un alias para las variables numéricas
+annotation.error.class.module.name.must.be.constant:
+    text: El nombre de la clase/módulo debe ser una CONSTANTE
+annotation.error.class.in.method:
+    text: Definición de clase en el cuerpo del método
+annotation.error.module.in.method:
+    text: Definición de módulo en el cuerpo del método
+annotation.error.formal.arg.cannot.be.constant:
+    text: El argumento formal no puede ser una constante
+annotation.error.formal.arg.cannot.be.inst.var:
+    text: Un argumento formal no puede ser una variable de instancia
+annotation.error.formal.arg.cannot.be.global.var:
+    text: El argumento formal no puede ser una variable global
+annotation.error.formal.arg.cannot.be.class.var:
+    text: El argumento formal no puede ser una variable de clase
+in:
+    text: en
+parameter:
+    text: parámetro
+local.variable:
+    text: variable local
+constant:
+    text: constante
+global.variable:
+    text: variable global
+class.variable:
+    text: variable de clase
+instance.variable:
+    text: variable de instancia
+field.write:
+    text: escritura de campo
+call:
+    text: llamada
+rename.incorrect.name:
+    text: 'Nombre incorrecto: ''''{0}'''''
+ruby.doc.module:
+    text: módulo
+ruby.doc.class:
+    text: clase
+ruby.doc.method.class:
+    text: método de clase
+ruby.doc.method.instance:
+    text: método de instancia
+inspection.group.name:
+    text: Vista previa de Wear Tile
+inspection.resolve.name:
+    text: Referencia no resuelta
+inspection.resolve.cannot.find:
+    text: No se puede encontrar ''{0}''
+inspection.scopes.name:
+    text: Ámbito de variable/parámetro
+inspection.scopes.parameter.shadows.outer:
+    text: El parámetro ''{0}'' oculta un parámetro externo o una variable local
+inspection.implement.interface.name:
+    text: Clase a la que le faltan implementaciones de métodos de interfaz Java
+inspection.implement.interface.class.should.implement.method:
+    text: La clase no tiene una implementación para ''{0}''
+inspection.wrong.top.level.package:
+    text: Especificación incorrecta del paquete de nivel superior
+inspection.wrong.top.level.package.should.be.one.of:
+    text: El paquete Java de nivel superior utilizado debe ser uno de {0}
+module.create.dialog.init.errors.title:
+    text: 'Módulo ''''{0}'''': Error de configuración'
+module.settings.dialog.load.path.tab.title:
+    text: Ruta de carga
+module.settings.dialog.load.path.list.caption:
+    text: '&Rutas de carga:'
+module.toggle.excluded.action:
+    text: Excluido
+module.toggle.excluded.action.description:
+    text: Incluir/Excluir directorio del módulo
+module.paths.excluded.group:
+    text: Carpetas excluidas
+module.paths.unmark.tests.tooltip:
+    text: Desmarcar pruebas
+module.paths.unmark.source.tooltip:
+    text: Desmarcar origen
+module.paths.remove.tooltip:
+    text: Eliminar
+module.paths.include.excluded.tooltip:
+    text: Incluir
+title.new.filetype:
+    text: Nuevo {0}
+title.new.from.template:
+    text: Nuevo {0}
+title.cannot.create.filetype:
+    text: No se puede crear {0}
+title.cannot.create.file:
+    text: No se puede crear el archivo
+command.create.file.from.template:
+    text: Crear archivo desde plantilla
+progress.creating.filetype.in.directory:
+    text: Creando {0} "{1}" en {2}
+progress.deleting:
+    text: Eliminando
+error.please.enter.a.file.name:
+    text: Especifique un nombre de archivo
+error.unable.to.parse.template.message:
+    text: "No se pudo analizar la plantilla \"{0}\"\nMensaje de error: {1}"
+tab.chooser.project:
+    text: Proyecto
+tab.chooser.search.by.name:
+    text: Buscar por nombre
+choose.test.method.dialog.title:
+    text: Seleccionar método de prueba
+choose.test.class.dialog.title:
+    text: Seleccionar clase de prueba
+set.class.name.message:
+    text: Establezca primero el nombre de la clase
+cannot.browse.method.dialog.title:
+    text: No se pueden navegar los métodos
+class.does.not.exists.error.message:
+    text: La clase {0} no existe
+action.rerun:
+    text: Volver a ejecutar
+jruby.select.sdk:
+    text: Seleccionar intérprete de JRuby
+rails.facet:
+    text: Ruby on Rails
+rails.facet.wizard.error.no.skd:
+    text: No ha seleccionado un intérprete de Ruby con el framework Rails
+rails.facet.wizard.error.skd.without.rails:
+    text: Su intérprete no contiene el framework Rails
+rails.facet.wizard.tab.rails.project.generator.title:
+    text: Aplicación Rails
+rails.facet.wizard.tab.rails.project.generator.select.rails.relative.path:
+    text: '<html>Especifique un directorio en el que se generará la aplicación. La ruta debe ser relativa al directorio de contenido del módulo. Si deja este campo vacío, se utilizará el directorio de contenido del módulo. (ejemplos: ''myapp'' o ''src/rails/myapp'' o dejar vacío):</html>'
+rails.facet.wizard.tab.rails.project.generator.select.rails.preconfigure.for.db:
+    text: '&Preconfigurar para la base de datos seleccionada:'
+rails.facet.builder.run.configuration.server.creating:
+    text: Creando la configuración de ejecución de Rails
+rails.facet.builder.rails.application.searching:
+    text: Buscando aplicación Rails
+rails.facet.builder.rails.application.choose.title:
+    text: Carpeta raíz de la aplicación Rails
+rails.facet.builder.rails.application.choose.relative.path:
+    text: Seleccione la ruta relativa a la raíz del contenido del módulo.
+rails.facet.settings.tab.general.title:
+    text: Información
+rails.facet.settings.tab.general.railsHomePath.caption:
+    text: 'Directorio de inicio de la aplicación Rails:'
+rails.facet.action.regenerate.generators.error.wrong.sdk:
+    text: No se pueden volver a cargar los generadores disponibles. No se ha especificado ningún intérprete para el módulo.
+rails.facet.action.regenerate.rakeTasks.error.wrong.sdk:
+    text: No se pueden recargar las tareas rake disponibles. No se ha especificado un intérprete para el módulo.
+refactoring.override.methods.title:
+    text: Seleccionar métodos para sobrescribir
+refactoring.implement.java.methods.title:
+    text: Seleccionar los métodos a implementar
+exception.text.unknown.error:
+    text: Error desconocido
+command.name.open.error.message.view:
+    text: Abrir vista de mensajes
+execution.error.title.generators.list:
+    text: Rails
+execution.error.title.rake.tasks:
+    text: Rake
+execution.error.title.generate.rails.app:
+    text: Generar aplicación Rails para el módulo ''{0}''
+execution.error.title.abstract.script:
+    text: '{0}: Error de ejecución del script'
+find.usages.ruby.declarations.group:
+    text: Declaración
+error.module.ror.valid.expected:
+    text: 'Se esperaba un módulo Ruby, Rails o Java con faceta JRuby, pero se encontró: {0}'

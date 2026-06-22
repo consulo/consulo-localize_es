@@ -1,0 +1,762 @@
+subversion.executable.notification.title:
+    text: No se puede usar el cliente de línea de comandos de Subversion
+subversion.executable.notification.description:
+    text: La ruta al ejecutable de Subversion es probablemente incorrecta.
+subversion.executable.too.old:
+    text: La versión del cliente de línea de comandos de Subversion es demasiado antigua ({0}).
+subversion.roots.detection.errors.found.description:
+    text: Se encontraron errores al detectar las copias de trabajo de Subversion.
+action.Subversion.BrowseSVNRepository.text:
+    text: Explorar repositorio de Subversion…(_W)
+action.Subversion.BrowseSVNRepository.description:
+    text: Explorar un repositorio Subversion
+group.SubversionFilePopupGroup.text:
+    text: Subversion(_S)
+group.IgnoreChoicesGroup.text:
+    text: Ignorar
+group.RevertIgnoreChoicesGroup.text:
+    text: Quitar de la lista de ignorados
+action.Subversion.UndoIgnore.text:
+    text: Nombres de archivos seleccionados
+action.Subversion.UndoIgnore.description:
+    text: Eliminar el nombre de archivo/máscara de la lista de ignorados de la carpeta
+action.Subversion.Ignore.ExactMatch.text:
+    text: Nombres de archivo seleccionados
+action.Subversion.Ignore.ExactMatch.description:
+    text: Añade los nombres de todos los archivos seleccionados a la lista de ignorados de la carpeta
+action.Subversion.Ignore.MatchExtension.description:
+    text: Añade la máscara {0} a la lista de ignorados de la carpeta
+action.Subversion.SetProperty.text:
+    text: Establecer propiedad(_T)…
+action.Subversion.SetProperty.description:
+    text: Establecer una propiedad versionada en el archivo o directorio
+action.Subversion.Resolve.text:
+    text: Resolver conflicto de texto…(_S)
+action.Subversion.Resolve.description:
+    text: Resolver conflicto de texto en el archivo
+action.Subversion.MarkResolved.text:
+    text: Marcar como resuelto…(_M)
+action.Subversion.MarkResolved.description:
+    text: Marcar los conflictos de texto y propiedades como resueltos
+action.Subversion.Clenaup.text:
+    text: Limpiar(_E)
+action.Subversion.Clenaup.description:
+    text: Desbloquea los directorios bloqueados y ejecuta todas las operaciones incompletas restantes
+action.Subversion.Copy.text:
+    text: Rama o etiqueta…(_B)
+action.Subversion.Copy.description:
+    text: Copia el archivo o directorio seleccionado a la nueva ubicación del repositorio
+action.Subversion.Lock.text:
+    text: Bloquear…(_L)
+action.Subversion.Lock.description:
+    text: Bloquear archivos
+action.Subversion.Unlock.text:
+    text: Desbloquear(_O)
+action.Subversion.Unlock.description:
+    text: Desbloquear archivos
+action.name.refresh:
+    text: Actualizar
+action.Subversion.ImportToSVNRepository.text:
+    text: Importar en Subversion…(_M)
+action.Subversion.Share.text:
+    text: Compartir directorio…(_S)
+action.Subversion.ShowProperties.text:
+    text: Editar propiedades(_P)
+action.Subversion.ConfigureBranches.text:
+    text: Configurar ramas…
+action.Subversion.CompareWithBranch.text:
+    text: Comparar con rama…
+action.Subversion.Relocate.text:
+    text: Reubicar…
+action.Subversion.Relocate.description:
+    text: Reubicar la copia de trabajo en una URL diferente
+action.Subversion.CleanupProject.text:
+    text: Limpiar proyecto
+action.Subversion.CleanupProject.description:
+    text: Realizar una limpieza de todos los directorios de copias de trabajo del proyecto
+dialog.title.branch:
+    text: Crear rama o etiqueta
+label.copy.from:
+    text: Copiar desde
+label.copy.to:
+    text: Copiar a
+label.copy.from.revision:
+    text: 'Re&visión:'
+radio.copy.working.copy:
+    text: Copia de trabajo (&W)
+label.copy.comment:
+    text: '&Comentario'
+label.copy.select.location.dialog.copy.as:
+    text: 'Copiar como &a:'
+dialog.title.lock.files:
+    text: Bloquear archivos
+dialog.title.lock.file:
+    text: Bloquear archivo
+label.lock.comment:
+    text: 'B&loquear comentario:'
+label.locl.steal.existing:
+    text: '&Robar bloqueo existente'
+label.ssh.key.file:
+    text: 'Archivo de clave (&F):'
+label.ssh.passphrase:
+    text: 'F&rase de contraseña:'
+label.ssl.certificate.path:
+    text: 'Ruta del certificado:'
+label.ssl.certificate.password:
+    text: 'Frase de contraseña del certificado:'
+checkbox.ssl.keep.for.current.session:
+    text: '&Guardar credenciales'
+progress.text.create.remote.folder:
+    text: Crear carpeta remota
+progress.title.browser.delete:
+    text: Eliminar
+progress.text.browser.creating:
+    text: Creando {0}
+progress.text.browser.moving:
+    text: Moviendo {0}
+progress.text.browser.copying:
+    text: Copiando {0}
+progress.text.browser.remote.destination:
+    text: A {0}
+progress.title.browser.move:
+    text: Mover
+progress.title.browser.copy:
+    text: Copiar
+label.auth.authentication.realm:
+    text: 'Reino de autenticación: ''''{0}'''''
+label.auth.user.name:
+    text: 'Nombre de &usuario:'
+label.auth.password:
+    text: 'Contraseña(&P):'
+checkbox.auth.keep.for.current.session:
+    text: '&Guardar credenciales'
+dialog.title.authentication.required:
+    text: Autenticación requerida
+progress.text2.collecting.history:
+    text: Recopilando el historial de revisiones de ''{0}''
+checkbox.changes.filter.filter.by.author:
+    text: 'A&utor:'
+progress.text2.processing.revision:
+    text: Procesando la revisión ''{0}''
+progress.text.changes.collecting.changes:
+    text: Recopilando información sobre los cambios
+progress.text2.changes.establishing.connection:
+    text: Estableciendo conexión con ''{0}''
+progress.text2.revision.processed:
+    text: Revisión ''{0}'' procesada
+status.group.name.replaced:
+    text: Reemplazado
+status.group.name.switched:
+    text: Cambiado
+dialog.title.select.configuration.directory:
+    text: Seleccionar directorio de configuración
+action.title.select.configuration.directory:
+    text: Cambiar directorio de configuración
+dialog.description.select.configuration.directory:
+    text: Seleccione el directorio de configuración de Subversion o cree uno nuevo
+button.text.clear.authentication.cache:
+    text: Limpiar &caché de autenticación
+label.text.delete.stored.credentials:
+    text: Eliminar todas las credenciales almacenadas para los protocolos 'http', 'svn' y 'svn+ssh'
+button.text.edit.proxies:
+    text: Editar &opciones de red…
+dialog.title.edit.http.proxies.settings:
+    text: Editar opciones de Subversion relacionadas con las capas de red
+dialog.edit.http.proxies.settings.error.same.group.names.text:
+    text: 'Se detectaron grupos con nombres idénticos: ''''{0}'''''
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.text:
+    text: 'Se han encontrado URLs de repositorio que coinciden con varios grupos: {0}'
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.to.text:
+    text: "La URL {0} coincide con {1}\n"
+dialog.edit.http.proxies.settings.tab.edit.user.file.title:
+    text: Archivo de usuario
+dialog.edit.http.proxies.settings.tab.edit.system.file.title:
+    text: Archivo de sistema
+dialog.edit.http.proxies.settings.port.must.be.number.error:
+    text: El puerto debe ser un número (grupo ''{0}'')
+dialog.edit.http.proxies.settings.timeout.must.be.number.error:
+    text: El tiempo de espera HTTP debe ser un número (grupo ''{0}'')
+dialog.edit.http.proxies.settings.dialog.select.ssl.client.certificate.path.title:
+    text: Seleccionar la ruta de su certificado
+dialog.edit.http.proxies.settings.panel.proxy.title:
+    text: Configuración de proxy HTTP
+dialog.edit.http.proxies.settings.panel.ssl.title:
+    text: Configuración de SSL
+dialog.edit.http.proxies.settings.panel.repositories.title:
+    text: Repositorios
+dialog.edit.http.proxies.settings.patterns.text:
+    text: 'Pat&rones de URL:'
+dialog.edit.http.proxies.settings.exceptions.text:
+    text: 'E&xcepciones:'
+dialog.edit.http.proxies.settings.server.text:
+    text: '&Servidor:'
+dialog.edit.http.proxies.settings.user.text:
+    text: '&Usuario:'
+dialog.edit.http.proxies.settings.port.text:
+    text: 'Puert&o:'
+dialog.edit.http.proxies.settings.password.text:
+    text: 'Contraseña (&W):'
+dialog.edit.http.proxies.settings.connection.timeout.text:
+    text: 'T&iempo de espera de la conexión:'
+dialog.edit.http.proxies.settings.seconds.text:
+    text: segundos
+dialog.edit.http.proxies.settings.paths.to.authority.certificates.text:
+    text: '&Rutas a archivos de certificados de CA separadas por comas:'
+dialog.edit.http.proxies.settings.ssl.client.certificate.file.text:
+    text: 'Archivo de certificado de cliente SSL(&C):'
+dialog.edit.http.proxies.settings.client.certificate.passphrase.text:
+    text: 'Frase de contraseña del certificado de cliente SSL(&H):'
+dialog.edit.http.proxies.settings.trust.default.cas.text:
+    text: Confiar en las CA predeterminadas (&A)
+dialog.edit.http.proxies.settings.test.connection.button.text:
+    text: '&Probar conexión'
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.title:
+    text: Advertencia
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.text:
+    text: La configuración se guardará
+dialog.edit.http.proxies.settings.test.connection.error.title:
+    text: Prueba de conexión fallida
+confirmation.text.delete.stored.authentication.information:
+    text: "Está a punto de eliminar toda la información de autenticación de Subversion almacenada.\n¿Desea continuar con la eliminación?"
+confirmation.title.clear.authentication.cache:
+    text: Limpiar caché de autenticación
+command.line.interactive.mode.title:
+    text: Activar modo interactivo
+command.line.interactive.mode.description:
+    text: Emula el comportamiento cuando los comandos de Subversion se ejecutan directamente desde la terminal (en el modo interactivo).<br>Esto es necesario para gestionar las solicitudes de contraseña/frase de contraseña para repositorios svn+ssh y confiar en certificados de servidor no válidos para repositorios https.
+non.english.locale.detected.warning:
+    text: Se está utilizando una configuración regional distinta al inglés.
+ssh.settings.executable.label:
+    text: 'Ejecutable de SSH:'
+ssh.settings.user.name.label:
+    text: 'Nombre de usuario:'
+ssh.settings.port.label:
+    text: 'Puerto:'
+ssh.settings.password.choice.title:
+    text: Contraseña
+ssh.settings.private.key.choice.title:
+    text: Clave privada
+ssh.settings.private.key.path.label:
+    text: 'Ruta:'
+ssh.settings.subversion.config.choice.title:
+    text: Configuración de Subversion
+ssh.settings.tunnel.label:
+    text: 'Túnel SSH:'
+ssh.settings.update.tunnel.title:
+    text: Actualizar
+label.configure.upgrade.label:
+    text: 'Estrategia de actualización de la copia de trabajo:'
+radio.configure.upgrade.auto.16format:
+    text: Actualizar automáticamente (usar Subversion 1.&6)
+radio.configure.upgrade.auto.17format:
+    text: Actualizar automáticamente (usar Subversion 1.&7)
+radio.configure.upgrade.auto.18format:
+    text: Actualizar automáticamente (usar Subversion 1.&8)
+label.configure.create.label:
+    text: "{0} está a punto de crear una nueva copia de trabajo de Subversion,\npor favor, seleccione el formato de copia de trabajo deseado:"
+radio.configure.create.auto.16format:
+    text: Formato 1.&6
+radio.configure.create.auto.17format:
+    text: Formato 1.&7
+radio.configure.create.auto.18format:
+    text: Formato 1.&8
+label.configure.change.label:
+    text: 'Cambiar el formato de la copia de trabajo ''''{0}'''' a:'
+radio.configure.change.auto.16format:
+    text: Formato 1.&6
+radio.configure.change.auto.17format:
+    text: Formato 1.&7
+radio.configure.change.auto.18format:
+    text: '1.&8 formato'
+dialog.upgrade.wcopy.format.title:
+    text: Formato de la copia de trabajo de Subversion
+label.working.copy.root.outside.text:
+    text: "La raíz de la copia de trabajo se encuentra fuera del directorio especificado en la Configuración del proyecto.\nSe convertirá toda la copia de trabajo."
+progress.text.loading.contents:
+    text: Cargando el contenido de ''{0}''
+progress.text2.revision.information:
+    text: Revisión {0}
+progress.title.loading.file.content:
+    text: Cargando el contenido del archivo remoto
+progress.title.loading.file.properties:
+    text: Cargando propiedades del archivo remoto
+exception.text.file.miss.svn:
+    text: El archivo ''{0}'' es de solo lectura, pero falta la propiedad svn:needs-lock
+confirmation.text.edit.file:
+    text: Los archivos que va a editar deben bloquearse antes de la edición.
+file.status.external:
+    text: Externo (svn)
+file.status.obstructed:
+    text: Obstruido (svn)
+file.status.replaced:
+    text: Reemplazado (svn)
+confirmation.text.add.file:
+    text: "¿Desea programar la adición del siguiente archivo a Subversion?\n{0}"
+confirmation.text.add.dir:
+    text: "¿Desea programar el siguiente directorio para su adición a Subversion?\n{0}"
+confirmation.title.add.file:
+    text: Programar para añadir
+confirmation.title.add.multiple.files:
+    text: Seleccionar archivos para añadir a Subversion
+action.name.ignore.files:
+    text: Añadiendo máscara de archivos ignorados
+action.name.undo.ignore.files:
+    text: Eliminando nombres de archivo (o máscara) de la lista de ignorados
+confirmation.text.delete.file:
+    text: "¿Desea programar la eliminación del siguiente archivo de Subversion?\n{0}"
+confirmation.text.delete.dir:
+    text: "¿Desea programar el siguiente directorio para su eliminación de Subversion?\n{0}\nNOTA: el directorio se eliminará del disco cuando se confirme el cambio."
+confirmation.text.delete.dir.17:
+    text: "¿Desea programar la eliminación del siguiente directorio de Subversion?\n{0}"
+confirmation.title.delete.file:
+    text: Programar eliminación
+confirmation.title.delete.multiple.files:
+    text: Seleccionar archivos para eliminar de Subversion
+progress.text.locking.files:
+    text: Bloqueando archivos en el repositorio…
+progress.text2.processing.file:
+    text: Procesando archivo {0}
+progress.title.lock.files:
+    text: Bloquear archivos
+exception.text.locking.file.failed:
+    text: 'Error al bloquear el archivo: {0}'
+message.text.files.lock.failed:
+    text: '{0,choice, 0#Error al bloquear el archivo.|1#Error al bloquear los archivos.}'
+message.text.files.locked:
+    text: '{0,choice, 0#Error al bloquear los archivos.|1#1 archivo bloqueado|2#{0,number} archivos bloqueados}'
+progress.text.unlocking.files:
+    text: Desbloqueando archivos en el repositorio…
+progress.title.unlock.files:
+    text: Desbloquear archivos
+exception.text.failed.to.unlock.file:
+    text: 'Error al desbloquear el archivo: {0}'
+message.title.unlock.failures:
+    text: Errores de desbloqueo
+message.text.files.unlocked:
+    text: '{0,choice, 0#No se pudieron desbloquear los archivos.|1#1 archivo desbloqueado|2#{0,number} archivos desbloqueados}'
+dialog.title.select.location:
+    text: Seleccionar ubicación
+exception.text.cleanupaction.batchperform.not.implemented:
+    text: CleanupAction.batchPerform no implementado
+progress.text2.adding:
+    text: Agregando ''{0}''
+progress.text2.deleting:
+    text: Eliminando ''{0}''
+progress.text2.sending:
+    text: Enviando ''{0}''
+progress.text2.replacing:
+    text: Reemplazando ''{0}''
+progress.text2.transmitting.delta:
+    text: Transmitiendo el delta para ''{0}''
+progress.title.copy:
+    text: Copia de Subversion
+progress.text.copy.to:
+    text: Copiar a ''{0}''
+message.text.no.conflicts.found:
+    text: No se encontraron conflictos
+message.title.no.conflicts.found:
+    text: Sin conflictos
+label.select.files.and.directories.to.mark.resolved:
+    text: 'Seleccione archivos y directorios para marcar como resueltos:'
+dialog.title.mark.resolved:
+    text: Marcar como resuelto
+action.name.mark.resolved:
+    text: Marcar como resuelto
+action.name.resolve.conflict:
+    text: Resolver conflicto
+action.name.revert:
+    text: '&Revertir'
+action.name.set.property:
+    text: Establecer propiedad
+exception.text.cannot.annotate.directory:
+    text: La operación de anotación solo tiene sentido para archivos
+progress.text.computing.annotation:
+    text: Calculando la anotación para ''{0}''
+action.text.annotate:
+    text: Anotar
+status.text.committed.revision:
+    text: Revisión {0} confirmada.
+checkin.operation.name:
+    text: Conf_irmar
+checkin.different.formats.involved:
+    text: "Los cambios seleccionados para {0,choice,0#el repositorio|1#los repositorios} {1}\npertenecen a copias de trabajo de Subversion de diferentes formatos.\nLa confirmación se dividirá en varias confirmaciones.\n\nPuede convertir todas las copias de trabajo al mismo formato en Cambios | Información de copias de trabajo de Subversion.\n¿Desea continuar con la confirmación?"
+progress.text2.fetching.external.location:
+    text: Obteniendo ubicación externa para ''{0}''
+progress.text2.checked.out:
+    text: '{1} archivos obtenidos, obteniendo {0}'
+progress.text2.exported:
+    text: Exportados {1} archivos, exportando {0}
+progress.text2.checked.out.revision:
+    text: Se ha obtenido la revisión {0}.
+progress.text2.exported.revision:
+    text: Revisión {0} exportada.
+status.text.checked.out.revision:
+    text: Revisión {0} obtenida.
+message.text.cannot.load.supported.formats:
+    text: 'No se pueden cargar los formatos compatibles: {0}'
+message.text.cannot.checkout:
+    text: 'No se puede realizar el checkout desde svn: {0}'
+message.text.cannot.export:
+    text: 'No se puede exportar desde svn: {0}'
+message.title.export:
+    text: Exportar desde Subversion
+progress.text.checking.out:
+    text: Obteniendo archivos en ''{0}''
+progress.text.export:
+    text: Exportando archivos a ''{0}''
+button.text.select.all:
+    text: Seleccionar &todo
+button.text.deselect.all:
+    text: '&Deseleccionar todo'
+dialog.title.select.repository.location:
+    text: Seleccionar ubicación del repositorio
+button.text.ssl.accept:
+    text: Aceptar(_A)
+button.text.ssl.reject:
+    text: Rechazar(_R)
+button.text.ssh.accept:
+    text: Sí(_Y)
+button.text.ssh.reject:
+    text: No(_N)
+dialog.title.ssl.examine.server.crertificate:
+    text: Examinar certificado del servidor
+dialog.title.ssh.examine.server.fingerprints:
+    text: Verificar la huella digital de la clave del servidor
+label.ssl.server.provided.certificate:
+    text: 'El servidor proporcionó el siguiente certificado:'
+label.ssh.server.provided.fingerprints:
+    text: No se puede establecer la autenticidad del host {0}.
+label.ssh.server.provided.fingerprints2:
+    text: la huella digital de la clave {0} es
+label.ssh.server.provided.fingerprints3:
+    text: ¿Está seguro de que desea continuar con la conexión?
+checkbox.svn.ssh.cache.fingerprint:
+    text: '&Añadir clave a la caché de Subversion'
+dialog.title.set.property:
+    text: Establecer propiedad
+label.set.property.property.name:
+    text: '&Nombre de la propiedad:'
+radio.set.property.set.property.value:
+    text: 'E&stablecer valor de propiedad:'
+radio.set.property.delete.property:
+    text: '&Eliminar propiedad'
+checkbox.set.property.update.properties.recursively:
+    text: Actualizar propiedades &recursivamente
+update.switch.configurable.name:
+    text: Actualizar/Cambiar
+checkbox.update.switch.configurable.to.specific.revision:
+    text: 'Actualizar/Cambiar a una &revisión específica:'
+checkbox.update.switch.configurable.try.merge.without.changes:
+    text: In&tentar la fusión sin realizar cambios
+progress.text.merging.dry.run.changes:
+    text: Fusionando cambios (dry run) en ''{0}''
+progress.text.merging.changes:
+    text: Fusionando los cambios en ''{0}''
+progress.text.updating:
+    text: Actualizando ''{0}''
+exception.text.root.was.not.properly.updated:
+    text: 'svn: {0} no se actualizó correctamente; es posible que ya se haya eliminado del repositorio junto con su elemento primario.'
+message.text.update.no.directories.found:
+    text: No se encontraron directorios con control de versiones para actualizar
+messate.text.update.error:
+    text: 'SVN: Error de actualización'
+progress.text2.added:
+    text: Añadido {0}
+progress.text2.deleted:
+    text: Eliminado {0}
+progress.text2.conflicted:
+    text: '{0} en conflicto'
+progress.text2.treeconflicted:
+    text: '{0} en conflicto (conflicto de árbol)'
+progres.text2.merged:
+    text: Fusionado {0}
+progres.text2.updated:
+    text: Actualizado {0}
+progress.text2.restored.file:
+    text: Restaurado {0}
+progres.text2.updated.to.revision:
+    text: Actualizado a la revisión {0}.
+status.text.updated.to.revision:
+    text: Actualizado a la revisión {0}.
+progress.text2.skipped.file:
+    text: Omitido {0}
+update.group.name.skipped:
+    text: Omitidos
+progress.text.updating.external.location:
+    text: Actualizando la ubicación externa en ''{0}''
+server.ssl.accept.temporary.action.name:
+    text: Aceptar temporalmente(_T)
+integrate.display.name:
+    text: Integrar
+integrate.configuration.revision1.label:
+    text: re&visión
+integrate.configuration.source2.label:
+    text: 'Origen 2:'
+integrate.configuration.revision2.label:
+    text: '&Revisión'
+integrate.configuration.source1.label:
+    text: 'Origen 1:'
+integrate.configuration.description.label:
+    text: Integrar las diferencias entre los orígenes en la copia de trabajo (comparar el origen 2 con el origen 1)
+source.url.could.not.be.empty.error.message:
+    text: La URL de origen no puede estar vacía
+no.differences.between.sources.error.message:
+    text: No hay diferencias entre el origen y el mismo origen
+configure.revision.specified.radio:
+    text: Especificada
+update.configuration.specific.url:
+    text: 'Actualizar/cambiar a una &URL específica:'
+progress.text.import:
+    text: Importando {0}
+message.text.cannot.import:
+    text: 'No se puede importar a svn: {0}'
+message.title.import:
+    text: Importar a Subversion
+revision.title:
+    text: Revisión
+checkout.dialog.title:
+    text: Checkout de Subversion
+checkout.dialog.button:
+    text: Descargar
+checkout.directory.chooser.title:
+    text: Directorio de checkout
+checkout.directory.chooser.prompt:
+    text: Seleccione el directorio para realizar el checkout desde Subversion
+checkout.options.dialog.title:
+    text: Opciones de checkout de SVN
+configure.branches.title:
+    text: Configurar ramas de Subversion
+configure.branches.error.wrong.url:
+    text: La ubicación del trunk debe estar bajo la raíz del repositorio ''{0}''
+configure.branches.trunk.location:
+    text: 'Ubicación del trunk:'
+configure.branches.branch.locations:
+    text: 'Ubicaciones de las ramas:'
+refresh.branches.item:
+    text: Actualizar ramas…
+copy.column.title:
+    text: Copiar
+copy.column.tooltip:
+    text: Copiado de {0}
+compare.with.branch.progress.loading.content:
+    text: Cargando contenido
+compare.with.branch.diff.title:
+    text: Comparar con rama
+compare.with.branch.error.title:
+    text: Comparar con la rama
+compare.with.branch.popup.title:
+    text: Comparar con rama
+compare.with.branch.location.error:
+    text: "No se pudo encontrar la ubicación del repositorio para el archivo ''{0}'' en la rama ''{1}''\nPor favor, compruebe la configuración de la rama."
+action.name.switch:
+    text: Cambiar
+import.dialog.title:
+    text: Importar en Subversion
+import.dialog.button:
+    text: Importar
+repository.browser.add.location.prompt:
+    text: 'URL del repositorio:'
+repository.browser.add.location.title:
+    text: Nueva ubicación del repositorio
+repository.browser.details.action:
+    text: Mostrar/ocultar detalles
+repository.browser.refresh.action:
+    text: Actualizar nodo del árbol seleccionado
+repository.browser.add.location.menu.item:
+    text: Ubicación del repositorio…(_R)
+repository.browser.edit.location.menu.item:
+    text: Editar URL de ubicación…(_U)
+repository.browser.discard.location.action:
+    text: Descartar ubicación(_L)
+repository.browser.discard.location.prompt:
+    text: ¿Desea descartar la ubicación ''{0}''?
+repository.browser.discard.location.title:
+    text: Descartar ubicación
+repository.browser.new.folder.action:
+    text: Carpeta remota…(_F)
+repository.browser.import.action:
+    text: Importar…(_I)
+diff.options.title:
+    text: Comparar con rama o etiqueta
+diff.options.no.url.error:
+    text: Seleccione una URL para comparar
+diff.options.same.url.error:
+    text: Seleccione diferentes URL para comparar
+diff.options.no.patch.file.error:
+    text: Por favor, especifique la ruta para guardar el archivo de parche
+diff.cant.get.properties.changes:
+    text: No se pueden mostrar las propiedades de SVN
+repository.browser.browse.changes.action:
+    text: Explorar cambios…(_B)
+repository.browser.browse.changes.description:
+    text: Ver el historial de cambios en el nodo seleccionado
+repository.browser.compare.title:
+    text: Comparación de ''{0}'' y ''{1}''
+cleanup.action.name:
+    text: Limpiar
+changes.browser.revision.term:
+    text: Revisión
+progress.searching.for.files.with.conflicts:
+    text: Buscando archivos con conflictos
+add.files.errors.title:
+    text: Errores al agregar archivos
+move.files.errors.title:
+    text: Errores al mover archivos
+delete.files.errors.title:
+    text: Errores al eliminar archivos
+copy.dialog.title:
+    text: Rama o etiqueta
+move.dialog.title:
+    text: Mover o renombrar
+select.location.invalid.url.message:
+    text: 'URL del repositorio Subversion no válida: ''''{0}'''''
+share.directory.action:
+    text: Compartir directorio…
+share.directory.commit.message:
+    text: "{2}\nDirectorio ''{0}'' creado por {1}"
+share.directory.title:
+    text: Compartir directorio
+share.directory.info.message:
+    text: Para completar la operación de compartir, realice el commit de ''{0}''.
+share.directory.create.dir.progress.text:
+    text: Creando carpeta remota {0}
+share.directory.checkout.back.progress.text:
+    text: Realizando checkout de {0}
+share.or.import.add.progress.text:
+    text: Programando {0} para su adición
+action.share.whole.project.text:
+    text: Compartir proyecto (Subversion)…
+action.Subversion.integrate.changes.select.working.copy.text:
+    text: 'Integrar en la copia de trabajo:'
+action.Subversion.integrate.changes.message.not.under.control.text:
+    text: El destino seleccionado no está bajo el control de Subversion. ¿Desea continuar de todos modos?
+action.Subversion.integrate.changes.message.another.wc.text:
+    text: El destino seleccionado está dentro de una copia de trabajo de otro repositorio. ¿Continuar de todos modos?
+action.Subversion.integrate.changes.branch.info.source.label.text:
+    text: 'URL de la rama de origen: {0}'
+action.Subversion.integrate.changes.branch.info.target.label.text:
+    text: 'URL de la rama de destino: {0}'
+action.Subversion.integrate.changes.actionname:
+    text: Integrar en la rama…
+action.Subversion.integrate.changes.description:
+    text: Integra la(s) lista(s) de cambios/conjunto de cambios seleccionados en la rama seleccionada
+action.Subversion.integrate.changes.messages.title:
+    text: Integrar en la rama
+action.Subversion.integrate.changes.dialog.add.wc.text:
+    text: Añadir
+action.Subversion.integrate.changes.dialog.remove.wc.text:
+    text: Eliminar
+action.Subversion.integrate.changes.message.files.up.to.date.text:
+    text: Todos los archivos están actualizados
+action.Subversion.integrate.changes.collecting.changes.to.commit.task.title:
+    text: Recopilando cambios para confirmar
+action.Subversion.integrate.changes.error.unable.to.collect.changes.text:
+    text: 'Error al recopilar los cambios para confirmar: {0}'
+error.cannot.load.revisions:
+    text: No se puede cargar la lista de revisiones
+action.Subversion.integrate.changes.progress.integrating.text:
+    text: Fusionando cambios
+update.switch.to.branch.text:
+    text: 'Usar rama:'
+progress.live.provider.loading.revisions.text:
+    text: Cargando revisiones desde el servidor
+progress.live.provider.loading.revisions.details.text:
+    text: Cargando revisiones desde el servidor…
+dialog.show.svn.map.title:
+    text: Información de las copias de trabajo de Subversion
+committed.changes.action.enable.merge.highlighting:
+    text: Resaltar integrados
+committed.changes.action.enable.merge.highlighting.description.text:
+    text: Esta opción solo está disponible para repositorios SVN y copias de trabajo de la versión 1.5
+committed.changes.action.merge.highlighting.refresh.text:
+    text: Actualizar
+committed.changes.action.merge.highlighting.refresh.description:
+    text: Actualizar la información de las revisiones fusionadas
+dialog.Subversion.select.working.copy.title:
+    text: Configurar rutas de copias de trabajo
+dialog.Subversion.select.working.copy.wcopy.list.title:
+    text: Copias de trabajo conocidas
+action.Subversion.cleanup.progress.title:
+    text: Limpieza de Subversion
+action.Subversion.cleanup.error.message:
+    text: 'Error al realizar la limpieza de ''''{0}'''': {1}'
+action.Subversion.integrate.difference.option.use.ancestry.text:
+    text: '&Usar ascendencia'
+use.idea.proxy.as.default:
+    text: Usar la configuración de proxy general de {0} como predeterminada para Subversion
+use.idea.proxy.as.default.label.text:
+    text: Solo se puede usar el proxy HTTP como predeterminado
+navigate.to.idea.proxy.settings:
+    text: Navegar a la configuración general de proxy
+tab.repository.merge.panel.filter.plus:
+    text: Filtrar integrados
+tab.repository.merge.panel.filter.minus:
+    text: Excluir no integrados
+tab.repository.merge.panel.filter.others:
+    text: Filtrar otros
+browse.changes.settings.stop.on.copy:
+    text: Detener al copiar(&S)
+action.mark.list.as.merged.text:
+    text: Marcar como fusionado
+action.mark.list.as.merged.description:
+    text: Marcar la revisión seleccionada como fusionada, pero sin realizar la fusión real
+action.mark.list.as.not.merged.text:
+    text: Marcar como no fusionado
+action.mark.list.as.not.merged.description:
+    text: Marcar la revisión seleccionada como no fusionada, pero no cambiar nada excepto svn:mergeinfo
+label.depth.text:
+    text: 'Profundida&d:'
+label.depth.description:
+    text: Reemplaza la antigua opción "recursive". "Recursive"=false equivale a "immediates", "recursive"=true equivale a "infinity"
+undo.integrate.to.branch:
+    text: Deshacer integración en la rama…
+undo.integrate.to.branch.description:
+    text: Elimina los cambios realizados en la revisión de la rama
+undo.integrate.to.branch.dialog.title:
+    text: Deshacer integración en la rama
+merge.source.details.title:
+    text: Detalles del origen de la fusión para {0} [{1}]
+repository.browser.edit.location.dialog.title:
+    text: Editar URL de ubicación
+action.Subversion.TogglePropertiesDiff.text:
+    text: Mostrar propiedades
+action.Subversion.TogglePropertiesDiff.description:
+    text: Mostrar diferencias en las propiedades de SVN
+action.IntegrateChangeSetAction.text:
+    text: Integrar en la rama
+show.properties.diff.progress.text.revision.information:
+    text: Revisión {0}
+show.properties.diff.progress.text2.property.information:
+    text: Propiedad {0}
+checkbox.ignore.whitespace.when.merge.text:
+    text: '&Ignorar espacios en blanco'
+svn.integrate.changelist.warning.unresolved.conflicts.text:
+    text: Integración interrumpida. Hay conflictos sin resolver o elementos omitidos.
+svn.option.ignore.whitespace.in.annotate:
+    text: Ignorar diferencias de espacios en blanco en las anotaciones
+annotation.show.merge.sources.default.text:
+    text: Mostrar origen de la combinación en el historial y las anotaciones
+annotation.original.revision:
+    text: Revisión original
+confirmation.resolve.tree.conflict.merge.moved:
+    text: ¿Aplicar sus cambios en {0} al {1} movido localmente?
+confirmation.resolve.tree.conflict.merge.renamed:
+    text: ¿Aplicar los cambios de {0} a {1} renombrado localmente?
+svn.create.external.below.action:
+    text: Crear externo…
+svn.create.external.below.description:
+    text: Seleccione la URL, añada la propiedad svn:external y, opcionalmente, realice el checkout
+svn.edit.commit.message.title:
+    text: 'Editar comentario de la revisión #{0}'
+svn.edit.commit.message.attention:
+    text: ¡Atención! ¡El mensaje anterior se perderá!
+svn.edit.commit.message.prompt:
+    text: 'Nuevo comentario de revisión:'
+quick.merge.variants.merge.all.explanation:
+    text: "Se fusionarán todas las revisiones no integradas.\nSubversion encontrará las revisiones no integradas utilizando la propiedad svn:mergeinfo registrada en la copia local."
+quick.merge.variants.quick.select.explanation:
+    text: "Muestra todas las revisiones de la rama de destino, tanto fusionadas como no fusionadas.\nPara selección manual. Muy rápido."
+quick.merge.variants.pre.select.explanation:
+    text: "Busca dónde una de las ramas involucradas se copió de otra.\nCarga solo las revisiones aún no fusionadas para su selección. La ejecución puede tardar mucho tiempo."
+dialog.create.branch.or.tag.from.working.copy.warning:
+    text: <html>Utilice esta variante para crear una rama <b>con cambios locales</b>.<br/>En general, se añadirán varios elementos con historial ("added-with-history"), no solo el directorio de destino.<br/><br/>Cada archivo que tenga una revisión diferente a la de la raíz se copiará por separado.<br/>Por lo tanto, se recomienda actualizar la copia de trabajo antes de crear la rama.</html>

@@ -1,0 +1,12 @@
+generate.equals.compare.nested.arrays.comment:
+    text: // Comparar arreglos anidados - valores de {0} aquí
+generate.equals.compare.arrays.comment:
+    text: '// Probablemente incorrecto: comparando arrays Object[] con Arrays.equals'
+generate.property.missing.already.defined.warning:
+    text: propertyMissing() ya está definido
+generate.property.missing.already.defined.title:
+    text: propertyMissing() ya está definido
+generate.method.missing.already.defined.warning:
+    text: methodMissing() ya está definido
+generate.method.missing.already.defined.title:
+    text: methodMissing() ya definido

@@ -1,0 +1,16 @@
+gradle.settings.text.vm.options:
+    text: 'Opciones de VM de Gradle:'
+gradle.home.setting.type.explicit.incorrect:
+    text: "La ubicación de Gradle es incorrecta.\nUbicación: {0}"
+gradle.home.setting.type.explicit.empty:
+    text: No se ha especificado la ubicación de Gradle
+gradle.codeInsight.action.apply_plugin.text:
+    text: Añadir plugin de Gradle
+gradle.codeInsight.action.apply_plugin.description:
+    text: Añadir el plugin de Gradle seleccionado al proyecto
+gradle.codeInsight.action.apply_plugin.popup.title:
+    text: Seleccionar plugin
+gradle.codeInsight.action.add_maven_dependency.text:
+    text: Añadir dependencia de artefacto Maven
+gradle.codeInsight.action.add_maven_dependency.description:
+    text: Añadir la dependencia de artefacto Maven seleccionada al proyecto

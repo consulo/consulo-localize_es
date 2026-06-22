@@ -1,0 +1,4 @@
+parser.expected:
+    text: 'Se esperaba: {0}'
+parser.unexpected:
+    text: 'Inesperado: {0}'

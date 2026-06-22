@@ -1,0 +1,160 @@
+google.web.toolkit.title:
+    text: Google Web Toolkit
+error.class.not.found.in.jar:
+    text: No se encontró la clase ''{0}'' en ''{1}''
+error.file.not.found.message:
+    text: No se encontró el archivo ''{0}''
+error.invalid.gwt.installation.message:
+    text: '''''{0}'''' no es una instalación de GWT válida: {1}'
+error.message.path.to.gwt.sdk.must.not.contain.character:
+    text: La ruta de GWT SDK no debe contener el carácter '!'
+fix.download.gwt:
+    text: Descargar GWT…
+problem.description.unknown.css.class:
+    text: Clase CSS desconocida ''{0}''
+inspection.unresolved.references.to.css.classes.display.name:
+    text: Referencias no resueltas a clases CSS
+group.gwt.inspections.name:
+    text: Google Web Toolkit
+problem.description.methods.of.async.remote.service.0.isn.t.synchronized.with.1:
+    text: Los métodos del servicio remoto asíncrono ''{0}'' no están sincronizados con ''{1}''
+quick.fix.name.synchronize.all.methods.of.0.with.1:
+    text: Sincronizar todos los métodos de ''{0}'' con ''{1}''
+problem.description.type.is.not.serializable:
+    text: El tipo ''{0}'' no es serializable
+problem.description.type.of.collection.elements.is.not.specified:
+    text: No se ha especificado el tipo de los elementos de ''{0}''
+problem.description.gwt.serializable.type.0.should.implements.marker.interface.1:
+    text: El tipo ''{0}'' no implementa la interfaz de marcador {1}
+text.0.or.1:
+    text: '''''{0}'''' o ''''{1}'''''
+problem.description.0.is.not.a.checked.exception:
+    text: '''''{0}'''' no es una excepción comprobada'
+inspection.name.non.serializable.service.method.parameters:
+    text: Tipos de parámetros o de retorno de métodos de servicio no serializables
+problem.description.generics.isnt.supported.in.gwt.before.1.5.version:
+    text: Los genéricos no están soportados en versiones de GWT anteriores a la 1.5
+checkbox.text.report.interfaces:
+    text: Reportar interfaces
+label.choose.module.text:
+    text: 'Módulo(&M):'
+run.gwt.configuration.display.name:
+    text: Configuración de GWT
+run.gwt.configuration.description:
+    text: Configuración de GWT
+default.gwt.run.configuration.name:
+    text: Sin nombre
+error.text.gwt.facet.not.configured.in.module.0:
+    text: No se ha configurado el Facet GWT en el módulo ''{0}''
+question.text.gwt.facet.is.not.configured.for.module.0.do.you.want.to.create.it:
+    text: El Facet de GWT no está configurado para el módulo ''{0}''. ¿Desea crearlo?
+inspection.name.unresolved.references.to.html.tags:
+    text: Referencias sin resolver a etiquetas HTML
+problem.description.html.tag.with.id.0.is.not.found:
+    text: No se encontró la etiqueta HTML con el ID ''{0}''
+inspection.name.classes.not.from.jre.emulation.library.in.client.code:
+    text: Uso de clases y métodos no presentes en la JRE Emulation Library
+problem.description.class.0.is.not.presented.in.jre.emulation.library:
+    text: La clase ''{0}'' no está presente en la biblioteca de emulación de JRE, por lo que no se puede utilizar en el código de cliente del módulo GWT ''{1}''
+problem.description.class.0.is.defined.in.module.1.which.is.not.inherited.in.module.2:
+    text: La clase ''{0}'' está definida en el módulo ''{1}'', el cual no se hereda en el módulo ''{2}''
+inspection.name.gwt.remote.service.is.not.registered.in.web.xml:
+    text: Servicio remoto de GWT no registrado en web.xml
+problem.description.remote.service.is.not.registered.as.a.servlet.in.web.xml:
+    text: El servicio remoto ''{0}'' no está registrado como servlet en web.xml.
+quickfix.name.register.remote.service.0.in.web.xml:
+    text: Registrar el servicio remoto ''{0}'' en ''web.xml''
+problem.description.correct.servlet.mapping.is.not.specified.for.remote.service.0:
+    text: No se ha especificado un mapeo de servlet correcto para el servicio remoto ''{0}''
+quickfix.name.add.servlet.mapping.for.remote.service.0:
+    text: Añadir mapeo de servlet para el servicio remoto ''{0}''
+problem.description.incorrect.servlet.mapping.for.remote.service.0:
+    text: Patrón de URL incorrecto para el servicio remoto ''{0}''
+quickfix.name.set.correct.servlet.mapping.for.remote.service.0:
+    text: Establecer el patrón de URL correcto para el servicio remoto ''{0}''
+label.text.path.to.gwt.installation:
+    text: 'Ruta al directorio de instalación de GWT (&P):'
+gwt.installation.chooser.title:
+    text: Ruta al directorio de instalación de GWT
+gwt.installation.chooser.description:
+    text: Especifique la ruta del directorio de instalación de GWT
+error.message.gwt.user.jar.library.not.found.in.dependencies.of.module:
+    text: No se encontró la biblioteca gwt-user.jar en las dependencias del módulo
+label.select.script.output.style.text:
+    text: 'Estilo de salida de JavaScript(&O):'
+label.select.web.facet.text:
+    text: 'Facet Web de destino(&W):'
+label.text.gwt.compiler.heap.size:
+    text: 'Tamaño máximo del heap del compilador (MB)(&H):'
+table.column.name.gwt.module:
+    text: Módulo GWT
+table.column.name.output.relative.path:
+    text: Ruta relativa de salida
+label.text.additional.compiler.parameters:
+    text: 'Opciones de VM adicionales del compilador(&A):'
+label.html.to.open.text:
+    text: 'Página de inicio(&P):'
+dialog.caption.vm.parameters:
+    text: Opciones de VM
+label.text.vm.parameters:
+    text: 'Opciones de &VM:'
+checkbox.text.use.custom.web.xml:
+    text: Usar el contenido del descriptor 'web.xml' personalizado (&W)
+choose.text.select.gwt.module:
+    text: 'Seleccione el módulo GWT:'
+dialog.title.choose.gwt.module:
+    text: Seleccionar módulo GWT
+i18n.interface.method.gutter.tooltip:
+    text: <html><body>El método tiene propiedades asociadas en {0} {0, choice, 1#archivo|1<archivos}
+i18n.goto.property.popup.title:
+    text: <html><body>Seleccionar localización para <b>{0}</b> ({1} archivos encontrados)</body></html>
+i18n.class.gutter.tooltip.text:
+    text: La clase tiene {0} {0, choice, 1#archivo de propiedades asociado|2#archivos de propiedades asociados}
+inspection.name.inconsistent.gwt.localizable.interface:
+    text: Interfaz localizable de GWT inconsistente
+quickfix.name.synchronize.all.methods.in.0:
+    text: Agregar todos los métodos faltantes a ''{0}''
+quickfix.name.create.property.0:
+    text: Crear propiedad ''{0}''
+quickfix.popup.title.choose.properties.file:
+    text: Seleccionar archivo de propiedades
+inspection.name.incorrect.serializable.class:
+    text: Clase serializable incorrecta
+problem.description.field.0.is.not.serializable:
+    text: El tipo ''{0}'' no es serializable
+problem.description.serializable.class.should.provide.public.no.args.constructor:
+    text: La clase serializable debe proporcionar un constructor público sin argumentos
+inspection.name.method.with.parameters.in.interface.extending.constants:
+    text: Método con parámetros en interfaz que extiende Constants
+problem.description.methods.with.parameters.are.not.allowed.in.an.interface.extending.constants:
+    text: No se permiten métodos con parámetros en una interfaz que extienda Constants
+problem.description.properties.with.parameters.are.not.allowed.if.the.associated.interface.extends.constants:
+    text: No se permiten propiedades con parámetros si la interfaz asociada extiende Constants
+quickfix.name.inherit.0.from.messages.instead.of.constants:
+    text: Heredar ''{0}'' de Messages en lugar de Constants
+inspection.name.unresolved.references.in.jsni.methods:
+    text: Referencias sin resolver en métodos JSNI
+problem.description.cannot.resolve.0:
+    text: No se puede resolver ''{0}''
+problem.description.cannot.resolve.symbol.0.in.1:
+    text: No se puede resolver el símbolo ''{0}'' en ''{1}''
+gwt.searching.for.implementations:
+    text: Buscando implementaciones…
+error.message.this.action.is.allowed.only.for.client.side.packages.of.a.gwt.module:
+    text: Esta acción solo está permitida para paquetes del lado del cliente de un módulo GWT.
+border.title.gwt.compilation:
+    text: Compilación de GWT
+framework.title.google.web.toolkit:
+    text: Google Web Toolkit(&G)
+inspection.name.deprecated.gwt.key.tag.in.javadoc.comments:
+    text: Etiqueta '@gwt.key' obsoleta en comentarios JavaDoc
+problem.description.gwt.key.tag.is.deprecated.in.gwt.1.5:
+    text: La etiqueta '@gwt.key' está en desuso en GWT 1.5
+quickfix.name.replace.gwt.key.tag.with.key.annotation.in.method.0:
+    text: Reemplazar la etiqueta ''@gwt.key'' por la anotación @Key en el método ''{0}''
+dialog.promt.enter.name.for.gwt.test.case:
+    text: 'Introduzca el nombre para el caso de prueba GWT:'
+dialog.title.new.gwt.test.case:
+    text: Nuevo caso de prueba GWT
+action.progress.creating.gwt.test.case.0:
+    text: Creando el caso de prueba GWT ''{0}''

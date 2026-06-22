@@ -1,0 +1,318 @@
+add.return.type:
+    text: Añadir tipo de retorno
+add.return.type.to.method.declaration:
+    text: Añadir tipo de retorno a la declaración del método
+cannot.create.class:
+    text: No se puede crear la clase
+change.to.end.of.line.comment.intention.family.name:
+    text: Reemplazar con un comentario de fin de línea
+change.to.end.of.line.comment.intention.name:
+    text: Reemplazar con comentario de fin de línea
+closure.is.accessed.outside.of.groovy:
+    text: Se accede al campo <b>{0}</b> fuera de Groovy
+closure.used.as.variable:
+    text: La clausura se pasa como argumento. La refactorización puede romper la semántica.
+convert.cannot.itself:
+    text: La refactorización no está disponible para el propio parámetro de mapa
+convert.closure.to.method.intention.family.name:
+    text: Convertir propiedad en método
+convert.closure.to.method.intention.name:
+    text: Convertir a método
+convert.concatenation.to.gstring.intention.family.name:
+    text: Convertir concatenación de cadenas a GString
+convert.concatenation.to.gstring.intention.name:
+    text: Convertir a GString
+convert.from.geese.braces.intention.family.name:
+    text: Dar formato a las llaves en líneas separadas
+convert.from.geese.braces.intention.name:
+    text: Formatear llaves en líneas separadas
+convert.g.string.to.string.intention.family.name:
+    text: Convertir GString a String
+convert.g.string.to.string.intention.name:
+    text: Convertir a String
+convert.integer.to.binary.intention.family.name:
+    text: Convertir a binario
+convert.integer.to.binary.intention.name:
+    text: Convertir a binario
+convert.integer.to.decimal.intention.family.name:
+    text: Convertir a decimal
+convert.integer.to.decimal.intention.name:
+    text: Convertir a decimal
+convert.integer.to.hex.intention.family.name:
+    text: Convertir a hexadecimal
+convert.integer.to.hex.intention.name:
+    text: Convertir a hexadecimal
+convert.integer.to.octal.intention.family.name:
+    text: Convertir a octal
+convert.integer.to.octal.intention.name:
+    text: Convertir a octal
+convert.java.style.array.intention.family.name:
+    text: Convertir la creación de arrays de estilo Java a la sintaxis de Groovy
+convert.java.style.array.intention.name:
+    text: Convertir la creación de arrays al estilo Java
+convert.junit.assertion.to.assert.statement.intention.family.name:
+    text: Convertir aserción de JUnit en sentencia assert
+convert.junit.assertion.to.assert.statement.intention.name:
+    text: Convertir aserción de JUnit a sentencia assert
+convert.map.to.class.intention.family.name:
+    text: Convertir mapa nativo de Groovy a instancias de clase
+convert.map.to.class.intention.name:
+    text: Convertir a clase
+convert.method.to.closure.intention.family.name:
+    text: Convertir método a propiedad de tipo closure
+convert.method.to.closure.intention.name:
+    text: Convertir a propiedad de clausura
+convert.multiline.string.to.single.line.intention.family.name:
+    text: Convertir cadena multilínea a una sola línea
+convert.multiline.string.to.single.line.intention.name:
+    text: Convertir a literal de una sola línea
+convert.param.to.map.entry:
+    text: Convertir parámetro en entrada de mapa
+convert.parameter.to.map.entry.intention.family.name:
+    text: Convertir parámetros de método o cierre a entradas de mapa
+convert.parameter.to.map.entry.intention.name:
+    text: Convertir parámetro en entrada de mapa
+convert.simple.getter.to.property.intention.family.name:
+    text: Convertir getter simple en propiedad
+convert.simple.getter.to.property.intention.name:
+    text: Convertir a propiedad
+convert.string.to.g.string.intention.family.name:
+    text: Convertir String a GString
+convert.string.to.g.string.intention.name:
+    text: Convertir a GString
+convert.string.to.multiline.intention.family.name:
+    text: Convertir literal en literal multilínea
+convert.string.to.multiline.intention.name:
+    text: Convertir a multilínea
+convert.to.geese.braces.intention.family.name:
+    text: Formatear llaves de cierre de clausura en una sola línea
+convert.to.geese.braces.intention.name:
+    text: Formatear llaves en una sola línea
+create.parameter.for.field.intention.family.name:
+    text: Añadir parámetro del constructor para el campo
+create.parameter.for.field.intention.name:
+    text: Añadir parámetro al constructor para el campo
+demorgans.intention.name1:
+    text: Reemplazar '&&' por '||'
+demorgans.intention.name2:
+    text: Reemplazar '||' por '&&'
+demorgans.law.intention.family.name:
+    text: Leyes de De Morgan
+do.you.want.to.change.method.return.type:
+    text: ¿Desea cambiar el tipo de retorno del método ''{0}''?
+do.you.want.to.change.type.of.parameter.in.method:
+    text: ¿Desea cambiar el tipo del parámetro ''{0}'' en el método ''{1}''?
+do.you.want.to.change.variable.type:
+    text: ¿Desea cambiar el tipo de ''{0}''?
+each.to.for.intention.family.name:
+    text: Reemplazar each por for-in
+each.to.for.intention.name:
+    text: Reemplazar con for-in
+expand.boolean.intention.family.name:
+    text: Expandir booleano
+field.already.exists:
+    text: El campo <b>{0}</b> ya existe
+field.is.used.in.argument.label:
+    text: El campo <b>{0}</b> se utiliza en la etiqueta del argumento
+flip.comparison.intention.name:
+    text: Invertir ''{0}'' a ''{1}''
+flip.conditional.intention.family.name:
+    text: Invertir condicional
+flip.conjunction.intention.family.name:
+    text: Intercambiar operandos de conjunción
+flip.if.intention.family.name:
+    text: Invertir sentencias if
+flip.if.intention.name:
+    text: Invertir sentencias if
+flip.smth.intention.name:
+    text: Invertir ''{0}''
+for.to.each.intention.family.name:
+    text: Reemplazar for-in con each
+for.to.each.intention.name:
+    text: Reemplazar con ".each"
+gr.alias.import.intention.family.name:
+    text: Importar con alias un miembro importado estáticamente
+gr.alias.import.intention.name:
+    text: Importación con alias
+gr.break.string.on.line.breaks.intention.family.name:
+    text: "Dividir cadena en '\n'"
+gr.break.string.on.line.breaks.intention.name:
+    text: "Dividir cadena en '\n'"
+gr.convert.string.to.char.intention.family.name:
+    text: Convertir a char
+gr.convert.string.to.char.intention.name:
+    text: Convertir a char
+gr.convert.type.cast.to.safe.cast.intention.family.name:
+    text: Convertir expresión de cast en expresión de cast seguro
+gr.convert.type.cast.to.safe.cast.intention.name:
+    text: Convertir a cast seguro
+gr.copy.string.concatenation.content.intention.family.name:
+    text: Copiar el texto de la concatenación de cadenas al portapapeles
+gr.create.missing.switch.branches.intention.family.name:
+    text: Crear las ramas de 'switch' faltantes
+gr.create.missing.switch.branches.intention.name:
+    text: Crear las ramas 'switch' que faltan
+gr.introduce.local.variable.intention.family.name:
+    text: Introducir variable local
+gr.introduce.local.variable.intention.name:
+    text: Introducir variable local
+gr.make.member.private.intention.family.name:
+    text: Hacer 'private'
+gr.make.member.private.intention.name:
+    text: Hacer 'private'
+gr.make.member.protected.intention.family.name:
+    text: Hacer 'protected'
+gr.make.member.protected.intention.name:
+    text: Hacer 'protected'
+gr.make.member.public.intention.family.name:
+    text: Hacer 'public'
+gr.make.member.public.intention.name:
+    text: Hacer 'public'
+gr.remove.annotation.intention.name:
+    text: Eliminar
+gr.set.strong.type.intention.family.name:
+    text: Declarar tipo explícito
+gr.set.strong.type.intention.name:
+    text: Declarar tipo explícito
+gr.split.declaration.intention.family.name:
+    text: Dividir declaración de variable
+import.on.demand.intention.family.name:
+    text: Añadir importación estática bajo demanda
+import.on.demand.intention.name:
+    text: Añadir importación bajo demanda
+import.static.intention.family.name:
+    text: Añadir importación estática de un solo miembro
+import.static.intention.name:
+    text: Añadir importación estática
+indexed.expression.conversion.intention.family.name:
+    text: Convertir forma [] a método de índice
+indexed.expression.conversion.intention.name:
+    text: Convertir el acceso con [] a la forma de método
+indexing.method.conversion.intention.family.name:
+    text: Convertir método de indexación a la forma []
+indexing.method.conversion.intention.name:
+    text: Convertir a la forma []
+intention.category.closures:
+    text: Groovy/Clausuras
+intention.category.comments:
+    text: Java/Comentarios
+intention.category.control.flow:
+    text: Java/Flujo de control
+intention.category.conversions:
+    text: Groovy/Conversiones de expresiones
+intention.category.groovy.declaration:
+    text: Groovy/Declaración
+intention.category.groovy.other:
+    text: Groovy/Otros
+intention.category.groovy.style:
+    text: Groovy/Estilo Groovy
+invert.if.intention.family.name:
+    text: Invertir la condición 'if'
+invert.if.intention.name:
+    text: Invertir la condición 'if'
+java.style.properties.invocation.intention.family.name:
+    text: Cambiar invocación de accesor estilo Java a referencia de propiedad estilo Groovy
+java.style.properties.invocation.intention.name:
+    text: Cambiar a referencia de propiedad al estilo Groovy
+make.closure.call.explicit.intention.family.name:
+    text: Hacer explícita la llamada al closure
+make.closure.call.explicit.intention.name:
+    text: Hacer explícita la llamada a la clausura
+make.closure.call.implicit.intention.family.name:
+    text: Hacer implícita la llamada al closure
+make.closure.call.implicit.intention.name:
+    text: Hacer implícita la llamada a la clausura
+map.param.name:
+    text: '&Nombre del parámetro de mapa:'
+merge.else.if.intention.family.name:
+    text: Combinar else if
+merge.if.and.intention.family.name:
+    text: Fusionar sentencias 'if' anidadas
+method.is.used.outside.of.groovy:
+    text: El método se utiliza fuera de Groovy
+method.with.signature.already.exists:
+    text: Ya existe un método con la firma {0}
+move.class.to.new.file.intention.family.name:
+    text: Mover clase a un archivo independiente
+move.class.to.new.file.intention.name:
+    text: Mover a un archivo separado
+move.to.correct.dir:
+    text: Mover al paquete ''{0}''
+move.to.correct.dir.family.name:
+    text: Mover archivo al paquete correcto
+negate.comparison.intention.family.name:
+    text: Negar comparación
+perform.refactoring:
+    text: Realizar refactorización…
+remove.catch.block:
+    text: Eliminar bloque catch
+remove.exception:
+    text: Eliminar excepción
+remove.parameter.0:
+    text: Eliminar el parámetro ''{0}''
+remove.parentheses.from.method.call.intention.family.name:
+    text: Eliminar paréntesis innecesarios de la llamada al método
+remove.parentheses.from.method.call.intention.name:
+    text: Eliminar paréntesis innecesarios
+remove.redundant.class.property.intention.family.name:
+    text: Eliminar .class redundante
+remove.redundant.class.property.intention.name:
+    text: Eliminar .class redundante
+remove.unnecessary.braces.in.g.string.intention.family.name:
+    text: Eliminar las llaves innecesarias en GString
+remove.unnecessary.braces.in.g.string.intention.name:
+    text: Eliminar llaves innecesarias en GString
+remove.unnecessary.escape.characters.intention.family.name:
+    text: Eliminar caracteres de escape innecesarios
+remove.unnecessary.escape.characters.intention.name:
+    text: Eliminar caracteres de escape innecesarios
+remove.unnecessary.return.intention.family.name:
+    text: Eliminar la palabra clave 'return' innecesaria
+remove.unnecessary.return.intention.name:
+    text: Eliminar la palabra clave 'return'
+remove.unused.parameter:
+    text: Eliminar parámetro no utilizado
+rename.file.to.0:
+    text: Renombrar archivo a ''{0}''
+rename.file.with.class.intention.family.name:
+    text: Renombrar el archivo al nombre de clase correspondiente
+rename.file.with.class.intention.name:
+    text: Renombrar archivo al nombre de la clase
+replace.abstract.class.instance.by.map.intention.family.name:
+    text: Cambiar clase anónima a instanciación dinámica
+replace.abstract.class.instance.by.map.intention.name:
+    text: Cambiar a instanciación dinámica
+replace.if.with.ternary.intention.family.name:
+    text: Reemplazar sentencia if con operador ternario
+replace.if.with.ternary.intention.name:
+    text: 'Reemplazar con ?:'
+replace.primitive.type.with.wrapper:
+    text: Reemplazar tipo primitivo con clase envolvente
+replace.qualified.reference.with.import.intention.family.name:
+    text: Reemplazar referencia calificada por importación
+replace.qualified.reference.with.import.intention.name:
+    text: Reemplazar con importación
+replace.ternary.with.if.else.intention.family.name:
+    text: Reemplazar '?:' por if else
+replace.ternary.with.if.else.intention.name:
+    text: Reemplazar '?:' con if else
+replace.with.wrapper:
+    text: Reemplazar con ''{0}''
+simplify.ternary.operator.intention.family.name:
+    text: Simplificar expresión condicional
+simplify.ternary.operator.intention.name:
+    text: Simplificar expresión condicional
+split.else.if.intention.family.name:
+    text: Dividir else if
+split.if.intention.family.name:
+    text: Dividir en 2 sentencias 'if'
+split.if.intention.name:
+    text: Dividir en 2 sentencias 'if'
+split.into.declaration.and.assignment:
+    text: Dividir en declaración y asignación
+split.into.separate.declaration:
+    text: Dividir en declaraciones separadas
+try.catch.fix:
+    text: Corrección try-catch
+write.access.to.closure.variable:
+    text: Acceso de escritura al campo <b>{0}</b>

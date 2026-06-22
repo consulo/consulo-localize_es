@@ -1,0 +1,954 @@
+action.delete.column:
+    text: Eliminar columna
+action.delete.columns:
+    text: Eliminar columnas
+action.delete.row:
+    text: Eliminar fila
+action.delete.rows:
+    text: Eliminar filas
+action.insert.column.after.this:
+    text: Insertar columna después
+action.insert.row.after.this:
+    text: Insertar fila después
+action.insert.column.before.this:
+    text: Insertar columna antes de esta
+action.insert.row.before.this:
+    text: Insertar fila antes de esta
+action.split.column:
+    text: Dividir columna
+action.split.row:
+    text: Dividir fila
+error.class.does.not.exist:
+    text: La clase "{0}" no existe
+error.multiple.toplevel.components:
+    text: No se puede compilar el formulario porque contiene varios componentes de nivel superior
+error.panel.not.laid.out:
+    text: No se puede compilar el formulario hasta que este panel se haya organizado en una cuadrícula
+error.no.field.in.class:
+    text: El campo "{0}" no existe en la clase "{1}"
+error.cant.bind.to.static:
+    text: No se puede vincular al campo estático "{0}"
+error.bind.incompatible.types:
+    text: Tipos incompatibles. Se encontró "{0}", se requiere "{1}"
+error.binding.already.exists:
+    text: La vinculación al campo "{0}" ya existe
+error.class.not.found.N:
+    text: 'No se encontró la clase: {0}'
+error.class.not.found:
+    text: Clase no encontrada
+error.required.class.not.found.N:
+    text: 'No se encontró la clase requerida: {0}'
+error.required.class.not.found:
+    text: No se encontró la clase requerida
+chk.copy.form.runtime:
+    text: Copiar automáticamente las clases de tiempo de ejecución de formularios al directorio de salida(&A)
+label.generate.gui.into:
+    text: 'Generar GUI en:'
+radio.generate.into.class:
+    text: Archivos de clase binarios(&C)
+progress.converting:
+    text: 'Convirtiendo: {0}'
+title.add.component:
+    text: Añadir componente
+message.enter.group.name:
+    text: 'Ingrese el nombre del nuevo grupo:'
+title.add.group:
+    text: Añadir grupo
+title.converting.project:
+    text: Convirtiendo proyecto…
+title.edit.component:
+    text: Editar componente
+edit.enter.group.name:
+    text: 'Ingrese el nombre del grupo:'
+title.edit.group:
+    text: Editar grupo
+error.group.name.unique:
+    text: El nombre del grupo debe ser único.
+title.gui.designer:
+    text: Diseñador de GUI
+error.cannot.remove.default.palette:
+    text: No se puede eliminar el componente de paleta predeterminado.
+error.cannot.remove.default.group:
+    text: No se puede eliminar un grupo que contiene componentes de paleta predeterminados.
+error.form.file.is.invalid:
+    text: El archivo de formulario no es válido
+error.form.file.is.invalid.message:
+    text: 'Archivo de formulario no válido: {0}'
+error.class.cannot.be.instantiated:
+    text: No se puede instanciar la clase "{0}"
+tab.untitled:
+    text: Sin título
+error.cannot.load.class:
+    text: No se puede cargar la clase {0}
+action.create.dialog:
+    text: Crear clase de diálogo
+action.description.create.dialog:
+    text: Crea una nueva clase que implementa javax.swing.JDialog
+title.new.dialog:
+    text: Nuevo cuadro de diálogo
+error.cannot.create.dialog:
+    text: No se puede crear el cuadro de diálogo
+progress.creating.class:
+    text: Creando la clase {0}. {1}
+comment.call.onCancel.cross:
+    text: // Llamar a onCancel() al hacer clic en X
+comment.call.onCancel.escape:
+    text: // Llamar a onCancel() al presionar ESCAPE
+comment.onok:
+    text: // Agregue su código aquí
+comment.oncancel:
+    text: // Agregue su código aquí si es necesario
+edit.dialog.class.name:
+    text: 'Ingrese el nombre de la nueva clase de diálogo:'
+checkbox.generate.cancel:
+    text: Generar manejador 'Cancel'
+checkbox.generate.ok:
+    text: Generar manejador 'OK'
+checkbox.generate.main:
+    text: Generar un método main() que cree y muestre el diálogo
+info.form.not.bound:
+    text: No hay ninguna acción que realizar. El formulario debe estar vinculado a una clase.
+title.data.binding.wizard:
+    text: Asistente de vinculación de datos
+error.bound.to.not.found.class:
+    text: El formulario está vinculado a la clase {0}, que no se ha encontrado.
+info.no.bound.components:
+    text: No hay ninguna acción que realizar. El formulario debe contener al menos un componente vinculado.
+action.alter.data.binding:
+    text: Cambiar vinculación de datos
+action.bind.to.another.bean:
+    text: Vincular a otro Bean
+info.data.binding.regenerate:
+    text: Se detectó vinculación de datos con {0}. Si continúa, los métodos generados se volverán a generar.
+title.data.binding:
+    text: Vinculación de datos
+title.form.preview:
+    text: Vista previa del formulario
+error.cannot.preview.form:
+    text: "No se puede previsualizar el formulario ''{0}''\nRazón: {1}"
+error.cannot.read.form:
+    text: "No se puede leer el archivo de formulario ''{0}''.\nRazón: {1}"
+error.cannot.preview.empty.form:
+    text: No se puede previsualizar el formulario vacío ''{0}''
+progress.preview.started:
+    text: Se ha iniciado la vista previa de {0}
+component.vertical.spacer:
+    text: Espaciador vertical
+component.horizontal.spacer:
+    text: Espaciador horizontal
+component.form:
+    text: Formulario
+component.no.binding:
+    text: Sin vinculación
+component.gui.designer.form.to.source.compiler:
+    text: Compilador de formulario a código fuente del diseñador de GUI
+progress.compiling.ui.forms:
+    text: Compilando formularios de UI…
+error.cannot.process.form.file:
+    text: 'No se puede procesar el archivo de formulario. Motivo: {0}'
+error.cannot.copy.gui.designer.form.runtime:
+    text: "No se pueden copiar las clases de tiempo de ejecución de formularios del Diseñador de GUI al directorio de salida del módulo {0}.\nMotivo: {1}"
+error.class.to.bind.does.not.exist:
+    text: 'La clase a vincular no existe: {0}'
+error.duplicate.bind:
+    text: "El formulario está vinculado a la clase {0}.\nOtro formulario {1} también está vinculado a esta clase."
+editbox.icon:
+    text: 'Icono(&I):'
+editbox.class:
+    text: 'Clase(&C):'
+checkbox.want.grow.horz:
+    text: Expandir horizontalmente(&W)
+checkbox.can.grow.horz:
+    text: Puede crecer horizontalmente (&G)
+checkbox.can.shrink.horz:
+    text: Puede reducirse(&S)
+checkbox.want.grow.vert:
+    text: Expandir (&A)
+checkbox.can.grow.vert:
+    text: Puede expandirse (&R)
+checkbox.can.shrink.vert:
+    text: Puede reducirse(&H)
+error.item.already.added:
+    text: 'Paleta del diseñador de GUI: ya se ha añadido un elemento para esta clase: {0}'
+property.always:
+    text: Siempre
+property.as.needed:
+    text: Según sea necesario
+property.never:
+    text: Nunca
+property.wrap:
+    text: Ajuste de línea
+property.scroll:
+    text: Desplazamiento
+property.top:
+    text: Superior
+property.left:
+    text: Izquierda
+property.bottom:
+    text: Inferior
+property.right:
+    text: Derecha
+property.center:
+    text: Centro
+property.trailing:
+    text: final
+property.leading:
+    text: Inicial
+property.horizontal.wrap:
+    text: Ajuste horizontal
+property.vertical.wrap:
+    text: Ajuste de línea vertical
+property.selection.single:
+    text: Único
+property.selection.single.interval:
+    text: Intervalo único
+property.selection.multiple.interval:
+    text: Intervalos múltiples
+property.resize.off:
+    text: Desactivado
+property.resize.next.column:
+    text: Siguiente columna
+property.resize.subsequent.columns:
+    text: Columnas posteriores
+property.resize.last.column:
+    text: Última columna
+property.resize.all.columns:
+    text: Todas las columnas
+property.focuslost.commit:
+    text: Confirmar
+property.focuslost.commit.or.revert:
+    text: Confirmar o revertir
+property.focuslost.persist:
+    text: Persistir
+property.focuslost.revert:
+    text: Revertir
+title.choose.component.class:
+    text: Seleccionar clase de componente
+chk.show.expert.properties:
+    text: Mostrar propiedades de experto(&S)
+column.property:
+    text: Propiedad
+column.value:
+    text: Valor
+title.invalid.input:
+    text: Entrada no válida
+error.value.should.not.be.less:
+    text: El valor no debe ser menor que {0}
+error.not.an.integer:
+    text: El valor introducido no es un número entero
+title.chooser.value:
+    text: Seleccionar clave de propiedad
+column.key:
+    text: Clave
+editbox.bundle.name:
+    text: 'Nombre del paquete(&N):'
+editbox.value:
+    text: 'Valor:'
+editbox.key:
+    text: 'Clave(&K):'
+editbox.value.2:
+    text: 'Valor(&V):'
+title.edit.text:
+    text: Editar texto
+radio.resource.bundle:
+    text: Paquete de recursos(&B)
+radio.string:
+    text: Cadena(&S)
+title.choose.properties.file:
+    text: Seleccionar archivo de propiedades
+error.specify.bundle.name:
+    text: Por favor, especifique el nombre del paquete de recursos
+error.bundle.does.not.exist:
+    text: El bundle "{0}" no existe
+message.rename.field:
+    text: ¿Desea cambiar también el nombre del campo "{0}" a "{1}"?
+title.rename:
+    text: Cambiar nombre
+title.choose.class.to.bind:
+    text: Seleccionar clase para vincular
+class.in.package:
+    text: '{0} (en {1})'
+property.can.shrink:
+    text: Puede encogerse
+property.can.grow:
+    text: Puede crecer
+property.want.grow:
+    text: Deseo de expansión
+property.fixed:
+    text: Corregido
+action.change.field.type:
+    text: Cambiar el tipo del campo ''{0}'' de ''{1}'' a ''{2}''
+error.cannot.change.field.type:
+    text: "No se puede cambiar el tipo del campo ''{0}''.\nMotivo: {1}"
+action.create.class:
+    text: Crear clase ''{0}''
+error.cannot.create.class.not.in.source.root:
+    text: "No se puede crear la clase porque el archivo de formulario no pertenece\na ninguna raíz de código fuente"
+error.cannot.create.package:
+    text: "No se puede crear el paquete ''{0}''.\nMotivo: {1}"
+error.cannot.create.class:
+    text: "No se puede crear la clase ''{0}''.\nMotivo: {1}"
+action.create.field:
+    text: Crear campo ''{0}''
+error.cannot.create.field:
+    text: No se puede crear el campo ''{0}''
+error.cannot.create.field.no.class:
+    text: "No se puede crear el campo ''{0}'' porque\nla clase ''{1}'' no existe."
+command.create.field:
+    text: Crear campo
+error.cannot.create.field.reason:
+    text: "No se puede crear el campo ''{0}''.\nMotivo: {1}"
+tooltip.press.accelerator:
+    text: Haga clic o presione {0}
+property.not.defined:
+    text: <no definido>
+editbox.class.2:
+    text: 'Clase(&L):'
+radio.bind.to.existing.bean:
+    text: Vincular a un Bean existente(&B)
+editbox.package:
+    text: 'Paquete(&P):'
+radio.create.new.bean:
+    text: Crear nuevo Bean(&A)
+column.form.field:
+    text: Campo de formulario
+column.bean.property:
+    text: Propiedad de Bean
+group.horizontal.size.policy:
+    text: Política de tamaño horizontal
+group.vertical.size.policy:
+    text: Política de tamaño vertical
+title.choose.bean.class:
+    text: Seleccionar clase Bean
+title.choose.package:
+    text: Seleccionar paquete
+error.cannot.read:
+    text: No se puede leer {0}
+label.select.single.component.to.edit.its.properties:
+    text: "Seleccione un único componente\npara editar sus propiedades"
+error.please.specify.class.name.of.the.bean.to.be.created:
+    text: Especifique el nombre de la clase del bean que se va a crear
+error.X.is.not.a.valid.class.name:
+    text: '"{0}" no es un nombre de clase válido'
+error.package.with.name.X.does.not.exist:
+    text: El paquete con el nombre "{0}" no existe.
+error.cannot.create.class.X.because.it.already.exists:
+    text: No se puede crear la clase "{0}" porque ya existe
+error.please.specify.fully.qualified.name.of.bean.class:
+    text: Especifique el nombre calificado completo de la clase Bean
+error.class.with.name.X.does.not.exist:
+    text: La clase con el nombre "{0}" no existe
+error.X.is.not.a.valid.property.name:
+    text: '"{0}" no es un nombre de propiedad válido'
+error.form.file.is.not.in.source.root:
+    text: El archivo de formulario no está en la raíz de código fuente
+error.package.does.not.exist:
+    text: 'El paquete no existe: {0}'
+error.cannot.find.package:
+    text: 'No se puede encontrar el paquete: {0}'
+error.form.is.not.bound.to.a.class:
+    text: El formulario no está vinculado a una clase
+error.bound.class.does.not.exist:
+    text: La clase vinculada {0} no existe
+error.field.not.found.in.class:
+    text: No se encontró el campo {0} en la clase {1}
+error.invalid.binding.field.type:
+    text: 'Tipo de campo de vinculación no válido: campo {0}, clase {1}'
+uidesigner.string.no.i18n:
+    text: El valor no requiere internacionalización (&I)
+error.one.toplevel.component.required:
+    text: Solo se requiere un componente de nivel superior
+error.nonempty.xy.panels.found:
+    text: Se han encontrado paneles no vacíos con diseño XY. Organícelos en una cuadrícula.
+error.class.to.bind.not.found:
+    text: 'No se encontró la clase a vincular: {0}'
+component.none:
+    text: <Ninguno>
+component.not.found:
+    text: <No encontrado>
+color.chooser.title:
+    text: Seleccionar color para {0}
+font.chooser.title:
+    text: Seleccionar fuente para {0}
+font.chooser.font.tab:
+    text: Selector de fuentes
+font.chooser.swing.tab:
+    text: Fuentes Swing
+font.chooser.font:
+    text: Fuente(&F)
+font.chooser.style:
+    text: Estilo(&S)
+font.chooser.size:
+    text: Tamaño(&Z)
+font.chooser.preview.text:
+    text: Texto de vista previa
+font.chooser.regular:
+    text: Normal
+font.chooser.bold:
+    text: Negrita
+font.chooser.italic:
+    text: Cursiva
+font.chooser.bold.italic:
+    text: Negrita cursiva
+title.choose.icon.file:
+    text: Seleccionar archivo de icono
+remove.property.quickfix:
+    text: Eliminar propiedad
+form.inspections.group:
+    text: Formularios de IU
+inspection.duplicate.mnemonics:
+    text: Mnemónicos duplicados
+inspection.duplicate.mnemonics.message:
+    text: 'Mnemónicos duplicados: {0}, {1}'
+inspection.missing.mnemonics:
+    text: Mnemónicos faltantes
+inspection.missing.mnemonics.message:
+    text: 'Mnemónico faltante: {0}'
+edit.text.searching.references:
+    text: Buscando referencias de propiedades
+edit.text.multiple.usages:
+    text: La propiedad {0} tiene {1} usos. ¿Seguro que desea cambiar su valor?
+edit.text.multiple.usages.title:
+    text: Cambiar valor de la propiedad
+inspections.missing.mnemonic.quickfix:
+    text: Asignar mnemónico
+inspection.missing.mnemonics.quickfix.prompt:
+    text: 'Seleccionar el texto que contiene el mnemónico:'
+inspection.missing.mnemonics.quickfix.title:
+    text: Asignar mnemónico
+inspection.duplicate.mnemonics.quickfix:
+    text: Asignar mnemónico único
+inspection.no.label.for:
+    text: Sin etiqueta para el componente
+inspection.no.label.for.error:
+    text: No se ha especificado una etiqueta para el componente
+inspection.no.label.for.quickfix:
+    text: Asignar etiqueta ''{0}''
+inspection.no.button.group:
+    text: Botón de radio no incluido en un grupo
+inspection.no.button.group.error:
+    text: El botón de radio no está en un grupo
+inspection.no.button.group.quickfix.create:
+    text: Agrupar botones adyacentes
+key.chooser.new.property:
+    text: Nueva propiedad(&N)…
+key.chooser.new.property.title:
+    text: Crear propiedad
+key.chooser.new.property.name:
+    text: 'Nombre de la clave(&N):'
+key.chooser.new.property.value:
+    text: 'Valor de clave(&V):'
+choose.locale.description:
+    text: Seleccionar la configuración regional para mostrar las propiedades de las cadenas localizadas
+choose.locale.default:
+    text: <Predeterminado>
+add.component.form:
+    text: 'Formulario:'
+add.component.class:
+    text: 'Clase:'
+add.component.cannot.load.form:
+    text: No se puede cargar el archivo de formulario {0}
+add.component.form.not.bound:
+    text: El formulario añadido a la paleta debe estar vinculado a una clase
+add.component.root.not.bound:
+    text: El formulario añadido a la paleta debe tener una vinculación para el componente de nivel superior
+add.component.choose.form:
+    text: Seleccionar archivo de formulario
+add.component.choose.icon:
+    text: Seleccionar archivo de icono
+inspection.no.scroll.pane:
+    text: Componente desplazable no está en un JScrollPane
+inspection.no.scroll.pane.quickfix:
+    text: Envolver con JScrollPane
+surround.with.popup.title:
+    text: Rodear con
+toolwindow.ui.designer.name:
+    text: Diseñador de UI
+toolwindow.ui.designer.title:
+    text: Árbol de componentes
+error.cannot.delete.unused.field:
+    text: 'No se puede eliminar el campo no utilizado: {0}'
+command.delete.unused.field:
+    text: Eliminar campo no utilizado
+error.for.component:
+    text: 'Componente {0}: {1}'
+button.group.name.prompt:
+    text: 'Introduzca el nombre del grupo:'
+button.group.name.title:
+    text: Crear grupo de botones
+button.group.none:
+    text: <Ninguno>
+button.group.new:
+    text: Nuevo…
+delete.row.nonempty:
+    text: '{1, choice, 1#La fila seleccionada contiene|2#Las {1} filas seleccionadas contienen} {0} componentes. ¿Desea eliminar estos componentes y {1, choice, 1#la fila|2#las filas}?'
+delete.column.nonempty:
+    text: '{1, choice, 1#La columna seleccionada contiene|2#Las {1} columnas seleccionadas contienen} {0} componentes. ¿Desea eliminar estos componentes y {1, choice, 1#la columna|2#las columnas}?'
+delete.row.title:
+    text: Eliminar fila
+delete.column.title:
+    text: Eliminar columna
+checkbox.auto.create.binding:
+    text: Crear vinculación automáticamente
+checkbox.can.attach.label:
+    text: Se puede adjuntar etiqueta
+error.cannot.create.form:
+    text: No se puede crear el formulario
+action.gui.form.text:
+    text: Formulario GUI
+action.gui.form.description:
+    text: Crear formulario GUI vacío
+title.new.gui.form:
+    text: Nuevo formulario GUI
+checkbox.create.bound.class:
+    text: Crear clase vinculada (&B)
+new.form.class.name.label:
+    text: 'Nombre de la clase(&C):'
+new.form.form.name.label:
+    text: 'Nombre del formulario(&F):'
+paste.choose.destination.prompt:
+    text: Seleccione el destino de pegado. Haga clic o pulse Intro para pegar, pulse Esc para cancelar
+navigate.to.listener.title:
+    text: Navegar al listener
+navigate.to.listener.empty:
+    text: No se encontró ningún agente de escucha
+palette.special.group:
+    text: Paleta
+palette.non.palette.component:
+    text: Componente que no pertenece a la paleta…
+palette.non.palette.component.tooltip:
+    text: Añadir componente que no está en la paleta
+palette.non.palette.component.title:
+    text: Añadir componente no perteneciente a la paleta
+default.layout.manager:
+    text: 'Administrador de diseño predeterminado(&D):'
+error.card.already.exists:
+    text: Ya existe una tarjeta con el nombre ''{0}'' en este contenedor
+create.component.title:
+    text: Seleccionar componente para insertar
+error.no.custom.create.method:
+    text: El formulario contiene componentes con la opción "Creación personalizada", pero falta el método createUIComponents()
+error.custom.create.no.binding:
+    text: Solo los componentes vinculados a un campo pueden tener código de creación personalizado
+quickfix.generate.custom.create:
+    text: Generar el método createUIComponents()
+error.custom.create.binding.required:
+    text: El componente requiere código de creación personalizado, por lo que debe tener un enlace no vacío
+custom.create.field.name.prompt:
+    text: 'Los componentes con código de creación personalizado deben vincularse a un campo. Por favor, introduzca el nombre del campo:'
+custom.create.title:
+    text: Creación personalizada
+client.property.name:
+    text: 'Nombre de la propiedad(&P):'
+client.property.add.title:
+    text: Añadir propiedad del cliente
+client.properties.class.not.found:
+    text: No se encontró la clase {0}
+client.properties.class.not.component:
+    text: 'No es una clase de componente: {0}'
+client.properties.already.defined:
+    text: La propiedad {0} ya está definida
+client.properties.title:
+    text: Configurar propiedades del cliente
+client.properties.class.prompt:
+    text: 'Introduzca el nombre completo calificado de la clase para configurar las propiedades de cliente:'
+client.properties.name:
+    text: Nombre
+client.properties.class:
+    text: Clase
+client.properties.configure:
+    text: (Configurar…)
+client.properties.type.header:
+    text: Tipo de propiedad
+label:
+    text: Etiqueta
+morph.component.title:
+    text: Seleccionar el componente al que transformar
+morph.component.command:
+    text: Transformar componente
+inspection.bound.field.title:
+    text: Asignación a un campo vinculado a la interfaz de usuario
+inspection.bound.field.message:
+    text: Asignar un valor a un campo vinculado a la IU sobrescribirá el campo generado por el diseñador de la IU
+property.default:
+    text: Predeterminado
+property.above.top:
+    text: Por encima de la parte superior
+property.below.top:
+    text: Debajo de la parte superior
+property.above.bottom:
+    text: Encima de la parte inferior
+property.below.bottom:
+    text: Debajo de la parte inferior
+border.title.editor.title:
+    text: Título del borde
+border.color.editor.title:
+    text: Color del borde
+property.javadoc.title:
+    text: Documentación de la propiedad {0}
+create.listener.title:
+    text: Crear listener
+create.listener.class.not.found:
+    text: No se encontró la clase del listener
+create.listener.command:
+    text: Crear listener
+list.editor.prompt:
+    text: 'Elementos en el modelo (uno por línea)(&I):'
+list.editor.title:
+    text: Modelo de lista de {0}
+add.module.dependency.prompt:
+    text: La clase {0} está definida en el módulo {1}. ¿Desea añadir una dependencia del módulo {2} a ese módulo?
+add.module.dependency.title:
+    text: Añadir dependencia de módulo
+add.library.dependency.prompt:
+    text: La clase {0} está definida en la biblioteca {1}. ¿Desea añadir una dependencia en el módulo {2} a esa biblioteca?
+add.library.dependency.title:
+    text: Añadir dependencia de biblioteca
+i18n.quickfix.property:
+    text: Internacionalizar propiedad ''{0}''
+i18n.quickfix.border.title:
+    text: Internacionalizar título del borde
+i18n.quickfix.tab.title:
+    text: Internacionalización de {0}
+inspection.one.button.group:
+    text: Grupo de botones con un solo botón
+inspection.one.button.group.error:
+    text: Grupo de botones con un solo botón
+inspection.no.button.group.quickfix.add:
+    text: Añadir al grupo ''{0}''
+property.fill:
+    text: Relleno
+action.group.columns:
+    text: Agrupar columnas
+action.group.rows:
+    text: Agrupar filas
+action.ungroup.columns:
+    text: Desagrupar columnas
+action.ungroup.rows:
+    text: Desagrupar filas
+title.default.alignment:
+    text: Alineación predeterminada
+alignment.left:
+    text: Izquierda(&L)
+alignment.center:
+    text: Centrar(&C)
+alignment.right:
+    text: Derecha(&R)
+alignment.fill:
+    text: Rellenar(&F)
+title.size:
+    text: Tamaño
+size.default:
+    text: Predeterminado(&D)
+size.preferred:
+    text: Preferido(&P)
+size.minimum:
+    text: Mínimo(&M)
+size.constant:
+    text: Constante(&T)
+size.minimum.limit:
+    text: Mínimo(&I)
+size.maximum.limit:
+    text: Máximo(&A)
+size.grow:
+    text: 'Expandir(&G):'
+alignment.top:
+    text: Superior(&T)
+alignment.bottom:
+    text: Abajo(&B)
+title.row.properties:
+    text: Propiedades de la fila {0}
+title.column.properties:
+    text: Propiedades de la columna {0}
+title.multiple.rows.selected:
+    text: Múltiples filas seleccionadas
+title.multiple.columns.selected:
+    text: Múltiples columnas seleccionadas
+title.no.rows.selected:
+    text: Ninguna fila seleccionada
+title.no.columns.selected:
+    text: Ninguna columna seleccionada
+unit.pixels:
+    text: píxeles
+unit.dialog.units:
+    text: unidades de diálogo
+unit.points:
+    text: puntos
+unit.inches:
+    text: pulgadas
+unit.centimeters:
+    text: centímetros
+unit.millimeters:
+    text: milímetros
+font.default:
+    text: <Predeterminado>
+action.suppress.for.component:
+    text: Suprimir para el componente
+action.suppress.for.all.components:
+    text: Suprimir para todos los componentes
+action.suppress.named.for.component:
+    text: Suprimir ''{0}'' para el componente
+action.suppress.named.for.all.components:
+    text: Suprimir ''{0}'' para todos los componentes
+insert.feedback.before.col:
+    text: '{0} (fila {1}, antes de la columna {2})'
+insert.feedback.after.col:
+    text: '{0} (fila {1}, después de la columna {2})'
+insert.feedback.before.row:
+    text: '{0} (columna {1}, antes de la fila {2})'
+insert.feedback.after.row:
+    text: '{0} (columna {1}, después de la fila {2})'
+insert.feedback.top:
+    text: Superior
+insert.feedback.bottom:
+    text: Parte inferior
+insert.feedback.left:
+    text: Izquierda
+insert.feedback.right:
+    text: Derecha
+resize.feedback:
+    text: '{0}: {1} F x {2} C'
+command.update.property:
+    text: Cambiar valor de la propiedad
+command.create.property:
+    text: Crear valor de propiedad
+title.height:
+    text: Altura
+title.width:
+    text: Ancho
+tooltip.resize.row:
+    text: 'Fila {0}: {1}'
+tooltip.resize.column:
+    text: 'Columna {0}: {1}'
+edit.text.change.all:
+    text: Cambiar todo
+edit.text.make.unique:
+    text: Hacer único
+edit.text.unique.key.prompt:
+    text: 'Introduzca el nombre de la nueva clave de propiedad:'
+delete.component.prompt:
+    text: ¿Eliminar el componente {0} de la paleta?
+delete.component.title:
+    text: Eliminar componente
+insert.feedback.fill:
+    text: Relleno
+insert.feedback.add.tab:
+    text: 'Añadir pestaña: {0} ({1})'
+generate.main.title:
+    text: Generar main()
+generate.main.no.default.constructor:
+    text: La clase no tiene un constructor por defecto
+generate.main.empty.form:
+    text: El formulario vinculado a la clase está vacío
+generate.main.no.root.binding:
+    text: El formulario vinculado a la clase no tiene una vinculación válida para el componente raíz
+uidesigner.generated.code.folding.placeholder.text:
+    text: Código generado por el Diseñador de UI
+node.button.groups:
+    text: Grupos de botones
+node.suppressed.inspections:
+    text: Inspecciones suprimidas
+button.group.name.label:
+    text: 'Nombre:'
+button.group.bound.checkbox:
+    text: Vincular al campo
+error.binding.not.unique:
+    text: La vinculación no es única
+new.form.base.layout.manager.label:
+    text: 'Administrador de diseño base(&L):'
+combobox.group:
+    text: 'Grupo(&O):'
+checkbox.is.container:
+    text: Es un contenedor(&C)
+command.set.property.value:
+    text: Establecer valor de propiedad
+command.flatten:
+    text: Aplanar
+command.drop.components:
+    text: Soltar componentes
+command.insert.component:
+    text: Insertar componente
+command.delete.selection:
+    text: Eliminar selección
+command.cut:
+    text: Cortar
+command.delete.row:
+    text: Eliminar fila
+command.delete.column:
+    text: Eliminar columna
+command.edit.string.property:
+    text: Editar propiedad de cadena
+command.duplicate:
+    text: Duplicar
+group.buttons.title:
+    text: Agrupar botones
+group.buttons.name.prompt:
+    text: 'Introduzca el nombre del grupo de botones:'
+inspection.no.label.for.command:
+    text: Asignar etiqueta al componente
+error.recursive.form.nesting:
+    text: No se puede cargar el formulario debido a un anidamiento recursivo de formularios
+error.instantiating.nested.form:
+    text: 'Error al instanciar el formulario anidado {0}: {1}'
+ui.is.bound.header:
+    text: La IU está vinculada a<br>
+error.getting.value:
+    text: 'Error al obtener el valor: {0}'
+error.setting.value:
+    text: 'Error al establecer el valor: {0}'
+error.no.message:
+    text: No hay mensaje
+inspection.invalid.property.in.form.quickfix.error.bundle.not.specified:
+    text: Bundle no especificado
+inspection.invalid.property.in.form.quickfix.error.property.key.not.specified:
+    text: Clave de propiedad no especificada
+inspection.invalid.property.in.form.quickfix.error.bundle.not.found:
+    text: No se encontró el bundle ''{0}''
+inspection.invalid.property.in.form.quickfix.error.key.not.found:
+    text: No se encontró la clave ''{0}'' en el paquete ''{1}'' para la configuración regional ''{2}''
+inspection.i18n.message.in.form:
+    text: 'Literal de cadena codificado en el formulario: ''''{0}'''''
+command.paste:
+    text: Pegar
+add.component.error.qualified.name.required:
+    text: Introduzca el nombre de clase calificado
+add.component.error.component.required:
+    text: Seleccione una clase derivada de JComponent
+form.usage.type:
+    text: Uso en formularios GUI
+unsupported.component.class.version:
+    text: Versión de clase de componente no compatible
+field.is.overwritten.by.generated.code:
+    text: El campo ''{0}'' es sobrescrito por el código generado
+bound.field.type.mismatch:
+    text: El tipo del componente GUI (''{0}'') no coincide con el del campo vinculado (''{1}'')
+action.GuiDesigner.PreviewForm.text:
+    text: Vista previa
+action.GuiDesigner.PreviewForm.description:
+    text: Vista previa del formulario
+action.GuiDesigner.DataBindingWizard.text:
+    text: Asistente de vinculación de datos…
+action.GuiDesigner.ChooseLocale.text:
+    text: Seleccionar configuración regional del formulario del diseñador de UI
+action.GuiDesigner.ExpandSelection.text:
+    text: Expandir selección
+action.GuiDesigner.ExpandSelection.description:
+    text: Expande la selección estructuralmente
+action.GuiDesigner.ShrinkSelection.text:
+    text: Contraer selección
+action.GuiDesigner.ShrinkSelection.description:
+    text: Contrae la selección de forma estructural
+action.GuiDesigner.IncreaseIndent.text:
+    text: Aumentar sangría
+action.GuiDesigner.IncreaseIndent.description:
+    text: Aumentar la sangría de los componentes seleccionados
+action.GuiDesigner.DecreaseIndent.text:
+    text: Disminuir sangría
+action.GuiDesigner.DecreaseIndent.description:
+    text: Reduce la sangría de los componentes seleccionados
+action.GuiDesigner.GroupButtons.text:
+    text: Agrupar botones
+action.GuiDesigner.GroupButtons.description:
+    text: Añade los botones seleccionados a un ButtonGroup
+action.GuiDesigner.UngroupButtons.text:
+    text: Desagrupar botones
+action.GuiDesigner.UngroupButtons.description:
+    text: Elimina los botones seleccionados del grupo de botones
+action.GuiDesigner.QuickJavadoc.text:
+    text: JavaDoc rápido(_Q)
+action.GuiDesigner.QuickJavadoc.description:
+    text: Muestra una ventana emergente con el JavaDoc de la propiedad seleccionada
+action.GuiDesigner.Pack.text:
+    text: Empaquetar
+action.GuiDesigner.Pack.description:
+    text: Reduce el contenedor al tamaño mínimo
+action.GuiDesigner.ShowGrid.text:
+    text: Mostrar cuadrícula
+action.GuiDesigner.ShowGrid.description:
+    text: Alterna la visibilidad de la cuadrícula de diseño del contenedor
+action.GuiDesigner.ShowComponentTags.text:
+    text: Mostrar etiquetas de componentes
+action.GuiDesigner.ShowComponentTags.description:
+    text: Alternar la visibilidad de las etiquetas en componentes grandes sin texto
+action.GuiDesigner.ResetValue.text:
+    text: Restaurar valor predeterminado
+action.GuiDesigner.ResetValue.description:
+    text: Restaurar el valor predeterminado de la propiedad seleccionada
+action.GuiDesigner.AddGroup.text:
+    text: Añadir grupo
+action.GuiDesigner.AddGroup.description:
+    text: Añadir grupo
+action.GuiDesigner.EditGroup.text:
+    text: Editar grupo
+action.GuiDesigner.EditGroup.description:
+    text: Editar grupo
+action.GuiDesigner.DeleteGroup.text:
+    text: Eliminar grupo
+action.GuiDesigner.DeleteGroup.description:
+    text: Eliminar grupo
+action.GuiDesigner.AddComponent.text:
+    text: Añadir componente a la paleta…
+action.GuiDesigner.AddComponent.description:
+    text: Añadir componente
+action.GuiDesigner.EditComponent.text:
+    text: Editar componente
+action.GuiDesigner.EditComponent.description:
+    text: Editar componente
+action.GuiDesigner.DeleteComponent.text:
+    text: Eliminar componente
+action.GuiDesigner.DeleteComponent.description:
+    text: Eliminar componente
+action.GuiDesigner.Duplicate.text:
+    text: Duplicar
+action.GuiDesigner.Duplicate.description:
+    text: Duplicar componente
+action.GuiDesigner.SurroundPopup.text:
+    text: Rodear con…
+action.GuiDesigner.SurroundPopup.description:
+    text: Rodea los controles seleccionados con un contenedor
+action.GuiDesigner.AddTab.text:
+    text: Añadir pestaña
+action.GuiDesigner.AddTab.description:
+    text: Agrega una nueva pestaña al panel de pestañas seleccionado
+action.GuiDesigner.GoToListener.text:
+    text: Ir al listener
+action.GuiDesigner.GoToListener.description:
+    text: Navegar a la clase del listener asociada al componente
+action.GuiDesigner.CreateListener.text:
+    text: Crear escuchador
+action.GuiDesigner.CreateListener.description:
+    text: Genera una clase de escucha y la adjunta al componente.
+action.GuiDesigner.CreateComponent.text:
+    text: Crear componente
+action.GuiDesigner.CreateComponent.description:
+    text: 'Seleccione una clase de componente y agregue el componente al formulario_</u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u>The final look</u>is racy</u></u><h1>In responseThe final look</u></u>''s</u>"</u></u>: <u>This x_final_look is what we want</u></u>To find the target look help determine the appropriate final_look.'
+action.GuiDesigner.Flatten.text:
+    text: Aplanar
+action.GuiDesigner.Flatten.description:
+    text: Elimina el contenedor seleccionado y mueve su contenido al contenedor superior
+action.GuiDesigner.Morph.text:
+    text: Transformar componente…
+action.GuiDesigner.Morph.description:
+    text: Convierte este componente en otra clase manteniendo las propiedades
+action.GuiDesigner.GenerateMain.text:
+    text: Formulario main()
+action.GuiDesigner.GenerateMain.description:
+    text: Generar el método main() para mostrar el formulario de la UI
+action.GuiDesigner.ReloadCustomComponents.text:
+    text: Recargar componentes personalizados
+action.GuiDesigner.ReloadCustomComponents.description:
+    text: Recarga las clases de componentes personalizados modificadas y vuelve a crear el formulario
+action.GuiDesigner.FormSource.text:
+    text: Fuente del formulario
+action.GuiDesigner.FormSource.description:
+    text: Muestra el contenido XML del formulario
+action.NewDialog.text:
+    text: Diálogo Swing
+action.NewForm.text:
+    text: Formulario Swing UI
+default.field.accessibility:
+    text: 'Accesibilidad predeterminada de los campos vinculados a la IU(&F):'
+group.GuiDesigner.MainToolbarActions.text:
+    text: Acciones de la barra de herramientas del Diseñador de UI
+group.GuiDesigner.NewActions.text:
+    text: Diseñador de Swing UI

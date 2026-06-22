@@ -1,0 +1,164 @@
+connect.title:
+    text: Conectar
+disconnect.title:
+    text: Desconectar
+connect.tooltip:
+    text: Abrir puerto serie
+send.title:
+    text: '&Enviar'
+switch.console.view.to.hex.title:
+    text: Cambiar a vista HEX
+switch.console.view.off.hex.title:
+    text: Desactivar vista HEX
+action.clear.contents.console.description:
+    text: Limpiar el contenido de la consola
+cancel:
+    text: Cancelar
+ok:
+    text: Aceptar
+connecting:
+    text: Conectando…
+serial.port.parameters.wrong:
+    text: Error al establecer los parámetros del puerto serie
+serial.port.not.found:
+    text: No se encontró el puerto serie "{0}".
+settings.display.name:
+    text: Especificaciones de OpenAPI
+port.connect.error:
+    text: No se pudo conectar al puerto serie "{0}" - {1}
+uart.parity.odd:
+    text: Impar
+uart.parity.even:
+    text: Par
+uart.parity.none:
+    text: Ninguno
+label.port:
+    text: '&Puerto:'
+label.baud:
+    text: 'Baudios:'
+label.parity:
+    text: 'Paridad:'
+label.stop.bits:
+    text: 'Bits de parada:'
+label.new.line:
+    text: 'Nueva línea:'
+label.encoding:
+    text: 'Codificación:'
+dialog.title.serial.port.settings:
+    text: '{0} - Parámetros serie'
+presentable.name:
+    text: Perfiles de puerto serie
+checkbox.send.eol:
+    text: Enviar EOL
+action.settings.text:
+    text: Configuración…
+notification.group.serial.monitor.notification:
+    text: Monitor serie
+action.pause.text:
+    text: Pausar
+action.pause.description:
+    text: Pausar la salida
+action.disconnect.text:
+    text: Desconectar
+action.open.console.text:
+    text: Abrir consola
+action.connect.text:
+    text: Conectar
+action.duplicate.profile.text:
+    text: Duplicar perfil
+action.remove.profile.text:
+    text: Eliminar perfil
+dialog.message.are.you.sure:
+    text: ¿Está seguro?
+dialog.title.delete.profile:
+    text: Eliminar perfil {0}
+action.create.profile.text:
+    text: Crear perfil
+connection.profiles:
+    text: Perfiles de conexión
+available.ports:
+    text: Puertos disponibles
+text.profile.already.exists:
+    text: El perfil ya existe
+dialog.message.name:
+    text: 'Nombre:'
+dialog.title.new.profile:
+    text: Nuevo perfil
+label.local.echo:
+    text: 'Eco local:'
+link.label.duplicate.profile:
+    text: Duplicar perfil…
+button.connect:
+    text: Conectar
+button.disconnect:
+    text: Desconectar
+button.open.console:
+    text: Abrir consola
+button.reconnect:
+    text: Reconectar
+link.label.create.profile:
+    text: Crear perfil…
+label.profile:
+    text: 'Perfil:'
+dialog.message.port.name:
+    text: Ingrese el nombre del puerto
+dialog.message.port.does.not.exists:
+    text: El puerto no existe
+label.port.name:
+    text: 'Puerto:'
+text.enter.unique.profile.name:
+    text: Introduzca un nombre de perfil único
+port.close.error:
+    text: No se puede cerrar el puerto serie "{0}"
+port.modify.error:
+    text: No se puede modificar el puerto serie "{0}" - {1}
+dialog.save.title:
+    text: Guardar historial
+dialog.save.desc:
+    text: Seleccione una ubicación para guardar el historial del monitor serie
+action.save.text:
+    text: Guardar
+action.save.description:
+    text: Guardar historial
+action.print.timestamps.text:
+    text: Mostrar marcas de tiempo
+action.print.timestamps.description:
+    text: Mostrar marcas de tiempo al inicio de cada línea
+label.show.hardware.flow.control:
+    text: 'Mostrar controles de HW:'
+hardware.flow.control.rts.tooltip:
+    text: Solicitud para enviar
+hardware.flow.control.dtr.tooltip:
+    text: Terminal de datos listo
+hardware.flow.control.cts.tooltip:
+    text: Listo para enviar
+hardware.flow.control.dsr.tooltip:
+    text: Conjunto de datos listo
+toolwindow.stripe.title:
+    text: Conexiones serie
+toolwindow.port.tab.title:
+    text: Puertos \& perfiles
+tooltip.port.unavailable:
+    text: Puerto no disponible
+tooltip.port.busy:
+    text: El puerto está ocupado
+tooltip.port.connecting:
+    text: Conectando puerto
+dialog.title.reconnect.to.port:
+    text: ¿Reconectarse al puerto {0}?
+dialog.message.reconnect.to.port:
+    text: El puerto {0} está abierto. ¿Desea volver a conectarse con el perfil {1}?
+serial.port.rts.init.failed:
+    text: Error al inicializar RTS
+serial.port.dtr.init.failed:
+    text: Error al inicializar DTR
+serial.port.listener.failed:
+    text: No se pudo añadir el escuchador de datos
+serial.port.open.failed:
+    text: Error al abrir el puerto
+serial.port.rts.update.failed:
+    text: Error al actualizar RTS
+serial.port.dtr.update.failed:
+    text: Error al actualizar el DTR
+please.enter.positive.number:
+    text: Por favor, introduzca un número positivo

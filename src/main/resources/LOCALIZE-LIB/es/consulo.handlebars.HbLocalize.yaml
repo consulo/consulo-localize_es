@@ -1,0 +1,74 @@
+hb.page.colors.descriptor.identifiers.key:
+    text: Identificadores
+hb.page.colors.descriptor.comments.key:
+    text: Comentarios
+hb.page.colors.descriptor.operators.key:
+    text: Operadores
+hb.page.colors.descriptor.values.key:
+    text: Primitivos
+hb.page.colors.descriptor.strings.key:
+    text: Cadenas
+hb.page.colors.descriptor.data.prefix.key:
+    text: Prefijo de datos
+hb.page.colors.descriptor.escape.key:
+    text: Carácter de escape
+hb.parsing.invalid:
+    text: Inválido
+hb.parsing.expected.path.or.data:
+    text: Se esperaba una ruta, String, Number, Boolean, Null, Undefined o @data
+hb.parsing.expected.parameter:
+    text: Se esperaba un parámetro
+hb.parsing.expected.hash:
+    text: Se esperaba un hash
+hb.parsing.element.expected.content:
+    text: Contenido de plantilla esperado
+hb.parsing.element.expected.outer_element_type:
+    text: Se esperaba contenido de Handlebars
+hb.parsing.element.expected.white_space:
+    text: Se esperaba un espacio en blanco
+hb.parsing.element.expected.comment:
+    text: Se esperaba un comentario
+hb.parsing.element.expected.equals:
+    text: Se esperaba el signo igual "="
+hb.parsing.element.expected.id:
+    text: Se esperaba un ID
+hb.parsing.element.expected.data:
+    text: Se esperaba un identificador de datos
+hb.parsing.element.expected.separator:
+    text: Se esperaba un separador "/" o "."
+hb.parsing.element.expected.close:
+    text: Se esperaba el cierre "}}"
+hb.parsing.element.expected.boolean:
+    text: Se esperaba "true" o "false"
+hb.parsing.element.expected.integer:
+    text: Se esperaba un entero
+hb.parsing.element.expected.string:
+    text: Se esperaba una cadena
+hb.parsing.element.expected.invalid:
+    text: Token inesperado
+hb.pages.options.generate.closing.tag:
+    text: Insertar &automáticamente la etiqueta de cierre
+hb.pages.options.formatter:
+    text: '&Habilitar formato'
+hb.pages.folding.auto.collapse.blocks:
+    text: Bloques
+hb.page.options.commenter.language:
+    text: '&Idioma de los comentarios:'
+hb.page.options.commenter.language.tooltip:
+    text: Controla qué sintaxis de comentarios de lenguaje usar para las acciones "Comentar con comentario de bloque" y "Comentar con comentario de línea"
+hb.parsing.comment.unclosed:
+    text: Comentario sin cerrar
+hb.block.mismatch.intention.rename.open:
+    text: Cambiar el inicio del bloque ''{0}'' a ''{1}''
+hb.block.mismatch.intention.rename.close:
+    text: Cambiar el cierre de bloque ''{0}'' a ''{1}''
+hb.block.mismatch.inspection.open.block:
+    text: '''''{0}'''' no coincide con ''''{1}'''' del final del bloque'
+hb.block.mismatch.inspection.close.block:
+    text: '''''{1}'''' no coincide con ''''{0}'''' del inicio del bloque'
+hb.block.mismatch.inspection.missing.end.block:
+    text: El bloque ''{0}'' no está cerrado
+hb.block.mismatch.inspection.missing.start.block:
+    text: Falta el inicio de bloque para ''{0}''
+inspections.group.name:
+    text: Handlebars/Mustache

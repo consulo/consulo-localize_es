@@ -1,0 +1,106 @@
+add.pjp.parameter:
+    text: Añadir un parámetro ProceedingJoinPoint
+around.advice.call.cannot.proceed:
+    text: 'La llamada al advice no puede continuar: es probable que haya olvidado declarar un parámetro ProceedingJoinPoint'
+around.advice.should.return.something:
+    text: El valor de retorno del punto de unión se perderá
+around.advice.style.inspection:
+    text: Inspección de estilo de consejo around
+change.return.type.to.Object:
+    text: Cambiar el tipo de retorno del método a Object
+empty.popup.text.navigate.to.classes:
+    text: Esta introducción no coincide con ninguna clase
+empty.popup.text.navigate.to.methods:
+    text: Este consejo no se aplica a ningún método
+error.0.expected:
+    text: Se esperaba {0}
+error.0.or.1.expected:
+    text: Se esperaba {0} o {1}
+error.anno.expected:
+    text: Se esperaba un nombre de @interface aquí
+error.argNames.should.match:
+    text: '{0} debe coincidir con los nombres de los parámetros formales del método'
+error.arrays.not.allowed.here:
+    text: No se permiten arreglos aquí
+error.cannot.resolve.parameter:
+    text: No se puede resolver el parámetro ''{0}''
+error.cannot.resolve.pointcut:
+    text: No se puede resolver el punto de corte ''{0}''
+error.cannot.resolve.symbol:
+    text: No se puede resolver el símbolo ''{0}''
+error.constructor.pattern.expected:
+    text: Se esperaba un patrón de constructor
+error.default.implementation.class.should.be.specified:
+    text: Debe especificarse la clase de implementación predeterminada
+error.double.ellipsis.prohibited:
+    text: Está prohibido usar más de un '..'
+error.field.name.pattern.expected:
+    text: Se esperaba un patrón de nombre de campo
+error.generics.not.allowed.here:
+    text: No se permiten genéricos aquí
+error.id.expected:
+    text: Se esperaba un identificador
+error.interface.expected:
+    text: Se esperaba una interfaz aquí
+error.invalid.number.of.arguments:
+    text: Número de argumentos incompatible para el pointcut, se esperaban {0}, se encontraron {1}
+error.method.annotation.name.expected:
+    text: Se esperaba un nombre de anotación
+error.method.args.pattern.expected:
+    text: Se esperaba un patrón de argumentos de método
+error.method.name.pattern.expected:
+    text: Se esperaba un patrón de nombre de método
+error.method.return.type.expected:
+    text: Se esperaba el tipo de retorno del método
+error.non.abstract.class.implemention.0.expected:
+    text: Se esperaba una clase no abstracta que implemente {0}
+error.pjp.not.allowed:
+    text: ProceedingJoinPoint como primer parámetro solo se permite en consejos @Around
+error.pointcut.arguments.expected:
+    text: Se esperaban argumentos de pointcut
+error.pointcut.expression.expected:
+    text: Se esperaba una expresión de pointcut
+error.recursive.pointcut.reference:
+    text: Referencia recursiva a un pointcut
+error.throwable.expected:
+    text: El parámetro lanzado debe ser de tipo java.lang.Throwable
+error.type.name.pattern.expected:
+    text: Se esperaba un patrón de nombre de tipo
+error.varargs.not.allowed.here:
+    text: No se permiten varargs aquí
+error.varargs.not.last:
+    text: El parámetro vararg debe ser el últimoワン
+error.wildcards.not.allowed.here:
+    text: No se permiten comodines aquí
+inspection.display.name.argNames.errors:
+    text: Comprobación de consistencia de parámetros de advice (argNames, returning, throwing)
+inspection.display.name.argNames.warnings:
+    text: 'Advertencia: argNames no definido'
+inspection.display.name.declareParents:
+    text: Errores de introducciones (declarar padres)
+pointcut.method.style.inspection:
+    text: Estilo del método pointcut
+pointcut.methods.should.have.empty.body:
+    text: Los métodos pointcut deben tener un cuerpo vacío
+pointcut.methods.should.have.no.throws.clause:
+    text: Los métodos pointcut no deben tener una cláusula throws
+pointcut.methods.should.have.void.return.type:
+    text: Los métodos de pointcut deben tener un tipo de retorno void
+quickfix.name.arg.names.correct:
+    text: Corregir el atributo {0}
+quickfix.name.arg.names.remove:
+    text: Eliminar el atributo {0}
+quickfix.name.define.attribute:
+    text: Definir atributo {0}
+tooltip.text.navigate.to.advices:
+    text: Navegar a los consejos de AOP
+tooltip.text.navigate.to.classes:
+    text: Navegar a las clases con advice
+tooltip.text.navigate.to.introductions:
+    text: Navegar a las introducciones de AOP
+tooltip.text.navigate.to.methods:
+    text: Navegar a los métodos con advice
+unbound.pointcut.parameter:
+    text: Parámetro de pointcut no vinculado ''{0}''
+warning.argNames.should.be.defined:
+    text: El atributo {0} no está definido

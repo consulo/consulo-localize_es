@@ -1,0 +1,72 @@
+markdown.editor.colors.auto_link:
+    text: Enlaces//Enlace automático
+markdown.editor.colors.blockquote:
+    text: Cita en bloque//Cita en bloque
+markdown.editor.colors.blockquote_marker:
+    text: Cita//Marcador de cita
+markdown.editor.colors.bold:
+    text: Estilo//Texto en negrita
+markdown.editor.colors.bold_marker:
+    text: Estilo//Marcador de negrita
+markdown.editor.colors.code_block:
+    text: Código//Bloque de código
+markdown.editor.colors.code_fence:
+    text: Código//Delimitador de código
+markdown.editor.colors.code_span:
+    text: Código//Fragmento de código
+markdown.editor.colors.code_span_marker:
+    text: Código//Marcador de fragmento de código
+markdown.editor.colors.explicit_link:
+    text: Enlaces//Enlace explícito
+markdown.editor.colors.header_level_1:
+    text: Encabezado//Encabezado de nivel 1
+markdown.editor.colors.header_level_2:
+    text: Encabezado//Encabezado de nivel 2
+markdown.editor.colors.header_level_3:
+    text: Encabezado//Encabezado de nivel 3
+markdown.editor.colors.header_level_4:
+    text: Encabezado//Encabezado de nivel 4
+markdown.editor.colors.header_level_5:
+    text: Encabezado//Encabezado de nivel 5
+markdown.editor.colors.header_level_6:
+    text: Encabezado//Encabezado de nivel 6
+markdown.editor.colors.header_marker:
+    text: Encabezado//Marcador de encabezado
+markdown.editor.colors.hrule:
+    text: Línea horizontal
+markdown.editor.colors.html_block:
+    text: HTML//Bloque HTML
+markdown.editor.colors.image:
+    text: Enlaces//Imagen
+markdown.editor.colors.inline_html:
+    text: HTML//HTML en línea
+markdown.editor.colors.italic:
+    text: Estilo//Texto en cursiva
+markdown.editor.colors.italic_marker:
+    text: Estilo//Marcador de cursiva
+markdown.editor.colors.link_definition:
+    text: Enlaces//Definición de enlace
+markdown.editor.colors.link_destination:
+    text: Enlaces//Destino del enlace
+markdown.editor.colors.link_label:
+    text: Enlaces//Etiqueta de enlace
+markdown.editor.colors.link_text:
+    text: Enlaces//Texto del enlace
+markdown.editor.colors.link_title:
+    text: Enlaces//Título de enlace
+markdown.editor.colors.list_item:
+    text: Listas//Elemento de lista
+markdown.editor.colors.list_marker:
+    text: Listas//Marcador de lista
+markdown.editor.colors.ordered_list:
+    text: Listas//Lista ordenada
+markdown.editor.colors.reference_link:
+    text: Enlaces//Enlace de referencia
+markdown.editor.colors.strikethrough:
+    text: Estilo//Tachado
+markdown.editor.colors.table_separator:
+    text: Separador de tabla
+markdown.editor.colors.text:
+    text: Texto
+markdown.editor.colors.unordered_list:
+    text: Listas//Lista desordenada

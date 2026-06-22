@@ -1,0 +1,286 @@
+action.AddAntBuildFile.description:
+    text: Añade el archivo XML actual a la lista de archivos de construcción Ant del proyecto
+action.AddAntBuildFile.text:
+    text: Añadir como archivo de construcción de Ant(_N)
+action.RunTargetAction.description:
+    text: Ejecutar el objetivo de Ant seleccionado actualmente
+action.RunTargetAction.text:
+    text: Ejecutar objetivo de Ant
+add.ant.file.action.description:
+    text: Agrega un archivo de compilación Ant existente a la lista.
+add.ant.file.action.name:
+    text: Añadir
+additional.classpath.tab.add.all.in.directory.button:
+    text: Añadir todo en el directorio(&L)
+additional.classpath.tab.classpath.border:
+    text: 'Classpath (&P):'
+ant.build.local.history.label:
+    text: 'Ejecutando Ant: ''''{0}'''''
+ant.build.message.node.prefix.text:
+    text: 'Compilación:'
+ant.build.progress.dialog.title:
+    text: Progreso de la construcción de Ant
+ant.build.started.status.message:
+    text: La compilación de Ant ha comenzado
+ant.build.tab.content.title:
+    text: Compilación de Ant
+ant.create.meta.target.action.description:
+    text: Guardar el destino seleccionado como un metadestino
+ant.create.meta.target.action.name:
+    text: Crear objetivo meta
+ant.create.target.intention.description:
+    text: Crear objetivo ''{0}''
+ant.event.after.compilation.presentable.name:
+    text: Después de la compilación
+ant.event.before.compilation.presentable.name:
+    text: Antes de la compilación
+ant.execution.next.error.warning.action.name:
+    text: Siguiente error/advertencia
+ant.execution.previous.error.warning.action.name:
+    text: Error/advertencia anterior
+ant.explorer.assign.shortcut.action.name:
+    text: Asignar atajo…
+ant.explorer.collapse.all.nodes.action.description:
+    text: Contraer todos los nodos de archivos de compilación
+ant.explorer.execute.on.action.group.name:
+    text: Ejecutar en
+ant.explorer.expand.all.nodes.action.description:
+    text: Expandir todos los nodos de archivos de construcción
+ant.inspections.display.name:
+    text: Ant
+ant.installation.not.configured.error.message:
+    text: La instalación de Ant no está configurada. Compruebe las propiedades del archivo de compilación de Ant
+ant.intention.create.property.family.name:
+    text: Crear propiedad
+ant.intention.create.target.family.name:
+    text: Crear objetivo
+ant.is.active.terminate.confirmation.text:
+    text: El proceso Ant del mismo archivo de compilación está activo. ¿Desea terminarlo?
+ant.jar.is.directory.error.message:
+    text: '{0} es un directorio'
+ant.jar.not.found.in.directory.error.message:
+    text: No se encontró ant.jar en el directorio ''{0}''
+ant.process.is.active.terminate.confirmation.text:
+    text: El proceso Ant está activo. ¿Desea terminar el proceso Ant?
+ant.property.value.editor.insert.macro.tooltip.text:
+    text: Insertar macro
+ant.reference.bundled.ant.name:
+    text: Ant incluido
+ant.settings.classpath.label:
+    text: 'Classpath (&C):'
+ant.settings.home.label:
+    text: 'Directorio home(&H):'
+ant.settings.name.label:
+    text: 'Nombre(&N):'
+ant.setup.dialog.title:
+    text: Configuración de Ant
+ant.target:
+    text: objetivo
+ant.target.before.run.description:
+    text: Ejecutar el objetivo de Ant ''{0}''
+ant.target.before.run.description.empty:
+    text: Ejecutar destino Ant
+ant.target.choser.title:
+    text: Seleccionar el objetivo de Ant para ejecutar
+ant.target.message.node.prefix.text:
+    text: 'Objetivo:'
+ant.target.name.default.target:
+    text: <objetivo predeterminado>
+ant.task.message.node.prefix.text:
+    text: 'Tarea:'
+ant.unknown.version.string.presentation:
+    text: Versión desconocida
+ant.verbose.show.all.messages.action.description:
+    text: Muestra todos los mensajes generados por la compilación de Ant
+ant.verbose.show.all.messages.action.name:
+    text: Mostrar todos los mensajes
+ant.view.pause.output.action.name:
+    text: Pausar salida
+ant.view.toggle.tree.text.action.name:
+    text: Alternar modo árbol/texto
+apache.ant.with.version.string.presentation:
+    text: Apache Ant versión {0}
+build.file.properties.action.description:
+    text: Mostrar el diálogo de configuración de Phing
+build.file.properties.action.name:
+    text: Configuración
+build.file.properties.close.message.view.checkbox:
+    text: Cerrar la vista de mensajes si no hay errores (&C)
+build.file.properties.dialog.title:
+    text: Propiedades del archivo de compilación
+build.file.properties.make.in.background.cjeclbox:
+    text: Generar compilación en segundo plano (&B)
+build.file.properties.maximum.heap.size.label:
+    text: 'Tamaño máximo del heap (MB)(&H):'
+build.file.properties.maximum.stack.size.label:
+    text: 'Tamaño máximo de la pila (Mb)(&S):'
+build.finished.status.ant.build.aborted:
+    text: Compilación de Ant abortada en {0} el {1}
+build.finished.status.ant.build.completed.successfully:
+    text: La compilación de Ant se completó correctamente en {0} el {1}
+build.finished.status.ant.build.completed.with.errors.warnings:
+    text: Compilación de Ant finalizada en {3} en {2} con {0, choice, 0#0 errores|1#1 error|2#{0} errores} y {1, choice, 0#0 advertencias|1#1 advertencia|2#{1} advertencias}
+build.finished.status.ant.build.completed.with.warnings:
+    text: Compilación de Ant completada el {2} en {1} con {0, choice, 0#0 advertencias|1#1 advertencia|2#{0} advertencias}
+button.add:
+    text: Añadir
+button.move.down:
+    text: Mover a&bajo
+button.move.up:
+    text: Mover &arriba
+button.remove:
+    text: Elimina&r
+cancel.button:
+    text: Ca&ncelar
+canceled.by.user.error.message:
+    text: Cancelado por el usuario
+cannot.add.ant.files.dialog.title:
+    text: No se pueden añadir archivos
+cannot.add.build.file.dialog.title:
+    text: No se puede añadir el archivo de construcción
+cannot.add.build.files.from.excluded.directories.error.message:
+    text: "No se pueden añadir archivos de compilación de directorios excluidos\n{0}"
+cannot.resolve.refid:
+    text: No se puede resolver el refid ''{0}''
+cannot.resolve.target:
+    text: Objetivo ''{0}'' desconocido
+cannot.start.build.name.error.message:
+    text: No se puede iniciar {0}
+cant.add.file.error.message:
+    text: 'No se puede añadir el archivo {0}: {1}'
+cant.read.from.ant.jar.error.message:
+    text: No se puede leer de {0}
+cant.run.ant.ant.reference.is.not.configured.error.message:
+    text: Ant ''{0}'' no está configurado
+cant.run.ant.no.ant.configured.error.message:
+    text: Ant no está configurado
+close.ant.build.messages.dialog.title:
+    text: Cerrar mensajes de compilación de Ant
+configure.ant.dialog.title:
+    text: Configurar Ant
+confirm.remove.dialog.title:
+    text: Confirmar eliminación
+delete.selected.ant.configuration.confirmation.text:
+    text: ¿Eliminar la configuración de Ant seleccionada?
+delete.selected.ant.configurations.confirmation.text:
+    text: ¿Eliminar las configuraciones de Ant seleccionadas?
+edit.ant.properties.additional.classpath.tab.display.name:
+    text: Classpath adicional
+edit.ant.properties.description.column.name:
+    text: Descripción
+edit.ant.properties.execution.tab.display.name:
+    text: Ejecución
+edit.ant.properties.filters.tab.display.name:
+    text: Filtros
+edit.ant.properties.name.column.name:
+    text: Nombre
+edit.ant.properties.tab.display.name:
+    text: Propiedades
+edit.ant.properties.value.column.name:
+    text: Valor
+execute.target.wrong.name.format.error.message:
+    text: 'Formato de nombre incorrecto: {0}'
+executes.before.run.debug.acton.name:
+    text: Antes de ejecutar/depurar…
+executing.task.tag.value.status.text:
+    text: 'Ejecutando tarea: {0}'
+failed.to.load.types:
+    text: Error al cargar los tipos
+filter.ant.targets.action.description:
+    text: Filtrar objetivos
+filter.ant.targets.action.name:
+    text: Filtrar objetivos
+integer.attribute.has.invalid.value:
+    text: El atributo ''{0}'' debe tener un valor entero
+intention.configure.highlighting.family.name:
+    text: Configurar resaltado
+intention.configure.highlighting.text:
+    text: Configurar resaltado
+jdk.with.name.bad.configured.error.message:
+    text: El JDK ({0}) requerido para ejecutar este objetivo de Ant no está configurado correctamente. Actualice su configuración en el diálogo "Estructura del proyecto".
+jdk.with.name.not.configured.error.message:
+    text: El JDK ({0}) necesario para ejecutar este objetivo Ant no está configurado. Actualice su configuración en el cuadro de diálogo ''Estructura del proyecto''.
+lib.directory.not.found.in.ant.path.error.message:
+    text: No se encontró el directorio lib en {0}
+meta.target.build.sequence.name.display.name:
+    text: Secuencia de compilación {0}
+path.to.ant.does.not.exist.error.message:
+    text: La ruta {0} no existe.
+project.jdk.not.specified.error.message:
+    text: No se ha especificado el JDK del proyecto
+remove.action.name:
+    text: Eliminar
+remove.ant.file.action.description:
+    text: Elimina los archivos de compilación seleccionados de la lista.
+remove.ant.file.action.name:
+    text: Eliminar
+remove.build.file.action.name:
+    text: Eliminar
+remove.meta.target.action.name:
+    text: Eliminar metaobjetivo
+remove.meta.targets.action.description:
+    text: Eliminar los objetivos meta seleccionados
+remove.meta.targets.action.name:
+    text: Eliminar
+remove.selected.build.file.action.name:
+    text: Eliminar archivo de construcción
+remove.selected.meta.targets.action.name:
+    text: Eliminar objetivos meta
+remove.the.reference.to.file.confirmation.text:
+    text: ¿Desea eliminar {1}?
+rerun.ant.action.name:
+    text: Volver a ejecutar
+run.ant.build.action.name:
+    text: Ejecutar build
+run.ant.file.or.target.action.description:
+    text: Ejecutar el archivo de construcción o el objetivo seleccionado con Ant
+run.ant.file.or.target.action.name:
+    text: Ejecutar
+run.ant.target.action.name:
+    text: Ejecutar objetivo
+run.ant.targets.action.name:
+    text: Ejecutar objetivos
+run.execution.tab.ant.command.line.dialog.title:
+    text: Línea de comandos de Ant
+run.execution.tab.ant.command.line.hint:
+    text: Use el prefijo "-J" para especificar argumentos de la JVM
+run.execution.tab.ant.command.line.label:
+    text: 'Línea de comandos de Ant(&L):'
+run.execution.tab.run.under.jdk.label:
+    text: 'Ejecutar bajo el JDK (&J):'
+run.execution.tab.run.with.ant.border:
+    text: 'Ejecutar con Ant:'
+run.execution.tab.set.default.button:
+    text: Establecer como predeterminado(&S)…
+run.execution.tab.use.custom.ant.radio:
+    text: 'Usar Ant personalizado(&U):'
+run.execution.tab.use.project.default.ant.radio:
+    text: 'Usar Ant predeterminado del proyecto(&D):'
+save.meta.data.name.label:
+    text: 'Nombre(&N):'
+save.meta.data.such.sequence.of.targets.already.exists.error.message:
+    text: Esta secuencia de objetivos ya existe.
+save.meta.data.targets.label:
+    text: 'Objetivos:'
+select.ant.build.file.dialog.description:
+    text: Seleccione uno o más archivos build.xml para añadir a la lista
+select.ant.build.file.dialog.title:
+    text: Seleccionar archivo de compilación Ant
+starting.ant.build.dialog.title:
+    text: Iniciando compilación de Ant
+stop.ant.action.name:
+    text: Detener
+target.is.duplicated:
+    text: El destino ''{0}'' está duplicado
+target.is.duplicated.in.imported.file:
+    text: El objetivo ''{0}'' está duplicado en el archivo ''{1}''
+target.tag.name.status.text:
+    text: 'Objetivo: {0}'
+unknown.macro.attribute:
+    text: Atributo de macro ''{0}'' desconocido
+unknown.property:
+    text: Propiedad desconocida {0}
+user.inout.request.ant.build.input.dialog.title:
+    text: Entrada de compilación de Ant
+using.definition.which.type.failed.to.load:
+    text: Usando una definición cuyo tipo no se pudo cargar

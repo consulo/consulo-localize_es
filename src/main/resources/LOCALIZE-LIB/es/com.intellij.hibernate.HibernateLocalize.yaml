@@ -1,0 +1,94 @@
+deployment.descriptor.title.mapping.xml:
+    text: Mapeo de Hibernate
+deployment.descriptor.title.configuration.xml:
+    text: Configuración de Hibernate
+model.object.type.attribute:
+    text: Atributo
+inspection.name.hibernate.configuration:
+    text: Configuración XML de Hibernate no válida
+inspection.name.hibernate.configuration.facet:
+    text: El XML de configuración de Hibernate no se ha añadido al facet
+inspection.name.hibernate.mapping:
+    text: Mapeos XML de Hibernate no válidos
+inspection.name.hibernate.datasource.mapping:
+    text: Mapeos XML de Hibernate relacionados con la base de datos no válidos
+inspection.group.name.hibernate.issues:
+    text: Hibernate
+tab.title.hibernate.general.settings:
+    text: Configuración general de Hibernate
+group.title.descriptors:
+    text: Descriptores
+hibernate.quickfix.family:
+    text: Corrección rápida de modelo Hibernate
+warning.cfg.xml.not.in.any.facet:
+    text: El archivo no está configurado como descriptor de faceta JPA
+name.fix.add.to.facet.configuration:
+    text: Añadir a la configuración del Facet de JPA
+name.fix.create.facet.and.add.to.facet.configuration:
+    text: Crear faceta JPA y añadir el archivo a su configuración
+popup.title.choose.module.and.facet:
+    text: Seleccionar módulo/faceta
+cannot.resolve.cascade.type.0:
+    text: No se puede resolver el tipo de cascada ''{0}''
+cannot.resolve.file.0:
+    text: No se puede resolver el archivo ''{0}''
+message.0.should.not.be.specified.for.nested.1:
+    text: '''''{0}'''' no debe especificarse para el ''''{1}'''' anidado'
+action.name.create.session.factory:
+    text: Crear fábrica de sesiones
+action.name.create.mapping:
+    text: Crear mapeos de Hibernate
+action.name.create.hibernate.class:
+    text: Crear clase de Hibernate
+action.name.create.hibernate.subclass:
+    text: Crear subclase de Hibernate
+action.name.create.hibernate.joined.subclass:
+    text: Crear subclase unida de Hibernate
+action.name.create.hibernate.union.subclass:
+    text: Crear subclase de unión de Hibernate
+type.hibernate.session.factory:
+    text: Fábrica de sesiones
+type.hibernate.mappings:
+    text: Mapeos de Hibernate
+type.hibernate.class:
+    text: Clase de Hibernate
+type.hibernate.subclass:
+    text: Subclase de Hibernate
+type.hibernate.joined.subclass:
+    text: Subclase unida de Hibernate
+type.hibernate.union.subclass:
+    text: Subclase de unión de Hibernate
+type.hibernate.component:
+    text: Componente Hibernate
+type.hibernate.attr.property:
+    text: Propiedad
+type.hibernate.attr.version:
+    text: Versión
+type.hibernate.attr.timestamp:
+    text: Marca de tiempo
+type.hibernate.attr.composite.id:
+    text: ID compuesto
+type.hibernate.attr.component:
+    text: Componente
+type.hibernate.attr.many.to.many:
+    text: Muchos a muchos
+type.hibernate.attr.many.to.one:
+    text: Muchos a uno
+type.hibernate.attr.one.to.many:
+    text: Uno a muchos
+type.hibernate.attr.one.to.one:
+    text: Uno a uno
+type.hibernate.attr.elements:
+    text: Elementos
+type.hibernate.attr.composite.elements:
+    text: Elementos compuestos
+type.hibernate.attr.any:
+    text: Cualquiera
+type.hibernate.attr.dynamic.component:
+    text: Componente dinámico
+title.new.hibernate.cfg.xml:
+    text: Seleccionar o crear el archivo de configuración de Hibernate
+framework.configurable.generate.main.and.config:
+    text: Crear la configuración de Hibernate predeterminada y la clase principal
+framework.configurable.import.database:
+    text: Importar esquema de base de datos

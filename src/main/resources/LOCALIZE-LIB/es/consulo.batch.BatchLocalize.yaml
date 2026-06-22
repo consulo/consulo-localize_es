@@ -1,0 +1,12 @@
+runcfg.labels.script_parameters:
+    text: '&Parámetros:'
+runcfg.labels.environment_variables:
+    text: 'Variables de &entorno:'
+runcfg.labels.working_directory:
+    text: 'Directorio de trabajo (&W):'
+runcfg.labels.interpreter_options:
+    text: '&Opciones del intérprete:'
+runcfg.captions.script_parameters_dialog:
+    text: Introducir parámetros del script
+runcfg.captions.interpreter_options_dialog:
+    text: Introduzca las opciones del intérprete

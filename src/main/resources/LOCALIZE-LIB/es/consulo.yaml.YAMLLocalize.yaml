@@ -1,0 +1,118 @@
+YAMLDuplicatedKeysInspection.duplicated.key:
+    text: La clave ''{0}'' está duplicada
+YAMLDuplicatedKeysInspection.merge.quickfix.name:
+    text: Fusionar secciones duplicadas
+YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
+    text: Eliminar clave
+YamlBooleanType.validation.error.quoted.value:
+    text: Se esperaba un valor booleano
+YamlDeprecatedKeysInspectionBase.deprecated.key:
+    text: La clave ''{0}'' está en desuso
+YamlDeprecatedKeysInspectionBase.deprecated.value:
+    text: El valor ''{0}'' está obsoleto
+YamlEnumType.validation.error.value.unknown:
+    text: No se esperaba el valor ''{0}'' aquí
+YamlEnumType.validation.warning.value.deprecated:
+    text: El valor ''{0}'' está en desuso
+YamlIntegerType.error.integer.value:
+    text: Se esperaba un valor entero
+YamlMetaClass.error.scalar.value:
+    text: No se permite un valor escalar aquí
+YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
+    text: Añadir las claves faltantes
+YamlMissingKeysInspectionBase.missing.keys:
+    text: 'Faltan las claves requeridas: ''''{0}'''''
+YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
+    text: Eliminar todas las claves no editables del archivo
+YamlNonEditableKeysInspectionBase.noneditable.key:
+    text: La clave ''{0}'' no es modificable por el usuario
+YamlNumberType.error.numeric.value:
+    text: Se esperaba un valor numérico
+YamlScalarType.error.scalar.value:
+    text: Se esperaba un valor escalar
+YamlUnknownKeysInspectionBase.unknown.key:
+    text: No se espera la clave ''{0}'' aquí
+YamlUnknownValuesInspectionBase.error.array.is.required:
+    text: Se requiere un array
+YamlUnknownValuesInspectionBase.error.array.not.allowed:
+    text: Se esperaba un único valor
+YamlUnknownValuesInspectionBase.error.value.is.required:
+    text: El valor es obligatorio
+annotator.same.line.composed.value.message:
+    text: No se permite especificar un valor compuesto de bloque en la misma línea que la clave
+color.settings.yaml.comment:
+    text: Comentario
+color.settings.yaml.dstring:
+    text: Cadena entre comillas dobles
+color.settings.yaml.key:
+    text: Clave
+color.settings.yaml.scalar.list:
+    text: '''|'' bloque'
+color.settings.yaml.scalar.text:
+    text: bloque '>'
+color.settings.yaml.sign:
+    text: 'Signo: llave, coma, etc'
+color.settings.yaml.string:
+    text: Cadena
+color.settings.yaml.text:
+    text: Texto
+element.presentation.document.type:
+    text: Documento YAML
+find.usages.document:
+    text: documento
+find.usages.key.value:
+    text: clave-valor
+find.usages.mapping:
+    text: mapeo
+find.usages.scalar:
+    text: escalar
+find.usages.sequence:
+    text: secuencia
+find.usages.unnamed:
+    text: <sin nombre>
+inspections.duplicated.keys.name:
+    text: Claves YAML duplicadas
+inspections.incompatible.types.message:
+    text: El tipo de valor es ''{0}'', mientras que otros valores utilizan el tipo ''{1}''
+inspections.incompatible.types.quickfix.wrap.all.quotes.message:
+    text: Envolver con comillas todos los escalares de la secuencia
+inspections.incompatible.types.quickfix.wrap.quotes.message:
+    text: Envolver con comillas
+inspections.invalid.child.in.block.mapping:
+    text: Elemento secundario no válido en un mapeo de bloques
+inspections.invalid.child.in.block.sequence:
+    text: Elemento secundario no válido en una secuencia de bloques
+inspections.invalid.key.indent:
+    text: Sangría de clave de mapeo de bloques no válida
+inspections.invalid.list.item.indent:
+    text: Sangría de elemento de lista no válida
+inspections.recursive.alias.message:
+    text: El alias no puede ser recursivo
+inspections.recursive.alias.name:
+    text: Alias recursivo
+inspections.schema.deprecation.name:
+    text: Clave YAML en desuso
+inspections.schema.deprecation.text:
+    text: 'La clave ''''{0}'''' está en desuso: {1}'
+inspections.schema.validation.name:
+    text: Validación mediante esquema JSON
+inspections.schema.validation.prefix:
+    text: 'Validación de esquema:'
+inspections.types.mismatch.name:
+    text: Incompatibilidad de tipos sospechosa
+inspections.unresolved.alias.message:
+    text: No se puede resolver el alias {0}
+inspections.unresolved.alias.name:
+    text: Alias no resuelto
+inspections.unused.anchor.message:
+    text: El ancla {0} no se utiliza nunca
+inspections.unused.anchor.name:
+    text: Anclaje no utilizado
+inspections.unused.anchor.quickfix.name:
+    text: Eliminar anclaje
+new.name.conflicts.with:
+    text: 'La clave entra en conflicto con una existente: ''''{0}'''''
+parsing.error.sequence.item.expected:
+    text: Se esperaba un elemento de secuencia
+rename.same.name:
+    text: Mismo nombre

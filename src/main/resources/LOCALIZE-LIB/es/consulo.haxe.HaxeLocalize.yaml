@@ -1,0 +1,22 @@
+cannot.resolve.reference:
+    text: No se puede resolver la referencia
+overrides.method.in:
+    text: Sobrescribe el método ''{0}'' en ''{1}''
+implements.method.in:
+    text: Implementar el método ''{0}'' en ''{1}''
+fields.to.generate.getters:
+    text: Seleccionar campos para generar getters
+fields.to.generate.setters:
+    text: Seleccionar campos para generar setters
+fields.to.generate.getters.setters:
+    text: Seleccionar campos para generar Getters y Setters
+choose.class.to.import.title:
+    text: Clase a importar
+autodetected.source.root.type:
+    text: ActionScript/Flex
+livetemplate.description.iter:
+    text: Iteración (for..in)
+livetemplate.description.itar:
+    text: Iterar sobre los elementos de un array
+refactoring.introduce.selection.error:
+    text: No se puede realizar la refactorización con los elementos seleccionados.

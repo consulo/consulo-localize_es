@@ -1,0 +1,16 @@
+lbrace.expected:
+    text: se esperaba '{'
+rbrace.expected:
+    text: Se esperaba '}'
+identifier.expected:
+    text: Se esperaba un identificador
+expression.expected:
+    text: Se esperaba una expresión
+constant.expected:
+    text: Se espera la constante {0}
+number:
+    text: número
+constant:
+    text: constante
+block.comment:
+    text: ¿Hay algo que debamos mejorar?

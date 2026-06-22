@@ -1,0 +1,432 @@
+JsonFoldingSettings.show.first.key:
+    text: Mostrar la primera clave en el JSON contraído
+JsonFoldingSettings.show.first.key.description:
+    text: Mostrar siempre la primera clave en un objeto JSON contraído. De lo contrario, se mostrarán las claves "id" o "name" si están presentes.
+JsonFoldingSettings.show.key.count:
+    text: Mostrar el recuento de claves en JSON contraído
+JsonJacksonReformatAction.command.name.json.reformat:
+    text: Reformatear JSON
+JsonJacksonReformatAction.dialog.message.this.action.not.undoable.do.you.want.to.reformat.document:
+    text: Esta acción no se puede deshacer. ¿Desea volver a dar formato al documento?
+JsonJacksonReformatAction.dialog.title.json.reformatting:
+    text: Reformateo de JSON
+JsonJacksonReformatAction.progress.title.json.reformatting:
+    text: Reformateo de JSON
+action.ConsoleView.ShowAsJsonAction.text:
+    text: Mostrar como JSON
+action.DumbAware.JsonSchemaMappingsConfigurable.description.add:
+    text: Añadir
+action.DumbAware.JsonSchemaMappingsConfigurable.text.add:
+    text: Añadir
+action.JsonCopyPointer.text:
+    text: Copiar puntero JSON
+action.JsonJacksonReformatAction.text:
+    text: Reformatear JSON
+add.mapping.for.a:
+    text: 'Añadir mapeo para:'
+add.missing.0:
+    text: Agregar {0} faltante
+add.missing.properties:
+    text: Agregar propiedades faltantes
+annotation.property.key:
+    text: Clave de propiedad
+cannot.sort.properties:
+    text: No se pueden ordenar las propiedades
+checkbox.allow.downloading.json.schemas.from.remote.sources:
+    text: Permitir la descarga de esquemas JSON desde fuentes remotas
+checkbox.always.download.the.most.recent.version.of.schemas:
+    text: Siempre descargar la versión más reciente de los esquemas
+checkbox.use.schemastore.org.json.schema.catalog:
+    text: Usar el catálogo de esquemas JSON de schemastore.org
+color.page.attribute.block.comment:
+    text: Comentario de bloque
+color.page.attribute.braces:
+    text: Llaves
+color.page.attribute.brackets:
+    text: Corchetes
+color.page.attribute.colon:
+    text: Dos puntos
+color.page.attribute.comma:
+    text: Coma
+color.page.attribute.invalid.escape.sequence:
+    text: Secuencia de escape no válida
+color.page.attribute.keyword:
+    text: Palabra clave
+color.page.attribute.line.comment:
+    text: Comentario de línea
+color.page.attribute.number:
+    text: Número
+color.page.attribute.parameter:
+    text: Parámetro
+color.page.attribute.property.key:
+    text: Clave de propiedad
+color.page.attribute.string:
+    text: Cadena
+color.page.attribute.valid.escape.sequence:
+    text: Secuencia de escape válida
+configurable.JsonSchemaCatalogConfigurable.display.name:
+    text: Esquemas JSON remotos
+configurable.JsonSchemaMappingsConfigurable.display.name:
+    text: Mapeos de esquemas JSON
+file.is.readonly:
+    text: El archivo es de solo lectura
+filetype.json_lines.description:
+    text: Líneas JSON
+fix.property.name.spelling:
+    text: Ajustar ortografía a ''{0}''
+folding.collapsed.array.text:
+    text: '[ {0} {0,choice,0#elementos|1#elemento|2#elementos} ]'
+folding.collapsed.object.text:
+    text: '''{'' {0} {0,choice,0#claves|1#clave|2#claves} ''}'''
+formatter.align.properties.caption:
+    text: Alineación
+formatter.align.properties.none:
+    text: No alinear
+formatter.align.properties.on.colon:
+    text: En los dos puntos
+formatter.align.properties.on.value:
+    text: En el valor
+formatter.objects.label:
+    text: Objetos
+formatter.space_after_colon.label:
+    text: Después de ':'
+formatter.space_before_colon.label:
+    text: Antes de ':'
+formatter.space_within_braces.label:
+    text: Llaves
+formatter.trailing_comma.label:
+    text: Coma final
+inspection.compliance.msg.bad.token:
+    text: El estándar JSON no permite tales tokens
+inspection.compliance.msg.comments:
+    text: El estándar JSON no permite comentarios.
+inspection.compliance.msg.illegal.property.key:
+    text: El estándar JSON solo permite cadenas entre comillas dobles como clave de propiedad
+inspection.compliance.msg.multiple.top.level.values:
+    text: El estándar JSON permite solo un valor de nivel superior
+inspection.compliance.msg.single.quoted.strings:
+    text: El estándar JSON no permite cadenas entre comillas simples
+inspection.compliance.msg.trailing.comma:
+    text: El estándar JSON no permite comas finales
+inspection.compliance.name:
+    text: Cumplimiento con el estándar JSON
+inspection.compliance.option.comments:
+    text: Advertir sobre los comentarios
+inspection.compliance.option.multiple.top.level.values:
+    text: Advertir sobre múltiples valores de nivel superior
+inspection.compliance.option.nan.infinity:
+    text: Advertir sobre valores numéricos NaN e Infinity/-Infinity
+inspection.compliance.option.trailing.comma:
+    text: Advertir sobre comas finales
+inspection.compliance5.name:
+    text: Cumplimiento con el estándar JSON5
+inspection.duplicate.keys.msg.duplicate.keys:
+    text: El objeto contiene claves duplicadas ''{0}''
+inspection.duplicate.keys.name:
+    text: Claves duplicadas en literales de objeto
+intention.add.not.required.properties.family.name:
+    text: Propiedades opcionales faltantes
+intention.add.not.required.properties.text:
+    text: Rellenar todas las propiedades del esquema JSON
+json.array:
+    text: arreglo
+json.copy.to.clipboard:
+    text: Copiar {0} al portapapeles
+json.inspection.group:
+    text: JSON y JSON5
+json.intention.sort.properties:
+    text: Ordenar propiedades alfabéticamente
+json.object:
+    text: objeto
+json.property:
+    text: propiedad
+json.property.keys:
+    text: Claves de propiedad JSON
+json.schema:
+    text: Esquema JSON
+json.schema.add.schema.chooser.title:
+    text: Seleccionar archivo de esquema JSON
+json.schema.annotation.not.allowed.property:
+    text: No se permite la propiedad ''{0}''
+json.schema.annotation.not.allowed.property.possibly.typo:
+    text: No se permite la propiedad ''{0}''. ¿Es un error tipográfico?
+json.schema.conflicting.mappings:
+    text: 'Advertencia: mapeos conflictivos. <a href="#">Mostrar detalles</a>'
+json.schema.file.not.found:
+    text: Archivo no encontrado
+json.schema.file.selector.title:
+    text: 'Archivo de esquema o URL:'
+json.schema.inspection.case.insensitive.enum:
+    text: Coincidencia que no distingue entre mayúsculas y minúsculas para los valores de enumeración
+json.schema.inspection.compliance.name:
+    text: Cumplimiento del esquema JSON
+json.schema.inspection.deprecation.name:
+    text: Propiedad JSON obsoleta
+json.schema.ref.cannot.resolve.id:
+    text: No se puede resolver el id ''{0}''
+json.schema.ref.cannot.resolve.path:
+    text: No se puede resolver la ruta ''{0}''
+json.schema.ref.file.not.found:
+    text: No se encontró el archivo ''{0}''
+json.schema.ref.no.array.element:
+    text: El arreglo no contiene un elemento con el índice ''{0}''
+json.schema.ref.no.property:
+    text: No se encontró la propiedad ''{0}''
+json.schema.ref.refs.inspection.name:
+    text: Referencias '$ref' y '$schema' no resueltas
+json.schema.version.selector.title:
+    text: 'Versión del esquema:'
+json.string.values:
+    text: Valores de cadena JSON
+navigate.to.duplicates:
+    text: Navegar a duplicados
+navigate.to.duplicates.desc:
+    text: '''''{0}'''' en la línea #{1}'
+navigate.to.duplicates.header:
+    text: Duplicados de ''{0}''
+new.schema:
+    text: Nuevo esquema
+no.schema.mappings.defined:
+    text: No se han definido mapeos de esquema
+not.applicable.in.batch.mode:
+    text: No aplicable en modo por lotes
+notification.group.json.schema:
+    text: Error al cargar el esquema JSON
+path.to.file.or.directory.relative.to.project.root.or.file.name:
+    text: Ruta al archivo o directorio relativa a la raíz del proyecto, o un patrón de nombre de archivo como *.config.json
+property.0.is.deprecated.1:
+    text: 'La propiedad ''''{0}'''' está en desuso: {1}'
+qualified.name.pointer:
+    text: Puntero JSON
+qualified.name.qualified:
+    text: nombre cualificado
+quickfix.add.double.quotes.desc:
+    text: Envolver con comillas dobles
+remove.duplicated.items:
+    text: Eliminar elementos duplicados
+remove.prohibited.property:
+    text: Eliminar propiedad prohibida
+replace.with.allowed.value:
+    text: Reemplazar con un valor permitido
+schema.add.mapping.kind.text:
+    text: Agregar {0}
+schema.catalog.hint:
+    text: Los esquemas se descargarán y asignarán mediante la <a href="https://schemastore.org/json/">API de SchemaStore</a>
+schema.catalog.remote.hint:
+    text: Los esquemas siempre se descargarán de SchemaStore, incluso si algunos de ellos están integrados en el IDE
+schema.configuration.error.conflicting.mappings.desc:
+    text: '''''{0}'''' para el esquema ''''{1}'''' y ''''{2}'''' para el esquema ''''{3}'''''
+schema.configuration.error.conflicting.mappings.title:
+    text: "Mapeos en conflicto:\n{0}"
+schema.configuration.error.duplicate.name:
+    text: 'Nombre de esquema duplicado: ''''{0}'''''
+schema.configuration.error.empty.file.path:
+    text: La ruta de archivo vacía no coincide con nada
+schema.configuration.error.empty.name:
+    text: El nombre del esquema está vacío
+schema.configuration.error.empty.path:
+    text: La ruta del esquema está vacía
+schema.configuration.error.empty.pattern:
+    text: El patrón vacío no coincide con nada
+schema.configuration.error.file.does.not.exist:
+    text: El archivo de esquema no existe
+schema.configuration.error.invalid.url:
+    text: URL de esquema no válida
+schema.configuration.error.invalid.url.resource:
+    text: Recurso de URL no válido
+schema.configuration.error.unknown.mapping:
+    text: Tipo de mapeo desconocido
+schema.configuration.mapping.empty.area.alt.string:
+    text: Por favor, añada un archivo de esquema JSON y configure su uso
+schema.configuration.mapping.empty.area.string:
+    text: Seleccione un esquema JSON para ver
+schema.configuration.mapping.remote:
+    text: URLs de esquemas remotos
+schema.configuration.project.directory:
+    text: '{0}[Directorio del proyecto]'
+schema.documentation.deprecated.postfix:
+    text: (obsoleto)
+schema.mapping.directory:
+    text: directorio
+schema.mapping.file:
+    text: archivo
+schema.mapping.pattern:
+    text: patrón de ruta de archivo
+schema.of.version:
+    text: Esquema JSON {0}
+schema.of.version.deprecated:
+    text: Versión del esquema JSON {0}
+schema.reader.cant.load.file:
+    text: No se puede cargar el archivo de esquema JSON ''{0}''
+schema.reader.cant.load.model:
+    text: No se puede cargar el modelo de código para el archivo de esquema JSON ''{0}''
+schema.reader.file.empty:
+    text: No se cargó el esquema JSON de ''{0}''. El archivo está vacío.
+schema.reader.file.not.found.or.error:
+    text: 'No se encontró el esquema JSON o contiene un error en ''''{0}'''': {1}'
+schema.reader.file.too.large:
+    text: El esquema JSON no se cargó desde ''{0}'' porque es demasiado grande (el tamaño del archivo es de {1} bytes)
+schema.validation.actual:
+    text: 'Real:'
+schema.validation.against.not:
+    text: Valida contra el esquema 'not'
+schema.validation.array.longer.than:
+    text: El array es más largo que {0}
+schema.validation.array.no.extra:
+    text: No se permiten elementos adicionales
+schema.validation.array.no.unevaluated:
+    text: No se permiten elementos no evaluados
+schema.validation.array.not.contains:
+    text: No hay coincidencias para la regla 'contains'
+schema.validation.array.shorter.than:
+    text: El arreglo es más corto que {0}
+schema.validation.at.least.one.of.property.sets.required:
+    text: 'Debe tener al menos uno de los siguientes conjuntos de propiedades: {0}'
+schema.validation.constant.schema:
+    text: No se permite la propiedad
+schema.validation.enum.mismatch:
+    text: 'El valor debe ser uno de: {0}'
+schema.validation.greater.than.exclusive.maximum:
+    text: Mayor que el máximo exclusivo {0}
+schema.validation.greater.than.maximum:
+    text: Superior al máximo {0}
+schema.validation.incompatible.types:
+    text: Tipos incompatibles.
+schema.validation.integer.expected:
+    text: Se esperaba un valor entero
+schema.validation.invalid.string.pattern:
+    text: 'No se puede comprobar la cadena mediante el patrón debido a un error: {0}'
+schema.validation.less.than.exclusive.minimum:
+    text: Menor que el mínimo exclusivo {0}
+schema.validation.less.than.minimum:
+    text: Menor que el mínimo {0}
+schema.validation.missing.not.required.property.or.properties:
+    text: Falta {0} opcional
+schema.validation.missing.required.property.or.properties:
+    text: Falta {0} requerido
+schema.validation.not.multiple.of:
+    text: No es múltiplo de {0}
+schema.validation.not.unique:
+    text: El elemento no es único
+schema.validation.number.expected:
+    text: Se esperaba un valor Double
+schema.validation.number.of.props.greater.than:
+    text: El número de propiedades es mayor que {0}
+schema.validation.number.of.props.less.than:
+    text: El número de propiedades es menor que {0}
+schema.validation.one.of.property.sets.required:
+    text: 'Se requiere uno de los siguientes conjuntos de propiedades: {0}'
+schema.validation.properties:
+    text: propiedades {0}
+schema.validation.property:
+    text: propiedad {0}
+schema.validation.required.one:
+    text: 'Obligatorio: {0}.{1}'
+schema.validation.required.one.of:
+    text: 'Se requiere uno de: {0}.{1}'
+schema.validation.string.longer.than:
+    text: La cadena es más larga que {0}
+schema.validation.string.shorter.than:
+    text: La cadena es más corta que {0}
+schema.validation.string.violates.pattern:
+    text: 'La cadena infringe el patrón: ''''{0}'''''
+schema.validation.to.more.than.one:
+    text: Valida con más de una variante
+schema.validation.violated.dependency:
+    text: 'Se ha infringido la dependencia: se debe especificar {0}, ya que se ha especificado ''''{1}'''''
+schema.widget.add.mapping:
+    text: Nuevo mapeo de esquema…
+schema.widget.bundled.postfix:
+    text: (incluido)
+schema.widget.checking.state.text:
+    text: '{0}Analizando…'
+schema.widget.checking.state.tooltip:
+    text: Analizando…
+schema.widget.conflict.message.postfix:
+    text: esquemas (!)
+schema.widget.conflict.message.prefix:
+    text: Hay varios esquemas JSON mapeados a este archivo:<br/>
+schema.widget.conflict.popup.title:
+    text: Mapeos de JSON Schema en conflicto
+schema.widget.display.name:
+    text: Esquema JSON
+schema.widget.download.in.progress.label:
+    text: Descargando el esquema JSON
+schema.widget.download.in.progress.tooltip:
+    text: La descarga está programada o en curso
+schema.widget.edit.mappings:
+    text: Editar mapeos de esquema…
+schema.widget.error.cant.download:
+    text: Error al descargar el esquema
+schema.widget.error.label:
+    text: Error de esquema JSON
+schema.widget.error.not.a.schema:
+    text: El archivo no es un esquema
+schema.widget.load.mappings:
+    text: Cargar mapeos de SchemaStore
+schema.widget.no.mapping:
+    text: Ignorar el esquema JSON para el archivo
+schema.widget.no.schema.label:
+    text: Sin esquema JSON
+schema.widget.no.schema.tooltip:
+    text: No se ha definido ningún esquema JSON
+schema.widget.package.postfix:
+    text: '(Paquete: ''''{0}'''')'
+schema.widget.prefix.json.files:
+    text: 'JSON: 1. `schema.widget.prefix.json.files=JSON: `'
+schema.widget.prefix.other.files:
+    text: 'Esquema: 0'
+schema.widget.registered.schemas:
+    text: Esquemas registrados
+schema.widget.service:
+    text: Servicio de Esquema JSON
+schema.widget.stop.ignore.file:
+    text: Dejar de ignorar el esquema JSON para el archivo
+schema.widget.store.schemas:
+    text: Esquemas de SchemaStore.org
+schema.widget.tooltip.json.files:
+    text: 'Esquema JSON:'
+schema.widget.tooltip.other.files:
+    text: 'Validado por el esquema JSON:'
+settings.json.schema.add.mapping:
+    text: Añadir mapeo
+settings.json.schema.edit.mapping:
+    text: Editar mapeo
+settings.json.schema.remove.mapping:
+    text: Eliminar asignación
+settings.smart.keys.automatically.add.quotes.to.property.names.when.typing.comma:
+    text: Agregar automáticamente comillas a los nombres de propiedades al escribir ':'
+settings.smart.keys.automatically.add.whitespace.when.typing.comma.after.property.names:
+    text: Agregar automáticamente un espacio en blanco al escribir ':' después de los nombres de propiedad
+settings.smart.keys.automatically.manage.commas.when.pasting.json.fragments:
+    text: Gestionar automáticamente las comas al pegar fragmentos JSON
+settings.smart.keys.automatically.move.comma.after.the.property.name.if.typed.inside.quotes:
+    text: Mover automáticamente ':' después del nombre de la propiedad si se escribe dentro de comillas
+settings.smart.keys.automatically.move.comma.after.the.property.value.or.array.element.if.inside.quotes:
+    text: Mover automáticamente la coma después del valor de la propiedad o del elemento del array si está dentro de comillas
+settings.smart.keys.escape.text.on.paste.in.string.literals:
+    text: Escapar texto al pegar en literales de cadena
+settings.smart.keys.insert.missing.comma.after.matching.braces.and.quotes:
+    text: Insertar la coma faltante tras las llaves y comillas coincidentes
+settings.smart.keys.insert.missing.comma.on.enter:
+    text: Insertar coma faltante al pulsar Enter
+sorry.this.fix.is.not.available.in.batch.mode:
+    text: Lo sentimos, esta corrección no está disponible en modo por lotes.
+surround.with.array.literal.desc:
+    text: Literal de array
+surround.with.object.literal.desc:
+    text: Literal de objeto
+surround.with.quotes.desc:
+    text: Comillas
+syntax.error.control.char.in.string:
+    text: No se permite el carácter de control ''{0}'' en literales de cadena
+syntax.error.illegal.escape.sequence:
+    text: Secuencia de escape ilegal
+syntax.error.illegal.floating.point.literal:
+    text: Literal de punto flotante no válido
+syntax.error.illegal.unicode.escape.sequence:
+    text: Secuencia de escape Unicode no válida
+syntax.error.missing.closing.quote:
+    text: Falta la comilla de cierre
+unnamed.desc:
+    text: <sin nombre>

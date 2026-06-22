@@ -1,0 +1,306 @@
+abstract.class.not.allowed:
+    text: No se permite una clase abstracta para beans no abstractos
+aop.advice.matching.aspect.bean:
+    text: Algunos consejos coinciden con este bean
+aop.enable.aspectj.fix.text:
+    text: Añadir <aop:aspectj-autoproxy/> a la configuración de Spring
+aop.errors.inspection.display.name:
+    text: Elemento de advice o advisor de Spring AOP incorrecto
+aop.warning.aspectj.isnt.enabled:
+    text: El soporte @AspectJ no está habilitado
+aop.warnings.inspection.display.name:
+    text: Elemento de aspecto o pointcut de Spring AOP incorrecto
+bean.autowiring.by.type:
+    text: 'No se pudo realizar la vinculación automática. Hay más de un bean de tipo ''''{0}''''. Beans: {1}. Propiedades: ''''{2}'''''
+bean.autowiring.by.type.none:
+    text: No se pudo autovincular. No se encontraron beans de tipo ''{0}''.
+bean.bad.property.type:
+    text: La propiedad de tipo ''{0}'' no puede ser inyectada por ''{1}''
+bean.class.autowired.by.type:
+    text: No se pudo realizar la autovinculación. Hay más de un bean de tipo ''{0}''.
+bean.class.autowired.incorrect.qualifier.type:
+    text: No se pudo realizar la autovinculación. El bean calificado debe ser de tipo ''{0}''.
+bean.class.unknown.qualifier.bean:
+    text: No se puede encontrar el bean con el calificador ''{0}''
+bean.must.be.of.type:
+    text: El bean debe ser de tipo ''{0}''
+cannot.autowire.bean.of.type:
+    text: No se pudo realizar el autowire. El bean debe ser de tipo ''{0}''
+cannot.find.bean.constructor.with.parameters.count:
+    text: No se encontró ningún constructor coincidente en la clase ''{0}''
+cannot.find.bean.qualified.by:
+    text: No se puede encontrar el bean calificado con {0}
+cannot.find.constructor.arg.index:
+    text: No se puede encontrar el constructor con el índice de argumento {0}
+cannot.find.constructor.arg.index.in.class:
+    text: No se puede encontrar el constructor con el índice de argumento {0} en la clase {1}
+cannot.find.factory.method.index:
+    text: No se puede encontrar el método de fábrica con el índice de argumento {0} en la clase {1}
+cannot.find.factory.method.with.parameters.count:
+    text: No se encontró ningún método de fábrica coincidente en la clase
+cannot.resolve.method:
+    text: No se puede resolver el método ''{0}''
+config.display.name:
+    text: Configuración
+config.file.is.not.spring:
+    text: El archivo no se reconoce como una configuración de Spring
+config.file.not.found:
+    text: Archivo no encontrado
+config.new.file:
+    text: Configuración de Spring
+constructor.arg.incorrect.value.type:
+    text: El tipo de valor inyectado debe corresponder al tipo del argumento del constructor
+create.missing.mappings:
+    text: Crear mapeos faltantes para ''{0}''
+create.missing.properties:
+    text: Crear propiedades faltantes
+create.new.spring.configuration.file:
+    text: Crear nuevo archivo de configuración de Spring
+create.spring.context.file.dtd.1.0:
+    text: DTD de Spring 1.x
+create.spring.context.file.dtd.2.0:
+    text: DTD de Spring 2.x
+create.spring.context.file.schema.2.0:
+    text: Spring XSD
+custom.bean.no.id:
+    text: "IntelliJ IDEA no puede encontrar el ID de este bean en un archivo de configuración. Cambiar el nombre probablemente produzca\ncódigo incorrecto. ¿Desea continuar?"
+custom.bean.no.id.title:
+    text: Advertencia
+do.you.want.to.move.bean.to.the.top.level:
+    text: ¿Desea mover el bean al nivel superior?
+error.pointcut.or.pointcut.ref.should.be.defined:
+    text: Se debe definir el atributo pointcut o pointcut-ref
+idref.cannot.be.added.in.collection:
+    text: No se puede añadir a una colección de tipo ''{0}''
+incorrect.constructor.arg.index.not.unique:
+    text: El índice debe ser único
+interface.not.allowed:
+    text: Interfaz no permitida para beans no abstractos
+introduce.bean.intention:
+    text: Introducir bean
+jdk.proxy.intercepts.class:
+    text: 'La propiedad Bean debe tener un tipo de interfaz: ''''{0}'''''
+mark.bean.as.abstract:
+    text: Marcar bean como abstracto
+method.cannot.instantiate.bean:
+    text: El método factory ''{0}'' no puede instanciar el bean
+method.must.be.public:
+    text: El método de factoría ''{0}'' debe ser público
+method.must.be.static:
+    text: El método de factoría ''{0}'' debe ser estático
+method.must.not.be.static:
+    text: El método de fábrica ''{0}'' no debe ser static
+missing.aspectj.autoproxy.inspection.display.name:
+    text: Falta aspectj-autoproxy
+model.add.constructor.args.for.method.quickfix.message:
+    text: Añadir <constructor-arg>(s) para ''{0}''
+model.bean.error.message:
+    text: No se puede resolver el bean ''{0}''
+model.bean.quickfix.message:
+    text: Crear nuevo bean ''{0}''
+model.inspection.bean.autowiring:
+    text: Autowiring de beans XML de Spring incorrecto
+model.inspection.bean.constructor.arg:
+    text: Inyección de constructor incorrecta en bean de Spring XML
+model.inspection.bean.factory.method:
+    text: Método definido incorrectamente referenciado en un atributo "factory-method"
+model.inspection.bean.property.value:
+    text: Tipo de punto de inyección no asignable en el contexto de aplicación XML
+model.inspection.display.bean.name.convention:
+    text: El nombre del bean de Spring infringe las convenciones
+model.inspection.display.name:
+    text: Elemento 'flow' configurado incorrectamente
+model.inspection.group.name:
+    text: WebSocket
+model.inspection.injection.value.add.list:
+    text: Añadir etiqueta <list>
+model.inspection.injection.value.add.map:
+    text: Añadir etiqueta <map>
+model.inspection.injection.value.add.ref:
+    text: Añadir atributo "ref"
+model.inspection.injection.value.add.set:
+    text: Añadir etiqueta <set>
+model.inspection.injection.value.consistency:
+    text: Valor de inyección inconsistente en el contexto de aplicación XML
+model.inspection.injection.value.entry.key:
+    text: La entrada de mapa debe especificar una clave
+model.inspection.injection.value.message:
+    text: '{0} debe especificar un ref o un valor'
+model.inspection.injection.value.style:
+    text: El valor de inyección en el contexto de la aplicación XML infringe las convenciones
+model.inspection.injection.value.style.message:
+    text: Uso del elemento <value> explícito
+model.inspection.injection.value.style.ref.fix:
+    text: Reemplazar el elemento <ref> por el atributo "{0}"
+model.inspection.injection.value.style.ref.message:
+    text: Uso de un elemento <ref> explícito
+model.inspection.injection.value.style.value.fix:
+    text: Reemplazar el elemento <value> con el atributo "{0}"
+model.inspection.invalid.identifier.message:
+    text: '''''{0}'''' no cumple con la convención de nomenclatura de beans'
+model.inspection.invalid.lowercase.name.message:
+    text: '''''{0}'''' debe comenzar con una letra minúscula'
+model.inspection.validator.description.text:
+    text: Modelo de Spring
+model.inspection.validator.progress.text:
+    text: Validando el modelo Spring…
+model.property.error.message:
+    text: No se puede resolver la propiedad ''{0}''
+model.qualifiers.in.class.inspection.display.name:
+    text: Autowiring incorrecto en componentes de bean de Spring
+move.bean:
+    text: Mover Bean
+move.bean.to.the.top.level:
+    text: Mover Bean al nivel superior
+navigate.to.autowired.dependencies:
+    text: Navegar a las dependencias autoinyectadas
+parse.custom.bean.error:
+    text: Error al analizar el Bean personalizado
+parse.custom.bean.intention:
+    text: Analizar bean personalizado
+parse.custom.bean.success:
+    text: El manejador personalizado ha finalizado con éxito
+parse.no.custom.beans:
+    text: El analizador no produjo beans
+parse.no.namespace.handler:
+    text: No se encontró el controlador personalizado para el espacio de nombres ''{0}''
+parse.only.infrastructure.beans:
+    text: El analizador solo generó beans de infraestructura
+parse.these.beans:
+    text: "El manejador de espacio de nombres personalizado generó las siguientes definiciones de bean:\n{0}"
+parse.these.beans.induct:
+    text: "El manejador de espacios de nombres personalizado generó la siguiente definición de bean:\n{0}\n\n¿Desea asumir que todos los beans\ndel espacio de nombres ''{1}'' con el nombre local ''{2}''\ntienen la misma clase y toman su id del atributo ''{3}''?"
+parse.these.beans.induct.only.this:
+    text: Este Bean
+parsing.custom.bean:
+    text: Ejecutando manejadores de beans de Spring personalizados…
+process.unexpectedly.terminated:
+    text: Proceso terminado inesperadamente{0}
+required.properties.inspection:
+    text: La propiedad del bean de Spring @Required no se ha inyectado
+required.properties.missed:
+    text: 'Faltan propiedades requeridas: ''''{0}'''''
+required.property.not.mapped:
+    text: No se ha inyectado la propiedad requerida ''{0}''
+required.spring.bean.type.inspection:
+    text: Tipo de bean inyectado incorrecto
+scopes.inspection.display.name:
+    text: Ámbito <bean> desconocido
+security.role.type:
+    text: Rol de seguridad
+spring.bean:
+    text: Bean de Spring
+spring.bean.abstract.bean.references.inspection:
+    text: Referencia incorrecta a un bean abstracto
+spring.bean.autowire.escape:
+    text: Hacer explícita la dependencia autowired
+spring.bean.autowire.escape.inspection.name:
+    text: Dependencia autowired innecesaria en el contexto de aplicación XML
+spring.bean.class.navigate.choose.class.title:
+    text: Seleccionar Bean
+spring.bean.class.tooltip.navigate.declaration:
+    text: Navegar a la(s) declaración(es) del bean de Spring
+spring.bean.constructor.arg:
+    text: Argumento del constructor
+spring.bean.dependencies.chooser.title:
+    text: Seleccionar Bean
+spring.bean.dependency.graph.edge.creates:
+    text: crea
+spring.bean.dependency.graph.edge.depends.on:
+    text: depende de
+spring.bean.dependency.graph.edge.inherits:
+    text: hereda
+spring.bean.dependency.graph.edge.injected:
+    text: depende de
+spring.bean.duplicated.bean.name.inspection:
+    text: Nombres de bean duplicados en el contexto de la aplicación basado en XML
+spring.bean.idref.attributes.inconsistency:
+    text: La etiqueta <idref> solo puede contener el atributo "bean" o el atributo "local"
+spring.bean.idref.attributes.must.specify:
+    text: La etiqueta <idref> debe especificar un bean
+spring.bean.instantiation.by.factory:
+    text: Spring Bean (instanciado por un Factory Bean)
+spring.bean.instantiation.inspection:
+    text: Instanciación no válida de bean no abstracto
+spring.bean.instantiation.using.factory.method:
+    text: Spring Bean (instanciado mediante un método de fábrica estático)
+spring.bean.lookup.method.bean.has.no.class:
+    text: El bean ''{0}'' no tiene clase
+spring.bean.lookup.method.constructor.not.allowed:
+    text: No se permite un constructor aquí
+spring.bean.lookup.method.incorrect.return.type:
+    text: Tipo de retorno del método de búsqueda incorrecto
+spring.bean.lookup.method.inspection:
+    text: Configuración incorrecta del método lookup-method de bean XML
+spring.bean.lookup.method.must.be.not.static:
+    text: No se permite un método estático aquí
+spring.bean.lookup.method.must.be.public.or.protected:
+    text: El método debe ser public o protected
+spring.bean.lookup.method.must.have.no.parameters:
+    text: El método no debe tener parámetros
+spring.bean.lookup.method.return.type.mismatch:
+    text: El tipo de retorno del método lookup no coincide con la clase bean ''{0}''
+spring.bean.map.entry:
+    text: Entrada de mapa
+spring.bean.properties.chooser.title:
+    text: Seleccionar propiedades
+spring.bean.property:
+    text: Propiedad
+spring.bean.property.navigate.choose.class.title:
+    text: Seleccionar el bean que contiene la propiedad
+spring.bean.property.tooltip.navigate.declaration:
+    text: Navegar a la propiedad del bean de Spring
+spring.bean.property.value.inconsistency.key:
+    text: La entrada de mapa solo puede contener el atributo "key" O el atributo "key-ref" O el subelemento <key>
+spring.bean.ref.attributes.inconsistency:
+    text: la etiqueta <ref> solo puede contener el atributo "bean", el atributo "local" o el atributo "parent"
+spring.bean.ref.attributes.must.specify:
+    text: La etiqueta <ref> debe especificar un bean
+spring.bean.referenced.by.abstract.bean:
+    text: No se puede utilizar un bean abstracto aquí
+spring.bean.use.autowire:
+    text: Dependencia autowired innecesaria
+spring.bean.with.unknown.name:
+    text: <nombre desconocido>
+spring.beans:
+    text: Beans producidos
+spring.beans.chooser.all.context.files:
+    text: Todos los beans
+spring.beans.chooser.show.context.files:
+    text: Mostrar archivos de contexto
+spring.choose.bean.templates.dialog.title:
+    text: Añadir {0} Beans
+spring.generate.constructor.dependencies:
+    text: Dependencias de constructor…
+spring.generate.properties:
+    text: Propiedades…
+spring.generate.setter.dependencies:
+    text: Dependencia de setter…
+spring.parent.bean.tooltip:
+    text: Navegar a las declaraciones secundarias
+spring.required.property.inspection:
+    text: Faltan inyecciones de propiedades @Required en la declaración de beans XML de Spring
+this.pointcut.designator.isn.t.supported.by.spring:
+    text: El designador de pointcut {0} no es compatible con Spring
+timeout.parsing.bean:
+    text: El análisis del bean personalizado tardó demasiado tiempo
+try.parsing.custom.beans:
+    text: Intentar analizar beans personalizados
+unparsed.custom.bean.inspection:
+    text: Beans de Spring personalizados no analizados
+unparsed.custom.bean.message:
+    text: Este bean de Spring personalizado aún no se ha analizado
+update.schema.intention:
+    text: Convertir a esquema XML de Spring
+use.cglib.proxying:
+    text: Usar proxificación CGLIB
+use.p.namespace:
+    text: Convertir a p-namespace
+util.schema.inspection.name:
+    text: Beans del esquema 'util' configurados incorrectamente definidos en el contexto de aplicación XML
+warning.pointcut.should.have.id:
+    text: El pointcut debe tener un id
+xml.schema.update.is.required:
+    text: Se requiere la actualización del esquema XML
+xml.schema.will.be.updated:
+    text: "El esquema XML se actualizará a spring-beans.xsd. \n¿Desea continuar?"

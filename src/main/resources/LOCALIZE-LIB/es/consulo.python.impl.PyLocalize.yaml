@@ -1,0 +1,900 @@
+ACT.CMD.use.import:
+    text: Usar un módulo importado
+ACT.from.some.module.import:
+    text: Importar desde…
+ACT.qualify.with.module:
+    text: Calificar con un módulo importado
+ANN.assign.to.none:
+    text: Asignación a None
+ANN.break.outside.loop:
+    text: '''break'' fuera del bucle'
+ANN.cant.assign.to.call:
+    text: No se puede asignar a una llamada a función
+ANN.cant.assign.to.comprh:
+    text: No se puede asignar a una comprensión de lista
+ANN.cant.assign.to.dict.comprh:
+    text: No se puede asignar a una comprensión de diccionario
+ANN.cant.assign.to.generator:
+    text: No se puede asignar a una expresión generadora
+ANN.cant.assign.to.lambda:
+    text: No se puede asignar a una lambda
+ANN.cant.assign.to.literal:
+    text: No se puede asignar a un literal
+ANN.cant.assign.to.operator:
+    text: No se puede asignar al operador
+ANN.cant.assign.to.parens:
+    text: No se puede asignar a ()
+ANN.cant.assign.to.set.comprh:
+    text: No se puede asignar a una comprensión de conjuntos
+ANN.cant.aug.assign.to.comprh:
+    text: No es posible la asignación aumentada en una comprensión de listas
+ANN.cant.aug.assign.to.dict.comprh:
+    text: No es posible realizar una asignación aumentada a una comprensión de diccionario
+ANN.cant.aug.assign.to.generator:
+    text: No es posible realizar una asignación aumentada a una expresión generadora
+ANN.cant.aug.assign.to.list.or.comprh:
+    text: No es posible la asignación aumentada a un literal de lista o comprensión
+ANN.cant.aug.assign.to.set.comprh:
+    text: La asignación aumentada a una comprensión de conjuntos no es posible
+ANN.cant.aug.assign.to.tuple.or.generator:
+    text: No es posible realizar una asignación aumentada en un literal de tupla o una expresión generadora
+ANN.cant.delete.call:
+    text: No se puede eliminar la llamada a la función
+ANN.default.except.must.be.last:
+    text: el 'except:' por defecto debe ser el último
+ANN.deleting.none:
+    text: Eliminando None
+ANN.duplicate.param.name:
+    text: nombre de parámetro duplicado
+ANN.missing.closing.quote:
+    text: Falta la comilla de cierre [{0}]
+ANN.missing.closing.triple.quotes:
+    text: Faltan las comillas triples de cierre
+ANN.non.default.param.after.default:
+    text: un parámetro no predeterminado sigue a un parámetro predeterminado
+ANN.regular.param.after.keyword:
+    text: parámetro regular después del parámetro **
+ANN.regular.param.after.vararg:
+    text: parámetro normal después del parámetro *
+ANN.starred.param.after.kwparam:
+    text: parámetro * después del parámetro **
+ANN.tuple.py3:
+    text: el desempaquetado de parámetros de tupla no se admite en Python 3
+CONFLICT.occurrence.pl:
+    text: coincidencias
+INSP.NAME.abstract.class:
+    text: Definición y usos de clase abstracta no válidos
+INSP.NAME.argument.equal.default:
+    text: El argumento de la función es igual al valor predeterminado del parámetro
+INSP.NAME.attribute.outside.init:
+    text: Atributo de instancia definido fuera de `__init__`
+INSP.NAME.augment.assignment:
+    text: La asignación puede reemplazarse por una asignación compuesta
+INSP.NAME.bad.except.clauses.order:
+    text: Orden incorrecto de las cláusulas 'except'
+INSP.NAME.byte.literal:
+    text: Un literal de byte contiene un carácter no ASCII
+INSP.NAME.chained.comparisons:
+    text: Comparaciones encadenadas demasiado complejas
+INSP.NAME.check.can.be.simplified:
+    text: Comprobación de variable booleana redundante
+INSP.NAME.class.has.no.init:
+    text: La clase no tiene el método `__init__`
+INSP.NAME.classic.class.usage:
+    text: Uso de clase de estilo clásico
+INSP.NAME.comparison.with.none:
+    text: Uso de operadores de igualdad para comparar con None
+INSP.NAME.compatibility:
+    text: El código es incompatible con versiones específicas de Python
+INSP.NAME.decorator.outside.class:
+    text: Decorador específico de clase utilizado fuera de la clase
+INSP.NAME.default.argument:
+    text: El argumento por defecto es mutable
+INSP.NAME.dict.creation:
+    text: La creación de diccionarios se puede reescribir con un literal de diccionario
+INSP.NAME.docstring.types:
+    text: El tipo en la docstring no coincide con el tipo inferido
+INSP.NAME.duplicate.keys:
+    text: El diccionario contiene claves duplicadas
+INSP.NAME.exception.not.inherit:
+    text: Las excepciones no heredan de la clase estándar 'Exception'
+INSP.NAME.first.arg.assign:
+    text: El primer argumento del método se reasigna
+INSP.NAME.from.future.import:
+    text: Posición incorrecta de from _future__ import(_F)
+INSP.NAME.global.undefined:
+    text: Variable global no definida a nivel de módulo
+INSP.NAME.incorrect.call.arguments:
+    text: Argumentos de llamada incorrectos
+INSP.NAME.incorrect.docstring:
+    text: Docstring incorrecto
+INSP.NAME.init.return:
+    text: Método _init__ que devuelve un valor(_I)
+INSP.NAME.invalid.interpreter:
+    text: Intérprete no válido
+INSP.NAME.list.creation:
+    text: Declaración de lista no óptima
+INSP.NAME.mandatory.encoding:
+    text: Codificación no especificada para el archivo
+INSP.NAME.method.may.be.static:
+    text: El método no está declarado como static
+INSP.NAME.method.over:
+    text: La firma del método no coincide con la firma del método sobrescrito
+INSP.NAME.missing.or.empty.docstring:
+    text: Docstring ausente o vacío
+INSP.NAME.missing.super.constructor:
+    text: Falta la llamada a '_init__' de la superclase(_I)
+INSP.NAME.nested.decorators:
+    text: Anidamiento problemático de decoradores
+INSP.NAME.new.init.signature:
+    text: Firmas incompatibles de _new__ e _init__(_N)
+INSP.NAME.non.ascii:
+    text: El archivo contiene caracteres no ASCII
+INSP.NAME.none.function.assignment:
+    text: Asignación de llamadas a funciones que no devuelven nada
+INSP.NAME.oldstyle.class:
+    text: Clase de estilo antiguo contiene características de clase de estilo nuevo
+INSP.NAME.property.access:
+    text: Acceso inadecuado a propiedades
+INSP.NAME.property.definition:
+    text: Definición de propiedad incorrecta
+INSP.NAME.redeclaration:
+    text: Nombres redeclarados sin uso
+INSP.NAME.redundant.parentheses:
+    text: Paréntesis redundantes
+INSP.NAME.requirements:
+    text: Requisitos de paquetes no satisfechos
+INSP.NAME.set.function.to.literal:
+    text: La llamada a la función se puede reemplazar por un literal de conjunto
+INSP.NAME.single.quoted.docstring:
+    text: Docstring con comillas simples
+INSP.NAME.statement.effect:
+    text: La sentencia no tiene efecto
+INSP.NAME.str.format:
+    text: Errores en operaciones de formato de cadenas
+INSP.NAME.too.broad.exception.clauses:
+    text: Cláusulas de excepción poco claras
+INSP.NAME.trailing.semicolon:
+    text: Punto y coma final prohibido en una sentencia
+INSP.NAME.tuple.item.assignment:
+    text: La asignación de elementos de tupla está prohibida
+INSP.NAME.unbound:
+    text: Variables locales no vinculadas
+INSP.NAME.unnecessary.backslash:
+    text: Barra invertida innecesaria
+INSP.NAME.unreachable.code:
+    text: Código inalcanzable
+INSP.NAME.unresolved.refs:
+    text: Referencias sin resolver
+INSP.NAME.unused:
+    text: Símbolos locales no utilizados
+INSP.NAME.wrong.super.arguments:
+    text: Argumentos incorrectos para llamar a super
+INSP.argument.equals.to.default:
+    text: El argumento es igual al valor predeterminado del parámetro
+INSP.cant.return.value.from.init:
+    text: No se puede devolver un valor desde _init__(_I)
+INSP.class.has.no.init:
+    text: La clase no tiene el método _init__(_I)
+INSP.classic.class.usage.old.style.class:
+    text: Clase de estilo antiguo
+INSP.classic.class.usage.old.style.class.ancestors:
+    text: Clase de estilo antiguo, porque todas las clases de las que hereda son de estilo antiguo
+INSP.decorator.receives.unexpected.builtin:
+    text: Este decorador no recibirá el objeto invocable que espera; el decorador llamado anteriormente ''{0}'' devuelve un objeto especial
+INSP.deleter.should.not.return:
+    text: El eliminador no debe devolver un valor
+INSP.deleter.signature.advice:
+    text: La signatura del deleter debe ser (self)
+INSP.doc.param.should.be.str:
+    text: El parámetro doc debe ser una cadena de caracteres
+INSP.empty.docstring:
+    text: Docstring vacío
+INSP.expression.can.be.simplified:
+    text: La expresión se puede simplificar
+INSP.first.param.must.not.be.tuple:
+    text: El primer parámetro de un método no estático no debe ser una tupla.
+INSP.format.requires.mapping:
+    text: El formato requiere un mapeo
+INSP.format.requires.no.mapping:
+    text: El formato no requiere un mapeo
+INSP.func.property.name.mismatch:
+    text: Los nombres de la función y del decorador no coinciden; no se ha creado el descriptor de acceso de la propiedad
+INSP.getter.return.smth:
+    text: El getter debe devolver o producir algo
+INSP.getter.signature.advice:
+    text: La firma del getter debe ser (self)
+INSP.init.incompatible.to.new:
+    text: La firma no es compatible con _new__(_N)
+INSP.message.single.quoted.docstring:
+    text: Se deben usar cadenas con triple comilla doble para los docstrings.
+INSP.method.may.be.static:
+    text: El método <code>#ref</code> puede ser 'static'
+INSP.missing.parameter.in.docstring:
+    text: Falta el parámetro {0} en el docstring
+INSP.missing.super.constructor.message:
+    text: Falta la llamada a _init__ de la superclase(_I)
+INSP.must.have.first.parameter:
+    text: El método debe tener un primer parámetro, normalmente llamado ''{0}''
+INSP.new.incompatible.to.init:
+    text: La firma no es compatible con _init__(_I)
+INSP.no.docstring:
+    text: Falta el docstring
+INSP.no.format.specifier.char:
+    text: Falta el carácter especificador de formato
+INSP.none.function.assignment:
+    text: La función ''{0}'' no devuelve nada
+INSP.oldstyle.class.getattribute:
+    text: La clase de estilo antiguo contiene la definición de _getattribute__(_G)
+INSP.oldstyle.class.slots:
+    text: La clase de estilo antiguo contiene la definición de _slots__(_S)
+INSP.oldstyle.class.super:
+    text: La clase de estilo antiguo contiene una llamada al método super
+INSP.probably.mistyped.self:
+    text: ¿No quiso decir 'self'?
+INSP.redeclared.name:
+    text: Se ha vuelto a declarar ''{0}'', definido arriba sin uso
+INSP.setter.should.not.return:
+    text: El setter no debe devolver un valor
+INSP.setter.signature.advice:
+    text: La firma del setter debe ser (self, value)
+INSP.signature.mismatch:
+    text: La firma del método ''{0}'' no coincide con la firma del método base en la clase ''{1}''
+INSP.strange.arg.want.callable:
+    text: Argumento extraño; se espera un objeto invocable
+INSP.too.few.args.for.fmt.string:
+    text: Muy pocos argumentos para la cadena de formato
+INSP.too.few.keys:
+    text: Muy pocas claves de mapeo
+INSP.too.many.args.for.fmt.string:
+    text: Demasiados argumentos para la cadena de formato
+INSP.tuples.never.assign.items:
+    text: Las tuplas no admiten la asignación de elementos
+INSP.unbound.function.too.large:
+    text: La función ''{0}'' es demasiado grande para ser analizada
+INSP.unbound.local.variable:
+    text: La variable local ''{0}'' podría ser referenciada antes de su asignación
+INSP.unbound.nonlocal.variable:
+    text: La variable nolocal ''{0}'' debe estar vinculada en un ámbito de función externa
+INSP.unexpected.arg:
+    text: Argumento inesperado
+INSP.unexpected.parameter.in.docstring:
+    text: Parámetro inesperado {0} en docstring
+INSP.unreachable.code:
+    text: Este código es inaccesible
+INSP.unused.locals.local.class.isnot.used:
+    text: La clase local ''{0}'' no se utiliza
+INSP.unused.locals.local.function.isnot.used:
+    text: La función local ''{0}'' no se utiliza
+INSP.unused.locals.local.variable.isnot.used:
+    text: El valor de la variable local ''{0}'' no se utiliza
+INSP.unused.locals.parameter.isnot.used:
+    text: El valor del parámetro ''{0}'' no se utiliza
+INSP.unused.locals.replace.with.wildcard:
+    text: Reemplazar con _
+INSP.usually.named.self:
+    text: El primer parámetro de un método suele llamarse 'self'
+INTN.add.parameters.to.docstring:
+    text: Añadir parámetros al docstring
+INTN.convert.builtin.import:
+    text: Convertir la importación de un módulo integrado a una forma admitida
+INTN.convert.dict.constructor.to.dict.literal:
+    text: Convertir el constructor de dict en un literal de dict
+INTN.convert.dict.literal.to.dict.constructor:
+    text: Convertir literal de dict a constructor de dict
+INTN.convert.except.to:
+    text: Convertir 'except exceptClass, Target' a 'except exceptClass as Target'
+INTN.convert.lambda.to.function:
+    text: Convertir lambda a función
+INTN.convert.method.to.property:
+    text: Convertir método en propiedad
+INTN.convert.static.method.to.function:
+    text: Convertir método estático en función
+INTN.convert.to.fstring.literal:
+    text: Convertir a literal de f-string
+INTN.convert.variadic.param:
+    text: Convertir parámetros variádicos en normales
+INTN.flip.comparison:
+    text: Invertir ''{0}''
+INTN.format.operator.to.method:
+    text: Convertir el operador de formato en una llamada al método 'str.format'
+INTN.insert.assertion:
+    text: Insertar aserción de tipo
+INTN.join.if:
+    text: Unir dos sentencias 'if'
+INTN.negate.comparison:
+    text: Negar ''{0}'' a ''{1}''
+INTN.quoted.string:
+    text: Convertir cadenas de comillas simples a comillas dobles y viceversa
+INTN.quoted.string.double.to.single:
+    text: Convertir cadena con comillas dobles a cadena con comillas simples
+INTN.quoted.string.single.to.double:
+    text: Convertir cadena con comillas simples a cadena con comillas dobles
+INTN.replace.backquote.expression:
+    text: Reemplazar expresión de comilla invertida
+INTN.replace.list.comprehensions:
+    text: Convertir las comprensiones de lista al formato compatible
+INTN.replace.list.comprehensions.with.for:
+    text: Convertir las comprensiones de lista en un bucle 'for'
+INTN.replace.noteq.operator:
+    text: Reemplazar el operador de desigualdad
+INTN.replace.octal.numeric.literal:
+    text: Convertir el literal numérico octal a una forma compatible
+INTN.replace.plus.with.format.operator:
+    text: Reemplazar + con el operador de formato de cadena
+INTN.replace.plus.with.str.format:
+    text: Reemplazar + por una llamada al método str.format
+INTN.replace.raise.statement:
+    text: Convertir la sentencia raise a una forma compatible
+INTN.replace.with.method:
+    text: Reemplazar con la llamada al método str.format
+INTN.specify.return.type.in.annotation:
+    text: Especificar el tipo de retorno mediante una anotación
+INTN.specify.type.in.annotation:
+    text: Especificar el tipo de la referencia mediante una anotación
+INTN.split.if:
+    text: Dividir en 2 sentencias 'if'
+INTN.string.concatenation.to.format:
+    text: Reemplazar la concatenación de cadenas por 'str.format'
+INTN.transform.into.if.else.statement:
+    text: Transformar expresiones condicionales en sentencias 'if/else'
+INTN.triple.quoted.string:
+    text: Convertir cadena entre triples comillas a cadena entre comillas simples
+INTN.yield.from:
+    text: Transformar iteraciones explícitas con 'yield' en expresiones 'yield from'
+PARSE.expected.colon:
+    text: Se esperaba ':'
+PARSE.expected.colon.or.rbracket:
+    text: Se esperaba ':' o ']'
+PARSE.expected.comma:
+    text: Se esperaba ','
+PARSE.expected.comma.lpar.rpar:
+    text: Se esperaba ',', '(' o ')'
+PARSE.expected.comma.or.rpar:
+    text: Se esperaba ',' o ')'
+PARSE.expected.else:
+    text: se esperaba 'else'
+PARSE.expected.expr.or.comma.or.bracket:
+    text: Se esperaba una expresión, ',' o ']'
+PARSE.expected.expression:
+    text: Se esperaba una expresión
+PARSE.expected.for.or.bracket:
+    text: Se espera ']' o 'for'
+PARSE.expected.formal.param.name:
+    text: Se esperaba un nombre de parámetro formal
+PARSE.expected.identifier:
+    text: Se esperaba un identificador
+PARSE.expected.in:
+    text: Se esperaba 'in'
+PARSE.expected.lpar:
+    text: Se esperaba '('
+PARSE.expected.name:
+    text: Se esperaba un nombre
+PARSE.expected.rbrace:
+    text: Se esperaba '}'
+PARSE.expected.rbracket:
+    text: Se esperaba ']'
+PARSE.expected.rpar:
+    text: Se esperaba ')'
+PARSE.expected.statement.break:
+    text: Se esperaba un salto de instrucción
+PARSE.expected.tick:
+    text: Se esperaba '`' (backtick)
+QDOC.module.path.unknown:
+    text: (La ruta del módulo es desconocida)
+QFIX.NAME.add.exception.base:
+    text: Añadir clase base de excepción
+QFIX.NAME.add.specifier:
+    text: Añadir carácter especificador de formato
+QFIX.NAME.change.signature:
+    text: Cambiar firma
+QFIX.NAME.implement.methods:
+    text: Implementar métodos abstractos
+QFIX.NAME.make.function:
+    text: Crear función a partir del método
+QFIX.NAME.make.list:
+    text: Reemplazar tupla por lista
+QFIX.NAME.make.static:
+    text: Hacer estático el método
+QFIX.NAME.move.except.up:
+    text: Mover cláusula except hacia arriba
+QFIX.NAME.remove.argument:
+    text: Eliminar argumento
+QFIX.NAME.remove.assignment:
+    text: Eliminar asignación
+QFIX.NAME.remove.call:
+    text: Eliminar llamada
+QFIX.NAME.remove.dict.key:
+    text: Eliminar esta clave
+QFIX.NAME.remove.parameter:
+    text: Eliminar parámetro
+QFIX.NAME.remove.statement:
+    text: Eliminar sentencia
+QFIX.NAME.remove.underscores.in.numeric:
+    text: Eliminar guiones bajos en literales numéricos
+QFIX.NAME.rename.argument:
+    text: Renombrar argumento
+QFIX.NAME.rename.element:
+    text: Renombrar el elemento
+QFIX.NAME.update.parameters:
+    text: Actualizar parámetros
+QFIX.action.failed:
+    text: Acción fallida
+QFIX.add.encoding:
+    text: Añadir declaración de codificación
+QFIX.add.global:
+    text: Añadir declaración global
+QFIX.add.import.add.import:
+    text: Añadir "''{0}''"
+QFIX.add.parameter.self:
+    text: Añadir el parámetro ''{0}''
+QFIX.add.property:
+    text: Agregar propiedad para el campo
+QFIX.add.super:
+    text: Añadir llamada a la superclase
+QFIX.augment.assignment:
+    text: Reemplazar asignación por asignación compuesta
+QFIX.auto.import.import.name:
+    text: Importar ''{0}''
+QFIX.auto.import.import.this.name:
+    text: Importar este nombre
+QFIX.chained.comparison:
+    text: Simplificar la comparación encadenada
+QFIX.change.base.class:
+    text: Cambiar clase base
+QFIX.classic.class.transform:
+    text: Heredar de objeto
+QFIX.convert.single.quoted.docstring:
+    text: Convertir el docstring al formato de cadena con triples comillas dobles
+QFIX.convert.to.new.style:
+    text: Convertir a clase de estilo nuevo
+QFIX.create.property:
+    text: Crear propiedad
+QFIX.default.argument:
+    text: Reemplazar argumento predeterminado mutable
+QFIX.dict.creation:
+    text: Reemplazar creación de diccionario
+QFIX.docstring.insert.stub:
+    text: Insertar docstring
+QFIX.failed.to.add.field:
+    text: <br/>¡Error al añadir el campo!<br/><br/>
+QFIX.failed.to.add.function:
+    text: <br/>¡No se pudo añadir la función!<br/><br/>
+QFIX.failed.to.add.method:
+    text: <br/>¡Error al añadir un método!<br/><br/>
+QFIX.introduce.variable:
+    text: Introducir variable para la sentencia
+QFIX.list.creation:
+    text: Reemplazar con un literal de lista
+QFIX.local.auto.import.import.locally:
+    text: '{0} localmente'
+QFIX.make.public:
+    text: Hacer público
+QFIX.move.attribute:
+    text: Mover atributo al método _init__(_I)
+QFIX.move.from.future.import:
+    text: Mover 'from _future__ import' a la ubicación correcta(_F)
+QFIX.redundant.parentheses:
+    text: Eliminar paréntesis redundantes
+QFIX.remove.argument.equal.default:
+    text: Eliminar argumentos iguales al valor predeterminado
+QFIX.remove.decorator:
+    text: Eliminar decorador
+QFIX.remove.trailing.semicolon:
+    text: Eliminar el punto y coma final
+QFIX.remove.unnecessary.backslash:
+    text: Eliminar la barra invertida innecesaria en la expresión
+QFIX.rename.unresolved.reference:
+    text: Renombrar referencia
+QFIX.replace.equality:
+    text: Reemplazar igualdad
+QFIX.replace.function.set.with.literal:
+    text: Reemplazar llamada a función con literal de conjunto
+QFIX.statement.effect:
+    text: Reemplazar por llamada a función
+QFIX.unresolved.reference:
+    text: Reemplazar ''{0}'' por ''{1}.{0}''
+QFIX.unresolved.reference.add.param:
+    text: Crear parámetro ''{0}''
+QFIX.use.property:
+    text: Usar propiedad para el campo
+active.sdk.dialog.project.interpreter:
+    text: 'Intérprete de Python:'
+active.sdk.dialog.project.interpreter.path.mappings:
+    text: 'Mapeos de rutas:'
+active.sdk.dialog.project.interpreter.path.mappings.default.project.error:
+    text: Abra o cree un proyecto para configurar los mapeos
+active.sdk.dialog.show.all.item:
+    text: Mostrar todo…
+commandLine.commandNotFound:
+    text: '{0}: comando no encontrado'
+commandLine.inspection.badArgument:
+    text: El argumento no puede tener este valor. Use el autocompletado para consultar la lista de valores posibles.
+commandLine.inspection.badCommand:
+    text: Comando erróneo o desconocido. Asegúrese de que este comando existe.
+commandLine.inspection.badOption:
+    text: Opción incorrecta o desconocida. Asegúrese de que esta opción exista.
+commandLine.inspection.excessArgument:
+    text: Exceso de argumentos o el argumento no se puede usar aquí
+commandLine.inspection.name:
+    text: Sintaxis de CLI incorrecta
+custom.type.mimic.name:
+    text: Clase dinámica basada en {0}
+debug.popup.title.step.into.function:
+    text: Entrar en la función
+formatter.after.hash:
+    text: Después de '#'
+formatter.after.local.imports:
+    text: 'Después de las importaciones locales:'
+formatter.align.when.multiline:
+    text: Alinear cuando hay varias líneas
+formatter.around.eq.in.keyword.argument:
+    text: Alrededor de = en argumentos de palabra clave
+formatter.around.eq.in.named.parameter:
+    text: Alrededor de = en parámetros con nombre
+formatter.around.multiplicative.operators:
+    text: Operadores multiplicativos (*, @, /, %)
+formatter.around.power.operator:
+    text: Operador de potencia (**)
+formatter.around.top.level.classes.and.function:
+    text: 'Alrededor de clases y funciones de nivel superior:'
+formatter.around.top.level.imports:
+    text: 'Después de las importaciones de nivel superior:'
+formatter.before.backslash:
+    text: Antes de ''
+formatter.before.hash:
+    text: Antes de '#'
+formatter.braces:
+    text: Llaves
+formatter.collections.and.comprehensions:
+    text: Colecciones y comprensiones
+formatter.dictionary.literals:
+    text: Literales de diccionario
+formatter.force.new.line.after.colon:
+    text: Forzar nueva línea después de los dos puntos
+formatter.imports.panel.optimize.imports:
+    text: Optimizar importaciones
+formatter.imports.panel.sort.by.type:
+    text: Ordenar las importaciones simples y "from" por separado dentro de un grupo
+formatter.imports.panel.sort.imports:
+    text: Ordenar sentencias de importación
+formatter.imports.panel.sort.names.in.from.imports:
+    text: Ordenar los nombres importados en las importaciones "from"
+formatter.imports.panel.title:
+    text: Importaciones
+formatter.left.bracket:
+    text: Corchete izquierdo
+formatter.multi.clause.statements:
+    text: Sentencias con varias cláusulas
+formatter.panel.add.trailing.line.feed:
+    text: Añadir salto de línea al final del archivo
+formatter.panel.dict.alignment.align.on.colon:
+    text: Alinear en los dos puntos
+formatter.panel.dict.alignment.align.on.value:
+    text: Alinear por el valor
+formatter.panel.dict.alignment.do.not.align:
+    text: No alinear
+formatter.panel.dict.alignment.label:
+    text: 'Alineación de diccionarios:'
+formatter.panel.use.continuation.indent.for.arguments:
+    text: Argumentos de llamada a método
+formatter.single.clause.statements:
+    text: Sentencias de una sola cláusula
+python.console:
+    text: Consola de Python
+refactoring.change.signature.dialog.default.value.checkbox:
+    text: 'Usar valor predeterminado en la firma:'
+refactoring.change.signature.dialog.name.label:
+    text: 'Nombre:'
+refactoring.change.signature.dialog.validation.default.missing:
+    text: Falta el valor predeterminado
+refactoring.change.signature.dialog.validation.function.name:
+    text: Nombre de función incorrecto
+refactoring.change.signature.dialog.validation.multiple.double.star:
+    text: No se permiten múltiples argumentos **
+refactoring.change.signature.dialog.validation.multiple.star:
+    text: No se permiten múltiples argumentos *
+refactoring.change.signature.dialog.validation.name.defined:
+    text: El nombre ya está definido en el ámbito
+refactoring.change.signature.dialog.validation.parameter.missing:
+    text: Falta el nombre del parámetro
+refactoring.change.signature.dialog.validation.parameter.name:
+    text: Nombre de parámetro incorrecto
+refactoring.change.signature.error.lambda.call:
+    text: El cursor está situado sobre una llamada lambda
+refactoring.change.signature.error.not.under.source.root:
+    text: La función no se encuentra bajo la raíz de fuentes
+refactoring.change.signature.error.tuple.parameters:
+    text: La función contiene parámetros de tupla
+refactoring.change.signature.error.wrong.caret.position.method.name:
+    text: El cursor debe estar situado en el nombre del método que se va a refactorizar
+refactoring.change.signature.find.usages.of.base.class:
+    text: "El método {0} de la clase {1}\nsobrescribe el método de la clase {2}.\n¿Desea refactorizar el método base?"
+refactoring.change.signature.usage.view.declarations.header:
+    text: Funciones a refactorizar
+refactoring.convert.package.to.module.error.not.empty.package:
+    text: El paquete "{0}" no está vacío
+refactoring.error.directory.exists:
+    text: El directorio "{0}" ya existe
+refactoring.error.file.exists:
+    text: El archivo "{0}" ya existe
+refactoring.extract.method:
+    text: Extraer método
+refactoring.extract.method.error.bad.selection:
+    text: No se puede realizar la refactorización Extraer método con los elementos seleccionados
+refactoring.extract.method.error.class.level:
+    text: No se puede realizar la refactorización a nivel de clase
+refactoring.extract.method.error.empty.fragment:
+    text: No se puede realizar la refactorización a partir de un fragmento de código vacío
+refactoring.extract.method.error.interrupted.execution.flow:
+    text: No se puede realizar la refactorización cuando el flujo de ejecución está interrumpido
+refactoring.extract.method.error.local.variable.modifications:
+    text: No se puede realizar la refactorización a partir de una expresión que contiene modificaciones de variables locales dentro de un fragmento de código.
+refactoring.extract.method.error.local.variable.modifications.and.returns:
+    text: No se puede realizar la refactorización a partir de una expresión que contenga modificaciones de variables locales e instrucciones de retorno dentro de un fragmento de código
+refactoring.extract.method.error.name.clash:
+    text: El nombre del método entra en conflicto con un nombre ya existente
+refactoring.extract.method.error.returns:
+    text: No se puede extraer un método con instrucciones de retorno dentro de un fragmento de código
+refactoring.extract.method.error.star.import:
+    text: No se puede realizar la refactorización con una sentencia de importación con asterisco dentro de un bloque de código
+refactoring.extract.method.error.yield:
+    text: No se puede realizar la refactorización con una sentencia 'yield' dentro de un bloque de código
+refactoring.extract.super.class.no.members.allowed:
+    text: No se pudo extraer ningún miembro
+refactoring.extract.super.name.0.must.be.ident:
+    text: El nombre ''{0}'' no es válido. Debe ser un identificador de Python válido.
+refactoring.extract.super.target.class.already.exists:
+    text: La clase ''{0}'' ya existe en este módulo
+refactoring.extract.super.target.path.outside.roots:
+    text: El directorio de destino está fuera del proyecto. Debe estar dentro de las raíces de contenido.
+refactoring.inline.local.multiassignment:
+    text: La definición se encuentra en una asignación múltiple
+refactoring.introduce.constant.dialog.title:
+    text: Extraer constante
+refactoring.introduce.constant.scope.error:
+    text: El nombre ya está declarado en el ámbito
+refactoring.introduce.name.error:
+    text: Nombre incorrecto
+refactoring.introduce.parameter.dialog.title:
+    text: Extraer parámetro
+refactoring.introduce.selection.error:
+    text: No se puede realizar la refactorización con los elementos seleccionados.
+refactoring.make.function.top.level.error.attribute.writes:
+    text: No se puede mover un método que escribe en atributos de instancia
+refactoring.make.function.top.level.error.method.calls:
+    text: No se puede mover un método que llama a otros métodos de la misma clase
+refactoring.make.function.top.level.error.nonlocal.writes:
+    text: No se puede mover una función con escrituras no locales
+refactoring.make.function.top.level.error.outer.scope.reads:
+    text: No se puede mover un método que hace referencia a nombres del ámbito externo
+refactoring.make.function.top.level.error.private.attributes:
+    text: No se puede mover un método que hace referencia a atributos de instancia privados
+refactoring.make.function.top.level.error.self.reads:
+    text: No se puede mover una función que contiene usos del parámetro "self" del ámbito externo
+refactoring.make.function.top.level.error.special.usage.of.self:
+    text: No se puede mover un método que contiene usos especiales del parámetro "self"
+refactoring.make.local.function.top.level.dialog.description:
+    text: Mover la función local {0} al nivel superior
+refactoring.make.local.function.top.level.dialog.title:
+    text: Convertir función local a nivel superior
+refactoring.make.method.top.level.dialog.description:
+    text: Mover el método {0} al nivel superior
+refactoring.make.method.top.level.dialog.title:
+    text: Convertir método en nivel superior
+refactoring.move.choose.destination.file.title:
+    text: Seleccionar archivo de destino
+refactoring.move.module.members:
+    text: Mover miembros del módulo
+refactoring.move.module.members.dialog.description.class:
+    text: Mover clase {0}
+refactoring.move.module.members.dialog.description.function:
+    text: Mover la función {0}
+refactoring.move.module.members.dialog.description.selection:
+    text: Mover los elementos seleccionados
+refactoring.move.module.members.dialog.description.variable:
+    text: Mover la variable global {0}
+refactoring.move.module.members.dialog.table.title:
+    text: '&Mover en lote'
+refactoring.move.module.members.dialog.title:
+    text: Mover miembros del módulo
+refactoring.move.module.members.error.cannot.place.elements.into.nonpython.file:
+    text: No se pueden colocar elementos en un archivo que no sea de Python
+refactoring.move.module.members.error.selection:
+    text: No se puede realizar la refactorización con los elementos seleccionados
+refactoring.pull.up.dialog.members.to.be.moved:
+    text: Se moverán los siguientes miembros
+refactoring.pull.up.dialog.move.members.to.class:
+    text: Mover miembros a la clase
+refactoring.pull.up.dialog.title:
+    text: Subir miembros a
+refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
+    text: La clase {0} no tiene superclases o ninguna de ellas puede utilizarse para la refactorización
+refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
+    text: 'No se puede realizar la subida de miembros: no se encuentra dentro de la clase'
+refactoring.will.not.be.accessible:
+    text: El miembro que intenta mover depende de ''{0}'', el cual no será accesible después de esta refactorización
+remote.debug.info:
+    text: Información
+remote.debug.local.host:
+    text: 'Nombre de host del IDE:'
+remote.debug.local.root.folder:
+    text: Carpeta raíz local
+remote.debug.port:
+    text: Puerto remoto
+remote.debug.redirect.output:
+    text: Redirigir la salida a la consola
+remote.debug.remote.host:
+    text: Host remoto
+remote.debug.remote.root.folder:
+    text: Carpeta raíz remota
+remote.debug.server.hint:
+    text: Use el siguiente comando en el servidor para habilitar la depuración remota
+remote.debug.server.hint1.5:
+    text: 'Actualice su script:'
+remote.debug.server.hint2:
+    text: '1. Añada pydevd-pycharm.egg de la instalación de PyCharm a la ruta de Python o ejecute:'
+remote.debug.server.hint3:
+    text: pip install pydevd-pycharm
+remote.debug.server.hint4:
+    text: '2. Añada el siguiente comando para conectarse al servidor de depuración:'
+remote.debug.settings:
+    text: Configuración
+remote.debug.suspend.on.connect:
+    text: Suspender después de conectar
+remote.interpreter.configure.path.label:
+    text: 'Ruta de &Ruby o del gestor de versiones:'
+remote.interpreter.configure.path.title:
+    text: Seleccionar intérprete de Ruby
+remote.interpreter.configure.temp.files.path.label:
+    text: 'Ruta de los helpers de Ruby:'
+remote.interpreter.configure.temp.files.path.title:
+    text: Seleccionar carpeta para los asistentes de Ruby
+remote.interpreter.configure.title:
+    text: Configurar intérprete de Ruby remoto
+remote.interpreter.default.interpreter.path:
+    text: /usr/bin/ruby
+remote.interpreter.docker.default.interpreter.path:
+    text: ruby
+remote.interpreter.unspecified.interpreter.path:
+    text: Especificar la ruta del intérprete de Ruby
+remote.interpreter.unspecified.temp.files.path:
+    text: Especifique la ruta para los auxiliares de Ruby
+remove.elif:
+    text: Eliminar elif…
+remove.else:
+    text: Eliminar else…
+run.configuration.remote.debug.name:
+    text: Depuración remota de Ruby
+run.configuration.show.command.line.action.name:
+    text: Mostrar consola de depuración
+run.configuration.type.description:
+    text: Inicia el servidor para la depuración remota
+runcfg.captions.interpreter_options_dialog:
+    text: Introduzca las opciones del intérprete
+runcfg.captions.script_parameters_dialog:
+    text: Introducir parámetros del script
+runcfg.labels.environment_variables:
+    text: 'Variables de &entorno:'
+runcfg.labels.interpreter:
+    text: '&Usar el intérprete especificado:'
+runcfg.labels.interpreter_options:
+    text: '&Opciones del intérprete:'
+runcfg.labels.script_parameters:
+    text: '&Parámetros:'
+runcfg.labels.working_directory:
+    text: 'Directorio de trabajo (&W):'
+runcfg.pytest.display_name:
+    text: pytest
+runcfg.test.description:
+    text: Frameworks de Python soportados por PyCharm
+runcfg.test.display_name:
+    text: Pruebas de Python
+runcfg.testing.no.test.framework:
+    text: No se encontró ningún ejecutor de {0} en el intérprete seleccionado
+runcfg.tests.cant_rerun:
+    text: No se pueden volver a ejecutar las pruebas porque no se pueden resolver los ID de prueba. Intente eliminar la configuración de ejecución y haga clic derecho para crear una nueva.
+runcfg.unittest.display_name:
+    text: Pruebas unitarias
+runcfg.unittest.dlg.all_in_folder_title:
+    text: Todo en la carpeta
+runcfg.unittest.dlg.class_label:
+    text: 'Clase:'
+runcfg.unittest.dlg.folder_path:
+    text: 'Carpeta:'
+runcfg.unittest.dlg.function_label:
+    text: 'Función:'
+runcfg.unittest.dlg.interpreter_options_title:
+    text: 'Opciones del intérprete:'
+runcfg.unittest.dlg.method_label:
+    text: 'Método:'
+runcfg.unittest.dlg.pattern:
+    text: 'Patrón:'
+runcfg.unittest.dlg.select.folder.path:
+    text: 'Seleccionar ruta de la carpeta:'
+runcfg.unittest.dlg.select.script.path:
+    text: 'Seleccionar ruta del script:'
+runcfg.unittest.dlg.test_class_title:
+    text: Clase
+runcfg.unittest.dlg.test_function_title:
+    text: Función
+runcfg.unittest.dlg.test_method_title:
+    text: Método
+runcfg.unittest.dlg.test_type_title:
+    text: 'Prueba:'
+runcfg.unittest.no_class_name:
+    text: Especifique un nombre de clase
+runcfg.unittest.no_folder_name:
+    text: Por favor, especifique una carpeta con pruebas
+runcfg.unittest.no_method_name:
+    text: Por favor, especifique un nombre de método
+runcfg.unittest.no_module_sdk:
+    text: Seleccione un módulo con un SDK de Python válido
+runcfg.unittest.no_script_name:
+    text: Por favor, especifique un nombre de script
+runcfg.unittest.no_sdk:
+    text: Por favor, especifique un SDK de Python
+runcfg.unittest.no_valid_sdk:
+    text: Por favor, seleccione un intérprete de Python válido
+sdk.create.venv.conda.dialog.label.python.version:
+    text: 'Versión de Python:'
+sdk.create.venv.dialog.label.inherit.global.site.packages:
+    text: Heredar site-packages globales
+sdk.details.dialog.error.duplicate.name:
+    text: Especifique un nombre único para el intérprete
+sdk.details.dialog.show.interpreter.paths:
+    text: Mostrar rutas del intérprete seleccionado
+sdk.details.dialog.title:
+    text: Intérpretes de Python
+sdk.edit.dialog.associate.virtual.env.current.project:
+    text: Asociar este entorno con el proyecto actual
+sdk.edit.dialog.associate.virtual.env.with.path:
+    text: Asociar este entorno virtual con {0}
+sdk.edit.dialog.specify.interpreter.path:
+    text: Especificar ruta del intérprete
+sdk.edit.dialog.title:
+    text: Editar intérprete de Python
+sdk.gen.reloading:
+    text: Recargando esqueletos generados…
+sdk.gen.stubs.for.binary.modules:
+    text: Generar stubs para el módulo binario {0}
+sdk.gen.updating.interpreter:
+    text: Actualizando el intérprete de Python
+sdk.paths.dialog.added.by.user.suffix:
+    text: (agregado por el usuario)
+sdk.paths.dialog.reload.paths:
+    text: Recargar lista de rutas
+sdk.paths.dialog.removed.by.user.suffix:
+    text: (eliminado por el usuario)
+sdk.paths.dialog.title:
+    text: Rutas del intérprete
+sdk.scanning.installed.packages:
+    text: Escaneando paquetes instalados
+sdk.select.path:
+    text: Seleccionar intérprete de Python
+sdk.some.skeletons.failed:
+    text: No se pudieron generar algunos esqueletos
+smartKeys.insert.self.in.method:
+    text: Insertar 'self' al definir un método
+smartKeys.insert.type.placeholder.in.docstring.stub:
+    text: Insertar marcadores de posición de tipo en el stub del comentario de documentación
+unable.to.stop:
+    text: No se puede detener el proceso en ejecución actual. Finalícelo manualmente primero.
+unwrap.elif:
+    text: Desenvolver elif…
+unwrap.else:
+    text: Deshacer else…
+unwrap.for:
+    text: Quitar for…
+unwrap.if:
+    text: Quitar if…
+unwrap.try:
+    text: Quitar try…
+unwrap.while:
+    text: Deshacer while…
+unwrap.with:
+    text: Deshacer envoltorio con…
+windowWithActions.closeWindow:
+    text: Cerrar ventana
+windowWithActions.stopProcess:
+    text: Detener el proceso en ejecución

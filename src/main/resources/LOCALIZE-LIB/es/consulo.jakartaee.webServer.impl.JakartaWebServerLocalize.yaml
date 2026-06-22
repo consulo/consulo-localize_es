@@ -1,0 +1,44 @@
+Integration.name:
+    text: Servidor {0}
+PersistentDataEditor.label.home:
+    text: '{0} &Inicio:'
+PersistentDataEditor.label.version:
+    text: '{0} Versión:'
+PersistentDataEditor.chooser.title:
+    text: Directorio de inicio de {0}
+PersistentDataEditor.chooser.description:
+    text: Seleccionar el directorio de inicio de {0}
+PersistentDataEditor.warning:
+    text: <html><body><b>Advertencia:</b> El directorio seleccionado no es un directorio raíz de {0} válido</body></html>
+PersistentDataEditor.unknown:
+    text: <desconocido>
+ServerHelper.libraries.title:
+    text: Buscando bibliotecas del servidor de aplicaciones
+ServerHelper.libraries.error:
+    text: No se encontraron las bibliotecas del servidor de aplicaciones
+ConfigurationType.name:
+    text: Servidor {0}
+ConfigurationType.description:
+    text: Configuración de ejecución del servidor {0}
+RunEditor.title:
+    text: Configuración del servidor {0}
+RunEditor.username:
+    text: '&Nombre de usuario:'
+RunEditor.password:
+    text: 'Contraseña (&W):'
+AppDescriptor.title:
+    text: Descriptor de despliegue de la aplicación {0}
+EjbDescriptor.title:
+    text: Descriptor de despliegue EJB {0}
+CmpDescriptor.title:
+    text: '{0} Descriptor de despliegue CMP'
+WebDescriptor.title:
+    text: '{0} descriptor de despliegue web'
+ServerModel.password:
+    text: Se ha especificado un nombre de usuario, pero no la contraseña
+ServerModel.logfile:
+    text: Registro de {0}
+ServerInstance.artifact.status:
+    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] Artefacto {1}: {2}\n"
+Error.fileNotFound:
+    text: No se encontró el archivo ''{0}''

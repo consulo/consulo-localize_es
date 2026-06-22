@@ -1,0 +1,858 @@
+Form.TransportManagerConfigurable.type:
+    text: 'Tipo:'
+LocalTransportHost.name:
+    text: Mismo sistema de archivos
+ScriptInfo.error.shutdown.script.not.found:
+    text: No se encontró el archivo del script de apagado
+ScriptInfo.error.startup.script.not.found:
+    text: No se encontró el archivo del script de inicio
+action.CreateBeanManagedEntityBeanAction.text:
+    text: Bean de entidad BMP(_B)
+action.CreateCMPField.text:
+    text: Campo CMP(_C)
+action.CreateContainerManagedEntityBeanAction.text:
+    text: Bean de entidad CMP(_C)
+action.CreateEJBInterceptor.text:
+    text: Interceptor(_I)
+action.CreateEJBRelationship.text:
+    text: Relación EJB(_R)
+action.CreateFilterAction.description:
+    text: Crear nuevo filtro
+action.CreateFilterAction.text:
+    text: Filtro(_F)
+action.CreateListenerAction.description:
+    text: Crear nuevo listener
+action.CreateListenerAction.text:
+    text: Listener(_L)
+action.CreateMessageBean.text:
+    text: Bean de mensaje(_M)
+action.CreateServletAction.description:
+    text: Crear nuevo servlet
+action.CreateServletAction.text:
+    text: Servlet(_S)
+action.CreateSingletonBean.text:
+    text: Bean de sesión singleton(_G)
+action.CreateStatefulBean.text:
+    text: Bean de sesión con estado(_F)
+action.CreateStatelessBean.text:
+    text: Bean de sesión sin estado(_L)
+action.CreateTransferObject.text:
+    text: Objeto de transferencia(_T)
+action.EditInterceptorBindingsAction.text:
+    text: Editar vinculaciones de interceptor…(_B)
+action.GenerateEJBFinderOrSelectorMethod.text:
+    text: Método buscador/selector de EJB…
+action.GenerateEJBReference.text:
+    text: Referencia @EJB
+action.GenerateEntityListenerMethods.text:
+    text: Métodos de Entity Listener…
+action.GenerateInterceptorMethods.text:
+    text: Métodos interceptores…
+action.GeneratePersistenceContextReference.text:
+    text: Referencia de @PersistenceContext/unidad
+action.GenerateResourceReference.text:
+    text: Referencia a @Resource
+action.OpenPersistenceERDiagramAction.text:
+    text: Diagrama de entidad-relación
+action.PackageFile.description:
+    text: Agrega el archivo seleccionado al directorio de despliegue expandido o al archivo Java EE
+action.PackageFile.text:
+    text: Empaquetar archivo(_P)
+action.ValidateJsp.description:
+    text: Validar los archivos JSP seleccionados
+action.ValidateJsp.text:
+    text: Validar JSP(_V)
+action.description.add.application.server:
+    text: Añadir servidor de aplicaciones
+action.description.build.on.frame.deactivation:
+    text: Actualizar recursos relacionados con este proceso al desactivar el marco
+action.description.create.new.ejb.relationship:
+    text: Crear nueva relación EJB
+action.description.create.new.servlet:
+    text: Crear nuevo Servlet
+action.description.remove.application.server:
+    text: Eliminar el servidor de aplicaciones
+action.name.build.on.frame.deactivation:
+    text: Actualizar recursos al desactivar el marco
+action.name.configure.j2ee.names:
+    text: Nombres de Java EE…(_J)
+action.name.create.bmp.entity.bean:
+    text: Crear bean de entidad BMP
+action.name.create.cmp.entity.bean:
+    text: Crear bean de entidad CMP
+action.name.create.interceptor:
+    text: Crear interceptor
+action.name.create.message.bean:
+    text: Crear bean de mensaje
+action.name.create.new.filter:
+    text: Filtro web
+action.name.create.new.listener:
+    text: Listener web
+action.name.create.new.servlet:
+    text: Servlet
+action.name.create.new.transfer.object:
+    text: Objeto de transferencia
+action.name.create.singleton.bean:
+    text: Crear bean de sesión singleton
+action.name.create.stateful.bean:
+    text: Crear bean de sesión con estado
+action.name.create.stateless.bean:
+    text: Crear Bean de sesión sin estado
+action.name.delete:
+    text: Eliminar
+action.name.deploy.selected:
+    text: Desplegar
+action.name.edit.deployment.descriptor:
+    text: Editar descriptor de despliegue…
+action.name.new.ejb.relationship:
+    text: Nueva relación EJB
+action.name.validate.location:
+    text: Validar {0}
+action.text.select.all:
+    text: Seleccionar todo
+action.text.unselect.all:
+    text: Deseleccionar todo
+action.text.validate.facet:
+    text: Validar todos los archivos del facet ''{0}''
+add.web.root:
+    text: Configurar {0} como raíz web
+additional.deployment.descriptor.file.description.additional.resource:
+    text: Recurso adicional
+application.servers.configurable.display.name:
+    text: Servidores de aplicaciones
+appserver.library.display.name:
+    text: '{0, choice, 1#Biblioteca|2#Bibliotecas} del servidor de aplicaciones'
+appserver.validator.presentable.text:
+    text: '{0} para {1}'
+border.edit.deployment.descriptors.deployment.descriptors.group:
+    text: Descriptores de despliegue
+border.edit.web.module.web.resource.directories:
+    text: Directorios de recursos web
+border.interceptor.binding:
+    text: Vinculaciones de interceptores
+border.pk.class.dialog.primary.key.class.name:
+    text: 'Nombre de la clase de clave primaria:'
+border.pk.class.dialog.primary.key.class.package:
+    text: 'Paquete de la clase de clave primaria:'
+border.relationship.editor.role.1:
+    text: Rol 1
+border.relationship.editor.role.2:
+    text: Rol 2
+border.run.configuration.editor.environment.variables:
+    text: Variables de entorno
+border.run.configuration.editor.remote.connection.settings.group:
+    text: Configuración de conexión remota
+browser.no.suitable.configuration.running:
+    text: ¡No se encontraron servidores web configurados o en ejecución! Por favor, ejecute cualquier configuración web y pulse el botón Actualizar.
+browser.web.faced.not.configured:
+    text: ¡Configure primero el Facet Web!
+button.add.appserver.descriptor:
+    text: Añadir descriptor específico del &servidor de aplicaciones…
+button.configure.acclication.server:
+    text: '&Configurar…'
+button.configure.application.server:
+    text: Configurar…
+button.delete:
+    text: Eliminar
+button.help:
+    text: Ay&uda
+checkbox.also.delete.file.from.disk.text:
+    text: '&También eliminar el archivo del disco'
+checkbox.cmp.field.properties.generate.getter.in.local.interface:
+    text: '&Interfaz local'
+checkbox.cmp.field.properties.generate.getter.in.remote.interface:
+    text: '&Interfaz remota'
+checkbox.cmp.field.properties.generate.setter.in.local.interface:
+    text: '&Interfaz local'
+checkbox.cmp.field.properties.generate.setter.in.remote.interface:
+    text: Interfaz r&emota
+checkbox.create.transfer.object.generate.getter.in.interface:
+    text: Generar &getter en la interfaz {0}
+checkbox.create.transfer.object.generate.setter.in.interface:
+    text: Generar &setter en la interfaz {0}
+checkbox.default.interceptor:
+    text: Interceptor pre&determinado
+checkbox.delete.ejb.delete.following.classes:
+    text: '&Eliminar las siguientes clases:'
+checkbox.edit.cmp.field.primary.key:
+    text: Clave &primaria
+checkbox.edit.ejb.class.enable.local.interface:
+    text: Interfaz &local
+checkbox.edit.ejb.class.enable.remote.interface:
+    text: Interfaz &remota
+checkbox.edit.relationship.cascade.delete:
+    text: Eliminación en cascada
+checkbox.edit.relationship.enable.cmr.field:
+    text: Campo CMR
+checkbox.edit.script.properties.use.default:
+    text: Usar predeterminado
+checkbox.run.configuration.editor.pass.environment.variables:
+    text: Pasar variables de entorno
+class.role.business.local.interface:
+    text: Interfaz de negocio local
+class.role.business.remote.interface:
+    text: Interfaz de negocio remota
+class.role.ejb.class:
+    text: Clase EJB
+class.role.home.interface:
+    text: Interfaz Home
+class.role.local.home.interface:
+    text: Interfaz home local
+class.role.local.interface:
+    text: Interfaz local
+class.role.remote.interface:
+    text: Interfaz remota
+class.role.service.endpoint.interface:
+    text: Interfaz de punto de conexión de servicio
+class.role.unknown.ejb.class:
+    text: Clase EJB desconocida
+column.name.description:
+    text: Descripción
+column.name.edit.deployment.descriptors.path:
+    text: Ruta
+column.name.edit.deployment.descriptors.type:
+    text: Tipo
+column.name.edit.web.roots..relative.to.deployment.root:
+    text: Ruta relativa a la raíz de despliegue
+column.name.edit.web.roots.web.resource.directory:
+    text: Directorio de recursos web
+column.name.ejb.business.tree.intercept:
+    text: Intercepción
+column.name.ejb.business.tree.name:
+    text: Nombre
+combobox.deployment.descriptor.version:
+    text: '&Versión del descriptor de despliegue'
+command.apply.interceptor.bindings.command:
+    text: Modificar vinculaciones de interceptor
+command.name.create.0.1:
+    text: Crear {0} ''{1}''
+command.name.create.directory:
+    text: Crear directorio
+command.name.create.transfer.object:
+    text: Crear objeto de transferencia
+command.name.creating.web.root.dir:
+    text: Creando directorio
+command.name.delete.ejb.class:
+    text: Eliminar clase EJB
+confirmation.text.class.does.not.exist.create.it:
+    text: La clase {0} no existe. ¿Desea crearla?
+confirmation.text.classes.do.not.exist.create.them:
+    text: "Las clases\n{0}\nno existen. ¿Desea crearlas?"
+confirmation.text.create.directory:
+    text: ¿Crear el directorio ''{0}''?
+confirmation.text.regenerate.equals.and.hashcode.for.class:
+    text: ¿Regenerar los métodos equals y hashCode para la clase ''{0}''?
+default.run.configuration.name.unnamed:
+    text: Sin nombre
+deployment.descriptor.panel.directory.path.relative.to.deployment.root.label:
+    text: 'Ruta de directorio relativa a la raíz de despliegue (&P):'
+deployment.descriptor.title.application.module:
+    text: Descriptor de despliegue del módulo de aplicación
+deployment.descriptor.title.ejb.module:
+    text: Descriptor de despliegue del módulo EJB
+deployment.descriptor.title.web.module:
+    text: Descriptor de despliegue del módulo web de WebLogic
+deployment.status.description.activating:
+    text: Se está desplegando el artefacto, por favor espere…
+deployment.status.description.deactivating:
+    text: Se está anulando la implementación del artefacto, espere…
+deployment.status.description.deployed:
+    text: El artefacto se ha desplegado correctamente
+deployment.status.description.excluded.from.deployment:
+    text: El artefacto está excluido del despliegue. Para incluirlo, vaya a Ejecutar | Editar configuración | Despliegue y seleccione el artefacto.
+deployment.status.description.failed:
+    text: Error durante el despliegue del artefacto. Consulte el registro del servidor para obtener más detalles.
+deployment.status.description.not.deployed:
+    text: El artefacto no está desplegado. Presione 'Desplegar' para iniciar el despliegue.
+deployment.status.description.prepared:
+    text: Se está desplegando el artefacto, espere por favor…
+deployment.status.description.preparing:
+    text: Se está desplegando el artefacto, espere por favor…
+deployment.status.description.unknown:
+    text: El estado es desconocido. Presione 'Actualizar' para volver a cargar el estado de implementación desde el servidor.
+deployment.status.description.unprepared:
+    text: Se está anulando el despliegue del artefacto, espere…
+deployment.status.description.unpreparing:
+    text: Se está anulando el despliegue del artefacto, espere…
+deployment.status.name.activating:
+    text: Activando…
+deployment.status.name.deactivating:
+    text: Desactivando…
+deployment.status.name.deployed:
+    text: Desplegado
+deployment.status.name.disconnected:
+    text: Desconectado
+deployment.status.name.excluded.from.deployment:
+    text: Excluido del despliegue
+deployment.status.name.failed:
+    text: Fallido
+deployment.status.name.not.deployed:
+    text: No desplegado
+deployment.status.name.prepared:
+    text: Preparado
+deployment.status.name.preparing:
+    text: Preparando…
+deployment.status.name.unknown:
+    text: Desconocido
+deployment.status.name.unprepared:
+    text: No preparado
+deployment.status.name.unpreparing:
+    text: Cancelando preparación…
+dialog.description.web.resource.directory:
+    text: Seleccione un directorio de recursos web donde se almacenarán los archivos web.
+dialog.title.cant.create.class:
+    text: No se puede crear la clase
+dialog.title.choose.class:
+    text: Seleccionar clase
+dialog.title.choose.cmp.field.class:
+    text: Seleccionar clase de campo CMP
+dialog.title.choose.ejb.class:
+    text: Seleccionar clase EJB
+dialog.title.choose.ejb.classes.package:
+    text: Seleccionar paquete de clases EJB
+dialog.title.choose.ejb.home.interface:
+    text: Seleccionar interfaz Home de EJB
+dialog.title.choose.ejb.local.home.interface:
+    text: Seleccionar interfaz local home de EJB
+dialog.title.choose.ejb.local.interface:
+    text: Seleccionar interfaz local EJB
+dialog.title.choose.ejb.message.listener.interface:
+    text: Seleccionar interfaz de escucha de mensajes EJB
+dialog.title.choose.ejb.primary.key.class:
+    text: Seleccionar clase de clave primaria de EJB
+dialog.title.choose.ejb.remote.interface:
+    text: Seleccionar interfaz remota EJB
+dialog.title.choose.ejb.service.endpoint.interface:
+    text: Seleccionar interfaz de punto final de servicio EJB
+dialog.title.choose.entity.bean.primary.key.class:
+    text: Seleccionar clase de clave primaria del Entity Bean
+dialog.title.choose.package:
+    text: Seleccionar paquete
+dialog.title.choose.primary.key.class.package:
+    text: Seleccionar el paquete de la clase de clave primaria
+dialog.title.configure.vm.and.program.parameters:
+    text: Configurar parámetros de la VM y del programa
+dialog.title.create.appserver.specific.descriptor:
+    text: Crear descriptor específico del servidor de aplicaciones
+dialog.title.create.new.0:
+    text: Crear {0}
+dialog.title.create.new.cmp.field:
+    text: Crear campo CMP
+dialog.title.create.new.ejb.0:
+    text: Crear nuevo EJB ''{0}''
+dialog.title.default.shutdown.script:
+    text: Script de apagado predeterminado
+dialog.title.default.startup.script:
+    text: Script de inicio predeterminado
+dialog.title.deployment.descriptor.location:
+    text: Ubicación del descriptor de despliegue
+dialog.title.edit.0:
+    text: Editar {0}
+dialog.title.edit.ejb.ql.query:
+    text: Editar consulta EJB QL
+dialog.title.edit.interceptor.bindings:
+    text: Editar vinculaciones del interceptor ''{0}''
+dialog.title.ejb.relationship.properties:
+    text: Propiedades de relación EJB
+dialog.title.new.filter:
+    text: Nuevo filtro web
+dialog.title.new.listener:
+    text: Nuevo listener web
+dialog.title.new.typename:
+    text: Nuevo {0}
+dialog.title.packaging.choose.facets:
+    text: Seleccionar facetas
+dialog.title.remove.ejb.local.interface:
+    text: Eliminar interfaz local EJB
+dialog.title.rename.0:
+    text: Renombrar {0}
+dialog.title.resource.location:
+    text: Ubicación del recurso
+dialog.title.restart.server:
+    text: Reiniciar servidor
+dialog.title.select.accessors.of.fields.to.include.in.transfer.object:
+    text: Seleccionar los accesores de los campos para incluir en el objeto de transferencia
+dialog.title.select.startup.script:
+    text: Seleccionar script de inicio
+dialog.title.vm.parameters:
+    text: Opciones de VM
+dialog.title.web.resource.directory:
+    text: Directorio de recursos web
+dialog.title.web.resource.directory.path:
+    text: Ruta del directorio de recursos web
+directory.description.working.directory:
+    text: Directorio de trabajo
+editbox.default.pk.class:
+    text: 'Clase PK predeterminada:'
+editbox.j2eenames.ejb.class:
+    text: Clase EJB
+editbox.j2eenames.ejb.name.tag:
+    text: etiqueta <ejb-name>
+editbox.j2eenames.filter.class:
+    text: Clase de filtro
+editbox.j2eenames.filter.name.tag:
+    text: etiqueta <filter-name>
+editbox.j2eenames.home.interface:
+    text: Interfaz Home
+editbox.j2eenames.listener.class:
+    text: Clase del listener
+editbox.j2eenames.local.home.interface:
+    text: Interfaz home local
+editbox.j2eenames.local.interface:
+    text: Interfaz local
+editbox.j2eenames.remote.interface:
+    text: Interfaz remota
+editbox.j2eenames.service.endpoint.interface:
+    text: Interfaz de punto de conexión del servicio
+editbox.j2eenames.servlet.class:
+    text: Clase de servlet
+editbox.j2eenames.servlet.name.tag:
+    text: etiqueta <servlet-name>
+editbox.j2eenames.transfer.object:
+    text: Objeto de transferencia
+ejb.type.bmp.entity.bean:
+    text: Bean de entidad BMP
+ejb.type.cmp.entity.bean:
+    text: Bean de entidad CMP
+ejb.type.entity.bean:
+    text: Bean de entidad
+ejb.type.message.bean:
+    text: Bean de mensaje
+ejb.type.session.bean:
+    text: Bean de sesión
+ejb.type.singleton.bean:
+    text: Bean de sesión singleton
+ejb.type.stateful.bean:
+    text: Bean de sesión con estado
+ejb.type.stateless.bean:
+    text: Bean de sesión sin estado
+error.cannot.create.deployment.descriptor:
+    text: "No se puede crear {0}\n{1}"
+error.deployment.descriptor.already.exists:
+    text: El descriptor de despliegue en el archivo ''{0}'' ya existe
+error.deployment.descriptor.target.in.use:
+    text: El archivo de destino del descriptor de despliegue ''{0}'' está en uso
+error.please.specify.path.to.deployment.descriptor:
+    text: Por favor, especifique una ruta para {0}
+exception.text.address.is.in.use:
+    text: La dirección {0} ya está en uso
+exception.text.alternative.jre.not.specified:
+    text: No se ha especificado el JRE alternativo
+exception.text.application.server.0.not.configured:
+    text: El servidor de aplicaciones ''{0}'' no está configurado
+exception.text.application.server.not.specified:
+    text: No se ha especificado el servidor de aplicaciones
+exception.text.descriptor.not.defined:
+    text: '''''{0}'''' no está definido'
+exception.text.invalid.port.value:
+    text: 'Valor de puerto no válido: {0}'
+exception.text.malformed.url:
+    text: 'URL mal formada: ''''{0}'''''
+exception.text.startup.script.is.not.specified:
+    text: no se ha especificado el script de inicio
+facet.0.in.module.1.text:
+    text: '{0} (en {1})'
+facet.0.in.module.1.text.detailed:
+    text: Faceta ''{0}'' (en el módulo ''{1}'')
+generic.application.server.default.name:
+    text: Genérico
+group.GeneratePersistenceMapping.text:
+    text: Generar mapeo de persistencia
+group.JavaeeMigrationGroup.text:
+    text: Acciones de migración
+group.JspActions.text:
+    text: Acciones JSP
+group.NewGroupPersistence.text:
+    text: Nueva persistencia de grupo
+group.names.javaee.issues:
+    text: Java EE
+inspection.ejb.display.name:
+    text: Errores de clases EJB
+inspection.ejb.xml.display.name:
+    text: Descriptor EJB
+inspection.group.display.name.application.server.inspections:
+    text: Servidores de aplicaciones
+inspection.javaee.ejb.ql.display.name:
+    text: Problemas de EJB QL
+inspection.javaee.web.warnings.name:
+    text: Advertencias de Web.xml
+inspection.javaee.web.xml.mime.type:
+    text: Tipo MIME
+inspection.javaee.web.xml.mime.type.message:
+    text: '''''{0}'''' no es un tipo MIME válido'
+inspection.javaee.web.xml.name:
+    text: Errores de web.xml
+inspection.javaee.xml.display.name:
+    text: Corrección del descriptor de aplicación Java EE
+intention.add.javaee.jar.text:
+    text: Añadir JAR de {0} a las dependencias del módulo
+intention.add.method.to.ejb.class.error.no.impl.class.message:
+    text: No se encontró la clase de implementación del Bean. No se generaron métodos.
+intention.add.method.to.ejb.class.family:
+    text: Añadir método a la clase EJB
+intention.add.method.to.ejb.class.text:
+    text: Añadir ''{0}'' a la clase de implementación de bean {1}
+intention.add.method.to.ejb.interface.chooser.label:
+    text: Añadir ''{0}'' a
+intention.add.method.to.ejb.interface.chooser.title:
+    text: Seleccionar interfaces
+intention.add.method.to.ejb.interface.command.name:
+    text: Agregar métodos
+intention.add.method.to.ejb.interface.error.no.home.interface:
+    text: No se encontró la clase de interfaz home del Bean. No se generaron métodos.
+intention.add.method.to.ejb.interface.error.no.interface:
+    text: No se encontró la clase de interfaz del Bean. No se generaron métodos.
+intention.add.method.to.ejb.interface.family:
+    text: Agregar método a la interfaz EJB
+intention.add.method.to.ejb.interface.text:
+    text: Añadir ''{0}'' a la interfaz del bean
+interceptor.method.container.node.title:
+    text: Métodos interceptores
+j2ee.facet.fake.file.type:
+    text: Tipo de archivo ficticio de faceta Java EE
+javaee.facet.settings.display.name:
+    text: Configuración de {0}
+javaeeapp.facet.display.name:
+    text: Aplicación JavaEE
+label.application.server.containing.libraries:
+    text: Bibliotecas
+label.application.server.name:
+    text: '&Nombre:'
+label.appserver.text:
+    text: 'Servidor de &aplicaciones:'
+label.choose.or.create.deployment.descriptor.file:
+    text: Seleccione un archivo XML existente para {0} o especifique el directorio para crear un archivo nuevo.
+label.cmp.field.properties.generate.getter.in:
+    text: 'Generar getter en:'
+label.cmp.field.properties.generate.setter.in:
+    text: 'Generar setter en:'
+label.configure.j2ee.names.prefix.and.suffix.are.taken.from:
+    text: el prefijo y el sufijo se obtienen de
+label.create.transfer.object.transfer.object.class.name:
+    text: 'Nombre de la clase del objeto de transferencia:'
+label.delete.deployment.descriptor.text:
+    text: ¿Eliminar el descriptor de despliegue seleccionado?
+label.deployment.descriptors.wizard.step.text:
+    text: <html><body>Configure los descriptores que se utilizarán para desplegar este facet.<br>Aquí puede añadir descriptores estándar, propietarios y específicos del servidor de aplicaciones.</body></html>
+label.deployment.settings.deployment.method:
+    text: 'Método de despliegue:'
+label.descriptor.version.text:
+    text: '&Versión:'
+label.edit.cmp.field.description:
+    text: '&Descripción:'
+label.edit.cmp.field.name:
+    text: '&Nombre:'
+label.edit.cmp.field.type:
+    text: '&Tipo:'
+label.edit.ejb.class.cmp.version:
+    text: '&Versión de CMP'
+label.edit.parameters.program.parameters:
+    text: 'Argumentos del &programa:'
+label.edit.relationship.description:
+    text: '&Descripción:'
+label.edit.relationship.field.name:
+    text: 'Nombre del campo:'
+label.edit.relationship.field.type:
+    text: 'Tipo de campo:'
+label.edit.relationship.multiplicity:
+    text: 'Multiplicidad:'
+label.edit.relationship.relationship.name:
+    text: '&Nombre de la relación:'
+label.edit.relationship.role.name:
+    text: 'Nombre del rol:'
+label.ejb.class.properties.ejb.class:
+    text: '&Clase EJB:'
+label.ejb.class.properties.local.home:
+    text: 'H&ome local:'
+label.ejb.class.properties.message.listener.interface:
+    text: '&Oyente de mensajes:'
+label.ejb.class.properties.package:
+    text: '&Paquete:'
+label.ejb.class.properties.primary.key.class:
+    text: 'Clase de &clave primaria:'
+label.ejb.class.properties.remote:
+    text: 'R&emoto:'
+label.ejb.class.properties.service.endpoint.interface:
+    text: 'Extremo del &servicio:'
+label.ejb.roots.text:
+    text: Raíces de fuentes para las clases EJB
+label.j2eenames.filter:
+    text: Filtro
+label.j2eenames.message.driven.bean:
+    text: Bean dirigido por mensajes
+label.j2eenames.session.bean:
+    text: Bean de sesión
+label.new.web.root.web.resource.directory.path:
+    text: 'Ruta del directorio de recursos &web:'
+label.pk.class.dialog.pk.class.cant.contain.compound.primary.key:
+    text: <html>La clase PK ''{0}'' no puede contener una clave primaria compuesta.<br>Realice una de las siguientes acciones:<ul><li>Especifique una clase de clave primaria que pueda contener todos los campos CMP, o</li><li>Proporcione los nombres de paquete y de clase para crear una nueva clase de clave primaria</li></html>
+label.prefix:
+    text: Prefijo
+label.properties.class:
+    text: '&Clase:'
+label.run.configuration.editor.add.vm.parameters:
+    text: <html><body>Para {0} la JVM del servidor remoto, debe iniciarse con los siguientes<br/>argumentos de línea de comandos (puede copiarlos y pegarlos):</body></html>
+label.run.configuration.editor.port:
+    text: '&Puerto:'
+label.run.configuration.editor.shutdown.script:
+    text: 'Script de apagado:'
+label.run.configuration.editor.startup.script:
+    text: 'Script de inicio:'
+label.run.configuration.properties.application.server:
+    text: '&Servidor de aplicaciones:'
+label.servlet.properties.package:
+    text: '&Paquete:'
+label.suffix:
+    text: 'Sufijo:'
+label.text.creating.ejb:
+    text: Creando EJB ''{0}''
+label.text.no.application.server.selected:
+    text: No se ha seleccionado ningún servidor de aplicaciones
+label.web.root.dialog.relative.path.in.deployment.directory:
+    text: '&Ruta relativa en el directorio de despliegue:'
+label.web.source.roots.text:
+    text: Raíces de fuentes
+libraries.node.text.application.server:
+    text: Las librerías contienen clases que añaden diversas funcionalidades a sus aplicaciones. Las librerías también incluyen archivos de fuentes y JavaDocs que pueden ayudarle a desarrollar sus proyectos.<br><br> IntelliJ IDEA utiliza las librerías para asistirle con el completado de código, la validación, el resaltado de errores, etc.<br><br>Las librerías de servidor de aplicaciones son parte de un servidor de aplicaciones (WebSphere, WebLogic, Tomcat, etc.) y están disponibles para sus aplicaciones Web y Java EE que estén configuradas con estos servidores.<br><br>Despliegue el nodo y seleccione los elementos secundarios para gestionar las librerías de servidor de aplicaciones instaladas en su sistema. <br><br> Para adjuntar una librería a un módulo, seleccione dicho módulo, haga clic en la pestaña Dependencias, haga clic en Añadir y especifique la ubicación de la librería.
+library.configure.appserver.title:
+    text: Configurar bibliotecas del servidor de aplicaciones
+link.display.text.configure.j2ee.names:
+    text: Nombres de Java EE
+local.vcs.label.name.deleting.ejb.class:
+    text: Eliminando la clase EJB {0}
+location.to.validate.all.jsps.in.directory:
+    text: todos los archivos en el directorio ''{0}''
+location.to.validate.all.jsps.in.selected.directories:
+    text: todos los archivos en los directorios seleccionados
+location.to.validate.jsp:
+    text: archivo ''{0}''
+location.to.validate.selected.jsps:
+    text: archivos seleccionados
+message.text.able.to.bind.yet.able.to.connect.too:
+    text: Es posible vincular y conectarse a {0} al mismo tiempo; es probable que el servidor de aplicaciones compita con algún otro software en el puerto
+message.text.application.server.already.exists:
+    text: El servidor de aplicaciones ''{0}'' ya existe
+message.text.application.server.name.cannot.be.empty:
+    text: El nombre del servidor de aplicaciones no puede estar vacío
+message.text.cannot.find.file:
+    text: No se puede encontrar el archivo ''{0}''
+message.text.cannot.open.url:
+    text: 'No se puede abrir la URL. Compruebe que esta URL sea correcta:'
+message.text.cmp.field.exists:
+    text: El campo CMP ''{0}'' ya existe.
+message.text.cmp.field.name.not.valid:
+    text: El nombre del campo CMP ''{0}'' no es un identificador válido.
+message.text.cmp.field.name.should.begin.with.a.lower.case.letter:
+    text: El nombre del campo CMP debe comenzar con una letra minúscula.
+message.text.cmr.field.0.already.defined:
+    text: El campo CMR ''{0}'' ya está definido en {1}.
+message.text.cmr.field.name.should.begin.with.a.lower.case.letter:
+    text: El nombre del campo CMR debe comenzar con una letra minúscula.
+message.text.connected.to.server:
+    text: Conectado al servidor
+message.text.connected.to.the.server:
+    text: Conectado al servidor
+message.text.disconnected.from.server:
+    text: Desconectado del servidor
+message.text.duplicate.role.names:
+    text: Nombres de roles duplicados
+message.text.ejb.exists.in.ejb.facet:
+    text: El EJB ''{0}'' ya existe en esta faceta EJB.
+message.text.entity.bean.not.specified.for.cmr.field:
+    text: Se debe especificar el nombre del EJB de entidad existente
+message.text.error.creating.directory:
+    text: "Error al crear el directorio.\n{0}"
+message.text.error.while.creating.temp.file:
+    text: 'Error al crear el archivo temporal: {0}'
+message.text.existing.web.resource.directory.configured.in.dir.which.includes.dir:
+    text: "<html><body>Ya existe un directorio de recursos web configurado en ''<b>{0}''</b>,\nque ya incluye el directorio actual ''<b>{1}''</b>.</body></html>"
+message.text.existing.web.resource.directory.configured.in.dir.which.will.be.included.in.dir:
+    text: "<html><body>Ya existe un directorio de recursos web configurado en ''<b>{0}''</b>,\nque se incluirá en el directorio actual ''<b>{1}''</b>.</body></html>"
+message.text.exists:
+    text: '{0} ''''{1}'''' ya existe en esta faceta Web.'
+message.text.must.be.cmp.entity.bean.with.local.interface:
+    text: Debe haber al menos un Bean de Entidad CMP con interfaz local
+message.text.name.is.not.valid.identifier:
+    text: '{0} no es un identificador válido'
+message.text.recommended.transfer.object.class.agrees.with.pattern:
+    text: "Se recomienda que el nombre de la clase Transfer Object\ncoincida con el siguiente patrón: {0}"
+message.text.remove.selected.web.resource.directories:
+    text: ¿Eliminar los directorios de recursos web seleccionados?
+message.text.remove.web.resource.directory:
+    text: ¿Eliminar el directorio de recursos web ''{0}''?
+message.text.run.configuration.already.run:
+    text: La configuración de ejecución ''{0}'' se está ejecutando.
+message.text.run.configuration.already.run.do.you.want.to.restart.in.1:
+    text: La configuración de ejecución ''{0}'' se está ejecutando. ¿Desea reiniciar el servidor en modo ''{1}''?
+message.text.run.configuration.editor.no.specific.parameters.needed:
+    text: No se necesitan parámetros específicos
+message.text.select.field.to.include.in.transfer.object:
+    text: Seleccione al menos un campo para incluirlo en el objeto de transferencia.
+message.text.type.not.found:
+    text: No se encontró el tipo ''{0}''.
+message.text.unable.to.connect:
+    text: No se puede conectar a {0}
+message.text.web.resource.directory.should.be.located.under.module.root:
+    text: "El directorio de recursos web debe estar ubicado bajo la raíz del módulo.\nPresione el botón '…' (puntos suspensivos) para explorar los directorios raíz del módulo."
+message.title.cannot.create.relationship:
+    text: No se puede crear la relación
+message.title.change.ejb.classes:
+    text: Cambiar clases EJB
+message.title.class.not.found:
+    text: No se encontró {0}
+message.title.conflicting.directory.found:
+    text: Directorio en conflicto encontrado
+message.title.directory.not.found:
+    text: Directorio no encontrado
+message.title.directory.not.in.module:
+    text: Directorio no está en el módulo
+message.title.file.not.found:
+    text: Archivo no encontrado
+message.title.no.fields.selected:
+    text: Ningún campo seleccionado
+message.title.open.url:
+    text: Abrir URL
+message.title.primary.key.class.changed:
+    text: La clase de clave primaria ha cambiado
+message.title.remove.web.resource.directory:
+    text: Eliminar directorio de recursos web
+method.role.business.method.declaration:
+    text: Declaración de método de negocio
+method.role.business.method.implementation:
+    text: Implementación de método de negocio
+method.role.cmp.field.getter.declaration:
+    text: Declaración del getter del campo CMP
+method.role.cmp.field.getter.implementation:
+    text: Implementación de getter de campo CMP
+method.role.cmp.field.setter.declaration:
+    text: Declaración del setter del campo CMP
+method.role.cmp.field.setter.implementation:
+    text: Implementación de setter de campo CMP
+method.role.cmr.field.getter.declaration:
+    text: Declaración de getter del campo CMR
+method.role.cmr.field.getter.implementation:
+    text: Implementación del getter del campo CMR
+method.role.cmr.field.setter.declaration:
+    text: Declaración de setter de campo CMR
+method.role.cmr.field.setter.implementation:
+    text: Implementación del setter de campo CMR
+method.role.create.method.declaration:
+    text: Crear declaración de método
+method.role.create.method.implementation:
+    text: Crear implementación del método
+method.role.finder.method.declaration:
+    text: Declaración de método Finder
+method.role.finder.method.implementation:
+    text: Implementación del método Finder
+method.role.home.business.method.declaration:
+    text: Declaración de método de negocio Home
+method.role.home.business.method.implementation:
+    text: Implementación de método de negocio Home
+method.role.method.implementation:
+    text: Implementación de método
+method.role.post.create.method.implementation:
+    text: Implementación del método Post Create
+method.role.selector.method.implementation:
+    text: Implementación del método selector
+method.role.unknown.method.declaration:
+    text: Declaración de método desconocida
+model.object.type.ejb.local.reference:
+    text: Referencia local de EJB
+model.object.type.ejb.message.destination.reference:
+    text: Referencia a destino de mensaje
+model.object.type.ejb.reference:
+    text: Referencia EJB
+model.object.type.filter:
+    text: Filtro
+model.object.type.listener:
+    text: Escuchador
+model.object.type.managed.bean:
+    text: Bean administrado
+model.object.type.security.role:
+    text: Rol de seguridad
+model.object.type.service.reference:
+    text: Referencia de servicio web
+not.configured:
+    text: No configurado
+progress.validating.ejbs.text:
+    text: Validando EJBs…
+quickfix.popup.title.select.an.artifact.to.deploy:
+    text: Seleccionar un artefacto para desplegar
+role.for.ejb.name.string.representation:
+    text: '{0} para EJB ''''{1}'''''
+role.for.interceptor.name.string.representation:
+    text: '{0} para ''''{1}'''''
+run.configuration.remote:
+    text: Remoto
+run.tab.title.deployment:
+    text: Despliegue
+run.tab.title.output:
+    text: Salida
+run.tab.title.server:
+    text: Servidor
+runtime.configuration.error.description.file.does.not.exist:
+    text: '{0} ''''{1}'''' no existe.'
+runtime.configuration.error.something.not.specified:
+    text: No se ha especificado {0}.
+security.role.name.should.accord.to.nmtoken.pattern:
+    text: El nombre del rol de seguridad debe cumplir con el patrón NMTOKEN
+select.in.j2ee:
+    text: Vistas del framework
+servlet.reference.canonical.text:
+    text: No se puede resolver el servlet ''{0}''.
+template.node.application:
+    text: Aplicación
+template.node.deployment.descriptors:
+    text: Descriptores de despliegue
+template.node.java.code.templates:
+    text: Plantillas de código Java
+terms.web.directory:
+    text: Directorio web
+title.appserver.specific.validators:
+    text: Validadores específicos del servidor de aplicaciones
+title.choose.interceptor.method.types:
+    text: Seleccionar métodos de interceptor a implementar
+title.edit.deployment.descriptor:
+    text: Editar descriptor de despliegue
+title.entity.bean:
+    text: Bean de entidad
+title.j2ee.names:
+    text: Nombres de Java EE
+title.run.configuration.editor.deployment:
+    text: Despliegue
+title.run.configuration.editor.server:
+    text: Servidor
+tooltip.text.filter.class:
+    text: Clase del filtro ''{0}''
+tooltip.text.listener.class:
+    text: Clase del listener ''{0}''
+tooltip.text.primary.key.class:
+    text: Clase de clave primaria
+tooltip.text.script.parameters:
+    text: Parámetros…
+tooltip.text.servlet.class:
+    text: Clase del servlet ''{0}''
+updating.policy.hot.swap.classes:
+    text: Clases de &Hot Swap
+updating.policy.redeploy:
+    text: '&Redesplegar'
+updating.policy.restart.server:
+    text: Reiniciar &servidor
+updating.policy.update.classes.and.resources:
+    text: Actualizar &clases y recursos
+updating.policy.update.resources:
+    text: '&Actualizar recursos'
+value.should.either.0.or.1:
+    text: El valor debe ser {0} o {1}
+warning.delete.deployment.descriptor.title:
+    text: Eliminar descriptor de despliegue
+warning.duplicate.relative.deployment.path.text:
+    text: Ruta de despliegue relativa duplicada ''{0}''
+web.context.family:
+    text: Familia del contexto web
+web.context.fix:
+    text: Establecer la carpeta de contexto en ''/'' para {0}
+web.context.fix.for.directory:
+    text: Establecer la carpeta de contexto en ''/'' para todos los archivos del directorio {0}
+web.root.family:
+    text: Configurar raíz web

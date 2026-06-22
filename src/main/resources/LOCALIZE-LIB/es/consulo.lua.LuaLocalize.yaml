@@ -1,0 +1,16 @@
+color.settings.bad_character:
+    text: Carácter desconocido
+color.settings.brackets:
+    text: Llaves y operadores//Corchetes
+color.settings.comma:
+    text: Coma
+color.settings.identifier:
+    text: Identificadores//Predeterminado
+color.settings.operation:
+    text: Llaves y operadores//Operadores
+color.settings.parameter:
+    text: Funciones y métodos//Parámetro
+new.library.file.chooser.title:
+    text: Nuevos archivos de biblioteca
+module.type.name:
+    text: Módulo R

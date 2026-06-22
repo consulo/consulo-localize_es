@@ -1,0 +1,16 @@
+add:
+    text: Añadir
+close:
+    text: Cerrar
+compare.with:
+    text: Comparar con…
+edit:
+    text: Editar
+file.created:
+    text: Se ha creado <a href="">{0}</a>
+global.variable:
+    text: variable global
+preview:
+    text: Vista previa
+value:
+    text: Valor
