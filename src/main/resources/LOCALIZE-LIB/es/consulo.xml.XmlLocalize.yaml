@@ -51,7 +51,7 @@ html.inspections.check.image.width.message:
 html.inspections.check.presentational.tag:
     text: Etiqueta de presentación
 html.inspections.check.valid.script.tag:
-    text: Contenido de la etiqueta 'script' con formato incorrecto
+    text: "Contenido de la etiqueta 'script' con formato incorrecto"
 html.inspections.create.label.from.text.after.action:
     text: Crear una nueva etiqueta a partir del texto después del elemento {0}
 html.inspections.create.label.from.text.before.action:
@@ -159,9 +159,9 @@ xml.inspections.check.file.with.xerces:
 xml.inspections.check.tag.empty.body:
     text: Contenido de elemento vacío
 xml.inspections.duplicate.id:
-    text: Atributo 'id' duplicado
+    text: "Atributo 'id' duplicado"
 xml.inspections.invalid.id:
-    text: Referencia de 'id' no resuelta
+    text: "Referencia de 'id' no resuelta"
 xml.inspections.path.resolve:
     text: Referencia de archivo no resuelta
 xml.inspections.tag.empty.body:

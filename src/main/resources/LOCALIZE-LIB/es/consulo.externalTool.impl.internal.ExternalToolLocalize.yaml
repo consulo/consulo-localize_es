@@ -3,11 +3,11 @@ tools.add.title:
 tools.after.commit.description:
     text: 'Ejecutar herramienta:'
 tools.before.run.description:
-    text: Herramienta externa ''{0}''{1, choice, 0# (deshabilitada)|1#}
+    text: "Herramienta externa ''{0}''{1, choice, 0# (deshabilitada)|1#}"
 tools.before.run.provider.name:
     text: Ejecutar herramienta externa
 tools.completed.message:
-    text: La herramienta externa ''{0}'' finalizó con el código de salida {1}
+    text: "La herramienta externa ''{0}'' finalizó con el código de salida {1}"
 tools.copy.button:
     text: '&Copiar'
 tools.copy.title:

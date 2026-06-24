@@ -59,7 +59,7 @@ checking.class.files:
 cyclic.dependencies.progress.text:
     text: Construyendo el grafo de dependencias
 cyclic.dependencies.scope.dialog.module.button:
-    text: '{0} &módulo ''''{1}'''''
+    text: "{0} &módulo ''{1}''"
 cyclic.dependencies.scope.dialog.project.button:
     text: '{0} todo el &proyecto'
 cyclic.dependencies.scope.dialog.title:
@@ -69,7 +69,7 @@ cyclic.dependencies.tree.cycle.node.text:
 cyclic.dependencies.usage.view.initial.text:
     text: Seleccione el paquete para analizar en el árbol de la izquierda
 cyclic.dependencies.usage.view.root.node.text:
-    text: Usos del paquete ''{0}'' en el paquete ''{1}''
+    text: "Usos del paquete ''{0}'' en el paquete ''{1}''"
 dependencies.libraries.node.text:
     text: Bibliotecas
 dependencies.tree.node.default.package.abbreviation:
@@ -97,7 +97,7 @@ mark.dependency.illegal.text:
 module.dependencies.cycle.node.text:
     text: Ciclo {0}
 module.dependencies.scope.dialog.module.button:
-    text: Inspeccionar &módulo ''{0}''
+    text: "Inspeccionar &módulo ''{0}''"
 module.dependencies.scope.dialog.project.button:
     text: Inspeccionar todo el &proyecto
 module.dependencies.scope.dialog.title:
@@ -131,11 +131,11 @@ project.is.out.of.date:
 scanning.scope.progress.title:
     text: Escaneando el ámbito…
 scope.directory:
-    text: Directorio ''{0}''
+    text: "Directorio ''{0}''"
 scope.display.name.allow.scope:
-    text: Permitir el uso del ámbito ''{0}'' en el ámbito ''{1}''
+    text: "Permitir el uso del ámbito ''{0}'' en el ámbito ''{1}''"
 scope.display.name.deny.scope:
-    text: Denegar el uso del ámbito ''{0}'' en el ámbito ''{1}''
+    text: "Denegar el uso del ámbito ''{0}'' en el ámbito ''{1}''"
 scope.file:
     text: archivo
 scope.module.list:
@@ -147,9 +147,9 @@ scope.option.custom:
 scope.option.include.test.sources:
     text: Incluir fuentes de &test
 scope.option.module:
-    text: Módulo ''{0}''
+    text: "Módulo ''{0}''"
 scope.option.module.with.mnemonic:
-    text: '&Módulo ''''{0}'''''
+    text: "&Módulo ''{0}''"
 scope.option.uncommitted.files:
     text: Archivos &sin confirmar
 scope.option.uncommitted.files.all.changelists.choice:
@@ -159,7 +159,7 @@ scope.option.whole.project:
 scope.package:
     text: Paquete {0}
 scope.project:
-    text: Proyecto ''{0}''
+    text: "Proyecto ''{0}''"
 scope.selected.files:
     text: '{0,choice,1#archivo seleccionado|2#archivos seleccionados}'
 scope.virtual.files:
@@ -175,7 +175,7 @@ status.bar.rule.violation.message:
 unknown.node.text:
     text: <desconocido>
 update.module.tree.progress.text:
-    text: Procesando ciclos del módulo ''{0}''
+    text: "Procesando ciclos del módulo ''{0}''"
 update.module.tree.progress.title:
     text: Actualizando árbol de módulos
 usage.view.canceled:

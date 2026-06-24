@@ -27,9 +27,9 @@
 0.is.an.interface.that.has.no.implementing.classes:
     text: '{0} es una interfaz que no tiene clases de implementación'
 0.is.not.a.legal.fq.name:
-    text: '''''{0}'''' no es un nombre calificado completo (FQ-name) legal'
+    text: "''{0}'' no es un nombre calificado completo (FQ-name) legal"
 0.is.not.a.legal.java.identifier:
-    text: '''''{0}'''' no es un identificador Java válido'
+    text: "''{0}'' no es un identificador Java válido"
 0.is.not.accessible.from.1.value.for.introduced.parameter.in.that.method.call.will.be.incorrect:
     text: '{0} no es accesible desde {1}. El valor del parámetro introducido en esa llamada al método será incorrecto.'
 0.is.not.an.identifier:
@@ -199,7 +199,7 @@ changeSignature.no.return.type:
 changeSignature.no.type.for.exception:
     text: Especificar el tipo de la excepción
 changeSignature.no.type.for.parameter:
-    text: Especifique el tipo {0} para el parámetro ''{1}''
+    text: "Especifique el tipo {0} para el parámetro ''{1}''"
 changeSignature.parameter.caller.chooser:
     text: Seleccionar métodos para propagar los nuevos parámetros
 changeSignature.parameters.wont.propagate:
@@ -215,11 +215,11 @@ changeSignature.return.type.prompt:
 changeSignature.vararg.not.last:
     text: El parámetro rest debe ser el último en la firma del método
 changeSignature.wrong.return.type:
-    text: 'Tipo de retorno incorrecto: ''''{0}'''''
+    text: "Tipo de retorno incorrecto: ''{0}''"
 changeSignature.wrong.type.for.exception:
-    text: 'Tipo incorrecto: ''''{0}'''' para la excepción'
+    text: "Tipo incorrecto: ''{0}'' para la excepción"
 changeSignature.wrong.type.for.parameter:
-    text: 'Tipo incorrecto: ''''{0}'''' para el parámetro ''''{1}'''''
+    text: "Tipo incorrecto: ''{0}'' para el parámetro ''{1}''"
 changing.signature.of.0:
     text: Cambiando la firma de {0}
 checkbox.safe.delete.with.usage.search:
@@ -233,7 +233,9 @@ choose.destination.package:
 class.0.already.exists:
     text: La clase {0} ya existe
 class.0.does.not.exist:
-    text: "La clase {0} no existe.\n¿Desea crearla?"
+    text: |-
+        La clase {0} no existe.
+        ¿Desea crearla?
 class.0.does.not.have.inheritors:
     text: La clase {0} no tiene herederos
 class.0.is.not.accessible.from.target.1:
@@ -379,13 +381,16 @@ detecting.possible.conflicts:
 dialog.message.cannot.inline.reference.from.0:
     text: No se puede incluir en línea la referencia desde {0}
 dialog.message.file.already.exists.in.directory:
-    text: El archivo ''{0}'' ya existe en el directorio ''{1}''
+    text: "El archivo ''{0}'' ya existe en el directorio ''{1}''"
 dialog.message.refactoring.not.available.in.current.scope:
     text: '{0} no está disponible en el ámbito actual'
 dialog.message.selected.element.used.from.non.project.files:
     text: El elemento seleccionado se utiliza en archivos que no pertenecen al proyecto. Estos usos no se renombrarán. ¿Desea continuar de todos modos?
 directories.and.all.references.to.package.will.be.renamed:
-    text: "\n\n¿Qué directorios desea renombrar?"
+    text: |4-
+
+
+        ¿Qué directorios desea renombrar?
 directory.0.already.contains.1.named.2:
     text: "El directorio {0} \nya contiene un {1} llamado ''{2}''"
 directory.0.already.contains.a.file.named.1:
@@ -397,7 +402,9 @@ do.not.replace:
 do.not.show.this.message.in.the.future:
     text: '&No volver a mostrar este mensaje en el futuro'
 do.you.want.to.process.overriding.methods.with.covariant.return.type:
-    text: "¿Desea procesar los métodos sobrescritos\ncon un tipo de retorno covariante?"
+    text: |-
+        ¿Desea procesar los métodos sobrescritos
+        con un tipo de retorno covariante?
 do.you.wish.to.continue:
     text: ¿Desea continuar?
 do.you.wish.to.ignore.them.and.continue:
@@ -539,7 +546,9 @@ field.0.is.never.used:
 field.0.is.not.accessible:
     text: El campo {0} no es accesible desde {1}
 field.0.is.not.static:
-    text: "El campo {0} no es estático.\nLa refactorización {1} solo se admite para miembros estáticos."
+    text: |-
+        El campo {0} no es estático.
+        La refactorización {1} solo se admite para miembros estáticos.
 field.0.will.hide.field.1.of.the.base.class:
     text: "El campo {0} ocultará \nun campo {1} de la base {2}"
 field.declaration.radio:
@@ -567,7 +576,9 @@ getter.and.setter.methods.found.for.the.field.0:
 getter.method.found.for.the.field.0:
     text: "Se ha encontrado el método getter para el campo {0}. \n¿Desea {1} también el getter?"
 idea.has.found.fragments.that.can.be.replaced.with.include.directive:
-    text: "{0} ha encontrado fragmentos que se pueden reemplazar con la directiva include\n¿Desea revisarlos?"
+    text: |-
+        {0} ha encontrado fragmentos que se pueden reemplazar con la directiva include
+        ¿Desea revisarlos?
 idea.has.not.found.any.code.that.can.be.replaced.with.method.call:
     text: '{0} no ha encontrado ningún código que se pueda reemplazar con una llamada a un método'
 ignore.button:
@@ -587,13 +598,13 @@ inline.field.command:
 inline.field.elements.header:
     text: Campo a integrar
 inline.field.field.name.label:
-    text: 'Incrustar campo ''''{0}'''':'
+    text: "Incrustar campo ''{0}'':"
 inline.field.title:
     text: Incorporar campo
 inline.included.file.title:
     text: Insertar archivo incluido en línea
 inline.local.variable.prompt:
-    text: ¿Incluir la variable local ''{0}''?
+    text: "¿Incluir la variable local ''{0}''?"
 inline.method.checking.tail.calls.progress:
     text: Comprobando usos de llamadas de cola
 inline.method.command:
@@ -605,7 +616,7 @@ inline.method.method.label:
 inline.method.title:
     text: Incorporar método
 inline.parameter.confirmation:
-    text: ¿Integrar el parámetro ''{0}'' con el inicializador ''{1}''?
+    text: "¿Integrar el parámetro ''{0}'' con el inicializador ''{1}''?"
 inline.parameter.error.hierarchy:
     text: Inlinear parámetros no es compatible cuando el método forma parte de una jerarquía de herencia
 inline.parameter.error.varargs:
@@ -615,7 +626,7 @@ inline.parameter.refactoring:
 inline.parameter.replace.with.local.checkbox:
     text: R&eemplazar por una variable local
 inline.the.contents.include.prompt:
-    text: ¿Poner en línea el contenido de ''{0}''?
+    text: "¿Poner en línea el contenido de ''{0}''?"
 inline.title:
     text: En línea
 inline.to.anonymous.command.name:
@@ -639,9 +650,13 @@ inlined.method.implements.method.from.0:
 inlined.method.overrides.method.from.0:
     text: El método insertado sobrescribe el método de {0}
 inner.class.0.is.already.defined.in.class.1:
-    text: "La clase interna {0} ya está definida en la clase {1}.\n¿Continuar de todos modos?"
+    text: |-
+        La clase interna {0} ya está definida en la clase {1}.
+        ¿Continuar de todos modos?
 inner.class.0.is.not.static:
-    text: "La clase interna {0} no es estática.\nLa refactorización {1} solo es compatible con miembros estáticos."
+    text: |-
+        La clase interna {0} no es estática.
+        La refactorización {1} solo es compatible con miembros estáticos.
 inner.class.exists:
     text: "La clase interna llamada ''{0}'' ya está definida\nen la clase ''{1}''"
 inner.class.name:
@@ -773,7 +788,9 @@ members.to.form.superclass:
 method.0.is.already.defined.in.the.1:
     text: El método {0} ya está definido en {1}
 method.0.is.not.static:
-    text: "El método {0} no es estático.\nLa refactorización {1} solo es compatible con miembros estáticos."
+    text: |-
+        El método {0} no es estático.
+        La refactorización {1} solo es compatible con miembros estáticos.
 method.0.is.overridden.by.1:
     text: El método {0} es sobrescrito por {1}
 method.0.will.hide.method.of.the.base.class:
@@ -893,7 +910,7 @@ move.method.is.not.supported.for.generic.classes:
 move.method.is.not.supported.when.method.is.part.of.inheritance.hierarchy:
     text: Mover método no es compatible cuando el método forma parte de una jerarquía de herencia
 move.method.this.parameter.label:
-    text: Seleccione un nombre para el parámetro ''{0}.this''
+    text: "Seleccione un nombre para el parámetro ''{0}.this''"
 move.nonstatic.class.from.jsp.not.supported:
     text: No se admite mover clases no estáticas desde una página JSP
 move.package.refactoring.cannot.be.applied.to.default.package:
@@ -967,7 +984,9 @@ only.fields.variables.of.methods.of.valid.type.can.be.considered:
 package.description:
     text: paquete {0}
 package.does.not.exist:
-    text: "El paquete {0} no existe.\n¿Desea crearlo?"
+    text: |-
+        El paquete {0} no existe.
+        ¿Desea crearlo?
 package.for.new.interface:
     text: '&Paquete para la nueva interfaz:'
 package.for.new.superclass:
@@ -977,7 +996,8 @@ package.for.original.class:
 package.for.original.interface:
     text: '&Paquete para la interfaz original:'
 package.occurs.in.package.prefixes.of.the.following.source.folders.n:
-    text: "El paquete {0} aparece en los prefijos de paquete de las siguientes carpetas de fuentes:\n"
+    text: |
+        El paquete {0} aparece en los prefijos de paquete de las siguientes carpetas de fuentes:
 parameter.description:
     text: parámetro {0}
 parameter.initializer.contains.0.but.not.all.calls.to.method.are.in.its.class:
@@ -999,7 +1019,9 @@ please.enter.a.valid.target.package.name:
 press.escape.to.remove.the.highlighting:
     text: Presione Escape para eliminar el resaltado
 press.the.do.migrate.button:
-    text: "Pulse el botón \"Ejecutar migración\" en la parte inferior del panel de resultados de búsqueda\npara realizar la migración mediante el mapa de migración \"{0}\"\n"
+    text: |
+        Pulse el botón "Ejecutar migración" en la parte inferior del panel de resultados de búsqueda
+        para realizar la migración mediante el mapa de migración "{0}"
 preview.button:
     text: Vista &previa
 preview.usages.to.be.changed:
@@ -1093,7 +1115,9 @@ refactoring.introduceVariable:
 refactoring.is.not.supported.for.jsp.classes:
     text: No se admite la refactorización para clases JSP
 refactoring.is.not.supported.for.recursive.methods:
-    text: "La refactorización {0} no se puede aplicar para eliminar métodos recursivos.\nSolo puede realizar el inline de llamadas a métodos individuales."
+    text: |-
+        La refactorización {0} no se puede aplicar para eliminar métodos recursivos.
+        Solo puede realizar el inline de llamadas a métodos individuales.
 refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
     text: La refactorización {0} no es compatible cuando la sentencia return interrumpe el flujo de ejecución
 references.found.in.code:
@@ -1107,13 +1131,13 @@ references.in.code.to.0.1:
 references.in.code.to.elements.from.migration.map:
     text: Referencias en el código a elementos del mapa de migración "{0}" {1}
 references.to.0.to.be.replaced.with.references.to.1:
-    text: Referencias a ''{0}'' que se sustituirán por referencias a ''{1}''{2}
+    text: "Referencias a ''{0}'' que se sustituirán por referencias a ''{1}''{2}"
 remove.duplicates.command:
     text: Eliminar duplicados
 remove.include.prompt:
     text: El archivo incluido ya no se utiliza. ¿Desea eliminarlo?
 remove.parameter.0.no.longer.used:
-    text: Eliminar el parámetro ''{0}'' que ya no se utiliza
+    text: "Eliminar el parámetro ''{0}'' que ya no se utiliza"
 rename.0.and.its.usages.to:
     text: 'Renombrar {0} y sus usos a:'
 rename.bound.forms:
@@ -1415,7 +1439,10 @@ unused.overriding.methods.title:
 usageView.doAction:
     text: '&Refactorizar'
 usageView.need.reRun:
-    text: "No se puede realizar la operación de refactorización.\nHubo cambios en el código después de encontrar los usos.\nPor favor, vuelva a realizar la búsqueda de usos."
+    text: |-
+        No se puede realizar la operación de refactorización.
+        Hubo cambios en el código después de encontrar los usos.
+        Por favor, vuelva a realizar la búsqueda de usos.
 usageView.tabText:
     text: Vista previa de la refactorización
 usageView.usagesText:
@@ -1439,7 +1466,7 @@ variable.has.no.dominating.definition:
 variable.has.no.initializer:
     text: La variable {0} no tiene un inicializador
 variable.is.accessed.for.writing.and.used.with.inlined:
-    text: Se utiliza otra definición de la variable ''{0}'' junto con la definición insertada en línea
+    text: "Se utiliza otra definición de la variable ''{0}'' junto con la definición insertada en línea"
 variable.is.never.used:
     text: La variable {0} no se utiliza nunca
 variable.is.never.used.before.modification:

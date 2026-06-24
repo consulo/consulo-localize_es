@@ -1,5 +1,5 @@
 YAMLDuplicatedKeysInspection.duplicated.key:
-    text: La clave ''{0}'' está duplicada
+    text: "La clave ''{0}'' está duplicada"
 YAMLDuplicatedKeysInspection.merge.quickfix.name:
     text: Fusionar secciones duplicadas
 YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
@@ -7,13 +7,13 @@ YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
 YamlBooleanType.validation.error.quoted.value:
     text: Se esperaba un valor booleano
 YamlDeprecatedKeysInspectionBase.deprecated.key:
-    text: La clave ''{0}'' está en desuso
+    text: "La clave ''{0}'' está en desuso"
 YamlDeprecatedKeysInspectionBase.deprecated.value:
-    text: El valor ''{0}'' está obsoleto
+    text: "El valor ''{0}'' está obsoleto"
 YamlEnumType.validation.error.value.unknown:
-    text: No se esperaba el valor ''{0}'' aquí
+    text: "No se esperaba el valor ''{0}'' aquí"
 YamlEnumType.validation.warning.value.deprecated:
-    text: El valor ''{0}'' está en desuso
+    text: "El valor ''{0}'' está en desuso"
 YamlIntegerType.error.integer.value:
     text: Se esperaba un valor entero
 YamlMetaClass.error.scalar.value:
@@ -21,17 +21,17 @@ YamlMetaClass.error.scalar.value:
 YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
     text: Añadir las claves faltantes
 YamlMissingKeysInspectionBase.missing.keys:
-    text: 'Faltan las claves requeridas: ''''{0}'''''
+    text: "Faltan las claves requeridas: ''{0}''"
 YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
     text: Eliminar todas las claves no editables del archivo
 YamlNonEditableKeysInspectionBase.noneditable.key:
-    text: La clave ''{0}'' no es modificable por el usuario
+    text: "La clave ''{0}'' no es modificable por el usuario"
 YamlNumberType.error.numeric.value:
     text: Se esperaba un valor numérico
 YamlScalarType.error.scalar.value:
     text: Se esperaba un valor escalar
 YamlUnknownKeysInspectionBase.unknown.key:
-    text: No se espera la clave ''{0}'' aquí
+    text: "No se espera la clave ''{0}'' aquí"
 YamlUnknownValuesInspectionBase.error.array.is.required:
     text: Se requiere un array
 YamlUnknownValuesInspectionBase.error.array.not.allowed:
@@ -47,9 +47,9 @@ color.settings.yaml.dstring:
 color.settings.yaml.key:
     text: Clave
 color.settings.yaml.scalar.list:
-    text: '''|'' bloque'
+    text: "'|' bloque"
 color.settings.yaml.scalar.text:
-    text: bloque '>'
+    text: "bloque '>'"
 color.settings.yaml.sign:
     text: 'Signo: llave, coma, etc'
 color.settings.yaml.string:
@@ -73,7 +73,7 @@ find.usages.unnamed:
 inspections.duplicated.keys.name:
     text: Claves YAML duplicadas
 inspections.incompatible.types.message:
-    text: El tipo de valor es ''{0}'', mientras que otros valores utilizan el tipo ''{1}''
+    text: "El tipo de valor es ''{0}'', mientras que otros valores utilizan el tipo ''{1}''"
 inspections.incompatible.types.quickfix.wrap.all.quotes.message:
     text: Envolver con comillas todos los escalares de la secuencia
 inspections.incompatible.types.quickfix.wrap.quotes.message:
@@ -93,7 +93,7 @@ inspections.recursive.alias.name:
 inspections.schema.deprecation.name:
     text: Clave YAML en desuso
 inspections.schema.deprecation.text:
-    text: 'La clave ''''{0}'''' está en desuso: {1}'
+    text: "La clave ''{0}'' está en desuso: {1}"
 inspections.schema.validation.name:
     text: Validación mediante esquema JSON
 inspections.schema.validation.prefix:
@@ -111,7 +111,7 @@ inspections.unused.anchor.name:
 inspections.unused.anchor.quickfix.name:
     text: Eliminar anclaje
 new.name.conflicts.with:
-    text: 'La clave entra en conflicto con una existente: ''''{0}'''''
+    text: "La clave entra en conflicto con una existente: ''{0}''"
 parsing.error.sequence.item.expected:
     text: Se esperaba un elemento de secuencia
 rename.same.name:

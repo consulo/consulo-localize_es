@@ -15,13 +15,18 @@ create.patch.dialog.title:
 current.revision:
     text: Actual
 file.does.not.exist:
-    text: '''''{0}'''' no existe'
+    text: "''{0}'' no existe"
 message.cannot.create.patch.because.of.unavailable.content:
-    text: "No se puede crear el parche porque el contenido de algunos\nde los archivos seleccionados no se almacenó debido a su gran tamaño."
+    text: |-
+        No se puede crear el parche porque el contenido de algunos
+        de los archivos seleccionados no se almacenó debido a su gran tamaño.
 message.cannot.revert.because:
     text: No se puede revertir debido a {0}
 message.do.you.want.to.proceed:
-    text: "{0}\n\n¿Desea continuar?"
+    text: |-
+        {0}
+
+        ¿Desea continuar?
 message.error.during.create.patch:
     text: 'Error al crear el parche: {0}'
 message.error.during.revert:

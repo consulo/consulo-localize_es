@@ -91,7 +91,7 @@ action.ChangeSplitOrientation.text:
 action.ChangeTemplateDataLanguage.text:
     text: Cambiar idioma de datos de la plantilla
 action.ChangeToThisFileTypeAction.description:
-    text: Anular el tipo de archivo por ''{0}''
+    text: "Anular el tipo de archivo por ''{0}''"
 action.ChangeTypeSignature.description:
     text: Cambia el tipo de retorno del método, campo, parámetro, variable o argumentos de tipo de clase y corrige todas las referencias
 action.ChangeTypeSignature.text:
@@ -927,7 +927,7 @@ action.OverrideFileTypeAction.description:
 action.OverrideFileTypeAction.text:
     text: Sobrescribir tipo de archivo
 action.OverrideFileTypeAction.verbose.description:
-    text: Tratar el archivo ''{0}''{1,choice,0#|1# (y {1} archivos más)} como un archivo de un tipo de archivo diferente
+    text: "Tratar el archivo ''{0}''{1,choice,0#|1# (y {1} archivos más)} como un archivo de un tipo de archivo diferente"
 action.OverrideMethods.description:
     text: Sobrescribir los métodos de la clase base en la clase actual
 action.OverrideMethods.text:
@@ -1099,7 +1099,7 @@ action.ReverteOverrideFileTypeAction.description:
 action.ReverteOverrideFileTypeAction.text:
     text: Revertir invalidación de tipo de archivo
 action.ReverteOverrideFileTypeAction.verbose.description:
-    text: Deshacer la acción "Sobrescribir tipo de archivo" y restaurar el tipo de archivo anterior para el archivo ''{0}''{1,choice,0#|1# (y {1} archivos más)}
+    text: "Deshacer la acción \"Sobrescribir tipo de archivo\" y restaurar el tipo de archivo anterior para el archivo ''{0}''{1,choice,0#|1# (y {1} archivos más)}"
 action.RunAnything.description:
     text: Permite ejecutar cualquier comando
 action.RunAnything.text:
@@ -1527,7 +1527,7 @@ action.WhatsNewAction.description:
 action.WhatsNewAction.text:
     text: Novedades(_N)
 action.editRunConfigurations.description:
-    text: Abrir el diálogo 'Editar configuraciones de ejecución/depuración'
+    text: "Abrir el diálogo 'Editar configuraciones de ejecución/depuración'"
 action.editRunConfigurations.text:
     text: Edita_r configuraciones…
 action.openAssertEqualsDiff.text:
@@ -1697,7 +1697,7 @@ group.OpenProjectWindows.text:
 group.OverrideFileTypeAction.bundledPlugin:
     text: incluido
 group.OverrideFileTypeAction.fromNamedPlugin:
-    text: del complemento ''{0}''
+    text: "del complemento ''{0}''"
 group.OverrideFileTypeAction.title:
     text: Seleccionar tipo de archivo
 group.PairFileActions.text:

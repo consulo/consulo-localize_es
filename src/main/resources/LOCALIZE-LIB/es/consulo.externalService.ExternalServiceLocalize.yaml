@@ -93,9 +93,9 @@ progress.download.plugins:
 progress.downloading.list.of.plugins:
     text: Descargando la lista de plugins de {0}
 progress.downloading.plugin:
-    text: Descargando el plugin ''{0}''
+    text: "Descargando el plugin ''{0}''"
 prompt.uninstall.plugin:
-    text: ¿Está seguro de que desea desinstalar el complemento ''{0}''{1, choice, 0#|1# (actualización)}?
+    text: "¿Está seguro de que desea desinstalar el complemento ''{0}''{1, choice, 0#|1# (actualización)}?"
 prompt.uninstall.several.plugins:
     text: ¿Está seguro de que desea desinstalar estos {0} plugins?
 title.plugin.uninstall:

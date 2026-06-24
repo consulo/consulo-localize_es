@@ -99,7 +99,10 @@ before.checkin.new.todo.check:
 before.checkin.standard.options.check.smells:
     text: '&Analizar código'
 before.commit.files.contain.code.smells.edit.them.confirm.text:
-    text: "{0} archivos contienen problemas.\n{1,choice, 0#Sin errores|1#Un error|2#{1} errores} y {2,choice, 0#sin advertencias|1#una advertencia|2#{2} advertencias} encontrados.\n¿Desea revisarlos?"
+    text: |-
+        {0} archivos contienen problemas.
+        {1,choice, 0#Sin errores|1#Un error|2#{1} errores} y {2,choice, 0#sin advertencias|1#una advertencia|2#{2} advertencias} encontrados.
+        ¿Desea revisarlos?
 border.changes.filter.change.number.filter:
     text: Cambio
 border.changes.filter.date.filter:
@@ -179,7 +182,7 @@ changes.checkbox.delete.locally.added.files:
 changes.default.changelist.name:
     text: Cambios
 changes.dialog.editchangelist.error.already.exists:
-    text: Ya existe una lista de cambios llamada ''{0}''
+    text: "Ya existe una lista de cambios llamada ''{0}''"
 changes.dialog.editchangelist.title:
     text: Editar lista de cambios
 changes.dialog.newchangelist.title:
@@ -219,7 +222,9 @@ changes.remove.active.prompt:
 changes.remove.active.title:
     text: Eliminar lista de cambios activa
 changes.removechangelist.multiple.warning.text:
-    text: "¿Está seguro de que desea eliminar {0} listas de cambios?\nTodos los cambios se moverán a la lista de cambios activa."
+    text: |-
+        ¿Está seguro de que desea eliminar {0} listas de cambios?
+        Todos los cambios se moverán a la lista de cambios activa.
 changes.removechangelist.warning.text:
     text: "¿Seguro que desea eliminar la lista de cambios ''{0}''?\nTodos los cambios se moverán a la lista de cambios activa."
 changes.removechangelist.warning.title:
@@ -321,7 +326,9 @@ committed.changes.regex.title:
 composite.change.provider.include.vcs.checkbox:
     text: Incluir cambios de {0}
 confirmation.text.add.file:
-    text: "¿Desea programar la adición del siguiente archivo a Subversion?\n{0}"
+    text: |-
+        ¿Desea programar la adición del siguiente archivo a Subversion?
+        {0}
 confirmation.title.add.file:
     text: Programar para añadir
 create.patch.commit.action.title:
@@ -377,7 +384,7 @@ error.adding.files.prompt:
 error.adding.files.title:
     text: Error al añadir archivos
 error.executing.commit:
-    text: 'Error al ejecutar ''''{0}'''': {1}'
+    text: "Error al ejecutar ''{0}'': {1}"
 error.updating.changes:
     text: 'Error al actualizar los cambios: {0}'
 exception.text.internal.error.method.should.not.be.called:
@@ -509,7 +516,7 @@ message.title.show.differences:
 message.title.vcs.update.errors:
     text: '{0} errores'
 move.to.changelist:
-    text: '&Mover cambios a la lista de cambios activa (''''{0}'''')'
+    text: "&Mover cambios a la lista de cambios activa (''{0}'')"
 multiple.file.merge.accept.theirs:
     text: Acep&tar lo de ellos
 multiple.file.merge.accept.yours:
@@ -683,7 +690,7 @@ status.group.name.will.be.merged.with.tree.conflicts:
 status.group.name.will.be.restored:
     text: Se restaurará
 switch.to.changelist:
-    text: Cambiar a la &lista de cambios (''{0}'')
+    text: "Cambiar a la &lista de cambios (''{0}'')"
 todo.handler.only.added:
     text: <html><body>{0,choice, 0#|1#Se encontró un|2#Se encontraron {0}} TODO {0,choice, 0#|1#elemento añadido/editado|2#elementos añadidos/editados}.<br/>¿Desea revisar{0,choice,1#lo|2#los}?<br/>{1,choice, 0#|1#Se omitió un archivo.|2#Se omitieron {1} archivos.}</body></html>
 todo.handler.only.both:
@@ -691,7 +698,9 @@ todo.handler.only.both:
 todo.handler.only.in.changed:
     text: <html><body>{0,choice, 1#Se encontró un elemento|2#Se encontraron {0} elementos} TODO en fragmentos modificados.<br/>¿Desea {0,choice, 1#revisarlo|2#revisarlos}?<br/>{1,choice, 0#|1#Se omitió un archivo.|2#Se omitieron {1} archivos.}</body></html>
 todo.handler.only.skipped:
-    text: "<html><body>La comprobación de TODO ha omitido {0,choice, 0#|1#un archivo|2#{0} archivos}.<br/>\nNo se han encontrado elementos TODO nuevos o editados, ni elementos situados en fragmentos de texto modificados.</body></html>"
+    text: |-
+        <html><body>La comprobación de TODO ha omitido {0,choice, 0#|1#un archivo|2#{0} archivos}.<br/>
+        No se han encontrado elementos TODO nuevos o editados, ni elementos situados en fragmentos de texto modificados.</body></html>
 todo.in.new.review.button:
     text: '&Revisar TODO'
 toolwindow.title.update.project:

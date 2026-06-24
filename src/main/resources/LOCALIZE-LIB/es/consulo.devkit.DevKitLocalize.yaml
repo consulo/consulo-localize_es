@@ -17,11 +17,11 @@ deployment.view.delete:
 deployment.view.select:
     text: Seleccionar {0}
 error.cannot.resolve.plugin:
-    text: No se puede resolver el plugin ''{0}'' en las dependencias
+    text: "No se puede resolver el plugin ''{0}'' en las dependencias"
 error.file.not.found:
     text: Archivo no encontrado
 error.file.not.found.message:
-    text: No se encontró el archivo ''{0}''
+    text: "No se encontró el archivo ''{0}''"
 error.no.plugin.xml:
     text: No se encontró el archivo plugin.xml
 error.occurred:
@@ -61,11 +61,11 @@ inspections.group.name:
 inspections.registration.problems.abstract:
     text: La clase de componente del plugin no puede ser abstract
 inspections.registration.problems.component.duplicate.interface:
-    text: No se permiten varios componentes con la misma 'interface-class'
+    text: "No se permiten varios componentes con la misma 'interface-class'"
 inspections.registration.problems.component.incompatible.interface:
-    text: La clase de componente no se puede asignar a su clase de interfaz ''{0}''
+    text: "La clase de componente no se puede asignar a su clase de interfaz ''{0}''"
 inspections.registration.problems.incompatible.message:
-    text: Según el registro en plugin.xml, la clase debe extender ''{0}''
+    text: "Según el registro en plugin.xml, la clase debe extender ''{0}''"
 inspections.registration.problems.missing.noarg.ctor:
     text: La clase de acción debe tener un constructor sin argumentos
 inspections.registration.problems.name:
@@ -127,7 +127,7 @@ new.menu.project.component.text:
 plugin.descriptor:
     text: Descriptor de plugin de la plataforma IntelliJ
 prepare.for.deployment:
-    text: Preparar el módulo de plugin ''{0}'' para el despliegue
+    text: "Preparar el módulo de plugin ''{0}'' para el despliegue"
 prepare.for.deployment.all:
     text: Preparar todos los módulos de plugin para el despliegue
 program.parameters:
@@ -147,7 +147,7 @@ sandbox.purpose:
 sandbox.specification:
     text: Configure el sandbox
 saved.message:
-    text: El archivo {0, choice, 1#Zip|2#JAR} del módulo ''{1}'' se ha guardado en {2}
+    text: "El archivo {0, choice, 1#Zip|2#JAR} del módulo ''{1}'' se ha guardado en {2}"
 saved.message.common:
     text: '{0} se guardará en el directorio seleccionado'
 sdk.title:
@@ -159,10 +159,10 @@ select.plugin.modules.title:
 select.target.location.of.description:
     text: Seleccionar la ubicación de destino de {0}
 success.deployment.message:
-    text: La preparación para el despliegue del módulo de plugin ''{0}'' se ha completado con éxito
+    text: "La preparación para el despliegue del módulo de plugin ''{0}'' se ha completado con éxito"
 success.deployment.message.all:
     text: Se ha completado con éxito la preparación para el despliegue de todos los plugins.
 suggest.to.delete:
-    text: ¿Eliminar ''{0}''?
+    text: "¿Eliminar ''{0}''?"
 vm.parameters:
     text: Opciones de VM(&V)

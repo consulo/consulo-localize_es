@@ -9,7 +9,7 @@ child.file.suffix.column.name:
 dialog.message.child.file.suffix.must.be.empty.see.row:
     text: El sufijo del archivo secundario no debe estar vacío (ver fila {0})
 dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
-    text: Los sufijos de archivo padre e hijo no deben ser iguales (''{0}'', ver fila {1})
+    text: "Los sufijos de archivo padre e hijo no deben ser iguales (''{0}'', ver fila {1})"
 dialog.message.parent.file.suffix.must.be.empty.see.row:
     text: El sufijo del archivo primario no puede estar vacío (consulte la fila {0})
 file.nesting.dialog.title:

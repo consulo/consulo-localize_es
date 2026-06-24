@@ -11,31 +11,31 @@ index.rebuild.notification.title:
 indexable.files.provider.indexing.additional.dependencies:
     text: Indexando dependencias
 indexable.files.provider.indexing.fileOrDir.name:
-    text: Indexando ''{0}''
+    text: "Indexando ''{0}''"
 indexable.files.provider.indexing.internal.module.name:
     text: Indexando
 indexable.files.provider.indexing.library.name:
-    text: Indexando biblioteca ''{0}''
+    text: "Indexando biblioteca ''{0}''"
 indexable.files.provider.indexing.module.name:
-    text: Indexando el módulo ''{0}''
+    text: "Indexando el módulo ''{0}''"
 indexable.files.provider.indexing.named.provider:
-    text: Indexando ''{0}''
+    text: "Indexando ''{0}''"
 indexable.files.provider.indexing.sdk:
-    text: Indexando {0} ''{1}''
+    text: "Indexando {0} ''{1}''"
 indexable.files.provider.scanning.additional.dependencies:
     text: Escaneando dependencias
 indexable.files.provider.scanning.fileOrDir.name:
-    text: Escaneando ''{0}''
+    text: "Escaneando ''{0}''"
 indexable.files.provider.scanning.files.contributor:
-    text: Escaneando ''{0}''
+    text: "Escaneando ''{0}''"
 indexable.files.provider.scanning.internal.module.name:
     text: Escaneando
 indexable.files.provider.scanning.library.name:
-    text: Escaneando biblioteca ''{0}''
+    text: "Escaneando biblioteca ''{0}''"
 indexable.files.provider.scanning.module.name:
-    text: Escaneando el módulo ''{0}''
+    text: "Escaneando el módulo ''{0}''"
 indexable.files.provider.scanning.sdk:
-    text: Escaneando {0} ''{1}''
+    text: "Escaneando {0} ''{1}''"
 indexes.preparing.to.shutdown.message:
     text: Preparando los índices para el cierre…
 indexes.reloading:
@@ -63,7 +63,7 @@ removing.indexable.set.project.handler:
 search.scope.module:
     text: En un solo módulo
 search.scope.module.runtime:
-    text: Ámbito de tiempo de ejecución del módulo ''{0}''
+    text: "Ámbito de tiempo de ejecución del módulo ''{0}''"
 terms.directory:
     text: directorio
 terms.file:

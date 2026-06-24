@@ -33,7 +33,7 @@ iw.status.paused:
 method.implements:
     text: Implementa el método en <a href="#javaClass/{1}">{1}</a>
 method.implements.in:
-    text: Implementa el método ''{0}'' en <a href="#javaClass/{1}">{1}</a>
+    text: "Implementa el método ''{0}'' en <a href=\"#javaClass/{1}\">{1}</a>"
 method.is.implemented.header:
     text: Se implementa en <br>
 method.is.implemented.too.many:
@@ -45,7 +45,7 @@ method.is.overriden.header:
 method.overrides:
     text: Sobrescribe el método en <a href="#javaClass/{1}">{1}</a>
 method.overrides.in:
-    text: Sobrescribe el método ''{0}'' en <a href="#javaClass/{1}">{1}</a>
+    text: "Sobrescribe el método ''{0}'' en <a href=\"#javaClass/{1}\">{1}</a>"
 navigation.findUsages.title.super.method:
     text: Supermétodos de {0}
 navigation.title.implementation.method:

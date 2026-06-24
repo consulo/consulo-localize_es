@@ -1,7 +1,7 @@
 maven.tasks.action.group.name:
     text: Maven
 maven.tasks.before.run:
-    text: Ejecutar objetivo de Maven ''{0}''
+    text: "Ejecutar objetivo de Maven ''{0}''"
 maven.tasks.before.run.empty:
     text: Ejecutar objetivo de Maven
 maven.tasks.executing:

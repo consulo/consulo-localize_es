@@ -7,7 +7,7 @@ create.property.quickfix.text:
 duplicate.property.diff.key.option:
     text: Claves &duplicadas con valores diferentes
 duplicate.property.diff.key.problem.descriptor:
-    text: 'Clave de propiedad duplicada ''''{0}'''' con diferentes valores #treeend :<br>'
+    text: "Clave de propiedad duplicada ''{0}'' con diferentes valores #treeend :<br>"
 duplicate.property.diff.key.progress.indicator.text:
     text: 'Procesando clave de propiedad duplicada: {0}'
 duplicate.property.display.name:
@@ -19,7 +19,7 @@ duplicate.property.key.error.message:
 duplicate.property.key.option:
     text: Claves duplicadas (&K)
 duplicate.property.key.problem.descriptor:
-    text: 'Clave de propiedad duplicada ''''{0}'''' #treeend con valores:<br>'
+    text: "Clave de propiedad duplicada ''{0}'' #treeend con valores:<br>"
 duplicate.property.key.progress.indicator.text:
     text: 'Procesando clave de propiedad duplicada: {0}'
 duplicate.property.module.scope.option:
@@ -29,13 +29,13 @@ duplicate.property.project.scope.option:
 duplicate.property.value.option:
     text: '&Valores duplicados'
 duplicate.property.value.problem.descriptor:
-    text: 'Valor de propiedad duplicado ''''{0}'''' #treeend Con las claves:<br>'
+    text: "Valor de propiedad duplicado ''{0}'' #treeend Con las claves:<br>"
 duplicate.property.value.progress.indicator.text:
     text: 'Procesando valor de propiedad duplicado: {0}'
 no.property.selected.panel.label:
     text: <html><body><center>Seleccione el nombre de la propiedad a la izquierda para editar sus valores</body></html>
 project.view.resource.bundle.tree.node.text:
-    text: Paquete de recursos ''{0}''
+    text: "Paquete de recursos ''{0}''"
 properties.files.inspection.group.display.name:
     text: Archivos de propiedades
 property.key.expected.parsing.error.message:
@@ -47,7 +47,7 @@ remove.property.quick.fix.name:
 rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
     text: Introduzca el nuevo nombre base del paquete de recursos
 rename.prefix.based.property.key.error.message:
-    text: No se pudo cambiar el nombre de la clave de propiedad ''{1}'' basándose en el prefijo ''{0}'' por el nombre ''{2}'', cambie primero el prefijo
+    text: "No se pudo cambiar el nombre de la clave de propiedad ''{1}'' basándose en el prefijo ''{0}'' por el nombre ''{2}'', cambie primero el prefijo"
 rename.resource.bundle.dialog.title:
     text: Renombrar paquete de recursos
 searching.for.property.key.progress.text:

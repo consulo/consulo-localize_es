@@ -1,5 +1,5 @@
 black.cell.color.descriptor:
-    text: Celda 'negra'
+    text: "Celda 'negra'"
 chessboard.cell.size:
     text: '&Tamaño de celda del tablero (píxeles):'
 error.broken.image.file.format:
@@ -33,4 +33,4 @@ show.transparency.chessboard:
 unknown.format:
     text: Formato desconocido
 white.cell.color.descriptor:
-    text: Celda 'blanca'
+    text: "Celda 'blanca'"

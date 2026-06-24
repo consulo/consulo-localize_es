@@ -55,7 +55,7 @@ create.copyright.profile:
 detect.copyright.regexp.is.incorrect.configuration.error:
     text: 'La expresión regular de detección de copyright es incorrecta:'
 dialog.message.duplicate.copyright.profile.name:
-    text: 'Nombre de perfil de copyright duplicado: ''''{0}'''''
+    text: "Nombre de perfil de copyright duplicado: ''{0}''"
 dialog.message.new.copyright.profile.name:
     text: 'Nuevo nombre del perfil de copyright:'
 dialog.message.no.copyright.configured:
@@ -65,7 +65,9 @@ dialog.message.the.copyright.settings.imported:
 dialog.message.the.selected.file.copyright.settings:
     text: El archivo seleccionado no contiene ninguna configuración de copyright.
 dialog.message.velocity.template.contains.error.0:
-    text: "La plantilla Velocity contiene un error:\n{0}"
+    text: |-
+        La plantilla Velocity contiene un error:
+        {0}
 dialog.message.velocity.template.is.valid:
     text: La plantilla Velocity es válida.
 dialog.title.import.complete:

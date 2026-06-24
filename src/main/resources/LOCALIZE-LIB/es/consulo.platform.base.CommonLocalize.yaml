@@ -63,7 +63,7 @@ button.yes.for.all:
 cannot.redo.message:
     text: No se puede rehacer
 cannot.undo.error.contains.nonundoable.changes.message:
-    text: '<html>No se puede realizar ''''{0}''''<br>Los siguientes archivos contienen cambios que no se pueden deshacer:'
+    text: "<html>No se puede realizar ''{0}''<br>Los siguientes archivos contienen cambios que no se pueden deshacer:"
 cannot.undo.error.other.affected.files.changed.message:
     text: 'Los siguientes archivos afectados por esta acción ya han sido modificados:'
 cannot.undo.message:
@@ -87,15 +87,29 @@ failed.to.make.the.following.files.writable.error.message:
 name.label.text:
     text: 'No&mbre:'
 safe.write.backup:
-    text: "No se puede guardar {0}.\nNo se pudo crear un archivo de copia de seguridad ({1}).\nEl archivo permanece sin cambios."
+    text: |-
+        No se puede guardar {0}.
+        No se pudo crear un archivo de copia de seguridad ({1}).
+        El archivo permanece sin cambios.
 safe.write.junk:
-    text: "No se puede guardar {0}.\nNo se pueden escribir datos.\nEl archivo puede estar dañado."
+    text: |-
+        No se puede guardar {0}.
+        No se pueden escribir datos.
+        El archivo puede estar dañado.
 safe.write.junk.backup:
-    text: "No se puede guardar {0}.\nNo se pueden escribir los datos.\nEl archivo podría estar dañado; se ha creado una copia de seguridad en {1}."
+    text: |-
+        No se puede guardar {0}.
+        No se pueden escribir los datos.
+        El archivo podría estar dañado; se ha creado una copia de seguridad en {1}.
 safe.write.open:
-    text: "No se puede guardar {0}.\nNo se puede abrir el archivo para escritura."
+    text: |-
+        No se puede guardar {0}.
+        No se puede abrir el archivo para escritura.
 safe.write.restored:
-    text: "No se puede guardar {0}.\nNo se pudieron escribir los datos.\nEl contenido original se restauró desde la copia de seguridad."
+    text: |-
+        No se puede guardar {0}.
+        No se pudieron escribir los datos.
+        El contenido original se restauró desde la copia de seguridad.
 title.settings:
     text: Configuración
 title.settings.mac:

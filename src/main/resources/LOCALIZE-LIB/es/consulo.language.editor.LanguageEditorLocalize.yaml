@@ -1,5 +1,5 @@
 inlay.hints.show.settings:
-    text: Desactivar sugerencias para el método ''{0}''
+    text: "Desactivar sugerencias para el método ''{0}''"
 settings.hints:
     text: Sugerencias incrustadas
 settings.hints.group.annotations:

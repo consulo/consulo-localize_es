@@ -69,13 +69,13 @@ hector.syntax.slider.label:
 inlay.hints.declarative.disable.action.no.provider.text:
     text: Desactivar sugerencias incrustadas
 inlay.hints.declarative.disable.action.text:
-    text: Desactivar sugerencias incrustadas ''{0}''
+    text: "Desactivar sugerencias incrustadas ''{0}''"
 inlay.hints.declarative.disable.option.action.text:
-    text: Desactivar la opción ''{0}'' para las sugerencias incrustadas ''{1}''
+    text: "Desactivar la opción ''{0}'' para las sugerencias incrustadas ''{1}''"
 inlay.hints.declarative.enable.action.text:
-    text: Habilitar sugerencias inlay ''{0}''
+    text: "Habilitar sugerencias inlay ''{0}''"
 inlay.hints.declarative.enable.option.action.text:
-    text: Habilitar la opción ''{0}'' para las sugerencias incrustadas ''{1}''
+    text: "Habilitar la opción ''{0}'' para las sugerencias incrustadas ''{1}''"
 iw.compact.view:
     text: Vista compacta
 iw.disable.powersave:
