@@ -3,7 +3,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-28T14:36:40.831664960Z",
+  "generatedAt" : "2026-06-28T14:54:04.521591799Z",
   "documents" : {
     "consulo-apache-ant/consulo.apache.ant.impl.ApacheAntImplLocalize" : {
       "source" : {
@@ -737,6 +737,20 @@
           "sig" : "2f355e089de265611bef393c9a9c79bf",
           "state" : "Translated",
           "total" : 41,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-python/consulo.python.impl.PyLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "680638f6239743439aca0e67a5a4d8a5"
+      },
+      "translations" : {
+        "es" : {
+          "sig" : "9008a76b5ee086b36b0dacde4677442a",
+          "state" : "Translated",
+          "total" : 450,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
