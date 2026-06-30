@@ -81,7 +81,7 @@ exception.label:
 exception.tab.name:
     text: Excepción
 inspect.value.dialog.title:
-    text: Inspeccionar ''{0}''
+    text: "Inspeccionar ''{0}''"
 invalid.frame:
     text: <fotograma no válido>
 load.value.task.error:

@@ -421,7 +421,9 @@ options.xml.attribute.descriptor.tag.data:
 options.xml.attribute.descriptor.tag.name:
     text: Nombre de etiqueta
 project.file.read.only.error.message:
-    text: "El archivo del proyecto es de solo lectura.\nLa configuración no se guardará hasta que el archivo sea de escritura."
+    text: |-
+        El archivo del proyecto es de solo lectura.
+        La configuración no se guardará hasta que el archivo sea de escritura.
 properties.options.display.name:
     text: Propiedades
 settings.panel.title:

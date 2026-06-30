@@ -111,9 +111,13 @@ create.gist.success:
 credentials.button.generate:
     text: Generar…
 credentials.incorrect:
-    text: "Credenciales incorrectas.\n{0}"
+    text: |-
+        Credenciales incorrectas.
+        {0}
 credentials.invalid.auth.data:
-    text: "Datos de autenticación no válidos.\n{0}"
+    text: |-
+        Datos de autenticación no válidos.
+        {0}
 credentials.invalid.server.path:
     text: Ruta de servidor no válida
 credentials.server.cannot.be.empty:
@@ -157,7 +161,7 @@ label.login.progress:
 link.label.use.token:
     text: Usar token…
 login.account.already.added:
-    text: La cuenta ''{0}'' ya ha sido añadida
+    text: "La cuenta ''{0}'' ya ha sido añadida"
 login.to.github:
     text: Iniciar sesión en GitHub
 login.to.github.enterprise:
@@ -229,7 +233,7 @@ pull.request.create.input.remote.branch.name:
 pull.request.create.input.remote.branch.title:
     text: Nueva rama remota para la pull request
 pull.request.create.no.changes:
-    text: No hay cambios entre ''{0}'' y ''{1}''
+    text: "No hay cambios entre ''{0}'' y ''{1}''"
 pull.request.create.no.commits:
     text: Sin commits
 pull.request.create.process.title:
@@ -503,7 +507,7 @@ pull.request.timeline.refresh.action:
 pull.request.timeline.refresh.action.description:
     text: Comprobar si hay nuevos eventos en la línea de tiempo
 pull.request.timeline.renamed:
-    text: renombró esta pull request de ''{0}'' a ''{1}''
+    text: "renombró esta pull request de ''{0}'' a ''{1}''"
 pull.request.timeline.reopened:
     text: reabrió esto
 pull.request.timeline.requested.changes:
@@ -543,7 +547,7 @@ rebase.error.no.default.branch:
 rebase.error.no.suitable.account.found:
     text: No se encontró ninguna cuenta de GitHub adecuada
 rebase.error.remote.origin.not.found:
-    text: No se encontró el remoto de Git 'origin'
+    text: "No se encontró el remoto de Git 'origin'"
 rebase.error.repo.not.found:
     text: No se encontró el repositorio {0}
 rebase.error.upstream.not.found:
@@ -559,7 +563,7 @@ rebase.process.fetching.upstream:
 rebase.process.operation.title:
     text: Haciendo rebase
 rebase.process.rebasing.branch.onto:
-    text: Rebasando la rama actual sobre ''{0}''…
+    text: "Rebasando la rama actual sobre ''{0}''…"
 rebase.process.success:
     text: Se ha realizado el rebase del fork de GitHub con éxito
 request.response.0:

@@ -23,9 +23,9 @@ maven.execution.terminated.abnormally:
 maven.java.home.undefined:
     text: Variable de entorno JAVA_HOME no definida
 maven.java.not.found:
-    text: No se puede encontrar el JRE ''{0}''
+    text: "No se puede encontrar el JRE ''{0}''"
 maven.java.not.found.default.config:
-    text: No se puede encontrar el JRE ''{0}''. Puede especificar el JRE para ejecutar objetivos de Maven en Ajustes | Maven | Ejecutor
+    text: "No se puede encontrar el JRE ''{0}''. Puede especificar el JRE para ejecutar objetivos de Maven en Ajustes | Maven | Ejecutor"
 maven.options.description.B:
     text: Ejecutar en modo no interactivo (por lotes) (desactiva el color de la salida)
 maven.options.description.C:

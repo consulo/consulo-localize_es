@@ -1,5 +1,5 @@
 annotation.name.is.missing:
-    text: Se esperaba un atributo de anotación con el formato 'name=value'
+    text: "Se esperaba un atributo de anotación con el formato 'name=value'"
 anonymous.class.context.display:
     text: Anónima en {0}
 anonymous.class.derived.display:
@@ -15,7 +15,7 @@ bad.return.type.in.method.reference:
 bound.not.expected:
     text: Límite inesperado
 catch.without.try:
-    text: '''catch'' sin ''try'''
+    text: "'catch' sin 'try'"
 class.context.display:
     text: '{0} en {1}'
 class.literal.expected:
@@ -29,9 +29,9 @@ context.type.string:
 default.language.level.description:
     text: Predeterminado del SDK
 diamond.error.anonymous.inner.classes:
-    text: No se puede usar '<>' con clases internas anónimas
+    text: "No se puede usar '<>' con clases internas anónimas"
 diamond.error.anonymous.inner.classes.non.private:
-    text: No se puede usar '<>' debido a un método no privado que no sobrescribe ni implementa un método de un supertipo
+    text: "No se puede usar '<>' debido a un método no privado que no sobrescribe ni implementa un método de un supertipo"
 diamond.error.cannot.infer.arguments:
     text: No se pueden inferir los argumentos
 diamond.error.cannot.infer.arguments.unable.to.resolve.constructor:
@@ -41,9 +41,9 @@ diamond.error.cannot.infer.type.arguments:
 diamond.error.explicit.type.parameters.for.constructor:
     text: No se pueden utilizar diamantes con parámetros de tipo explícitos para el constructor
 else.without.if:
-    text: '''else'' sin ''if'''
+    text: "'else' sin 'if'"
 enum.constant.context:
-    text: Constante de enumeración ''{0}'' en ''{1}''
+    text: "Constante de enumeración ''{0}'' en ''{1}''"
 error.incompatible.type:
     text: '{0} no es compatible con {1}'
 error.incompatible.type.bad.lambda.return.type:
@@ -85,7 +85,10 @@ error.incompatible.type.unhandled.exception:
 error.incompatible.upper.bounds:
     text: 'Límites superiores incompatibles: {0}'
 error.inference.variable.has.incompatible.bounds:
-    text: "la variable de inferencia {0} tiene límites incompatibles:\n {1}: {2}\n{3}: {4}"
+    text: |-
+        la variable de inferencia {0} tiene límites incompatibles:
+         {1}: {2}
+        {3}: {4}
 error.message.wildcard.not.expected:
     text: Comodín inesperado
 expected.array.initializer:
@@ -93,45 +96,45 @@ expected.array.initializer:
 expected.boolean.expression:
     text: Se espera una expresión booleana
 expected.catch.or.finally:
-    text: Se esperaba 'catch' o 'finally'
+    text: "Se esperaba 'catch' o 'finally'"
 expected.class.or.interface:
-    text: Se espera 'class' o 'interface'
+    text: "Se espera 'class' o 'interface'"
 expected.class.reference:
     text: 'Se esperaba: referencia de clase'
 expected.colon:
-    text: Se esperaba ':'
+    text: "Se esperaba ':'"
 expected.comma:
-    text: Se esperaba ','
+    text: "Se esperaba ','"
 expected.comma.or.rparen:
-    text: Se esperaba ',' o ')'
+    text: "Se esperaba ',' o ')'"
 expected.comma.or.semicolon:
-    text: Se espera ',' o ';'
+    text: "Se espera ',' o ';'"
 expected.dot:
-    text: Se esperaba '.'
+    text: "Se esperaba '.'"
 expected.eq:
-    text: Se esperaba '='
+    text: "Se esperaba '='"
 expected.expression:
     text: 'Se esperaba: expresión'
 expected.gt:
-    text: Se esperaba '>'.
+    text: "Se esperaba '>'."
 expected.gt.or.comma:
-    text: Se esperaba '>' o ','
+    text: "Se esperaba '>' o ','"
 expected.identifier:
     text: Se esperaba un identificador
 expected.identifier.or.type:
     text: Se esperaba un identificador o tipo
 expected.lbrace:
-    text: se esperaba '{'
+    text: "se esperaba '{'"
 expected.lbrace.or.semicolon:
-    text: Se espera '{' o ';'
+    text: "Se espera '{' o ';'"
 expected.lbracket:
-    text: se esperaba '['
+    text: "se esperaba '['"
 expected.lparen:
-    text: Se esperaba '('
+    text: "Se esperaba '('"
 expected.lparen.or.lbracket:
-    text: Se esperaba '(' o '['
+    text: "Se esperaba '(' o '['"
 expected.lt.or.lparen:
-    text: se esperaba '<' o '('
+    text: "se esperaba '<' o '('"
 expected.module.declaration:
     text: Se esperaba una declaración de módulo
 expected.module.statement:
@@ -141,21 +144,21 @@ expected.package.reference:
 expected.parameter:
     text: Se esperaba un parámetro
 expected.rbrace:
-    text: Se esperaba '}'
+    text: "Se esperaba '}'"
 expected.rbracket:
-    text: Se esperaba ']'
+    text: "Se esperaba ']'"
 expected.resource:
     text: Se esperaba una definición de recurso
 expected.rparen:
-    text: Se esperaba ')'
+    text: "Se esperaba ')'"
 expected.semicolon:
-    text: Se esperaba ';'
+    text: "Se esperaba ';'"
 expected.statement:
     text: Se esperaba una sentencia
 expected.string:
     text: Se esperaba un literal de cadena
 expected.switch.label:
-    text: se esperaba 'case', 'default' o '}'
+    text: "se esperaba 'case', 'default' o '}'"
 expected.switch.rule:
     text: Se esperaba una expresión, un bloque o una sentencia throw
 expected.type:
@@ -165,9 +168,9 @@ expected.type.parameter:
 expected.value:
     text: Se esperaba un valor
 expected.while:
-    text: se esperaba 'while'
+    text: "se esperaba 'while'"
 expected.with:
-    text: se esperaba 'with'
+    text: "se esperaba 'with'"
 feature.advanced.collection.api:
     text: Métodos lambda en colecciones
 feature.annotations:
@@ -185,7 +188,7 @@ feature.diamond.types:
 feature.effectively.final:
     text: Variables efectivamente finales
 feature.enhanced.switch:
-    text: Bloques 'switch' mejorados
+    text: "Bloques 'switch' mejorados"
 feature.enum.qualified.name.in.switch:
     text: Enumeración calificada como constante en switch
 feature.enums:
@@ -225,7 +228,7 @@ feature.multi.catch:
 feature.nestmates:
     text: Control de acceso basado en nidos
 feature.no.this.capture:
-    text: Las clases internas no capturan 'this'
+    text: "Las clases internas no capturan 'this'"
 feature.override.interface:
     text: '@Override en interfaces'
 feature.pattern.guard.and.record.patterns:
@@ -233,7 +236,7 @@ feature.pattern.guard.and.record.patterns:
 feature.patterns.in.switch:
     text: Patrones en switch
 feature.patterns.instanceof:
-    text: Patrones en 'instanceof'
+    text: "Patrones en 'instanceof'"
 feature.private.interface.methods:
     text: Métodos de interfaz privados
 feature.record.patterns.in.for.each:
@@ -261,13 +264,13 @@ feature.stream.gatherers:
 feature.strictfp:
     text: Semántica de punto flotante siempre estricta
 feature.string.switch:
-    text: Cadenas en sentencias 'switch'
+    text: "Cadenas en sentencias 'switch'"
 feature.string.templates:
     text: Plantillas de cadenas
 feature.structured.concurrency:
     text: Concurrencia estructurada
 feature.switch.expressions:
-    text: expresiones 'switch'
+    text: "expresiones 'switch'"
 feature.text.blocks:
     text: Literales de bloque de texto
 feature.try.with.resources.refs:
@@ -281,15 +284,15 @@ feature.underscores.in.literals:
 feature.unnamed.vars:
     text: Patrones y variables sin nombre
 feature.var.lambda.parameter:
-    text: '''var'' en parámetros lambda'
+    text: "'var' en parámetros lambda"
 feature.varargs:
     text: Métodos de aridad variable
 feature.virtual.threads:
     text: Hilos virtuales
 finally.without.try:
-    text: '''finally'' sin ''try'''
+    text: "'finally' sin 'try'"
 import.statement.identifier.or.asterisk.expected.:
-    text: Se esperaba un identificador o '*'
+    text: "Se esperaba un identificador o '*'"
 java.terms.anonymous.class.base.ref:
     text: '{0} anónima'
 javadoc.exception.tag.class.is.not.throwable:
@@ -301,7 +304,7 @@ javadoc.exception.tag.wrong.tag.value:
 javadoc.param.tag.parameter.name.expected:
     text: Se esperaba un nombre de parámetro
 javadoc.param.tag.type.parameter.gt.expected:
-    text: se esperaba '>'
+    text: "se esperaba '>'"
 javadoc.param.tag.type.parameter.name.expected:
     text: Se esperaba un nombre de parámetro de tipo
 javadoc.ref.tag.class.ref.expected:
@@ -315,25 +318,25 @@ javadoc.value.static.field.required:
 javadoc.value.tag.jdk15.required:
     text: la etiqueta @value no puede tener ningún argumento cuando se utiliza JDK 1.4 o versiones anteriores
 jdk.21.preview.language.level.description:
-    text: '21 (Vista previa) - Plantillas de cadenas, clases sin nombre y métodos main de instancia, etc.'
+    text: 21 (Vista previa) - Plantillas de cadenas, clases sin nombre y métodos main de instancia, etc.
 jdk.22.preview.language.level.description:
-    text: '22 (Vista previa) - Sentencias antes de super(), plantillas de cadenas (segunda vista previa), etc.'
+    text: 22 (Vista previa) - Sentencias antes de super(), plantillas de cadenas (segunda vista previa), etc.
 jdk.23.language.level.description:
-    text: '23 - Comentarios de documentación en Markdown'
+    text: 23 - Comentarios de documentación en Markdown
 jdk.23.preview.language.level.description:
-    text: '23 (Vista previa) - Tipos primitivos en patrones, clases declaradas implícitamente, etc.'
+    text: 23 (Vista previa) - Tipos primitivos en patrones, clases declaradas implícitamente, etc.
 jdk.24.language.level.description:
-    text: '24 - Sin nuevas funciones del lenguaje'
+    text: 24 - Sin nuevas funciones del lenguaje
 jdk.24.preview.language.level.description:
-    text: '24 (Vista previa) - Cuerpos de constructor flexibles, archivos fuente simples, etc.'
+    text: 24 (Vista previa) - Cuerpos de constructor flexibles, archivos fuente simples, etc.
 jdk.25.language.level.description:
-    text: '25 - Archivos fuente compactos, importaciones de módulos, etc.'
+    text: 25 - Archivos fuente compactos, importaciones de módulos, etc.
 jdk.25.preview.language.level.description:
-    text: '25 (Preview) - Tipos primitivos en patrones (3.ª vista previa)'
+    text: 25 (Preview) - Tipos primitivos en patrones (3.ª vista previa)
 jdk.26.language.level.description:
-    text: '26 - Sin nuevas características del lenguaje'
+    text: 26 - Sin nuevas características del lenguaje
 jdk.26.preview.language.level.description:
-    text: '26 (Vista previa) - Tipos primitivos en patrones (cuarta vista previa)'
+    text: 26 (Vista previa) - Tipos primitivos en patrones (cuarta vista previa)
 jdk.unsupported.preview.language.level.description:
     text: '{0} (Vista previa) - No admitido'
 lambda.body.must.be.a.statement.expression:

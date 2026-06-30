@@ -27,7 +27,7 @@ proxy.pac.url.example:
 proxy.pac.url.label:
     text: 'URL de configuración automática de proxy:'
 proxy.settings.override.by.plugin.checkbox:
-    text: Ajustes de proxy proporcionados por el complemento ''{0}''
+    text: "Ajustes de proxy proporcionados por el complemento ''{0}''"
 proxy.system.label:
     text: <html>Tiene la propiedad JVM <tt>java.net.useSystemProxies</tt> establecida en <tt>true</tt>. Esto hará que algunas llamadas de red se realicen a través del proxy definido por el sistema operativo. Si no tiene intención de usar el proxy definido por el sistema, desactive esta propiedad.</html>
 proxy.system.proxy.settings:

@@ -13,7 +13,7 @@ anonymous.class:
 call.can.throw.npe:
     text: La cadena de llamadas puede lanzar una NullPointerException
 change.lvalue.type:
-    text: Cambiar el tipo de la variable ''{0}'' a ''{1}''
+    text: "Cambiar el tipo de la variable ''{0}'' a ''{1}''"
 closure:
     text: clausura
 create.directory.command:
@@ -25,11 +25,11 @@ dialog.create.class.package.chooser.title:
 dynamic.element:
     text: Elemento dinámico
 expected.type.0:
-    text: Se esperaba ''{0}'', se encontró ''{1}''
+    text: "Se esperaba ''{0}'', se encontró ''{1}''"
 fix.class:
     text: Corregir clase {0}
 getter.0.clashes.with.getter.1:
-    text: 'Se produjo un conflicto: ''''{0}'''' con ''''{1}'''''
+    text: "Se produjo un conflicto: ''{0}'' con ''{1}''"
 gr.package.inspection.check.scripts:
     text: Comprobar scripts
 highlight.if.groovy.object.methods.overridden:
@@ -43,7 +43,7 @@ implement.class:
 java.style.property.access:
     text: Invocación de accesores al estilo Java
 local.var.0.is.reassigned:
-    text: La variable local ''{0}'' se ha vuelto a asignar
+    text: "La variable local ''{0}'' se ha vuelto a asignar"
 method.may.be.static:
     text: El método puede ser static
 method.may.be.static.ignore.empty.method.option:
@@ -71,31 +71,31 @@ pointless.boolean.problem.descriptor:
 pointless.boolean.quickfix:
     text: Simplificar
 remove.0:
-    text: Eliminar ''.{0}''
+    text: "Eliminar ''.{0}''"
 replace.0.with.1:
-    text: Reemplazar ''{0}'' por ''{1}''
+    text: "Reemplazar ''{0}'' por ''{1}''"
 replace.postfix.0.with.prefix.0:
-    text: Reemplazar el postfijo ''{0}'' por el prefijo ''{0}''
+    text: "Reemplazar el postfijo ''{0}'' por el prefijo ''{0}''"
 replace.qualified.name.with.import:
     text: Reemplazar nombre calificado por importación
 rtype.cannot.contain.ltype:
-    text: '''''{1}'''' no puede contener ''''{0}'''''
+    text: "''{1}'' no puede contener ''{0}''"
 second.unsafe.call:
     text: Segunda llamada insegura
 target.0.does.not.exist:
-    text: El objetivo ''{0}'' no existe
+    text: "El objetivo ''{0}'' no existe"
 target.annotation.is.unused:
     text: '@Target no se utiliza'
 type.customizer.is.not.marked.as.a.resource.file:
     text: El script del personalizador de tipos no está marcado como recurso del compilador
 type.doesnt.contain.method:
-    text: El tipo ''{0}'' no se puede iterar en un rango porque no tiene el método ''{1}''
+    text: "El tipo ''{0}'' no se puede iterar en un rango porque no tiene el método ''{1}''"
 unassigned.access.tooltip:
-    text: La variable ''{0}'' podría no estar asignada
+    text: "La variable ''{0}'' podría no estar asignada"
 unresolved.type.status:
-    text: El tipo ''{0}'' no se ha resuelto
+    text: "El tipo ''{0}'' no se ha resuelto"
 unused.0:
-    text: '''''{0}'''' no se utiliza'
+    text: "''{0}'' no se utiliza"
 unused.assignment.tooltip:
     text: La asignación no se utiliza
 unused.variable:

@@ -83,7 +83,7 @@ cloud.status.connection.successful:
 cloud.status.double.click.to.connect:
     text: Haga doble clic en el nodo del servidor para conectar
 clouds.configure.empty.selection.string:
-    text: Para configurar la integración con {0}, haga clic en ''+''
+    text: "Para configurar la integración con {0}, haga clic en ''+''"
 configurable.display.name.clouds:
     text: Nubes
 create.new.deployment.configuration.for.singleton.type:

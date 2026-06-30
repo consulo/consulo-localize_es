@@ -7,7 +7,7 @@ ACT.qualify.with.module:
 ANN.assign.to.none:
     text: Asignación a None
 ANN.break.outside.loop:
-    text: '''break'' fuera del bucle'
+    text: "'break' fuera del bucle"
 ANN.cant.assign.to.call:
     text: No se puede asignar a una llamada a función
 ANN.cant.assign.to.comprh:
@@ -41,7 +41,7 @@ ANN.cant.aug.assign.to.tuple.or.generator:
 ANN.cant.delete.call:
     text: No se puede eliminar la llamada a la función
 ANN.default.except.must.be.last:
-    text: el 'except:' por defecto debe ser el último
+    text: "el 'except:' por defecto debe ser el último"
 ANN.deleting.none:
     text: Eliminando None
 ANN.duplicate.param.name:
@@ -71,7 +71,7 @@ INSP.NAME.attribute.outside.init:
 INSP.NAME.augment.assignment:
     text: La asignación puede reemplazarse por una asignación compuesta
 INSP.NAME.bad.except.clauses.order:
-    text: Orden incorrecto de las cláusulas 'except'
+    text: "Orden incorrecto de las cláusulas 'except'"
 INSP.NAME.byte.literal:
     text: Un literal de byte contiene un carácter no ASCII
 INSP.NAME.chained.comparisons:
@@ -97,7 +97,7 @@ INSP.NAME.docstring.types:
 INSP.NAME.duplicate.keys:
     text: El diccionario contiene claves duplicadas
 INSP.NAME.exception.not.inherit:
-    text: Las excepciones no heredan de la clase estándar 'Exception'
+    text: "Las excepciones no heredan de la clase estándar 'Exception'"
 INSP.NAME.first.arg.assign:
     text: El primer argumento del método se reasigna
 INSP.NAME.from.future.import:
@@ -123,7 +123,7 @@ INSP.NAME.method.over:
 INSP.NAME.missing.or.empty.docstring:
     text: Docstring ausente o vacío
 INSP.NAME.missing.super.constructor:
-    text: Falta la llamada a '_init__' de la superclase(_I)
+    text: "Falta la llamada a '_init__' de la superclase(_I)"
 INSP.NAME.nested.decorators:
     text: Anidamiento problemático de decoradores
 INSP.NAME.new.init.signature:
@@ -181,7 +181,7 @@ INSP.classic.class.usage.old.style.class:
 INSP.classic.class.usage.old.style.class.ancestors:
     text: Clase de estilo antiguo, porque todas las clases de las que hereda son de estilo antiguo
 INSP.decorator.receives.unexpected.builtin:
-    text: Este decorador no recibirá el objeto invocable que espera; el decorador llamado anteriormente ''{0}'' devuelve un objeto especial
+    text: "Este decorador no recibirá el objeto invocable que espera; el decorador llamado anteriormente ''{0}'' devuelve un objeto especial"
 INSP.deleter.should.not.return:
     text: El eliminador no debe devolver un valor
 INSP.deleter.signature.advice:
@@ -209,13 +209,13 @@ INSP.init.incompatible.to.new:
 INSP.message.single.quoted.docstring:
     text: Se deben usar cadenas con triple comilla doble para los docstrings.
 INSP.method.may.be.static:
-    text: El método <code>#ref</code> puede ser 'static'
+    text: "El método <code>#ref</code> puede ser 'static'"
 INSP.missing.parameter.in.docstring:
     text: Falta el parámetro {0} en el docstring
 INSP.missing.super.constructor.message:
     text: Falta la llamada a _init__ de la superclase(_I)
 INSP.must.have.first.parameter:
-    text: El método debe tener un primer parámetro, normalmente llamado ''{0}''
+    text: "El método debe tener un primer parámetro, normalmente llamado ''{0}''"
 INSP.new.incompatible.to.init:
     text: La firma no es compatible con _init__(_I)
 INSP.no.docstring:
@@ -223,7 +223,7 @@ INSP.no.docstring:
 INSP.no.format.specifier.char:
     text: Falta el carácter especificador de formato
 INSP.none.function.assignment:
-    text: La función ''{0}'' no devuelve nada
+    text: "La función ''{0}'' no devuelve nada"
 INSP.oldstyle.class.getattribute:
     text: La clase de estilo antiguo contiene la definición de _getattribute__(_G)
 INSP.oldstyle.class.slots:
@@ -231,15 +231,15 @@ INSP.oldstyle.class.slots:
 INSP.oldstyle.class.super:
     text: La clase de estilo antiguo contiene una llamada al método super
 INSP.probably.mistyped.self:
-    text: ¿No quiso decir 'self'?
+    text: "¿No quiso decir 'self'?"
 INSP.redeclared.name:
-    text: Se ha vuelto a declarar ''{0}'', definido arriba sin uso
+    text: "Se ha vuelto a declarar ''{0}'', definido arriba sin uso"
 INSP.setter.should.not.return:
     text: El setter no debe devolver un valor
 INSP.setter.signature.advice:
     text: La firma del setter debe ser (self, value)
 INSP.signature.mismatch:
-    text: La firma del método ''{0}'' no coincide con la firma del método base en la clase ''{1}''
+    text: "La firma del método ''{0}'' no coincide con la firma del método base en la clase ''{1}''"
 INSP.strange.arg.want.callable:
     text: Argumento extraño; se espera un objeto invocable
 INSP.too.few.args.for.fmt.string:
@@ -251,11 +251,11 @@ INSP.too.many.args.for.fmt.string:
 INSP.tuples.never.assign.items:
     text: Las tuplas no admiten la asignación de elementos
 INSP.unbound.function.too.large:
-    text: La función ''{0}'' es demasiado grande para ser analizada
+    text: "La función ''{0}'' es demasiado grande para ser analizada"
 INSP.unbound.local.variable:
-    text: La variable local ''{0}'' podría ser referenciada antes de su asignación
+    text: "La variable local ''{0}'' podría ser referenciada antes de su asignación"
 INSP.unbound.nonlocal.variable:
-    text: La variable nolocal ''{0}'' debe estar vinculada en un ámbito de función externa
+    text: "La variable nolocal ''{0}'' debe estar vinculada en un ámbito de función externa"
 INSP.unexpected.arg:
     text: Argumento inesperado
 INSP.unexpected.parameter.in.docstring:
@@ -263,17 +263,17 @@ INSP.unexpected.parameter.in.docstring:
 INSP.unreachable.code:
     text: Este código es inaccesible
 INSP.unused.locals.local.class.isnot.used:
-    text: La clase local ''{0}'' no se utiliza
+    text: "La clase local ''{0}'' no se utiliza"
 INSP.unused.locals.local.function.isnot.used:
-    text: La función local ''{0}'' no se utiliza
+    text: "La función local ''{0}'' no se utiliza"
 INSP.unused.locals.local.variable.isnot.used:
-    text: El valor de la variable local ''{0}'' no se utiliza
+    text: "El valor de la variable local ''{0}'' no se utiliza"
 INSP.unused.locals.parameter.isnot.used:
-    text: El valor del parámetro ''{0}'' no se utiliza
+    text: "El valor del parámetro ''{0}'' no se utiliza"
 INSP.unused.locals.replace.with.wildcard:
     text: Reemplazar con _
 INSP.usually.named.self:
-    text: El primer parámetro de un método suele llamarse 'self'
+    text: "El primer parámetro de un método suele llamarse 'self'"
 INTN.add.parameters.to.docstring:
     text: Añadir parámetros al docstring
 INTN.convert.builtin.import:
@@ -283,7 +283,7 @@ INTN.convert.dict.constructor.to.dict.literal:
 INTN.convert.dict.literal.to.dict.constructor:
     text: Convertir literal de dict a constructor de dict
 INTN.convert.except.to:
-    text: Convertir 'except exceptClass, Target' a 'except exceptClass as Target'
+    text: "Convertir 'except exceptClass, Target' a 'except exceptClass as Target'"
 INTN.convert.lambda.to.function:
     text: Convertir lambda a función
 INTN.convert.method.to.property:
@@ -295,15 +295,15 @@ INTN.convert.to.fstring.literal:
 INTN.convert.variadic.param:
     text: Convertir parámetros variádicos en normales
 INTN.flip.comparison:
-    text: Invertir ''{0}''
+    text: "Invertir ''{0}''"
 INTN.format.operator.to.method:
-    text: Convertir el operador de formato en una llamada al método 'str.format'
+    text: "Convertir el operador de formato en una llamada al método 'str.format'"
 INTN.insert.assertion:
     text: Insertar aserción de tipo
 INTN.join.if:
-    text: Unir dos sentencias 'if'
+    text: "Unir dos sentencias 'if'"
 INTN.negate.comparison:
-    text: Negar ''{0}'' a ''{1}''
+    text: "Negar ''{0}'' a ''{1}''"
 INTN.quoted.string:
     text: Convertir cadenas de comillas simples a comillas dobles y viceversa
 INTN.quoted.string.double.to.single:
@@ -315,7 +315,7 @@ INTN.replace.backquote.expression:
 INTN.replace.list.comprehensions:
     text: Convertir las comprensiones de lista al formato compatible
 INTN.replace.list.comprehensions.with.for:
-    text: Convertir las comprensiones de lista en un bucle 'for'
+    text: "Convertir las comprensiones de lista en un bucle 'for'"
 INTN.replace.noteq.operator:
     text: Reemplazar el operador de desigualdad
 INTN.replace.octal.numeric.literal:
@@ -333,53 +333,53 @@ INTN.specify.return.type.in.annotation:
 INTN.specify.type.in.annotation:
     text: Especificar el tipo de la referencia mediante una anotación
 INTN.split.if:
-    text: Dividir en 2 sentencias 'if'
+    text: "Dividir en 2 sentencias 'if'"
 INTN.string.concatenation.to.format:
-    text: Reemplazar la concatenación de cadenas por 'str.format'
+    text: "Reemplazar la concatenación de cadenas por 'str.format'"
 INTN.transform.into.if.else.statement:
-    text: Transformar expresiones condicionales en sentencias 'if/else'
+    text: "Transformar expresiones condicionales en sentencias 'if/else'"
 INTN.triple.quoted.string:
     text: Convertir cadena entre triples comillas a cadena entre comillas simples
 INTN.yield.from:
-    text: Transformar iteraciones explícitas con 'yield' en expresiones 'yield from'
+    text: "Transformar iteraciones explícitas con 'yield' en expresiones 'yield from'"
 PARSE.expected.colon:
-    text: Se esperaba ':'
+    text: "Se esperaba ':'"
 PARSE.expected.colon.or.rbracket:
-    text: Se esperaba ':' o ']'
+    text: "Se esperaba ':' o ']'"
 PARSE.expected.comma:
-    text: Se esperaba ','
+    text: "Se esperaba ','"
 PARSE.expected.comma.lpar.rpar:
-    text: Se esperaba ',', '(' o ')'
+    text: "Se esperaba ',', '(' o ')'"
 PARSE.expected.comma.or.rpar:
-    text: Se esperaba ',' o ')'
+    text: "Se esperaba ',' o ')'"
 PARSE.expected.else:
-    text: se esperaba 'else'
+    text: "se esperaba 'else'"
 PARSE.expected.expr.or.comma.or.bracket:
-    text: Se esperaba una expresión, ',' o ']'
+    text: "Se esperaba una expresión, ',' o ']'"
 PARSE.expected.expression:
     text: Se esperaba una expresión
 PARSE.expected.for.or.bracket:
-    text: Se espera ']' o 'for'
+    text: "Se espera ']' o 'for'"
 PARSE.expected.formal.param.name:
     text: Se esperaba un nombre de parámetro formal
 PARSE.expected.identifier:
     text: Se esperaba un identificador
 PARSE.expected.in:
-    text: Se esperaba 'in'
+    text: "Se esperaba 'in'"
 PARSE.expected.lpar:
-    text: Se esperaba '('
+    text: "Se esperaba '('"
 PARSE.expected.name:
     text: Se esperaba un nombre
 PARSE.expected.rbrace:
-    text: Se esperaba '}'
+    text: "Se esperaba '}'"
 PARSE.expected.rbracket:
-    text: Se esperaba ']'
+    text: "Se esperaba ']'"
 PARSE.expected.rpar:
-    text: Se esperaba ')'
+    text: "Se esperaba ')'"
 PARSE.expected.statement.break:
     text: Se esperaba un salto de instrucción
 PARSE.expected.tick:
-    text: Se esperaba '`' (backtick)
+    text: "Se esperaba '`' (backtick)"
 QDOC.module.path.unknown:
     text: (La ruta del módulo es desconocida)
 QFIX.NAME.add.exception.base:
@@ -425,9 +425,9 @@ QFIX.add.encoding:
 QFIX.add.global:
     text: Añadir declaración global
 QFIX.add.import.add.import:
-    text: Añadir "''{0}''"
+    text: "Añadir \"''{0}''\""
 QFIX.add.parameter.self:
-    text: Añadir el parámetro ''{0}''
+    text: "Añadir el parámetro ''{0}''"
 QFIX.add.property:
     text: Agregar propiedad para el campo
 QFIX.add.super:
@@ -435,7 +435,7 @@ QFIX.add.super:
 QFIX.augment.assignment:
     text: Reemplazar asignación por asignación compuesta
 QFIX.auto.import.import.name:
-    text: Importar ''{0}''
+    text: "Importar ''{0}''"
 QFIX.auto.import.import.this.name:
     text: Importar este nombre
 QFIX.chained.comparison:
@@ -473,7 +473,7 @@ QFIX.make.public:
 QFIX.move.attribute:
     text: Mover atributo al método _init__(_I)
 QFIX.move.from.future.import:
-    text: Mover 'from _future__ import' a la ubicación correcta(_F)
+    text: "Mover 'from _future__ import' a la ubicación correcta(_F)"
 QFIX.redundant.parentheses:
     text: Eliminar paréntesis redundantes
 QFIX.remove.argument.equal.default:
@@ -493,9 +493,9 @@ QFIX.replace.function.set.with.literal:
 QFIX.statement.effect:
     text: Reemplazar por llamada a función
 QFIX.unresolved.reference:
-    text: Reemplazar ''{0}'' por ''{1}.{0}''
+    text: "Reemplazar ''{0}'' por ''{1}.{0}''"
 QFIX.unresolved.reference.add.param:
-    text: Crear parámetro ''{0}''
+    text: "Crear parámetro ''{0}''"
 QFIX.use.property:
     text: Usar propiedad para el campo
 active.sdk.dialog.project.interpreter:
@@ -523,7 +523,7 @@ custom.type.mimic.name:
 debug.popup.title.step.into.function:
     text: Entrar en la función
 formatter.after.hash:
-    text: Después de '#'
+    text: "Después de '#'"
 formatter.after.local.imports:
     text: 'Después de las importaciones locales:'
 formatter.align.when.multiline:
@@ -541,9 +541,9 @@ formatter.around.top.level.classes.and.function:
 formatter.around.top.level.imports:
     text: 'Después de las importaciones de nivel superior:'
 formatter.before.backslash:
-    text: Antes de ''
+    text: "Antes de ''"
 formatter.before.hash:
-    text: Antes de '#'
+    text: "Antes de '#'"
 formatter.braces:
     text: Llaves
 formatter.collections.and.comprehensions:
@@ -609,7 +609,10 @@ refactoring.change.signature.error.tuple.parameters:
 refactoring.change.signature.error.wrong.caret.position.method.name:
     text: El cursor debe estar situado en el nombre del método que se va a refactorizar
 refactoring.change.signature.find.usages.of.base.class:
-    text: "El método {0} de la clase {1}\nsobrescribe el método de la clase {2}.\n¿Desea refactorizar el método base?"
+    text: |-
+        El método {0} de la clase {1}
+        sobrescribe el método de la clase {2}.
+        ¿Desea refactorizar el método base?
 refactoring.change.signature.usage.view.declarations.header:
     text: Funciones a refactorizar
 refactoring.convert.package.to.module.error.not.empty.package:
@@ -639,13 +642,13 @@ refactoring.extract.method.error.returns:
 refactoring.extract.method.error.star.import:
     text: No se puede realizar la refactorización con una sentencia de importación con asterisco dentro de un bloque de código
 refactoring.extract.method.error.yield:
-    text: No se puede realizar la refactorización con una sentencia 'yield' dentro de un bloque de código
+    text: "No se puede realizar la refactorización con una sentencia 'yield' dentro de un bloque de código"
 refactoring.extract.super.class.no.members.allowed:
     text: No se pudo extraer ningún miembro
 refactoring.extract.super.name.0.must.be.ident:
-    text: El nombre ''{0}'' no es válido. Debe ser un identificador de Python válido.
+    text: "El nombre ''{0}'' no es válido. Debe ser un identificador de Python válido."
 refactoring.extract.super.target.class.already.exists:
-    text: La clase ''{0}'' ya existe en este módulo
+    text: "La clase ''{0}'' ya existe en este módulo"
 refactoring.extract.super.target.path.outside.roots:
     text: El directorio de destino está fuera del proyecto. Debe estar dentro de las raíces de contenido.
 refactoring.inline.local.multiassignment:
@@ -713,7 +716,7 @@ refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
 refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
     text: 'No se puede realizar la subida de miembros: no se encuentra dentro de la clase'
 refactoring.will.not.be.accessible:
-    text: El miembro que intenta mover depende de ''{0}'', el cual no será accesible después de esta refactorización
+    text: "El miembro que intenta mover depende de ''{0}'', el cual no será accesible después de esta refactorización"
 remote.debug.info:
     text: Información
 remote.debug.local.host:
@@ -875,7 +878,7 @@ sdk.select.path:
 sdk.some.skeletons.failed:
     text: No se pudieron generar algunos esqueletos
 smartKeys.insert.self.in.method:
-    text: Insertar 'self' al definir un método
+    text: "Insertar 'self' al definir un método"
 smartKeys.insert.type.placeholder.in.docstring.stub:
     text: Insertar marcadores de posición de tipo en el stub del comentario de documentación
 unable.to.stop:

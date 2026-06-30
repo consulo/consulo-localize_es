@@ -39,6 +39,7 @@ ServerModel.password:
 ServerModel.logfile:
     text: Registro de {0}
 ServerInstance.artifact.status:
-    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] Artefacto {1}: {2}\n"
+    text: |
+        [{0,time,yyyy-MM-dd hh:mm:ss,SSS}] Artefacto {1}: {2}
 Error.fileNotFound:
-    text: No se encontró el archivo ''{0}''
+    text: "No se encontró el archivo ''{0}''"

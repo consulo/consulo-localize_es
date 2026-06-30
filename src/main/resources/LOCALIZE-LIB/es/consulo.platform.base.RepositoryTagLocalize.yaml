@@ -3,7 +3,7 @@ database:
 library:
     text: biblioteca
 test.framework:
-    text: 'Framework ''''{0}'''':'
+    text: "Framework ''{0}'':"
 vcs:
     text: VCS
 web.server:

@@ -53,7 +53,7 @@ color.settings.redundant.escape.sequence:
 color.settings.title.regexp:
     text: Expresión regular
 dialog.message.inspection.with.name.exists.warning:
-    text: Ya existe una inspección con el nombre ''{0}''
+    text: "Ya existe una inspección con el nombre ''{0}''"
 doc.property.block.stands.for.0:
     text: El bloque de propiedades representa {0}
 doc.property.block.stands.for.characters.not.matching.0:
@@ -73,9 +73,9 @@ error.conditional.group.reference.not.allowed.inside.lookbehind:
 error.conditionals.are.not.supported.in.this.regex.dialect:
     text: No se admiten condicionales en este dialecto de regex
 error.dangling.metacharacter:
-    text: Cuantificador huérfano ''{0}''
+    text: "Cuantificador huérfano ''{0}''"
 error.dangling.opening.bracket:
-    text: Inicio de cuantificador '{' inesperado
+    text: "Inicio de cuantificador '{' inesperado"
 error.define.subpattern.contains.more.than.one.branch:
     text: El subpatrón DEFINE contiene más de una rama
 error.embedded.comments.are.not.supported.in.this.regex.dialect:
@@ -87,7 +87,7 @@ error.group.reference.is.nested.into.the.named.group.it.refers.to:
 error.group.reference.not.allowed.inside.lookbehind:
     text: Referencia de grupo no permitida dentro de un lookbehind
 error.group.with.name.0.already.defined:
-    text: Ya se ha definido el grupo con el nombre ''{0}''
+    text: "Ya se ha definido el grupo con el nombre ''{0}''"
 error.illegal.character.range.to.from:
     text: Rango de caracteres no válido (hasta < desde)
 error.illegal.hexadecimal.escape.sequence:
@@ -173,7 +173,7 @@ inspection.name.octal.escape:
 inspection.name.redundant.character.escape:
     text: Escape de caracteres redundante
 inspection.name.redundant.digit.class.element:
-    text: Elementos de clase 'd', '[:digit:]' o 'D' redundantes
+    text: "Elementos de clase 'd', '[:digit:]' o 'D' redundantes"
 inspection.name.redundant.nested.character.class:
     text: Clase de caracteres anidada redundante
 inspection.name.simplifiable.expression:
@@ -185,9 +185,9 @@ inspection.name.suspicious.backref:
 inspection.name.unnecessary.non.capturing.group:
     text: Grupo de no captura innecesario
 inspection.option.ignore.escaped.closing.brackets:
-    text: Ignorar los caracteres de cierre escapados '}' y ']'
+    text: "Ignorar los caracteres de cierre escapados '}' y ']'"
 inspection.quick.fix.remove.duplicate.0.from.character.class:
-    text: Eliminar ''{0}'' duplicado de la clase de caracteres
+    text: "Eliminar ''{0}'' duplicado de la clase de caracteres"
 inspection.quick.fix.remove.duplicate.branch:
     text: Eliminar rama duplicada
 inspection.quick.fix.remove.duplicate.element.from.character.class:
@@ -195,7 +195,7 @@ inspection.quick.fix.remove.duplicate.element.from.character.class:
 inspection.quick.fix.remove.empty.branch:
     text: Eliminar rama vacía
 inspection.quick.fix.remove.redundant.0.class.element:
-    text: Eliminar ''{0}'' redundante
+    text: "Eliminar ''{0}'' redundante"
 inspection.quick.fix.remove.redundant.class.element:
     text: Eliminar el elemento de clase redundante
 inspection.quick.fix.remove.redundant.escape:
@@ -223,7 +223,7 @@ inspection.warning.anonymous.capturing.group:
 inspection.warning.can.be.removed:
     text: <code>#ref</code> es redundante
 inspection.warning.can.be.simplified:
-    text: <code>#ref</code> puede simplificarse a ''{0}''
+    text: "<code>#ref</code> puede simplificarse a ''{0}''"
 inspection.warning.consecutive.spaces.in.regexp:
     text: '{0} espacios consecutivos en la expresión regular'
 inspection.warning.duplicate.branch.in.alternation:
@@ -245,7 +245,7 @@ inspection.warning.potential.exponential.backtracking:
 inspection.warning.redundant.character.escape.0.in.regexp:
     text: Escape de caracteres redundante <code>{0}</code> en la expresión regular
 inspection.warning.redundant.class.element:
-    text: '''''{0}'''' redundante en RegExp'
+    text: "''{0}'' redundante en RegExp"
 inspection.warning.redundant.nested.character.class:
     text: Clase de caracteres anidada redundante
 inspection.warning.single.character.alternation.in.regexp:
@@ -275,11 +275,11 @@ parse.error.character.expected:
 parse.error.character.or.mysql.character.name.expected:
     text: Se esperaba un carácter o un nombre de carácter de MySQL
 parse.error.closing.brace.expected:
-    text: Se esperaba '}'
+    text: "Se esperaba '}'"
 parse.error.closing.brace.or.number.expected:
-    text: Se esperaba '}' o un número
+    text: "Se esperaba '}' o un número"
 parse.error.comma.expected:
-    text: Se esperaba ','
+    text: "Se esperaba ','"
 parse.error.empty.property:
     text: Propiedad vacía
 parse.error.group.name.expected:
@@ -297,9 +297,9 @@ parse.error.negating.a.property.not.allowed.in.this.regular.expression.dialect:
 parse.error.number.expected:
     text: Se esperaba un número
 parse.error.opening.brace.expected:
-    text: Se esperaba '{'
+    text: "Se esperaba '{'"
 parse.error.opening.brace.or.category.shorthand.expected:
-    text: Se esperaba '{' o una abreviatura de categoría
+    text: "Se esperaba '{' o una abreviatura de categoría"
 parse.error.pattern.expected:
     text: Se esperaba un patrón
 parse.error.posix.character.class.name.expected:
@@ -311,7 +311,7 @@ parse.error.property.value.expected:
 parse.error.unclosed.character.class:
     text: Clase de caracteres sin cerrar
 parse.error.unclosed.group:
-    text: Se esperaba ')'
+    text: "Se esperaba ')'"
 parse.error.unclosed.group.name:
     text: Nombre de grupo sin cerrar
 parse.error.unclosed.group.reference:
@@ -329,7 +329,7 @@ parse.error.unclosed.property:
 parse.error.unicode.character.name.expected:
     text: Se esperaba un nombre de carácter Unicode
 parse.error.unmatched.closing.bracket:
-    text: Cierre ''{0}'' no coincidente
+    text: "Cierre ''{0}'' no coincidente"
 regexp.dialog.flag.canonical.equivalence:
     text: Equivalencia canónica
 regexp.dialog.flag.canonical.equivalence.description:
@@ -337,7 +337,7 @@ regexp.dialog.flag.canonical.equivalence.description:
 regexp.dialog.flag.case.insensitive:
     text: No distinguir mayúsculas y minúsculas
 regexp.dialog.flag.case.insensitive.description:
-    text: Por defecto, 'No distinguir mayúsculas y minúsculas' solo reconoce el conjunto de caracteres US-ASCII. Habilite 'Mayúsculas/minúsculas de Unicode' para realizar coincidencias que no distingan entre mayúsculas y minúsculas de forma compatible con Unicode.
+    text: "Por defecto, 'No distinguir mayúsculas y minúsculas' solo reconoce el conjunto de caracteres US-ASCII. Habilite 'Mayúsculas/minúsculas de Unicode' para realizar coincidencias que no distingan entre mayúsculas y minúsculas de forma compatible con Unicode."
 regexp.dialog.flag.comments:
     text: Comentarios
 regexp.dialog.flag.comments.description:
@@ -361,7 +361,9 @@ regexp.dialog.flag.unicode.character.class.description:
 regexp.dialog.flag.unix.lines:
     text: Líneas Unix
 regexp.dialog.flag.unix.lines.description:
-    text: "Solo se reconoce el terminador de línea <code>\n</code> en el comportamiento de <code>.</code>, <code>^</code> y <code>$</code>."
+    text: |-
+        Solo se reconoce el terminador de línea <code>
+        </code> en el comportamiento de <code>.</code>, <code>^</code> y <code>$</code>.
 regexp.dialog.language:
     text: '&Idioma:'
 regexp.dialog.regexp.flags:
@@ -401,6 +403,6 @@ tooltip.no.match:
 tooltip.pattern.is.too.complex:
     text: El patrón de expresión regular es demasiado complejo
 warning.duplicate.character.0.inside.character.class:
-    text: Carácter ''{0}'' duplicado dentro de la clase de caracteres
+    text: "Carácter ''{0}'' duplicado dentro de la clase de caracteres"
 warning.duplicate.predefined.character.class.0.inside.character.class:
-    text: Clase de caracteres predefinida ''{0}'' duplicada dentro de la clase de caracteres
+    text: "Clase de caracteres predefinida ''{0}'' duplicada dentro de la clase de caracteres"

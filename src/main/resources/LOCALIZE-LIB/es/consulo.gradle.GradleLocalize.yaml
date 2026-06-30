@@ -1,7 +1,9 @@
 gradle.settings.text.vm.options:
     text: 'Opciones de VM de Gradle:'
 gradle.home.setting.type.explicit.incorrect:
-    text: "La ubicación de Gradle es incorrecta.\nUbicación: {0}"
+    text: |-
+        La ubicación de Gradle es incorrecta.
+        Ubicación: {0}
 gradle.home.setting.type.explicit.empty:
     text: No se ha especificado la ubicación de Gradle
 gradle.codeInsight.action.apply_plugin.text:

@@ -27,13 +27,13 @@ button.do.not.override:
 button.override:
     text: Sobrescribir
 cannot.delete.a.read.only.file:
-    text: No se puede eliminar el archivo de solo lectura ''{0}''.
+    text: "No se puede eliminar el archivo de solo lectura ''{0}''."
 cannot.modify.a.read.only.directory:
-    text: No se puede modificar un directorio de solo lectura ''{0}''.
+    text: "No se puede modificar un directorio de solo lectura ''{0}''."
 cannot.modify.a.read.only.file:
-    text: No se puede modificar el archivo de solo lectura ''{0}''.
+    text: "No se puede modificar el archivo de solo lectura ''{0}''."
 cannot.resolve.symbol:
-    text: No se puede resolver el símbolo ''{0}''
+    text: "No se puede resolver el símbolo ''{0}''"
 class.context.display:
     text: '{0} en {1}'
 color.name:
@@ -53,31 +53,31 @@ completion.quick.javadoc.ad:
 completion.smart.enter.ad:
     text: Use {0} para corregir sintácticamente el código tras completarlo (ajuste de paréntesis, etc.)
 compound.run.configuration.cycle:
-    text: '{0} ''''{1}'''' causa un ciclo de dependencias y no se puede añadir'
+    text: "{0} ''{1}'' causa un ciclo de dependencias y no se puede añadir"
 default.path.evaluator.option:
     text: Indica al proveedor de referencias cómo evaluar la ruta predeterminada para el archivo dado
 dialog.message.duplicate.live.templates.in.group:
     text: Plantillas activas `{0}` duplicadas en el grupo {1}
 dialog.message.live.template.with.empty.abbreviation:
-    text: Se ha encontrado una plantilla activa con una abreviatura vacía en el grupo ''{0}''; no se permiten este tipo de plantillas activas
+    text: "Se ha encontrado una plantilla activa con una abreviatura vacía en el grupo ''{0}''; no se permiten este tipo de plantillas activas"
 dialog.message.live.template.with.empty.text:
-    text: Se ha encontrado una plantilla activa ''{0}'' con texto vacío en el grupo ''{1}''; tales plantillas activas no tienen sentido
+    text: "Se ha encontrado una plantilla activa ''{0}'' con texto vacío en el grupo ''{1}''; tales plantillas activas no tienen sentido"
 dialog.message.template.with.name.already.exists:
-    text: Ya existe una plantilla con el nombre ''{0}''. Especifique un nombre de plantilla diferente.
+    text: "Ya existe una plantilla con el nombre ''{0}''. Especifique un nombre de plantilla diferente."
 dialog.message.valid.identifier:
-    text: '''''{0}'''' no es un identificador válido'
+    text: "''{0}'' no es un identificador válido"
 dialog.template.data.language.caption:
     text: Los lenguajes de datos de plantilla son los lenguajes subyacentes en archivos de plantilla como los de los frameworks FreeMarker/Velocity. Para cambiar la configuración del lenguaje de datos de plantilla que {0} utiliza para un archivo, un directorio o todo el proyecto, añada su ruta si es necesario y seleccione un lenguaje de la lista desplegable.
 el.cannot.resolve.function:
-    text: No se puede resolver la función ''{0}''
+    text: "No se puede resolver la función ''{0}''"
 el.cannot.resolve.method:
-    text: No se puede resolver el método ''{0}''()
+    text: "No se puede resolver el método ''{0}''()"
 el.cannot.resolve.namespace:
-    text: No se puede resolver el espacio de nombres ''{0}''
+    text: "No se puede resolver el espacio de nombres ''{0}''"
 el.cannot.resolve.property:
-    text: No se puede resolver la propiedad o el método ''{0}'' (¿propiedad dinámica?)
+    text: "No se puede resolver la propiedad o el método ''{0}'' (¿propiedad dinámica?)"
 el.cannot.resolve.variable:
-    text: No se puede resolver la variable ''{0}''
+    text: "No se puede resolver la variable ''{0}''"
 el.declare.variable.find.acceptable.class:
     text: Buscar clase aceptable
 el.declare.variable.intention.family:
@@ -89,7 +89,7 @@ el.declare.variable.via.usebean.intention.name:
 el.mismatched.parameters.count:
     text: Diferente número de parámetros formales y reales
 enum.constant.context:
-    text: Constante de enumeración ''{0}'' en ''{1}''
+    text: "Constante de enumeración ''{0}'' en ''{1}''"
 hint.text.can.t.modify.decompiled.code:
     text: No se puede modificar el código descompilado
 hint.text.couldn.t.find.surround:
@@ -211,7 +211,7 @@ quickfix.change.template.data.language.text:
 search.scope.module:
     text: En un solo módulo
 search.scope.module.runtime:
-    text: Ámbito de tiempo de ejecución del módulo ''{0}''
+    text: "Ámbito de tiempo de ejecución del módulo ''{0}''"
 search.scope.unknown:
     text: <ámbito desconocido>
 static.visibility.presentation:

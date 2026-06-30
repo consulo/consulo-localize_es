@@ -1,19 +1,19 @@
 access.static.via.instance:
     text: Acceso a miembro estático a través de una referencia de instancia
 annotate.overridden.methods.parameters:
-    text: Anotar los parámetros de los métodos que sobrescriben como ''@{0}''
+    text: "Anotar los parámetros de los métodos que sobrescriben como ''@{0}''"
 annotate.overridden.methods.parameters.family.name:
     text: Anotar parámetros de los métodos que sobrescriben
 assignment.to.declared.variable.problem.descriptor:
-    text: La variable ''{0}'' se inicializa con una autoasignación
+    text: "La variable ''{0}'' se inicializa con una autoasignación"
 assignment.to.itself.problem.descriptor:
-    text: La variable ''{0}'' se asigna a sí misma
+    text: "La variable ''{0}'' se asigna a sí misma"
 assignment.to.itself.quickfix.name:
     text: Eliminar autoasignación
 boolean.method.is.always.inverted.display.name:
     text: El método booleano siempre está invertido
 boolean.method.is.always.inverted.problem.descriptor:
-    text: Las llamadas al método booleano '#ref()' siempre se invierten
+    text: "Las llamadas al método booleano '#ref()' siempre se invierten"
 cleanup.in.file:
     text: Limpiar código
 cleanup.in.scope:
@@ -27,7 +27,7 @@ dataflow.message.assigning.null:
 dataflow.message.assigning.nullable:
     text: La expresión <code>#ref</code> podría evaluarse como null, pero se asigna a una variable no nula
 dataflow.message.constant.method.reference:
-    text: El resultado de la referencia al método siempre es ''{0}''
+    text: "El resultado de la referencia al método siempre es ''{0}''"
 dataflow.message.passing.null.argument:
     text: Pasando el argumento <code>null</code> al parámetro anotado como @NotNull
 dataflow.message.passing.nullable.argument:
@@ -57,7 +57,7 @@ dataflow.method.fails.with.null.argument:
 default.file.template.description:
     text: Plantilla de archivo predeterminada
 deprecated.symbol:
-    text: '''''{0}'''' está en desuso'
+    text: "''{0}'' está en desuso"
 detach.library.quickfix.name:
     text: Desvincular biblioteca
 detach.library.roots.quickfix.name:
@@ -85,7 +85,7 @@ duplicate.property.value.option:
 duplicate.property.value.progress.indicator.text:
     text: 'Procesando valor de propiedad duplicado: {0}'
 edit.inspection.options:
-    text: Editar opciones de ''{0}''
+    text: "Editar opciones de ''{0}''"
 edit.options.of.reporter.inspection.family:
     text: Editar opciones de la inspección del reportero
 edit.options.of.reporter.inspection.text:
@@ -93,7 +93,7 @@ edit.options.of.reporter.inspection.text:
 error.analysis.is.in.progress:
     text: El análisis de errores está en curso
 exports.to.itself.delete.module.ref.fix:
-    text: Eliminar referencia al módulo ''{0}''
+    text: "Eliminar referencia al módulo ''{0}''"
 exports.to.itself.delete.statement.fix:
     text: Eliminar directiva
 group.names.abstraction.issues:
@@ -193,15 +193,15 @@ highlight.severity.create.dialog.name.label:
 highlight.severity.create.dialog.title:
     text: Editar nombre de la gravedad
 inconsistent.bundle.property.error:
-    text: Propiedad incoherente ''{0}''. Debe definirse en el archivo primario ''{1}''.
+    text: "Propiedad incoherente ''{0}''. Debe definirse en el archivo primario ''{1}''."
 inconsistent.bundle.property.inconsistent.end:
-    text: Final de valor de propiedad inconsistente ''{0}''
+    text: "Final de valor de propiedad inconsistente ''{0}''"
 inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
-    text: Fin de valor de propiedad inconsistente ''{0}'', pero se encontró ''{1}'' en ''{2}''
+    text: "Fin de valor de propiedad inconsistente ''{0}'', pero se encontró ''{1}'' en ''{2}''"
 inconsistent.bundle.property.inconsistent.placeholders:
-    text: 'Cantidad incoherente de marcadores de posición: se han encontrado {0} en ''''{1}'''''
+    text: "Cantidad incoherente de marcadores de posición: se han encontrado {0} en ''{1}''"
 inconsistent.bundle.property.inherited.with.the.same.value:
-    text: Propiedad heredada del archivo ''{0}'' con el mismo valor
+    text: "Propiedad heredada del archivo ''{0}'' con el mismo valor"
 inconsistent.bundle.report.duplicate.properties.values:
     text: Informar de propiedades s&obrescritas con el mismo valor
 inconsistent.bundle.report.inconsistent.properties:
@@ -213,7 +213,7 @@ inconsistent.bundle.report.inconsistent.properties.placeholders:
 inconsistent.bundle.report.missing.translations:
     text: Informar de traducciones &faltantes
 inconsistent.bundle.untranslated.property.error:
-    text: Propiedad no traducida ''{0}''. Debe ser sobrescrita en ''{1}''.
+    text: "Propiedad no traducida ''{0}''. Debe ser sobrescrita en ''{1}''."
 inconsistent.line.separators:
     text: Separadores de línea inconsistentes
 inconsistent.resource.bundle.display.name:
@@ -241,7 +241,7 @@ inspection.action.profile.label:
 inspection.action.rerun:
     text: Volver a ejecutar inspección (&R)
 inspection.action.suppress:
-    text: Suprimiendo la inspección ''{0}''
+    text: "Suprimiendo la inspección ''{0}''"
 inspection.action.title:
     text: Inspección
 inspection.annotate.method.quickfix.family.name:
@@ -253,7 +253,9 @@ inspection.annotate.overridden.method.quickfix.family.name:
 inspection.annotate.quickfix.implements:
     text: implementar
 inspection.annotate.quickfix.overridden.method.messages:
-    text: "El método {0} {1} el método {2}.\n¿Desea anotar también el método base?"
+    text: |-
+        El método {0} {1} el método {2}.
+        ¿Desea anotar también el método base?
 inspection.annotate.quickfix.overridden.method.warning:
     text: Advertencia de método sobreescrito
 inspection.annotate.quickfix.overrides:
@@ -263,7 +265,7 @@ inspection.application.cannot.convert.project.0:
 inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
     text: 'No se puede convertir el proyecto. Los siguientes archivos son de solo lectura: {0}'
 inspection.application.chosen.profile.log.message:
-    text: Inspeccionando con el perfil ''{0}''
+    text: "Inspeccionando con el perfil ''{0}''"
 inspection.application.directory.cannot.be.found:
     text: No se puede encontrar el directorio {0}
 inspection.application.file.cannot.be.found:
@@ -277,11 +279,11 @@ inspection.application.project.has.older.format.and.will.be.converted:
 inspection.application.starting.up:
     text: Iniciando {0}…
 inspection.assert.quickfix:
-    text: Afirmar ''{0}''
+    text: "Afirmar ''{0}''"
 inspection.can.be.final.accept.quickfix:
     text: Hacer final
 inspection.can.be.final.display.name:
-    text: La declaración puede tener el modificador 'final'
+    text: "La declaración puede tener el modificador 'final'"
 inspection.can.be.final.option:
     text: Reportar clases
 inspection.can.be.final.option1:
@@ -297,13 +299,23 @@ inspection.capitalized.done:
 inspection.collection.factories.fix.family.name:
     text: Reemplazar con llamada a fábrica de colecciones
 inspection.collection.factories.fix.name:
-    text: Reemplazar con la llamada a ''{0}.{1}()''
+    text: "Reemplazar con la llamada a ''{0}.{1}()''"
 inspection.collection.factories.message:
-    text: Puede reemplazarse con la llamada a ''{0}.{1}()''
+    text: "Puede reemplazarse con la llamada a ''{0}.{1}()''"
 inspection.collection.factories.option.ignore.non.constant:
     text: Informar solo cuando el contenido sea constante
 inspection.command.line.explanation:
-    text: "Parámetros esperados: <project_file_path> <inspection_profile> <output_path> [<options>]\n<inspection_profile> -- nombre de un perfil configurado en el proyecto o localmente, o una ruta a un perfil de inspección; puede omitirse cuando se utiliza uno de -e|-profileName|-profilePath\nOpciones disponibles:\n -d <directory_path>  --  directorio a inspeccionar, el valor predeterminado es todo el proyecto\n-e                   --  utilizar el perfil de inspección configurado para el proyecto\n-v[0|1|2]            --  nivel de detalle. 0 - silencioso, 1 - detallado, 2 - máximo detalle\n-profileName         --  nombre de un perfil definido en el proyecto\n-profilePath         --  ruta absoluta a un archivo de perfil\n-format              --  formato de salida del informe. Uno de xml|json|plain, el valor predeterminado es xml\n-changes             --  inspeccionar cambios no confirmados e informar sobre nuevos problemas"
+    text: |-
+        Parámetros esperados: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- nombre de un perfil configurado en el proyecto o localmente, o una ruta a un perfil de inspección; puede omitirse cuando se utiliza uno de -e|-profileName|-profilePath
+        Opciones disponibles:
+         -d <directory_path>  --  directorio a inspeccionar, el valor predeterminado es todo el proyecto
+        -e                   --  utilizar el perfil de inspección configurado para el proyecto
+        -v[0|1|2]            --  nivel de detalle. 0 - silencioso, 1 - detallado, 2 - máximo detalle
+        -profileName         --  nombre de un perfil definido en el proyecto
+        -profilePath         --  ruta absoluta a un archivo de perfil
+        -format              --  formato de salida del informe. Uno de xml|json|plain, el valor predeterminado es xml
+        -changes             --  inspeccionar cambios no confirmados e informar sobre nuevos problemas
 inspection.comparator.result.comparison.display.name:
     text: Uso sospechoso del método compare
 inspection.comparator.result.comparison.fix.family.name:
@@ -329,7 +341,7 @@ inspection.contract.display.name:
 inspection.convert.to.local.quickfix:
     text: Convertir en variable local
 inspection.data.flow.filter.notnull.quickfix:
-    text: Insertar el paso 'filter(Objects::nonNull)'
+    text: "Insertar el paso 'filter(Objects::nonNull)'"
 inspection.data.flow.ignore.assert.statements:
     text: Ignorar sentencias assert
 inspection.data.flow.report.not.null.required.parameter.with.null.literal.argument.usages:
@@ -345,7 +357,7 @@ inspection.data.flow.simplify.to.assignment.quickfix.name:
 inspection.data.flow.treat.non.annotated.members.and.parameters.as.nullable:
     text: Tratar los miembros y parámetros no anotados como @Nullable
 inspection.data.flow.use.computeifpresent.quickfix:
-    text: Reemplazar 'compute' por 'computeIfPresent'
+    text: "Reemplazar 'compute' por 'computeIfPresent'"
 inspection.dead.code.comment:
     text: // --Comentado por inspección
 inspection.dead.code.comment.quickfix:
@@ -435,9 +447,11 @@ inspection.dead.code.remove.user.defined.entry.point.quickfix:
 inspection.dead.code.safe.delete.quickfix:
     text: Eliminación segura
 inspection.dead.code.start.comment:
-    text: "// --Comentado por inspección INICIO ({0}):\n"
+    text: |
+        // --Comentado por inspección INICIO ({0}):
 inspection.dead.code.stop.comment:
-    text: "// --Comentado por STOP de inspección ({0})\n"
+    text: |
+        // --Comentado por STOP de inspección ({0})
 inspection.default.annotation.param:
     text: Valor predeterminado del parámetro de anotación
 inspection.deprecated.display.name:
@@ -445,17 +459,17 @@ inspection.deprecated.display.name:
 inspection.diff.format.error:
     text: 'Parámetros obligatorios: <archivo_antiguo> <archivo_nuevo> [<nombre_archivo_delta>]'
 inspection.disabled.error:
-    text: 'La inspección ''''{0}'''' está desactivada: {1}.'
+    text: "La inspección ''{0}'' está desactivada: {1}."
 inspection.disabled.wrong.id:
-    text: 'La inspección ''''{0}'''' está deshabilitada: el ID ''''{1}'''' no coincide con el patrón ''''{2}''''.'
+    text: "La inspección ''{0}'' está deshabilitada: el ID ''{1}'' no coincide con el patrón ''{2}''."
 inspection.done:
     text: Completado.
 inspection.duplicate.throws.display.name:
-    text: '''throws'' duplicados'
+    text: "'throws' duplicados"
 inspection.duplicate.throws.ignore.subclassing.option:
     text: Ignorar excepciones que heredan de otras
 inspection.duplicate.throws.more.general.problem:
-    text: Ya existe una excepción más general, ''{0}'', en la lista throws.
+    text: "Ya existe una excepción más general, ''{0}'', en la lista throws."
 inspection.duplicate.throws.problem:
     text: throws duplicado
 inspection.duplicates.display.name:
@@ -469,7 +483,7 @@ inspection.duplicates.message.more:
 inspection.duplicates.navigate.to.occurrences:
     text: Navegar a las coincidencias
 inspection.duplicates.occurrences.view.title:
-    text: Duplicados de ''{0}''
+    text: "Duplicados de ''{0}''"
 inspection.duplicates.option:
     text: 'Longitud &mínima de cadena:'
 inspection.duplicates.option.report.propertykey.expressions:
@@ -477,7 +491,7 @@ inspection.duplicates.option.report.propertykey.expressions:
 inspection.duplicates.replace.family.quickfix:
     text: Reemplazar
 inspection.duplicates.replace.quickfix:
-    text: Reemplazar con ''{0}''
+    text: "Reemplazar con ''{0}''"
 inspection.empty.method.delete.quickfix:
     text: Eliminar método(s) innecesario(s)
 inspection.empty.method.display.name:
@@ -491,11 +505,11 @@ inspection.empty.method.problem.descriptor2:
 inspection.empty.method.problem.descriptor4:
     text: Todas las implementaciones de este método están vacías
 inspection.equals.hashcode.display.name:
-    text: '''equals()'' y ''hashCode()'' no están emparejados'
+    text: "'equals()' y 'hashCode()' no están emparejados"
 inspection.equals.hashcode.generate.equals.quickfix:
-    text: Generar 'equals()'
+    text: "Generar 'equals()'"
 inspection.equals.hashcode.generate.hashcode.quickfix:
-    text: Generar 'hashCode()'
+    text: "Generar 'hashCode()'"
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
     text: La clase tiene {0} definido, pero no define {1}
 inspection.error.loading.message:
@@ -505,7 +519,7 @@ inspection.errors.occurred.dialog.title:
 inspection.excessive.lambda.fix.family.name:
     text: Reemplazar lambda por constante
 inspection.excessive.lambda.fix.name:
-    text: Usar el método ''{0}'' sin lambda
+    text: "Usar el método ''{0}'' sin lambda"
 inspection.excessive.lambda.message:
     text: Uso excesivo de lambdas
 inspection.export.dialog.title:
@@ -589,43 +603,43 @@ inspection.generating.html.progress.title:
 inspection.generating.xml.progress.title:
     text: Volcando XML…
 inspection.handle.signature.change.type.fix.name:
-    text: Cambiar el tipo a ''{0}''
+    text: "Cambiar el tipo a ''{0}''"
 inspection.handle.signature.field.cannot.resolve:
-    text: No se puede resolver el campo ''{0}''
+    text: "No se puede resolver el campo ''{0}''"
 inspection.handle.signature.field.not.static:
-    text: El campo ''{0}'' no es estático
+    text: "El campo ''{0}'' no es estático"
 inspection.handle.signature.field.static:
-    text: El campo ''{0}'' es estático
+    text: "El campo ''{0}'' es estático"
 inspection.handle.signature.field.type:
-    text: El tipo del campo ''{0}'' es ''{1}''
+    text: "El tipo del campo ''{0}'' es ''{1}''"
 inspection.handle.signature.method.not.static:
-    text: El método ''{0}'' no es estático
+    text: "El método ''{0}'' no es estático"
 inspection.handle.signature.method.static:
-    text: El método ''{0}'' es estático
+    text: "El método ''{0}'' es estático"
 inspection.handle.signature.name:
     text: Desajuste de tipos de MethodHandle/VarHandle
 inspection.handle.signature.use.constructor.fix.family.name:
     text: Usar una de las sobrecargas del constructor
 inspection.handle.signature.use.constructor.fix.name:
-    text: Usar constructor ''{0}''
+    text: "Usar constructor ''{0}''"
 inspection.handle.signature.use.method.fix.family.name:
     text: Usar una de las sobrecargas de método
 inspection.handle.signature.use.method.fix.name:
-    text: Usar el método ''{0}''
+    text: "Usar el método ''{0}''"
 inspection.illegal.character:
     text: Carácter no válido
 inspection.implicit.subclass.display.forClass:
-    text: La clase ''{0}'' podría ser subclaseada implícitamente y no debe ser final
+    text: "La clase ''{0}'' podría ser subclaseada implícitamente y no debe ser final"
 inspection.implicit.subclass.display.name:
     text: La declaración final no se puede sobrescribir en tiempo de ejecución
 inspection.implicit.subclass.extendable:
-    text: Hacer que ''{0}'' sea sobrescribible
+    text: "Hacer que ''{0}'' sea sobrescribible"
 inspection.implicit.subclass.make.class.extendable:
-    text: Hacer que la clase ''{0}'' {1,choice,0#sea extensible|1#y el método {2} sean extensibles|1<y los {1} métodos requeridos sean extensibles}
+    text: "Hacer que la clase ''{0}'' {1,choice,0#sea extensible|1#y el método {2} sean extensibles|1<y los {1} métodos requeridos sean extensibles}"
 inspection.java.module.naming:
     text: El nombre del módulo Java infringe la convención
 inspection.java.module.naming.terminal.digits:
-    text: El nombre del módulo ''{0}'' no debe usar dígitos terminales para codificar información de versión
+    text: "El nombre del módulo ''{0}'' no debe usar dígitos terminales para codificar información de versión"
 inspection.javadoc.html.not.required.label.text:
     text: 'Atributos HTML adicionales no obligatorios:'
 inspection.javadoc.lint.display.name:
@@ -647,7 +661,7 @@ inspection.javadoc.option.tab.title.method:
 inspection.javadoc.option.tab.title.package:
     text: Paquete
 inspection.javadoc.problem.add.param.tag:
-    text: Añadir etiqueta @param para el parámetro ''{0}''
+    text: "Añadir etiqueta @param para el parámetro ''{0}''"
 inspection.javadoc.problem.add.param.tag.family:
     text: Añadir etiqueta param de Javadoc faltante
 inspection.javadoc.problem.add.tag:
@@ -661,11 +675,11 @@ inspection.javadoc.problem.descriptor:
 inspection.javadoc.problem.descriptor1:
     text: Falta el punto en la documentación. La herramienta Javadoc utiliza el punto para generar el comentario de la página de descripción general.
 inspection.javadoc.problem.duplicate.param:
-    text: Etiqueta @param duplicada para el parámetro ''{0}''
+    text: "Etiqueta @param duplicada para el parámetro ''{0}''"
 inspection.javadoc.problem.duplicate.tag:
     text: Etiqueta @{0} duplicada
 inspection.javadoc.problem.duplicate.throws:
-    text: Etiqueta @throws o @exception duplicada para la excepción ''{0}''
+    text: "Etiqueta @throws o @exception duplicada para la excepción ''{0}''"
 inspection.javadoc.problem.missing.tag:
     text: Falta la etiqueta obligatoria {0}
 inspection.javadoc.problem.missing.tag.description:
@@ -683,9 +697,9 @@ inspection.javadoc.ref.display.name:
 inspection.lambda.to.method.call.fix.family.name:
     text: Reemplazar expresión lambda con llamada a método
 inspection.lambda.to.method.call.fix.name:
-    text: Reemplazar la expresión lambda por ''{0}''
+    text: "Reemplazar la expresión lambda por ''{0}''"
 inspection.local.can.be.final.display.name:
-    text: La variable local o el parámetro pueden ser 'final'
+    text: "La variable local o el parámetro pueden ser 'final'"
 inspection.local.can.be.final.option:
     text: Informar sobre variables locales
 inspection.local.can.be.final.option1:
@@ -721,7 +735,7 @@ inspection.null.value.for.optional.context.return:
 inspection.null.value.for.optional.fix.family.name:
     text: Reemplazar por el método Optional vacío
 inspection.null.value.for.optional.message:
-    text: Se utiliza null para el tipo ''Optional'' en {0}
+    text: "Se utiliza null para el tipo ''Optional'' en {0}"
 inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
     text: El parámetro anotado con @{0} no debe sobrescribir un parámetro @{1}
 inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
@@ -749,7 +763,7 @@ inspection.nullable.problems.parameter.overrides.NotNull:
 inspection.nullable.problems.primitive.type.annotation:
     text: No se pueden anotar los miembros de tipo primitivo
 inspection.options.action.text:
-    text: Opciones de la inspección ''{0}''
+    text: "Opciones de la inspección ''{0}''"
 inspection.parameter.can.be.local.display.name:
     text: Valor pasado como parámetro que nunca se lee
 inspection.parameter.can.be.local.problem.descriptor:
@@ -783,25 +797,25 @@ inspection.redundant.cast.problem.descriptor:
 inspection.redundant.cast.remove.quickfix:
     text: Eliminar conversión redundante
 inspection.redundant.requires.statement.description:
-    text: Directiva redundante ''requires {0}''.
+    text: "Directiva redundante ''requires {0}''."
 inspection.redundant.requires.statement.fix.family:
-    text: Eliminar directiva 'requires' redundante
+    text: "Eliminar directiva 'requires' redundante"
 inspection.redundant.requires.statement.fix.name:
-    text: Eliminar la directiva ''requires {0}''
+    text: "Eliminar la directiva ''requires {0}''"
 inspection.redundant.stream.optional.call.explanation.distinct:
-    text: hay una llamada 'distinct()' previa en la cadena
+    text: "hay una llamada 'distinct()' previa en la cadena"
 inspection.redundant.stream.optional.call.explanation.filter:
-    text: el predicado siempre es 'true'
+    text: "el predicado siempre es 'true'"
 inspection.redundant.stream.optional.call.explanation.parallel:
-    text: hay una llamada ''{0}()'' posterior que sobrescribe esta llamada
+    text: "hay una llamada ''{0}()'' posterior que sobrescribe esta llamada"
 inspection.redundant.stream.optional.call.explanation.sorted:
-    text: la llamada posterior ''{0}()'' no depende del orden de ordenación
+    text: "la llamada posterior ''{0}()'' no depende del orden de ordenación"
 inspection.redundant.stream.optional.call.explanation.unordered:
-    text: hay una llamada 'unordered()' previa en la cadena
+    text: "hay una llamada 'unordered()' previa en la cadena"
 inspection.redundant.stream.optional.call.fix.family.name:
     text: Eliminar llamada en cadena redundante
 inspection.redundant.stream.optional.call.fix.name:
-    text: Eliminar llamada a ''{0}()''
+    text: "Eliminar llamada a ''{0}()''"
 inspection.redundant.stream.optional.call.option.streamboxing:
     text: Informar sobre el boxing redundante en Stream.map()
 inspection.redundant.suppression.description:
@@ -829,7 +843,7 @@ inspection.reference.default.method.reference.name:
 inspection.reference.default.package:
     text: <predeterminado>
 inspection.reference.implicit.class:
-    text: archivo fuente compacto ''{0}''
+    text: "archivo fuente compacto ''{0}''"
 inspection.reference.implicit.constructor.name:
     text: constructor implícito de {0}
 inspection.reference.jsp.holder.method.anonymous.name:
@@ -839,41 +853,41 @@ inspection.reference.method.reference.name:
 inspection.reflect.handle.invocation.argument.not.array:
     text: El argumento no es de tipo array
 inspection.reflect.handle.invocation.argument.not.exact:
-    text: El tipo de argumento debe ser exactamente ''{0}''
+    text: "El tipo de argumento debe ser exactamente ''{0}''"
 inspection.reflect.handle.invocation.primitive.argument.null:
-    text: El argumento de tipo ''{0}'' no puede ser ''null''
+    text: "El argumento de tipo ''{0}'' no puede ser ''null''"
 inspection.reflect.handle.invocation.receiver.incompatible:
-    text: 'El tipo del receptor de la llamada es incompatible: se espera ''''{0}'''''
+    text: "El tipo del receptor de la llamada es incompatible: se espera ''{0}''"
 inspection.reflect.handle.invocation.receiver.null:
-    text: El receptor de la llamada es 'null'
+    text: "El receptor de la llamada es 'null'"
 inspection.reflect.handle.invocation.result.not.assignable:
-    text: Debe convertirse a ''{0}'' o a su superclase
+    text: "Debe convertirse a ''{0}'' o a su superclase"
 inspection.reflect.handle.invocation.result.not.exact:
-    text: Debe convertirse a ''{0}''
+    text: "Debe convertirse a ''{0}''"
 inspection.reflect.handle.invocation.result.null:
-    text: El valor devuelto siempre es 'null'
+    text: "El valor devuelto siempre es 'null'"
 inspection.reflect.handle.invocation.result.void:
-    text: El tipo de retorno es 'void'
+    text: "El tipo de retorno es 'void'"
 inspection.reflection.invocation.argument.count:
     text: '{0,choice,0#No se esperan argumentos|1#Se espera 1 argumento|1<Se esperan {0} argumentos}'
 inspection.reflection.invocation.argument.not.assignable:
-    text: El argumento no es asignable a ''{0}''
+    text: "El argumento no es asignable a ''{0}''"
 inspection.reflection.invocation.array.not.assignable:
     text: Array {0,choice,1#tiene un elemento con un tipo|1<tiene elementos con tipos} {0,choice,1#incompatible|1<incompatibles}
 inspection.reflection.invocation.item.count:
     text: '{0,choice,0#Se espera un array vacío|1#Se espera un array de un solo elemento|1<Se esperan {0} elementos de array}'
 inspection.reflection.invocation.item.not.assignable:
-    text: No se puede asignar el elemento del array a ''{0}''
+    text: "No se puede asignar el elemento del array a ''{0}''"
 inspection.reflection.invocation.name:
     text: Desajuste de argumentos en la invocación por reflexión
 inspection.reflection.member.access.cannot.resolve.constructor.arguments:
     text: No se puede resolver el constructor con los tipos de argumento especificados
 inspection.reflection.member.access.cannot.resolve.field:
-    text: No se puede resolver el campo ''{0}''
+    text: "No se puede resolver el campo ''{0}''"
 inspection.reflection.member.access.cannot.resolve.method:
-    text: No se puede resolver el método ''{0}''
+    text: "No se puede resolver el método ''{0}''"
 inspection.reflection.member.access.cannot.resolve.method.arguments:
-    text: No se puede resolver el método ''{0}'' con los tipos de argumentos especificados
+    text: "No se puede resolver el método ''{0}'' con los tipos de argumentos especificados"
 inspection.reflection.member.access.check.exists:
     text: Comprobar que el campo/método existe en clases no finales
 inspection.reflection.member.access.check.exists.exclude.chooser:
@@ -881,13 +895,13 @@ inspection.reflection.member.access.check.exists.exclude.chooser:
 inspection.reflection.member.access.constructor.not.public:
     text: El constructor no es público
 inspection.reflection.member.access.field.not.in.class:
-    text: El campo ''{0}'' no está declarado en la clase ''{1}''
+    text: "El campo ''{0}'' no está declarado en la clase ''{1}''"
 inspection.reflection.member.access.field.not.public:
-    text: El campo ''{0}'' no es público
+    text: "El campo ''{0}'' no es público"
 inspection.reflection.member.access.method.not.in.class:
-    text: El método ''{0}'' no está declarado en la clase ''{1}''
+    text: "El método ''{0}'' no está declarado en la clase ''{1}''"
 inspection.reflection.member.access.method.not.public:
-    text: El método ''{0}'' no es público
+    text: "El método ''{0}'' no es público"
 inspection.reflection.member.access.name:
     text: Acceso reflexivo a un miembro de clase inexistente o no visible
 inspection.reflection.visibility.name:
@@ -895,45 +909,45 @@ inspection.reflection.visibility.name:
 inspection.replace.methodref.ternary.quickfix:
     text: Reemplazar con una lambda con comprobación de nulos
 inspection.replace.ternary.quickfix:
-    text: Reemplazar con ''{0} != null ?:''
+    text: "Reemplazar con ''{0} != null ?:''"
 inspection.replace.with.bulk.fix.family.name:
     text: Reemplazar con llamada a método en bloque
 inspection.replace.with.bulk.fix.name:
-    text: Reemplazar la iteración por una llamada masiva a ''{0}()''
+    text: "Reemplazar la iteración por una llamada masiva a ''{0}()''"
 inspection.replace.with.bulk.message:
-    text: La iteración puede reemplazarse por una llamada masiva ''{0}()''
+    text: "La iteración puede reemplazarse por una llamada masiva ''{0}()''"
 inspection.replace.with.bulk.wrap.arrays:
-    text: Usar 'Arrays.asList()' para envolver arrays
+    text: "Usar 'Arrays.asList()' para envolver arrays"
 inspection.replace.with.enhanced.switch.statement.fix.name:
-    text: Reemplazar por la sentencia 'switch' mejorada
+    text: "Reemplazar por la sentencia 'switch' mejorada"
 inspection.replace.with.switch.expression.fix.family.name:
     text: Migrar a switch mejorado
 inspection.replace.with.switch.expression.fix.name:
-    text: Reemplazar con la expresión 'switch'
+    text: "Reemplazar con la expresión 'switch'"
 inspection.replace.with.switch.rule.expression.fix.family.name:
     text: Migrar a switch mejorado con reglas
 inspection.replace.with.trivial.lambda.fix.family.name:
     text: Reemplazar con lambda trivial
 inspection.replace.with.trivial.lambda.fix.name:
-    text: Reemplazar con una expresión lambda que devuelva ''{0}''
+    text: "Reemplazar con una expresión lambda que devuelva ''{0}''"
 inspection.requires.auto.module:
     text: Dependencias de módulos automáticos
 inspection.requires.auto.module.message:
-    text: directiva 'requires' para un módulo automático
+    text: "directiva 'requires' para un módulo automático"
 inspection.requires.auto.module.option:
     text: Resaltar solo las dependencias transitivas
 inspection.requires.auto.module.transitive:
-    text: directiva 'requires transitive' para un módulo automático
+    text: "directiva 'requires transitive' para un módulo automático"
 inspection.results.for.inspection.toolwindow.title:
-    text: Inspección de ''{0}'' en {1}
+    text: "Inspección de ''{0}'' en {1}"
 inspection.return.separated.from.computation.descriptor:
-    text: Retorno separado del cálculo del valor de ''{0}''
+    text: "Retorno separado del cálculo del valor de ''{0}''"
 inspection.return.separated.from.computation.family.quickfix:
-    text: Mover 'return' más cerca del cálculo del resultado
+    text: "Mover 'return' más cerca del cálculo del resultado"
 inspection.return.separated.from.computation.name:
-    text: '''return'' separado del cálculo del resultado'
+    text: "'return' separado del cálculo del resultado"
 inspection.return.separated.from.computation.quickfix:
-    text: Mover ''return'' más cerca del cálculo del valor de ''{0}''
+    text: "Mover ''return'' más cerca del cálculo del valor de ''{0}''"
 inspection.root.node.title:
     text: Inspecciones
 inspection.same.parameter.display.name:
@@ -941,9 +955,9 @@ inspection.same.parameter.display.name:
 inspection.same.parameter.fix.family.name:
     text: Incorporar parámetro como valor constante
 inspection.same.parameter.fix.name:
-    text: Inlinear el valor ''{1}'' para el parámetro ''{0}''
+    text: "Inlinear el valor ''{1}'' para el parámetro ''{0}''"
 inspection.same.parameter.problem.descriptor:
-    text: El valor del parámetro <code>#ref</code> siempre es ''{0}''
+    text: "El valor del parámetro <code>#ref</code> siempre es ''{0}''"
 inspection.same.return.value.display.name:
     text: El método siempre devuelve el mismo valor
 inspection.same.return.value.problem.descriptor:
@@ -957,15 +971,15 @@ inspection.severity:
 inspection.simplify.collector.fix.family.name:
     text: Simplificar colector en cascada
 inspection.simplify.collector.fix.name:
-    text: Usar el colector ''Collectors.{0}()''
+    text: "Usar el colector ''Collectors.{0}()''"
 inspection.simplify.collector.message:
-    text: Se puede simplificar utilizando el colector ''{0}()''
+    text: "Se puede simplificar utilizando el colector ''{0}()''"
 inspection.surround.if.family:
     text: Envolver con if
 inspection.surround.requirenonnull.quickfix:
-    text: Reemplazar con ''Objects.requireNonNull({0})''
+    text: "Reemplazar con ''Objects.requireNonNull({0})''"
 inspection.suspicious.array.method.call.display.name:
-    text: Llamada a método de 'Arrays' sospechosa
+    text: "Llamada a método de 'Arrays' sospechosa"
 inspection.suspicious.array.method.call.problem.arrays:
     text: 'Los tipos de array son incompatibles: los arrays siempre son diferentes'
 inspection.suspicious.array.method.call.problem.element:
@@ -973,13 +987,13 @@ inspection.suspicious.array.method.call.problem.element:
 inspection.suspicious.collections.method.calls.display.name:
     text: Llamada a método de colección sospechosa
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: Llamada sospechosa a ''{0}''
+    text: "Llamada sospechosa a ''{0}''"
 inspection.switch.expression.migration.expression.max.statements:
     text: Número máximo de sentencias en una rama para convertir a una expresión switch
 inspection.switch.expression.migration.inspection.switch.description:
-    text: La sentencia 'switch' puede reemplazarse con un 'switch' mejorado
+    text: "La sentencia 'switch' puede reemplazarse con un 'switch' mejorado"
 inspection.switch.expression.migration.inspection.switch.expression.description:
-    text: La expresión switch se puede reemplazar por un 'switch' mejorado con reglas
+    text: "La expresión switch se puede reemplazar por un 'switch' mejorado con reglas"
 inspection.switch.expression.migration.option.expression.max.statements:
     text: No informar sobre switches que tengan más de {0} {0, choice, 1#sentencia|2#sentencias} en una sola rama
 inspection.switch.expression.migration.warn.only.on.expression:
@@ -991,9 +1005,9 @@ inspection.tool.description.under.construction.text:
 inspection.tool.in.browser.description.title:
     text: Descripción
 inspection.tool.window.dialog.no.options:
-    text: La inspección ''{0}'' no tiene opciones configurables
+    text: "La inspección ''{0}'' no tiene opciones configurables"
 inspection.tool.window.inspection.dialog.title:
-    text: Opciones de la inspección ''{0}''
+    text: "Opciones de la inspección ''{0}''"
 inspection.tree.popup.title:
     text: Aceptar resolución
 inspection.unused.assignment.display.name:
@@ -1021,7 +1035,7 @@ inspection.unused.parameter.composer:
 inspection.unused.parameter.composer1:
     text: El parámetro <code>#ref</code> no se utiliza en este método ni en ninguno de sus métodos que lo sobrescriben
 inspection.unused.parameter.delete.quickfix:
-    text: Eliminar de forma segura el parámetro no utilizado ''{0}''
+    text: "Eliminar de forma segura el parámetro no utilizado ''{0}''"
 inspection.unused.parameter.display.name:
     text: Parámetro no utilizado
 inspection.unused.return.value.problem.descriptor:
@@ -1043,11 +1057,11 @@ long.line.display.name:
 lossy.encoding:
     text: Codificación con pérdida
 module.not.in.requirements:
-    text: El módulo ''{0}'' no incluye el módulo ''{1}'' en sus requisitos
+    text: "El módulo ''{0}'' no incluye el módulo ''{1}'' en sus requisitos"
 module.package.not.exported:
-    text: El módulo ''{0}'' no exporta el paquete ''{1}'' al módulo ''{2}''
+    text: "El módulo ''{0}'' no exporta el paquete ''{1}'' al módulo ''{2}''"
 module.package.not.open:
-    text: El módulo ''{0}'' no abre el paquete ''{1}'' al módulo ''{2}''
+    text: "El módulo ''{0}'' no abre el paquete ''{1}'' al módulo ''{2}''"
 no.errors.found.in.this.file:
     text: No se encontraron errores en este archivo
 non.ascii.characters:
@@ -1055,9 +1069,9 @@ non.ascii.characters:
 nothing.found:
     text: No se encontró nada
 nullable.stuff.inspection.navigate.null.argument.usages.fix.family.name:
-    text: Navegar a los usos de argumentos 'null'
+    text: "Navegar a los usos de argumentos 'null'"
 nullable.stuff.inspection.navigate.null.argument.usages.view.name:
-    text: Usos de argumentos ''null'' para el parámetro {0}
+    text: "Usos de argumentos ''null'' para el parámetro {0}"
 nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
     text: Los parámetros del método que sobrescribe no están anotados
 nullable.stuff.problems.overridden.methods.are.not.annotated:
@@ -1065,9 +1079,9 @@ nullable.stuff.problems.overridden.methods.are.not.annotated:
 offline.inspections.jdk.not.found:
     text: No se encontró {0}
 offline.inspections.library.was.not.resolved:
-    text: Configure la biblioteca ''{0}'' que se utiliza en el módulo ''{1}''
+    text: "Configure la biblioteca ''{0}'' que se utiliza en el módulo ''{1}''"
 offline.inspections.module.jdk.not.found:
-    text: Por favor, especifique el SDK ''{0}'' para el módulo ''{1}''
+    text: "Por favor, especifique el SDK ''{0}'' para el módulo ''{1}''"
 offline.view.editor.settings.title:
     text: Configuración del editor
 offline.view.parse.exception.title:
@@ -1081,11 +1095,11 @@ preparing.for.apply.fix:
 problematic.whitespace.display.name:
     text: Espacio en blanco problemático
 problematic.whitespace.show.whitespaces.quickfix:
-    text: Alternar 'Mostrar espacios en blanco' en el editor
+    text: "Alternar 'Mostrar espacios en blanco' en el editor"
 problematic.whitespace.spaces.problem.descriptor:
-    text: El archivo ''{0}'' utiliza espacios para la sangría
+    text: "El archivo ''{0}'' utiliza espacios para la sangría"
 problematic.whitespace.tabs.problem.descriptor:
-    text: El archivo ''{0}'' utiliza tabulaciones para la sangría
+    text: "El archivo ''{0}'' utiliza tabulaciones para la sangría"
 psi.search.overriding.progress:
     text: Buscando métodos de sobrescritura…
 report.suspicious.but.possibly.correct.method.calls:
@@ -1125,7 +1139,7 @@ suppress.inspection.problem:
 suppress.inspection.statement:
     text: Suprimir para la sentencia
 suspected.module.dependency.problem.descriptor:
-    text: El módulo ''{0}'' no depende del módulo ''{1}''. Sin embargo, no se inspeccionó ''{1}'' en busca de las dependencias exportadas necesarias para el alcance ''{2}''
+    text: "El módulo ''{0}'' no depende del módulo ''{1}''. Sin embargo, no se inspeccionó ''{1}'' en busca de las dependencias exportadas necesarias para el alcance ''{2}''"
 suspicious.name.combination.display.name:
     text: Combinación sospechosa de nombres de variables/parámetros
 suspicious.name.combination.options.title:
@@ -1139,9 +1153,9 @@ unhandled.exception.in.jsp.name:
 unnecessary.module.dependency.display.name:
     text: Dependencia de módulo innecesaria
 unnecessary.module.dependency.problem.descriptor:
-    text: Las fuentes del módulo ''{0}'' no dependen de las fuentes del módulo ''{1}''
+    text: "Las fuentes del módulo ''{0}'' no dependen de las fuentes del módulo ''{1}''"
 unsupported.character.for.the.charset:
-    text: Caracteres no compatibles con el juego de caracteres ''{0}''
+    text: "Caracteres no compatibles con el juego de caracteres ''{0}''"
 unused.import.display.name:
     text: Importación no utilizada
 unused.import.statement:
@@ -1149,9 +1163,9 @@ unused.import.statement:
 unused.library.display.name:
     text: Biblioteca no utilizada
 unused.library.problem.descriptor:
-    text: Biblioteca no utilizada ''{0}''
+    text: "Biblioteca no utilizada ''{0}''"
 unused.library.roots.problem.descriptor:
-    text: Raíces {0} no utilizadas de la biblioteca ''{1}''
+    text: "Raíces {0} no utilizadas de la biblioteca ''{1}''"
 wrong.package.statement:
     text: Declaración de paquete incorrecta
 xml.suppressable.all.for.file.title:

@@ -27,7 +27,7 @@ add.field.breakpoint.dialog.field.chooser.title:
 add.field.breakpoint.dialog.title:
     text: Añadir punto de inspección de campo
 add.instance.filter.dialog.error.numeric.value.expected:
-    text: El ID de instancia debe ser un valor numérico de tipo 'long'
+    text: "El ID de instancia debe ser un valor numérico de tipo 'long'"
 add.instance.filter.dialog.prompt:
     text: 'Introduzca el ID de la instancia:'
 add.instance.filter.dialog.title:
@@ -95,11 +95,11 @@ error.array.renderer.configurable.end.index.less.than.start:
 error.array.renderer.configurable.start.index.less.than.zero:
     text: El índice de inicio es menor que 0
 error.breakpoint.file.not.found:
-    text: No se encontró el archivo ''{0}''; se ignorarán los puntos de interrupción para este archivo.
+    text: "No se encontró el archivo ''{0}''; se ignorarán los puntos de interrupción para este archivo."
 error.cannot.create.expression.from.code.fragment:
     text: No se puede crear la expresión a partir del fragmento de código.
 error.cannot.load.breakpoint.file:
-    text: No se puede cargar el archivo ''{0}''; se ignorarán los puntos de interrupción de este archivo
+    text: "No se puede cargar el archivo ''{0}''; se ignorarán los puntos de interrupción de este archivo"
 error.cannot.open.debugger.port:
     text: No se puede abrir el puerto del depurador
 error.class.circularity.error:
@@ -115,7 +115,7 @@ error.context.has.changed:
 error.corrupt.debug.info:
     text: 'La información de depuración podría estar corrupta: {0}'
 error.debug.connector.not.found:
-    text: No se encontró el conector requerido ''{0}''. Compruebe la instalación de su JDK.
+    text: "No se encontró el conector requerido ''{0}''. Compruebe la instalación de su JDK."
 error.debugger.already.listening:
     text: El depurador ya está escuchando
 error.early.return:
@@ -123,7 +123,10 @@ error.early.return:
 error.evaluating.breakpoint.condition.or.action:
     text: "Problema al procesar el evento de la VM:\nPunto de interrupción: ''{0}''\nError: {1}\n¿Desea detenerse en el punto de interrupción?"
 error.exception.while.connecting:
-    text: "Error al conectar con el proceso remoto.\nSe produjo una excepción: {0}\nMensaje de la excepción: {1}"
+    text: |-
+        Error al conectar con el proceso remoto.
+        Se produjo una excepción: {0}
+        Mensaje de la excepción: {1}
 error.exception.while.reloading:
     text: 'Excepción al recargar las clases : {0} : {1}'
 error.executing.finally:
@@ -147,7 +150,7 @@ error.invalid.argument:
 error.invalid.breakpoint.method.not.found:
     text: No se encontró el método en la clase {0}
 error.invalid.breakpoint.missing.field.in.class:
-    text: No se puede encontrar el campo ''{0}'' en la clase ''{1}''
+    text: "No se puede encontrar el campo ''{0}'' en la clase ''{1}''"
 error.invalid.breakpoint.no.executable.code:
     text: No se ha encontrado código ejecutable en la línea {0} de la clase {1}
 error.invalid.breakpoint.no.line.info:
@@ -157,13 +160,13 @@ error.invalid.breakpoint.source.changed:
 error.invalid.breakpoint.source.not.found:
     text: La clase {0}, encontrada en el classpath del proyecto, no tiene archivos fuente asociados
 error.invalid.field.name:
-    text: Nombre de campo no válido ''{0}''
+    text: "Nombre de campo no válido ''{0}''"
 error.invalid.local.variable.name:
-    text: Nombre de variable local no válido ''{0}''
+    text: "Nombre de variable local no válido ''{0}''"
 error.invalid.stackframe:
     text: Excepción interna - marco de pila no válido
 error.invalid.type.name:
-    text: Nombre de tipo no válido ''{0}''
+    text: "Nombre de tipo no válido ''{0}''"
 error.io.error:
     text: Error de E/S
 error.jdk.not.specified:
@@ -213,27 +216,27 @@ evaluation.error.array.reference.expected:
 evaluation.error.array.type.expected:
     text: Se esperaba un tipo de array
 evaluation.error.boolean.condition.expected:
-    text: se esperaba un valor 'boolean' en la condición
+    text: "se esperaba un valor 'boolean' en la condición"
 evaluation.error.boolean.expected:
     text: Se esperaba un valor booleano
 evaluation.error.boolean.value.expected.in.condition:
-    text: Se esperaba un valor 'boolean' en la condición
+    text: "Se esperaba un valor 'boolean' en la condición"
 evaluation.error.cannot.cast.boolean:
-    text: No se puede convertir el valor booleano a ''{0}''
+    text: "No se puede convertir el valor booleano a ''{0}''"
 evaluation.error.cannot.cast.char:
-    text: No se puede convertir el valor char a ''{0}''
+    text: "No se puede convertir el valor char a ''{0}''"
 evaluation.error.cannot.cast.null:
-    text: No se puede convertir null a ''{0}''
+    text: "No se puede convertir null a ''{0}''"
 evaluation.error.cannot.cast.numeric:
-    text: No se puede convertir el valor numérico a ''{0}''
+    text: "No se puede convertir el valor numérico a ''{0}''"
 evaluation.error.cannot.cast.object:
-    text: No se puede convertir ''{0}'' a ''{1}''
+    text: "No se puede convertir ''{0}'' a ''{1}''"
 evaluation.error.cannot.evaluate.array.initializer:
     text: No se puede evaluar el inicializador de array
 evaluation.error.cannot.evaluate.class.type:
     text: No se puede evaluar el tipo de clase
 evaluation.error.cannot.evaluate.qualifier:
-    text: No se puede evaluar el calificador ''{0}''
+    text: "No se puede evaluar el calificador ''{0}''"
 evaluation.error.cannot.evaluate.tostring:
     text: No se puede evaluar {0}.toString()
 evaluation.error.cannot.find.stackframe.source:
@@ -241,31 +244,31 @@ evaluation.error.cannot.find.stackframe.source:
 evaluation.error.cannot.initialize.array:
     text: No se puede inicializar el array
 evaluation.error.cannot.resolve.constructor:
-    text: No se puede resolver el constructor ''{0}''
+    text: "No se puede resolver el constructor ''{0}''"
 evaluation.error.cannot.resolve.field.class:
-    text: No se puede resolver la clase que contiene el campo ''{0}''
+    text: "No se puede resolver la clase que contiene el campo ''{0}''"
 evaluation.error.cannot.sources.for.field.class:
-    text: No se pueden encontrar las fuentes de la clase que contiene el campo ''{0}''
+    text: "No se pueden encontrar las fuentes de la clase que contiene el campo ''{0}''"
 evaluation.error.class.not.loaded:
-    text: La clase ''{0}'' no está cargada
+    text: "La clase ''{0}'' no está cargada"
 evaluation.error.class.or.array.expected:
-    text: Se esperaba un tipo de clase o matriz al evaluar el campo ''{0}''
+    text: "Se esperaba un tipo de clase o matriz al evaluar el campo ''{0}''"
 evaluation.error.debug.info.unavailable:
     text: Información de depuración no disponible
 evaluation.error.empty.code.fragment:
     text: Se esperaba un fragmento de código
 evaluation.error.evaluating.field:
-    text: 'Error al evaluar el campo: ''''{0}'''''
+    text: "Error al evaluar el campo: ''{0}''"
 evaluation.error.evaluating.method:
-    text: 'Error al evaluar el método: ''''{0}'''''
+    text: "Error al evaluar el método: ''{0}''"
 evaluation.error.identifier.expected:
-    text: Se esperaba un identificador en lugar de ''{0}''
+    text: "Se esperaba un identificador en lugar de ''{0}''"
 evaluation.error.incompatible.array.initializer.type:
     text: El tipo del inicializador no es compatible con la asignación al tipo de componente del array
 evaluation.error.incompatible.types:
-    text: Tipos incompatibles para la operación ''{0}''
+    text: "Tipos incompatibles para la operación ''{0}''"
 evaluation.error.incompatible.variable.initializer.type:
-    text: El inicializador de ''{0}'' tiene un tipo incompatible
+    text: "El inicializador de ''{0}'' tiene un tipo incompatible"
 evaluation.error.inconsistent.debug.info:
     text: La información de depuración es inconsistente
 evaluation.error.integer.expected:
@@ -279,21 +282,21 @@ evaluation.error.invalid.expression:
 evaluation.error.invalid.index.expression:
     text: Expresión de índice no válida
 evaluation.error.invalid.this.expression:
-    text: No se puede sustituir ''{0}'' en ''{1}'' como ''this''
+    text: "No se puede sustituir ''{0}'' en ''{1}'' como ''this''"
 evaluation.error.invalid.type.name:
-    text: 'Nombre de tipo no válido: ''''{0}'''''
+    text: "Nombre de tipo no válido: ''{0}''"
 evaluation.error.lambda.evaluation.not.supported:
     text: No se admite la evaluación de lambdas
 evaluation.error.lebeled.loops.not.found:
-    text: No se encontraron sentencias de bucle con la etiqueta ''{0}''
+    text: "No se encontraron sentencias de bucle con la etiqueta ''{0}''"
 evaluation.error.local.variable.declarations.not.supported:
     text: Las declaraciones de variables locales no se admiten aquí.
 evaluation.error.local.variable.missing:
-    text: No se puede encontrar la variable local ''{0}''
+    text: "No se puede encontrar la variable local ''{0}''"
 evaluation.error.local.variable.missing.from.class.closure:
-    text: No se ha encontrado la variable local ''{0}'' en la clausura de la clase
+    text: "No se ha encontrado la variable local ''{0}'' en la clausura de la clase"
 evaluation.error.method.exception:
-    text: El método lanzó la excepción ''{0}''.
+    text: "El método lanzó la excepción ''{0}''."
 evaluation.error.method.reference.evaluation.not.supported:
     text: No se admite la evaluación de referencias de métodos
 evaluation.error.multi.dimensional.arrays.creation.not.supported:
@@ -301,15 +304,15 @@ evaluation.error.multi.dimensional.arrays.creation.not.supported:
 evaluation.error.nested.evaluation:
     text: No se admite la evaluación durante la evaluación de otro método
 evaluation.error.no.instance.field:
-    text: 'No existe el campo de instancia: ''''{0}'''''
+    text: "No existe el campo de instancia: ''{0}''"
 evaluation.error.no.instance.method:
-    text: 'No existe el método de instancia: ''''{0}'''''
+    text: "No existe el método de instancia: ''{0}''"
 evaluation.error.no.stackframe:
     text: 'No se puede evaluar: el marco de pila no está disponible'
 evaluation.error.no.static.field:
-    text: 'No existe el campo estático: ''''{0}'''''
+    text: "No existe el campo estático: ''{0}''"
 evaluation.error.no.static.method:
-    text: 'No existe el método estático: ''''{0}'''''
+    text: "No existe el método estático: ''{0}''"
 evaluation.error.not.lvalue:
     text: La parte izquierda de la asignación no es un lvalue
 evaluation.error.not.rvalue:
@@ -321,7 +324,7 @@ evaluation.error.object.collected:
 evaluation.error.object.reference.expected:
     text: Se esperaba una referencia de objeto
 evaluation.error.operation.not.supported:
-    text: La operación ''{0}'' no es compatible
+    text: "La operación ''{0}'' no es compatible"
 evaluation.error.process.exited:
     text: 'No se puede evaluar: el proceso ha finalizado'
 evaluation.error.sources.out.of.sync:
@@ -329,15 +332,15 @@ evaluation.error.sources.out.of.sync:
 evaluation.error.stack.frame.unavailable:
     text: Marco de pila no disponible
 evaluation.error.statement.not.supported:
-    text: La sentencia ''{0}'' no es compatible
+    text: "La sentencia ''{0}'' no es compatible"
 evaluation.error.surrounded.expression.null:
     text: La expresión rodeada es null
 evaluation.error.this.not.avalilable:
-    text: '''this'' no está disponible'
+    text: "'this' no está disponible"
 evaluation.error.thread.collected:
     text: El hilo ha sido recolectado
 evaluation.error.thread.not.at.breakpoint:
-    text: No se pudo evaluar la expresión después de 'Pausar programa'. Considere suspender el programa con un punto de interrupción.
+    text: "No se pudo evaluar la expresión después de 'Pausar programa'. Considere suspender el programa con un punto de interrupción."
 evaluation.error.thread.resumed:
     text: El hilo ha sido reanudado
 evaluation.error.type.mismatch:
@@ -353,15 +356,15 @@ evaluation.error.unsupported.declaration:
 evaluation.error.unsupported.expression.type:
     text: Tipo de expresión no compatible
 evaluation.error.variable.already.declared:
-    text: La variable ''{0}'' ya está declarada
+    text: "La variable ''{0}'' ya está declarada"
 evaluation.error.variable.not.declared:
-    text: La variable ''{0}'' no está declarada
+    text: "La variable ''{0}'' no está declarada"
 exception.breakpoint.console.message:
-    text: Se ha producido la excepción ''{0}'' en {1}({2})
+    text: "Se ha producido la excepción ''{0}'' en {1}({2})"
 exception.breakpoint.console.message.location.info.absent:
     text: Sin información de depuración
 exception.breakpoint.console.message.with.thread.info:
-    text: Se produjo la excepción ''{0}'' en el hilo ''{1}'' en {2}({3})
+    text: "Se produjo la excepción ''{0}'' en el hilo ''{1}'' en {2}({3})"
 exception.breakpoints.tab.title:
     text: Puntos de interrupción de excepciones Java
 field.watchpoints.tab.title:
@@ -369,7 +372,9 @@ field.watchpoints.tab.title:
 frame.panel.frames.not.available:
     text: Marcos no disponibles para hilos no suspendidos
 hotswap.dialog.hang.warning:
-    text: "La JVM está suspendida actualmente.\nRecargar clases con agentes de JVM de terceros activos puede causar que la JVM se bloquee."
+    text: |-
+        La JVM está suspendida actualmente.
+        Recargar clases con agentes de JVM de terceros activos puede causar que la JVM se bloquee.
 hotswap.dialog.run.prompt:
     text: Algunas clases han sido modificadas. ¿Recargar las clases modificadas ahora?
 hotswap.dialog.title:
@@ -379,7 +384,7 @@ hotswap.dialog.title.with.session:
 instance.filters.dialog.title:
     text: Filtros de instancia
 internal.error.locations.of.line:
-    text: Error interno al cargar la información de depuración de ''{0}''. Los puntos de interrupción no estarán disponibles en esta clase.
+    text: "Error interno al cargar la información de depuración de ''{0}''. Los puntos de interrupción no estarán disponibles en esta clase."
 label.add.field.breakpoint.dialog.field.name:
     text: 'Nombre del campo:'
 label.add.field.breakpoint.dialog.fq.name:
@@ -393,7 +398,7 @@ label.array.renderer.configurable.max.count2:
 label.array.renderer.configurable.start.index:
     text: 'Índice de inicio del a&rreglo:'
 label.base.renderer.configurable.all.overriding:
-    text: Para todas las clases que sobrescriben el método 'toString()'
+    text: "Para todas las clases que sobrescriben el método 'toString()'"
 label.base.renderer.configurable.alternate.view:
     text: Habilitar vista alternativa para clases de cole&cciones
 label.base.renderer.configurable.autoscroll:
@@ -401,7 +406,7 @@ label.base.renderer.configurable.autoscroll:
 label.base.renderer.configurable.classes.from.list:
     text: 'Para las clases de la lista:'
 label.base.renderer.configurable.enable.toString:
-    text: 'Habilitar la vista de objeto ''t&oString()'':'
+    text: "Habilitar la vista de objeto 't&oString()':"
 label.base.renderer.configurable.hide.null.array.elements:
     text: Ocultar elementos &null en matrices y colecciones
 label.base.renderer.configurable.show.declared.type:
@@ -481,7 +486,7 @@ label.debugger.hotswap.configurable.ask:
 label.debugger.hotswap.configurable.compile.before.hotswap:
     text: Compilar el proyecto antes de recargar las clases
 label.debugger.hotswap.configurable.enable.vm.hang.warning:
-    text: Habilitar la advertencia 'la JVM se colgará'
+    text: "Habilitar la advertencia 'la JVM se colgará'"
 label.debugger.hotswap.configurable.never:
     text: '&Nunca'
 label.debugger.hotswap.configurable.reload.classes:
@@ -523,7 +528,7 @@ label.thread.group.node.group.collected:
 label.thread.node.in.group:
     text: '"{0}"@{1} en el grupo "{3}": {2}'
 label.thread.node.thread.collected:
-    text: El hilo ''{0}'' ha sido recolectado por el recolector de basura
+    text: "El hilo ''{0}'' ha sido recolectado por el recolector de basura"
 label.threads.view.configurable.current.thread.on.top:
     text: Mover el hilo actual a la parte superior
 label.threads.view.configurable.show.class.name:
@@ -655,9 +660,9 @@ status.line.breakpoint.reached.full.trace:
 status.listening:
     text: 'Escuchando la conexión, dirección: {0}'
 status.method.entry.breakpoint.reached:
-    text: Se ha entrado en el método ''{0}'' en {1}({2}:{3,number,#})
+    text: "Se ha entrado en el método ''{0}'' en {1}({2}:{3,number,#})"
 status.method.exit.breakpoint.reached:
-    text: Se ha alcanzado un punto de interrupción de método. El método ''{0}'' está a punto de finalizar en {1}({2}:{3,number,#})
+    text: "Se ha alcanzado un punto de interrupción de método. El método ''{0}'' está a punto de finalizar en {1}({2}:{3,number,#})"
 status.paused:
     text: Pausado
 status.paused.in.another.thread:
@@ -735,7 +740,10 @@ user.renderers.configurable.display.name:
 warning.finally.block.detected:
     text: 'Se detectaron bloques finally no vacíos:'
 warning.jdk140.unstable:
-    text: "La versión de la VM depurada es \"1.4.0\".\nLos errores documentados de J2SDK 1.4.0 pueden causar un comportamiento inestable del depurador.\nSe recomienda utilizar J2SDK 1.4.0_01 o superior."
+    text: |-
+        La versión de la VM depurada es "1.4.0".
+        Los errores documentados de J2SDK 1.4.0 pueden causar un comportamiento inestable del depurador.
+        Se recomienda utilizar J2SDK 1.4.0_01 o superior.
 warning.range.too.big:
     text: El rango especificado es demasiado grande. {0} requiere demasiados recursos para realizar la operación solicitada. ¿Está seguro de que desea continuar?
 warning.recalculate:

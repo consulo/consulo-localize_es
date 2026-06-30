@@ -1,11 +1,11 @@
 are.you.sure.you.want.to.delete.selected.file.confirmation.message:
-    text: ¿Eliminar ''{0}''?
+    text: "¿Eliminar ''{0}''?"
 are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
     text: ¿Está seguro de que desea eliminar los {0} archivos y directorios seleccionados?
 are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
     text: ¿Está seguro de que desea eliminar los {0} archivos seleccionados?
 are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
-    text: ¿Está seguro de que desea eliminar la carpeta ''{0}''?
+    text: "¿Está seguro de que desea eliminar la carpeta ''{0}''?"
 are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
     text: ¿Está seguro de que desea eliminar los {0} directorios seleccionados?
 autoscroll.from.source.action.description:
@@ -49,13 +49,13 @@ color.panel.select.color.dialog.description:
 component.with.browse.button.browse.button.tooltip.text:
     text: Examinar…
 create.new.file.could.not.create.file.error.message:
-    text: No se pudo crear el archivo ''{0}''
+    text: "No se pudo crear el archivo ''{0}''"
 create.new.file.enter.new.file.name.prompt.text:
     text: 'Introduzca un nuevo nombre de archivo:'
 create.new.file.file.name.cannot.be.empty.error.message:
     text: El nombre del archivo no puede estar vacío
 create.new.folder.could.not.create.folder.error.message:
-    text: No se pudo crear la carpeta ''{0}''
+    text: "No se pudo crear la carpeta ''{0}''"
 create.new.folder.enter.new.folder.name.prompt.text:
     text: 'Introduzca un nuevo nombre de carpeta:'
 create.new.folder.folder.name.cannot.be.empty.error.message:
@@ -85,7 +85,7 @@ file.cache.conflict.keep.memory.changes.button:
 file.cache.conflict.load.fs.changes.button:
     text: '&Cargar cambios del sistema de archivos'
 file.cache.conflict.message.text:
-    text: Se han realizado cambios en ''{0}'' en la memoria y en el disco.
+    text: "Se han realizado cambios en ''{0}'' en la memoria y en el disco."
 file.cache.conflict.save.changes.button:
     text: Guardar contenido de la memoria
 file.cache.conflict.show.difference.button:
@@ -97,7 +97,9 @@ file.chooser.create.new.folder.command.name:
 file.chooser.default.title:
     text: Seleccionar ruta
 file.chooser.save.dialog.confirmation:
-    text: "{0} ya existe.\n¿Desea reemplazarlo?"
+    text: |-
+        {0} ya existe.
+        ¿Desea reemplazarlo?
 file.chooser.save.dialog.confirmation.title:
     text: Confirmar guardar como
 file.chooser.save.dialog.default.title:
@@ -105,7 +107,7 @@ file.chooser.save.dialog.default.title:
 file.chooser.save.dialog.file.name:
     text: 'Nombre de archivo:'
 file.is.read.only.message.text:
-    text: El archivo ''{0}'' es de solo lectura.
+    text: "El archivo ''{0}'' es de solo lectura."
 files.are.read.only.message.text:
     text: Los archivos {0} son de solo lectura.
 go.to.line.command.name:
@@ -117,9 +119,9 @@ insert.file.path.to.text.action.name:
 integer.field.value.expected:
     text: Se espera un valor
 integer.field.value.not.a.number:
-    text: El valor ''{0}'' no es un número entero
+    text: "El valor ''{0}'' no es un número entero"
 integer.field.value.out.of.range:
-    text: El valor ''{0}'' está fuera del rango {1}..{2}
+    text: "El valor ''{0}'' está fuera del rango {1}..{2}"
 label.class.filter.editor.add.dialog.filter.pattern:
     text: 'Introduzca el patrón de filtro:'
 master.detail.err.empty.name:
@@ -211,7 +213,7 @@ status.bar.encoding.widget.name:
 status.bar.fatal.error.widget.name:
     text: Error interno
 status.bar.hide.widget.action.name:
-    text: Ocultar ''{0}''
+    text: "Ocultar ''{0}''"
 status.bar.inspection.profile.widget.name:
     text: Perfil de inspección
 status.bar.line.separator.widget.name:

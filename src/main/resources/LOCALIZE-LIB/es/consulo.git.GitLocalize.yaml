@@ -61,11 +61,13 @@ diff.find.error:
 error.commit.cant.create.message.file:
     text: Falló la creación del archivo del mensaje de commit
 error.occurred.during:
-    text: Ocurrió un error durante ''{0}''
+    text: "Ocurrió un error durante ''{0}''"
 errors.message:
     text: 'La operación de Git finalizó con múltiples errores: {0}'
 errors.message.item:
-    text: "\n   {0}"
+    text: |4-
+
+           {0}
 fetch.action.name:
     text: Recuperar
 find.git.error.title:
@@ -105,7 +107,9 @@ init.destination.directory.description:
 init.destination.directory.title:
     text: Crear repositorio Git
 init.warning.already.under.git:
-    text: "El directorio seleccionado <tt>{0}</tt> ya está bajo Git.\n¿Está seguro de que desea crear una nueva raíz de VCS?"
+    text: |-
+        El directorio seleccionado <tt>{0}</tt> ya está bajo Git.
+        ¿Está seguro de que desea crear una nueva raíz de VCS?
 init.warning.title:
     text: Inicializar Git
 initializing.title:
@@ -151,7 +155,9 @@ reset.commit.invalid:
 reset.commit.label:
     text: 'Al &commit:'
 reset.commit.tooltip:
-    text: "El commit que se convertirá en el HEAD actual\n como resultado de la operación de reset."
+    text: |-
+        El commit que se convertirá en el HEAD actual
+         como resultado de la operación de reset.
 reset.title:
     text: Restablecer Head
 reset.type:
@@ -263,7 +269,11 @@ update.options.display.name:
 util.remote.renderer.none:
     text: Ninguno
 vfs.listener.add.single.prompt:
-    text: "¿Desea añadir el siguiente archivo a Git?\n{0}\n\nSi selecciona Cancelar, todavía podrá añadirlo manualmente más tarde."
+    text: |-
+        ¿Desea añadir el siguiente archivo a Git?
+        {0}
+
+        Si selecciona Cancelar, todavía podrá añadirlo manualmente más tarde.
 vfs.listener.add.single.title:
     text: Añadir archivo a Git
 vfs.listener.add.title:
@@ -271,7 +281,11 @@ vfs.listener.add.title:
 vfs.listener.checking.ignored:
     text: Comprobando archivos ignorados…
 vfs.listener.delete.single.prompt:
-    text: "¿Desea eliminar el siguiente archivo de Git?\n{0}\n\nSi selecciona Cancelar, aún podrá eliminarlo manualmente más adelante."
+    text: |-
+        ¿Desea eliminar el siguiente archivo de Git?
+        {0}
+
+        Si selecciona Cancelar, aún podrá eliminarlo manualmente más adelante.
 vfs.listener.delete.single.title:
     text: Eliminar archivo de Git
 vfs.listener.delete.title:

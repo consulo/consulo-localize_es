@@ -33,17 +33,17 @@ choose.external.definitions.file:
 defined.variable.expected:
     text: Se esperaba una variable definida
 error.cannot.resolve.macro:
-    text: No se puede resolver la macro ''{0}''
+    text: "No se puede resolver la macro ''{0}''"
 error.cannot.resolve.method:
-    text: No se puede resolver el método ''{0}'' de la clase ''{1}''
+    text: "No se puede resolver el método ''{0}'' de la clase ''{1}''"
 error.cannot.resolve.property:
-    text: No se puede resolver la propiedad ''{0}'' de la clase ''{1}''
+    text: "No se puede resolver la propiedad ''{0}'' de la clase ''{1}''"
 error.cannot.resolve.variable:
-    text: No se puede resolver la variable ''{0}''
+    text: "No se puede resolver la variable ''{0}''"
 error.no.applicable.method:
-    text: No hay ningún método ''{0}'' en ''{1}'' aplicable a {2}
+    text: "No hay ningún método ''{0}'' en ''{1}'' aplicable a {2}"
 error.wrong.number.of.arguments.for.macro:
-    text: Llamada a ''{0}'' con un número incorrecto de argumentos
+    text: "Llamada a ''{0}'' con un número incorrecto de argumentos"
 expression.expected:
     text: Se esperaba una expresión
 file.type.description:
@@ -51,23 +51,23 @@ file.type.description:
 identifier:
     text: identificador
 illegal.iterable.expression.type:
-    text: 'Tipo de expresión iterable no válido: ''''{0}'''''
+    text: "Tipo de expresión iterable no válido: ''{0}''"
 invalid.java.type:
     text: Tipo Java no válido
 invalid.operand.type:
-    text: 'Tipo de operando no válido: ''''{0}'''''
+    text: "Tipo de operando no válido: ''{0}''"
 invalid.operands.type:
-    text: 'Tipos de los operandos no válidos: ''''{0}'''' y ''''{1}'''''
+    text: "Tipos de los operandos no válidos: ''{0}'' y ''{1}''"
 invalid.token:
-    text: Token ''{0}'' no válido
+    text: "Token ''{0}'' no válido"
 loop.variable.expected:
     text: Se esperaba una variable de bucle
 macro.declaration.expected:
     text: Se esperaba el nombre de la macro y la lista de parámetros
 macro.declaration.will.be.ignored:
-    text: La macro ''{0}'' ya está definida en ''{1}'' y se ignorará en ''{2}''
+    text: "La macro ''{0}'' ya está definida en ''{1}'' y se ignorará en ''{2}''"
 macro.is.already.defined:
-    text: La macro ''{0}'' ya está definida en ''{1}''
+    text: "La macro ''{0}'' ya está definida en ''{1}''"
 number:
     text: número
 operand.expected:
@@ -77,7 +77,7 @@ operation.not.allowed:
 parameter.expected:
     text: Se esperaba una declaración de parámetro
 token.expected:
-    text: se esperaba ''{0}''
+    text: "se esperaba ''{0}''"
 type.name.loop.variable:
     text: variable de bucle
 type.name.macro.parameter:
@@ -133,4 +133,4 @@ vtl.references.inspection:
 vtl.types.inspection:
     text: Inspección de tipos
 will.be.considered.as.macro.call:
-    text: Se considerará como una llamada a macro, se esperaba '('
+    text: "Se considerará como una llamada a macro, se esperaba '('"

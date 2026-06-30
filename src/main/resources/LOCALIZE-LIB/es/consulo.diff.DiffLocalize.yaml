@@ -7,7 +7,9 @@ action.presentation.diff.revert.text:
 apply.partially.resolved.merge.dialog.title:
     text: Aplicar cambios
 apply.patch.partially.resolved.changes.confirmation.message:
-    text: "{0, choice, 1#Queda un fragmento|2#Quedan {0, number} fragmentos} sin procesar.\n¿Guardar los cambios y finalizar la resolución?"
+    text: |-
+        {0, choice, 1#Queda un fragmento|2#Quedan {0, number} fragmentos} sin procesar.
+        ¿Guardar los cambios y finalizar la resolución?
 apply.somehow.status.message.all.applied:
     text: Se han resuelto todos los fragmentos
 apply.somehow.status.message.already.applied:

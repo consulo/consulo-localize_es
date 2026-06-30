@@ -29,7 +29,7 @@ artifacts.add.copy.action:
 artifacts.create.action:
     text: Crear {0}
 banner.slogan.artifact.0:
-    text: Artefacto ''{0}''
+    text: "Artefacto ''{0}''"
 button.add:
     text: Añadir
 button.remove:
@@ -45,7 +45,7 @@ button.text.remove.selected:
 checkbox.text.build.on.make:
     text: Incluir en la &compilación del proyecto
 choose.modules.dialog.description:
-    text: La biblioteca ''{0}'' se añadirá a los módulos seleccionados.
+    text: "La biblioteca ''{0}'' se añadirá a los módulos seleccionados."
 choose.modules.dialog.title:
     text: Seleccionar módulos
 classpath.add.library.action:
@@ -59,7 +59,7 @@ classpath.chooser.description.add.module.dependency:
 classpath.chooser.title.add.module.dependency:
     text: Seleccionar módulos
 classpath.message.library.already.added:
-    text: La biblioteca ''{0}'' ya se ha añadido a este módulo
+    text: "La biblioteca ''{0}'' ya se ha añadido a este módulo"
 classpath.panel.navigate.action.text:
     text: Navegar
 classpath.title.adding.dependency:
@@ -75,7 +75,7 @@ command.deleting.files:
 command.finish:
     text: Finalizar
 confirmation.message.would.you.like.to.ignore.facet:
-    text: ¿Desea ignorar el facet ''{0}'' del módulo ''{1}''?
+    text: "¿Desea ignorar el facet ''{0}'' del módulo ''{1}''?"
 copy.module.dialog.title:
     text: Copiar módulo
 dependencies.used.in.popup.title:
@@ -105,7 +105,7 @@ error.adding.module.to.project:
 error.message.configuration.cannot.load:
     text: No se puede cargar {0}
 error.message.unknown.facet.type.0:
-    text: 'Tipo de faceta desconocido: ''''{0}'''''
+    text: "Tipo de faceta desconocido: ''{0}''"
 external.annotation.prompt:
     text: Aviso de anotación externa
 external.annotations.external.option:
@@ -151,7 +151,7 @@ library.attach.files.action:
 library.attach.files.description:
     text: Seleccione los archivos o directorios en los que se encuentran las clases, fuentes y documentación de la biblioteca
 library.attach.files.to.library.action:
-    text: Adjuntar archivos o directorios a la biblioteca ''{0}''
+    text: "Adjuntar archivos o directorios a la biblioteca ''{0}''"
 library.attach.sources.action:
     text: Adjuntar fuentes
 library.attach.sources.action.busy.text:
@@ -171,7 +171,7 @@ library.docs.node:
 library.javadocs.node:
     text: JavaDoc
 library.name.already.exists.error:
-    text: La biblioteca ''{0}'' ya existe
+    text: "La biblioteca ''{0}'' ya existe"
 library.name.already.exists.title:
     text: La biblioteca ya existe
 library.name.not.specified.error:
@@ -189,13 +189,13 @@ message.no.module.dependency.candidates:
 message.text.stop.searching.for.frameworks:
     text: '{0} está buscando frameworks actualmente. ¿Desea detener la búsqueda?'
 module.0.already.exists.error.message:
-    text: El módulo ''{0}'' ya existe
+    text: "El módulo ''{0}'' ya existe"
 module.add.error.message:
     text: 'Error al agregar el módulo al proyecto: {0}'
 module.add.error.title:
     text: Añadir módulo
 module.already.exists.error:
-    text: El módulo ''{0}'' ya existe en el proyecto.
+    text: "El módulo ''{0}'' ya existe en el proyecto."
 module.cannot.load.error:
     text: "No se puede cargar el archivo de módulo ''{0}'':\n{1}"
 module.circular.dependency.warning.description:
@@ -205,7 +205,7 @@ module.circular.dependency.warning.short:
 module.classpath.button.edit:
     text: Ed&itar…
 module.group.banner.text:
-    text: Grupo de módulos ''{0}''
+    text: "Grupo de módulos ''{0}''"
 module.javadoc.add.path.prompt:
     text: Seleccione archivos JAR/zip o directorios en los que se encuentra la documentación javadoc del módulo
 module.javadoc.add.path.title:
@@ -231,11 +231,19 @@ module.paths.add.content.action.description:
 module.paths.add.content.already.exists.error:
     text: La raíz de contenido "{0}" ya existe
 module.paths.add.content.dominate.error:
-    text: "La raíz de contenido que se está añadiendo \"{0}\"\ndomina la raíz de contenido existente \"{1}\".\nLas entradas de contenido no deben intersecarse."
+    text: |-
+        La raíz de contenido que se está añadiendo "{0}"
+        domina la raíz de contenido existente "{1}".
+        Las entradas de contenido no deben intersecarse.
 module.paths.add.content.duplicate.error:
-    text: "La raíz de contenido \"{0}\" ya está definida para el módulo \"{1}\".\nDos módulos en un proyecto no pueden compartir la misma raíz de contenido."
+    text: |-
+        La raíz de contenido "{0}" ya está definida para el módulo "{1}".
+        Dos módulos en un proyecto no pueden compartir la misma raíz de contenido.
 module.paths.add.content.intersect.error:
-    text: "La raíz de contenido que se está agregando \"{0}\"\nestá ubicada bajo la raíz de contenido existente \"{1}\".\nLas entradas de contenido no deben solaparse."
+    text: |-
+        La raíz de contenido que se está agregando "{0}"
+        está ubicada bajo la raíz de contenido existente "{1}".
+        Las entradas de contenido no deben solaparse.
 module.paths.add.content.prompt:
     text: La raíz de contenido es un directorio que contiene todos los archivos relacionados con este módulo
 module.paths.add.content.title:
@@ -283,13 +291,17 @@ module.remove.command:
 module.remove.confirmation:
     text: "¿Quitar {1, choice, 1#el módulo ''''{0}''''|2#{1} módulos} del proyecto?\nNo se eliminará ningún archivo del disco."
 module.remove.confirmation.prompt:
-    text: "¿Eliminar {1, choice, 1#el módulo|2#los módulos} {0} del proyecto?\nNo se eliminará ningún archivo."
+    text: |-
+        ¿Eliminar {1, choice, 1#el módulo|2#los módulos} {0} del proyecto?
+        No se eliminará ningún archivo.
 module.remove.confirmation.title:
     text: Eliminar {0, choice, 1#módulo|2#módulos}
 module.remove.from.project.confirmation:
-    text: ¿Desea eliminar el módulo ''{0}'' del proyecto?
+    text: "¿Desea eliminar el módulo ''{0}'' del proyecto?"
 module.remove.last.confirmation:
-    text: "¿Está seguro de que desea eliminar {0, choice, 1#el único módulo|2#todos los módulos} de este proyecto?\nNo se eliminará ningún archivo del disco."
+    text: |-
+        ¿Está seguro de que desea eliminar {0, choice, 1#el único módulo|2#todos los módulos} de este proyecto?
+        No se eliminará ningún archivo del disco.
 module.sdk.not.defined:
     text: El JDK del módulo no está definido
 module.toggle.excluded.action:
@@ -313,7 +325,7 @@ modules.order.export.scope.column:
 output.tab.title:
     text: Salida
 path.0.is.invalid.error.message:
-    text: La ruta ''{0}'' no es válida
+    text: "La ruta ''{0}'' no es válida"
 progress.indexing.scanning:
     text: Escaneando archivos…
 progress.indexing.updating:
@@ -377,9 +389,9 @@ project.roots.external.annotations.tab.title:
 project.roots.javadoc.tab.description:
     text: Administre los JavaDocs externos adjuntos a este módulo.<br>Los JavaDocs externos anulan las anotaciones JavaDoc que pueda tener en su módulo.
 project.roots.library.problem.message:
-    text: elemento no válido ''{0}'' en la lista de dependencias
+    text: "elemento no válido ''{0}'' en la lista de dependencias"
 project.roots.module.banner.text:
-    text: Módulo ''{0}''
+    text: "Módulo ''{0}''"
 project.roots.module.duplicate.name.message:
     text: nombre de módulo duplicado
 project.roots.module.groups.text:
@@ -395,17 +407,17 @@ project.roots.plain.mode.action.text.disabled:
 project.roots.plain.mode.action.text.enabled:
     text: Mostrar grupos de módulos
 project.roots.project.banner.text:
-    text: Configuración general para el proyecto ''{0}''
+    text: "Configuración general para el proyecto ''{0}''"
 project.roots.project.display.name:
     text: Proyecto
 project.roots.project.jdk.inherited:
     text: SDK del proyecto
 project.roots.replace.library.entry.message:
-    text: ¿Realmente desea reemplazar la antigua librería ''{0}''?
+    text: "¿Realmente desea reemplazar la antigua librería ''{0}''?"
 project.roots.replace.library.entry.title:
     text: Biblioteca ya añadida
 project.roots.tooltip.library.has.broken.paths:
-    text: La biblioteca ''{0}'' tiene {1, choice, 1#una ruta rota|2#rutas rotas}.
+    text: "La biblioteca ''{0}'' tiene {1, choice, 1#una ruta rota|2#rutas rotas}."
 project.settings.display.name:
     text: Estructura del proyecto
 prompt.open.project.in.new.frame:
@@ -419,7 +431,7 @@ rename.module.title:
 rename.scope.title:
     text: Renombrar ámbito.
 sdk.configuration.exception:
-    text: El SDK ''{0}'' no es válido.
+    text: "El SDK ''{0}'' no es válido."
 sdk.configure.annotations.tab:
     text: Anotaciones
 sdk.configure.editor.title:
@@ -441,7 +453,7 @@ sdk.configure.title:
 sdk.configure.type.home.path:
     text: 'Ruta de {0}:'
 sdk.java.corrupt.error:
-    text: Es probable que el SDK instalado en ''{0}'' esté dañado
+    text: "Es probable que el SDK instalado en ''{0}'' esté dañado"
 sdk.java.corrupt.title:
     text: No se puede detectar la versión del SDK
 sdk.list.name.required.error:

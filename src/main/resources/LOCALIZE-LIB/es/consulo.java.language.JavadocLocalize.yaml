@@ -7,7 +7,9 @@ javadoc.constructor.candidates:
 javadoc.generate.arguments:
     text: 'Argumentos de la línea de comandos:'
 javadoc.generate.exited:
-    text: "\n\"javadoc\" finalizó con el código de salida $EXIT_CODE$"
+    text: |4-
+
+        "javadoc" finalizó con el código de salida $EXIT_CODE$
 javadoc.generate.heap.size:
     text: 'Tamaño &máximo del heap:'
 javadoc.generate.locale:

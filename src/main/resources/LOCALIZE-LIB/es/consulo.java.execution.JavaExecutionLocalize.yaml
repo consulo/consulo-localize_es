@@ -11,8 +11,8 @@ application.configuration.shorten.command.line.label:
 application.configuration.use.classpath.and.jdk.of.module.label:
     text: 'Usar el classpath del m&ódulo:'
 jar.application.configuration.description:
-    text: Configuración para ejecutar un archivo JAR mediante el comando 'java-jar'
+    text: "Configuración para ejecutar un archivo JAR mediante el comando 'java-jar'"
 jar.application.configuration.name:
     text: Aplicación JAR
 jre.path.is.not.valid.jre.home.error.message:
-    text: '''''{0}'''' no es un JRE home válido'
+    text: "''{0}'' no es un JRE home válido"

@@ -131,7 +131,7 @@ checkbox.collapse.file.header:
 checkbox.collapse.generic.constructor.parameters:
     text: Parámetros de métodos y constructores genéricos
 checkbox.collapse.html.style.attribute:
-    text: Atributo 'style' de HTML
+    text: "Atributo 'style' de HTML"
 checkbox.collapse.i18n.messages:
     text: Cadenas I18n
 checkbox.collapse.inner.classes:
@@ -193,7 +193,7 @@ checkbox.indent.use.tab.character:
 checkbox.insert.imports.for.inner.classes:
     text: Insertar importaciones para clases internas
 checkbox.insert.pair.curly.brace:
-    text: Insertar par '}'
+    text: "Insertar par '}'"
 checkbox.insert.pair.quote:
     text: Insertar par de comillas
 checkbox.javadoc.stub.after.slash.star.star:
@@ -241,7 +241,7 @@ checkbox.prefer.longer.names:
 checkbox.preserve.line.feeds:
     text: Mantener saltos de línea
 checkbox.reformat.on.typing.rbrace:
-    text: Reformatear bloque al escribir '}'
+    text: "Reformatear bloque al escribir '}'"
 checkbox.rename.local.variables.preselect:
     text: Preseleccionar el nombre del símbolo actual para la refactorización "Cambiar nombre"
 checkbox.right.margin:
@@ -279,13 +279,13 @@ checkbox.smooth.scrolling:
 checkbox.spaces.additive.operators:
     text: Operadores aditivos (+, -)
 checkbox.spaces.after.colon:
-    text: Después de ':'
+    text: "Después de ':'"
 checkbox.spaces.after.comma:
     text: Después de la coma
 checkbox.spaces.after.question:
-    text: Después de '?'
+    text: "Después de '?'"
 checkbox.spaces.after.semicolon:
-    text: Después del punto y coma de 'for'
+    text: "Después del punto y coma de 'for'"
 checkbox.spaces.after.type.cast:
     text: Después de la conversión de tipo
 checkbox.spaces.annotation.array.initializer.left.brace:
@@ -309,21 +309,21 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: Operadores de asignación (=, +=, …)
 checkbox.spaces.before.colon:
-    text: Antes de ':'
+    text: "Antes de ':'"
 checkbox.spaces.before.comma:
     text: Antes de la coma
 checkbox.spaces.before.question:
-    text: Antes de '?'
+    text: "Antes de '?'"
 checkbox.spaces.before.semicolon:
-    text: Antes del punto y coma de 'for'
+    text: "Antes del punto y coma de 'for'"
 checkbox.spaces.bitwise.operators:
     text: Operadores de bits (&, |, ^)
 checkbox.spaces.catch.keyword:
-    text: Palabra clave 'catch'
+    text: "Palabra clave 'catch'"
 checkbox.spaces.catch.left.brace:
-    text: llave de apertura de 'catch'
+    text: "llave de apertura de 'catch'"
 checkbox.spaces.catch.parentheses:
-    text: paréntesis de 'catch'
+    text: "paréntesis de 'catch'"
 checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
     text: Paréntesis de llamada a método vacía
 checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
@@ -335,25 +335,25 @@ checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
 checkbox.spaces.class.left.brace:
     text: Llave izquierda de la clase
 checkbox.spaces.do.left.brace:
-    text: Llave de apertura de 'do'
+    text: "Llave de apertura de 'do'"
 checkbox.spaces.else.keyword:
-    text: palabra clave 'else'
+    text: "palabra clave 'else'"
 checkbox.spaces.else.left.brace:
-    text: '''else'' llave izquierda'
+    text: "'else' llave izquierda"
 checkbox.spaces.equality.operators:
     text: Operadores de igualdad (==, !=)
 checkbox.spaces.finally.keyword:
-    text: Palabra clave 'finally'
+    text: "Palabra clave 'finally'"
 checkbox.spaces.finally.left.brace:
-    text: Llave izquierda de 'finally'
+    text: "Llave izquierda de 'finally'"
 checkbox.spaces.for.left.brace:
-    text: llave de apertura de 'for'
+    text: "llave de apertura de 'for'"
 checkbox.spaces.for.parentheses:
-    text: paréntesis de 'for'
+    text: "paréntesis de 'for'"
 checkbox.spaces.if.left.brace:
-    text: Llave de apertura de 'if'
+    text: "Llave de apertura de 'if'"
 checkbox.spaces.if.parentheses:
-    text: Paréntesis de 'if'
+    text: "Paréntesis de 'if'"
 checkbox.spaces.in.empty.tag:
     text: En etiquetas vacías
 checkbox.spaces.logical.operators:
@@ -371,25 +371,25 @@ checkbox.spaces.relational.operators:
 checkbox.spaces.shift.operators:
     text: Operadores de desplazamiento (<<, >>, >>>)
 checkbox.spaces.switch.left.brace:
-    text: '''switch'' llave de apertura'
+    text: "'switch' llave de apertura"
 checkbox.spaces.switch.parentheses:
-    text: paréntesis de 'switch'
+    text: "paréntesis de 'switch'"
 checkbox.spaces.synchronized.left.brace:
-    text: '''synchronized'' llave de apertura'
+    text: "'synchronized' llave de apertura"
 checkbox.spaces.synchronized.parentheses:
-    text: Paréntesis de 'synchronized'
+    text: "Paréntesis de 'synchronized'"
 checkbox.spaces.try.left.brace:
-    text: Llave de apertura de 'try'
+    text: "Llave de apertura de 'try'"
 checkbox.spaces.try.parentheses:
-    text: Paréntesis de 'try'
+    text: "Paréntesis de 'try'"
 checkbox.spaces.type.cast.parentheses:
     text: Paréntesis de conversión de tipo
 checkbox.spaces.while.keyword:
-    text: palabra clave 'while'
+    text: "palabra clave 'while'"
 checkbox.spaces.while.left.brace:
-    text: '''while'' llave izquierda'
+    text: "'while' llave izquierda"
 checkbox.spaces.while.parentheses:
-    text: paréntesis de 'while'
+    text: "paréntesis de 'while'"
 checkbox.spaces.within.array.initializer.braces:
     text: Llaves del inicializador de array
 checkbox.spaces.within.braces:
@@ -455,7 +455,9 @@ combobox.crlf.mac:
 combobox.crlf.system.dependent:
     text: Dependiente del sistema
 combobox.crlf.unix:
-    text: "Unix y macOS (\n)"
+    text: |-
+        Unix y macOS (
+        )
 combobox.crlf.windows:
     text: Windows (
 combobox.editor.tab.placement:
@@ -567,15 +569,15 @@ date.format.yesterday:
 date.frequency:
     text: Una vez cada {0}
 desktop.entry.icon.missing:
-    text: No se puede encontrar el icono de la aplicación en ''{0}''.
+    text: "No se puede encontrar el icono de la aplicación en ''{0}''."
 desktop.entry.script.missing:
-    text: No se encuentra el lanzador del IDE en ''{0}''.
+    text: "No se encuentra el lanzador del IDE en ''{0}''."
 desktop.entry.success:
     text: Ya puede salir de {0} e iniciarlo desde el menú del sistema.<br/> Si no aparece una nueva entrada en el menú, reinicie su sesión.
 desktop.entry.sudo.prompt:
     text: Introduzca su contraseña para crear una entrada de escritorio
 desktop.entry.xdg.missing:
-    text: Lamentablemente, parece que no hay ningún paquete 'xdg-utils' en su sistema.
+    text: "Lamentablemente, parece que no hay ningún paquete 'xdg-utils' en su sistema."
 dialog.message.caches.will.be.invalidated:
     text: Eliminar las cachés y los índices de todos los proyectos. Se crearán nuevas cachés al volver a abrir los proyectos.
 dialog.message.command.not.finished.yet:
@@ -609,7 +611,7 @@ editbox.blanklines.before.method.body:
 editbox.blanklines.before.package.statement:
     text: 'Antes de la sentencia package:'
 editbox.class.count.to.use.import.with.star:
-    text: 'Número de clases para usar importación con ''*'':'
+    text: "Número de clases para usar importación con '*':"
 editbox.console.history.limit:
     text: 'Tamaño del historial de comandos de la consola:'
 editbox.font.size:
@@ -625,7 +627,7 @@ editbox.indent.tab.size:
 editbox.keep.blank.lines:
     text: 'Mantener líneas en blanco:'
 editbox.keep.blanklines.before.rbrace:
-    text: 'Antes de ''}'':'
+    text: "Antes de '}':"
 editbox.keep.blanklines.in.code:
     text: 'En el código:'
 editbox.keep.blanklines.in.declarations:
@@ -633,7 +635,7 @@ editbox.keep.blanklines.in.declarations:
 editbox.line.spacing:
     text: 'Interlineado:'
 editbox.names.count.to.use.static.import.with.star:
-    text: 'Cantidad de nombres para usar importación estática con ''*'':'
+    text: "Cantidad de nombres para usar importación estática con '*':"
 editbox.path.macro.name:
     text: 'Nombre:'
 editbox.path.macro.value:
@@ -895,7 +897,7 @@ title.naming.final.modifier:
 title.order.of.members:
     text: Orden de los miembros
 title.packages.to.use.import.with:
-    text: Paquetes para usar import con '*'
+    text: "Paquetes para usar import con '*'"
 title.parameter.info:
     text: Información de parámetros
 title.path.variables:
@@ -943,7 +945,7 @@ wrapping.align.parenthesised.when.multiline:
 wrapping.align.simple.methods.in.columns:
     text: Alinear métodos simples en columnas
 wrapping.align.throws.keyword:
-    text: Alinear 'throws' al inicio del método
+    text: "Alinear 'throws' al inicio del método"
 wrapping.align.variables.in.columns:
     text: Alinear variables en columnas
 wrapping.align.when.multiline:
@@ -977,7 +979,7 @@ wrapping.brace.placement.next.line.shifted:
 wrapping.brace.placement.other:
     text: Otro
 wrapping.catch.on.new.line:
-    text: '''catch'' en una nueva línea'
+    text: "'catch' en una nueva línea"
 wrapping.chained.method.call.first.on.new.line:
     text: Ajustar primera llamada
 wrapping.chained.method.calls:
@@ -987,7 +989,7 @@ wrapping.chop.down.if.long:
 wrapping.classes.annotation:
     text: Anotaciones de clase
 wrapping.colon.signs.on.next.line:
-    text: Signos ':' en la siguiente línea
+    text: "Signos ':' en la siguiente línea"
 wrapping.comments:
     text: Comentarios
 wrapping.comments.wrap.at.right.margin:
@@ -995,9 +997,9 @@ wrapping.comments.wrap.at.right.margin:
 wrapping.do.not.wrap:
     text: No ajustar línea
 wrapping.dowhile.statement:
-    text: sentencia 'do … while()'
+    text: "sentencia 'do … while()'"
 wrapping.else.on.new.line:
-    text: '''else'' en una nueva línea'
+    text: "'else' en una nueva línea"
 wrapping.enum.constants:
     text: Constantes de enumeración
 wrapping.extends.implements.keyword:
@@ -1007,9 +1009,9 @@ wrapping.extends.implements.list:
 wrapping.fields.annotation:
     text: Anotaciones de campo
 wrapping.finally.on.new.line:
-    text: '''finally'' en nueva línea'
+    text: "'finally' en nueva línea"
 wrapping.for.statement:
-    text: Sentencia 'for()'
+    text: "Sentencia 'for()'"
 wrapping.force.braces:
     text: Forzar llaves
 wrapping.force.braces.always:
@@ -1019,9 +1021,9 @@ wrapping.force.braces.do.not.force:
 wrapping.force.braces.when.multiline:
     text: Cuando es multilínea
 wrapping.if.statement:
-    text: Sentencia 'if()'
+    text: "Sentencia 'if()'"
 wrapping.indent.case.from.switch:
-    text: Indentar las ramas 'case'
+    text: "Indentar las ramas 'case'"
 wrapping.keep.comment.at.first.column:
     text: Comentario en la primera columna
 wrapping.keep.line.breaks:
@@ -1053,23 +1055,23 @@ wrapping.methods.annotation:
 wrapping.modifier.list:
     text: Lista de modificadores
 wrapping.new.line.after.lbrace:
-    text: Nueva línea después de '{'
+    text: "Nueva línea después de '{'"
 wrapping.new.line.after.lpar:
-    text: Nueva línea después de '('
+    text: "Nueva línea después de '('"
 wrapping.operation.sign.on.next.line:
     text: Signo de operación en la siguiente línea
 wrapping.parameters.annotation:
     text: Anotaciones de parámetros
 wrapping.quest.and.colon.signs.on.next.line:
-    text: Signos '?' y ':' en la siguiente línea
+    text: "Signos '?' y ':' en la siguiente línea"
 wrapping.rbrace.on.new.line:
-    text: Colocar '}' en una nueva línea
+    text: "Colocar '}' en una nueva línea"
 wrapping.rpar.on.new.line:
-    text: Colocar ')' en una nueva línea
+    text: "Colocar ')' en una nueva línea"
 wrapping.special.else.if.braces.treatment:
-    text: Tratamiento especial de 'else if'
+    text: "Tratamiento especial de 'else if'"
 wrapping.switch.statement:
-    text: sentencia 'switch'
+    text: "sentencia 'switch'"
 wrapping.take.priority.over.call.chain.wrapping:
     text: Tener prioridad sobre el ajuste de línea de la cadena de llamadas
 wrapping.ternary.operation:
@@ -1077,13 +1079,13 @@ wrapping.ternary.operation:
 wrapping.throws.keyword:
     text: Palabra clave throws
 wrapping.throws.list:
-    text: Lista de 'throws'
+    text: "Lista de 'throws'"
 wrapping.try.statement:
-    text: Sentencia 'try'
+    text: "Sentencia 'try'"
 wrapping.while.on.new.line:
-    text: '''while'' en una nueva línea'
+    text: "'while' en una nueva línea"
 wrapping.while.statement:
-    text: Sentencia 'while()'
+    text: "Sentencia 'while()'"
 wrapping.wrap.always:
     text: Ajustar siempre
 wrapping.wrap.if.long:
