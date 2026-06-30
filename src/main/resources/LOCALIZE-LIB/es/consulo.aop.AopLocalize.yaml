@@ -23,17 +23,17 @@ error.argNames.should.match:
 error.arrays.not.allowed.here:
     text: No se permiten arreglos aquí
 error.cannot.resolve.parameter:
-    text: No se puede resolver el parámetro ''{0}''
+    text: "No se puede resolver el parámetro ''{0}''"
 error.cannot.resolve.pointcut:
-    text: No se puede resolver el punto de corte ''{0}''
+    text: "No se puede resolver el punto de corte ''{0}''"
 error.cannot.resolve.symbol:
-    text: No se puede resolver el símbolo ''{0}''
+    text: "No se puede resolver el símbolo ''{0}''"
 error.constructor.pattern.expected:
     text: Se esperaba un patrón de constructor
 error.default.implementation.class.should.be.specified:
     text: Debe especificarse la clase de implementación predeterminada
 error.double.ellipsis.prohibited:
-    text: Está prohibido usar más de un '..'
+    text: "Está prohibido usar más de un '..'"
 error.field.name.pattern.expected:
     text: Se esperaba un patrón de nombre de campo
 error.generics.not.allowed.here:
@@ -101,6 +101,6 @@ tooltip.text.navigate.to.introductions:
 tooltip.text.navigate.to.methods:
     text: Navegar a los métodos con advice
 unbound.pointcut.parameter:
-    text: Parámetro de pointcut no vinculado ''{0}''
+    text: "Parámetro de pointcut no vinculado ''{0}''"
 warning.argNames.should.be.defined:
     text: El atributo {0} no está definido

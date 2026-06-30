@@ -7,7 +7,7 @@ action.name.save.configuration:
 action.terminating.process.progress.kill.description:
     text: Finalizar proceso
 add.new.run.configuration.action.name:
-    text: Añadir nueva configuración ''{0}''
+    text: "Añadir nueva configuración ''{0}''"
 add.new.run.configuration.action2.name:
     text: Agregar nueva configuración
 all.tests.scope.presentable.text:
@@ -31,7 +31,7 @@ before.launch.panel.title:
 before.launch.run.another.configuration:
     text: Ejecutar otra configuración
 before.launch.run.certain.configuration:
-    text: Ejecutar ''{0}''
+    text: "Ejecutar ''{0}''"
 before.launch.run.unknown.task:
     text: Tarea desconocida
 button.add:
@@ -63,7 +63,7 @@ class.isnt.inheritor.of.testcase.error.message:
 class.isnt.test.class.error.message:
     text: '{0} no es una clase de prueba'
 class.not.found.in.module.error.message:
-    text: No se encontró la clase ''{0}'' en el módulo ''{1}''
+    text: "No se encontró la clase ''{0}'' en el módulo ''{1}''"
 clear.all.from.console.action.name:
     text: Limpiar todo
 close.tab.action.name:
@@ -93,7 +93,7 @@ coverage.tab.title:
 create.run.configuration.action.name:
     text: Modificar configuración de ejecución…
 create.run.configuration.for.item.dialog.title:
-    text: 'Crear configuración de ejecución: ''''{0}'''''
+    text: "Crear configuración de ejecución: ''{0}''"
 default.junit.config.name.all.in.module:
     text: Todo en {0}
 default.junit.config.name.all.in.package.in.module:
@@ -117,7 +117,7 @@ down.the.stack.trace:
 edit.configuration.action:
     text: '&Editar configuraciones'
 edit.run.configuration.for.item.dialog.title:
-    text: 'Editar configuración de ejecución: ''''{0}'''''
+    text: "Editar configuración de ejecución: ''{0}''"
 edit.run.configuration.run.configuration.name.label:
     text: '&Nombre:'
 encoding.name.system.default:
@@ -129,13 +129,13 @@ environment.variables.dialog.title:
 environment.variables.helper.use.arguments.label:
     text: <html><body>Utilice los siguientes argumentos de línea de comandos para ejecutar la JVM remota</body></html>
 error.running.configuration.message:
-    text: Error al ejecutar ''{0}''
+    text: "Error al ejecutar ''{0}''"
 execute.before.run.debug.dialog.title:
     text: Ejecutar {0} antes de ejecutar/depurar
 export.test.results.custom.template.chooser.title:
     text: Elegir plantilla personalizada
 export.test.results.custom.template.not.found:
-    text: No se encuentra el archivo de plantilla definido por el usuario ''{0}''
+    text: "No se encuentra el archivo de plantilla definido por el usuario ''{0}''"
 export.test.results.custom.template.path.empty:
     text: La ruta de la plantilla definida por el usuario está vacía
 export.test.results.dialog.title:
@@ -165,7 +165,7 @@ export.test.results.succeeded:
 export.test.results.task.name:
     text: Exportando resultados de las pruebas
 failed.to.create.output.file:
-    text: No se pudo crear el archivo de salida ''{0}''
+    text: "No se pudo crear el archivo de salida ''{0}''"
 fix.run.configuration.problem.button:
     text: Corregir
 home.directory.not.specified.for.jdk.error.message:
@@ -177,7 +177,7 @@ instantiating.tests.progress.text:
 invalid.data.dialog.title:
     text: Datos no válidos
 jdk.is.bad.configured.error.message:
-    text: '''''{0}'''' está mal configurado'
+    text: "''{0}'' está mal configurado"
 junit.all.tests.passed.label:
     text: Todas las pruebas superadas
 junit.click.to.see.diff.link:
@@ -209,7 +209,7 @@ junit.configuration.test.method.radio:
 junit.configuration.test.runner.parameters.label:
     text: 'Pa&rámetros del ejecutor de pruebas:'
 junit.not.found.in.module.error.message:
-    text: No se encontró JUnit en el módulo ''{0}''
+    text: "No se encontró JUnit en el módulo ''{0}''"
 junit.open.text.in.editor.action.name:
     text: Abrir la prueba seleccionada en el editor
 junit.runing.info.tests.in.progress.done.tree.node:
@@ -267,13 +267,13 @@ message.cannot.find.file.0:
 method.name.not.specified.error.message:
     text: No se ha especificado el nombre del método
 module.does.not.exist.error.message:
-    text: El módulo ''{0}'' no existe
+    text: "El módulo ''{0}'' no existe"
 module.does.not.exists:
-    text: El módulo ''{0}'' no existe en el proyecto ''{1}''
+    text: "El módulo ''{0}'' no existe en el proyecto ''{1}''"
 module.doesn.t.exist.in.project.error.text:
-    text: El módulo ''{0}'' no existe en el proyecto
+    text: "El módulo ''{0}'' no existe en el proyecto"
 module.is.unloaded.from.project.error.text:
-    text: El módulo ''{0}'' se ha descargado del proyecto
+    text: "El módulo ''{0}'' se ha descargado del proyecto"
 module.not.specified.error.text:
     text: Módulo no especificado
 move.down.action.name:
@@ -283,11 +283,11 @@ move.up.action.name:
 multiple.specified:
     text: Múltiples especificados
 no.jdk.for.module.error.message:
-    text: No hay JDK para el módulo ''{0}''
+    text: "No hay JDK para el módulo ''{0}''"
 no.jdk.specified..error.message:
     text: JDK no especificado
 no.jdk.specified.for.module.warning.text:
-    text: No se ha especificado ningún JDK para el módulo ''{0}''
+    text: "No se ha especificado ningún JDK para el módulo ''{0}''"
 no.junit.error.message:
     text: Falta junit.jar
 no.junit.in.scope.error.message:
@@ -307,15 +307,15 @@ open.message.view:
 output.tab.title:
     text: Salida
 package.does.not.exist.error.message:
-    text: El paquete ''{0}'' no existe
+    text: "El paquete ''{0}'' no existe"
 package.not.found.error.message:
-    text: No se encontró el paquete ''{0}''
+    text: "No se encontró el paquete ''{0}''"
 perform.action.with.context.configuration.action.name:
     text: Configuración de contexto {0}
 popup.title.choose.target.file:
     text: Seleccionar archivo de destino
 process.is.running.dialog.title:
-    text: El proceso ''{0}'' está en ejecución
+    text: "El proceso ''{0}'' está en ejecución"
 project.has.no.jdk.configured.error.message:
     text: El proyecto no tiene ningún JDK configurado.
 remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
@@ -327,7 +327,7 @@ remote.debug.configuration.display.name:
 remove.run.configuration.action.name:
     text: Eliminar configuración
 rerun.configuration.action.name:
-    text: Volver a ejecutar ''{0}''
+    text: "Volver a ejecutar ''{0}''"
 rerun.confirmation.button.text:
     text: Detener y volver a ejecutar
 rerun.singleton.confirmation.message:
@@ -441,13 +441,13 @@ run.toolbar.widget.all.configurations:
 runner.content.tooltip.layout.settings:
     text: Ajustes de diseño
 save.temporary.run.configuration.action.name:
-    text: '&Guardar configuración ''''{0}'''''
+    text: "&Guardar configuración ''{0}''"
 script.execution.timeout:
     text: La ejecución del script tardó más de {0} segundos.
 searching.test.progress.title:
     text: Buscando pruebas…
 select.0.1:
-    text: Seleccionar {0} ''{1}''
+    text: "Seleccionar {0} ''{1}''"
 select.working.directory.message:
     text: Seleccionar directorio de trabajo
 service.view.activate.tool.window.action.description:
@@ -533,7 +533,7 @@ stop.all:
 stop.background.process:
     text: Detener proceso en segundo plano
 stop.configuration.action.name:
-    text: Detener ''{0}''
+    text: "Detener ''{0}''"
 stop.incompatible.confirmation.button.text:
     text: Detener incompatibles
 stop.incompatible.confirmation.message:
@@ -543,15 +543,15 @@ stop.process:
 strings.equal.failed.dialog.title:
     text: Error de comparación
 terminate.process.confirmation.text:
-    text: ¿Desea finalizar el proceso ''{0}''?
+    text: "¿Desea finalizar el proceso ''{0}''?"
 terminating.process.progress.kill:
     text: Finalizar proceso
 terminating.process.progress.title:
-    text: Finalizando ''{0}''
+    text: "Finalizando ''{0}''"
 test.in.scope.presentable.text:
-    text: Pruebas en ''{0}''
+    text: "Pruebas en ''{0}''"
 test.method.doesnt.exist.error.message:
-    text: El método de prueba ''{0}'' no existe
+    text: "El método de prueba ''{0}'' no existe"
 test.not.started.progress.text:
     text: No se iniciaron las pruebas
 title.cannot.open.file:

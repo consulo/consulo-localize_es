@@ -21,7 +21,10 @@ maven.import.title.module.dir:
 maven.locating.files:
     text: Localizando archivos de proyecto Maven…
 maven.navigator.nothing.to.display:
-    text: "No hay proyectos Maven para mostrar.\n\nPuede utilizar {0} para añadir un proyecto o {1} para permitir que el complemento busque todos los archivos pom.xml bajo las raíces del proyecto y los vuelva a cargar"
+    text: |-
+        No hay proyectos Maven para mostrar.
+
+        Puede utilizar {0} para añadir un proyecto o {1} para permitir que el complemento busque todos los archivos pom.xml bajo las raíces del proyecto y los vuelva a cargar
 maven.post.processing:
     text: Configurando proyectos Maven
 maven.profile.activate:
@@ -35,21 +38,21 @@ maven.project.import.title:
 maven.project.importing:
     text: Importando proyectos Maven
 maven.project.problem.moduleNotFound:
-    text: No se encontró el módulo ''{0}''
+    text: "No se encontró el módulo ''{0}''"
 maven.project.problem.parentHasProblems:
-    text: El elemento primario ''{0}'' tiene problemas
+    text: "El elemento primario ''{0}'' tiene problemas"
 maven.project.problem.parentNotFound:
-    text: No se encontró el padre ''{0}''
+    text: "No se encontró el padre ''{0}''"
 maven.project.problem.recursiveInheritance:
     text: Se ha encontrado una herencia recursiva
 maven.project.problem.selfInheritance:
     text: Se encontró autoherencia
 maven.project.problem.unresolvedDependency:
-    text: 'Dependencia no resuelta: ''''{0}'''''
+    text: "Dependencia no resuelta: ''{0}''"
 maven.project.problem.unresolvedExtension:
-    text: 'Extensión de compilación no resuelta: ''''{0}'''''
+    text: "Extensión de compilación no resuelta: ''{0}''"
 maven.project.problem.unresolvedPlugin:
-    text: 'Plugin no resuelto: ''''{0}'''''
+    text: "Plugin no resuelto: ''{0}''"
 maven.reading:
     text: Leyendo proyectos Maven…
 maven.reading.pom:

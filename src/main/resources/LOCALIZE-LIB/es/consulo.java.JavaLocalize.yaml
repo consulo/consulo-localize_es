@@ -1,9 +1,9 @@
 code.vision.implementations.hint:
-    text: '{0, choice, 1#1 implementación|2#{0,number}''{1,choice,0#|1#+}'' implementaciones}'
+    text: "{0, choice, 1#1 implementación|2#{0,number}'{1,choice,0#|1#+}' implementaciones}"
 code.vision.inheritors.hint:
-    text: '{0, choice, 1#1 heredero|2#{0,number}''{1,choice,0#|1#+}'' herederos}'
+    text: "{0, choice, 1#1 heredero|2#{0,number}'{1,choice,0#|1#+}' herederos}"
 code.vision.overrides.hint:
-    text: '{0, choice, 1#1 sobrescritura|2#{0,number}''{1,choice,0#|1#+}'' sobrescrituras}'
+    text: "{0, choice, 1#1 sobrescritura|2#{0,number}'{1,choice,0#|1#+}' sobrescrituras}"
 usages.telescope:
     text: '{0,choice, 0#0 usos|1#1 uso|2#{0,number} usos}'
 action.go.to.implementation.text:
@@ -29,7 +29,7 @@ checkbox.collapse.file.header:
 checkbox.collapse.generic.constructor.parameters:
     text: Parámetros de métodos y constructores genéricos
 checkbox.collapse.html.style.attribute:
-    text: Atributo 'style' de HTML
+    text: "Atributo 'style' de HTML"
 checkbox.collapse.i18n.messages:
     text: Cadenas I18n
 checkbox.collapse.inner.classes:
@@ -43,13 +43,13 @@ class.file.decompiled.text:
 class.file.open.source.action:
     text: Abrir archivo fuente
 class.not.found.error.message:
-    text: No se encontró la clase ''{0}''
+    text: "No se encontró la clase ''{0}''"
 dependencies.tree.node.default.package.abbreviation:
     text: <paquete predeterminado>
 error.package.already.contains.package.html:
-    text: El paquete ''{0}'' ya tiene un archivo ''package.html''. ¿Desea crear ''package-info.java'' de todos modos?
+    text: "El paquete ''{0}'' ya tiene un archivo ''package.html''. ¿Desea crear ''package-info.java'' de todos modos?"
 error.package.html.found.title:
-    text: Se encontró 'package.html'
+    text: "Se encontró 'package.html'"
 gutter.implemented.method:
     text: Método implementado
 gutter.implementing.method:
@@ -69,9 +69,11 @@ inspection.default.annotation.param:
 java.method.chains.inlay.provider.name:
     text: Cadenas de métodos
 label.method:
-    text: Método ''{0}''
+    text: "Método ''{0}''"
 library.choose.one.to.attach:
-    text: "Seleccionar bibliotecas para adjuntar fuentes\nlibrary.choose.one.to.attach=<html><body>Varias bibliotecas contienen el archivo.<br>Seleccionar bibliotecas para adjuntar fuentes</body></html>"
+    text: |-
+        Seleccionar bibliotecas para adjuntar fuentes
+        library.choose.one.to.attach=<html><body>Varias bibliotecas contienen el archivo.<br>Seleccionar bibliotecas para adjuntar fuentes</body></html>
 notification.navigation.to.overriding.classes:
     text: No es posible navegar a las clases que sobrescriben durante la actualización del índice
 notification.navigation.to.overriding.methods:
@@ -117,7 +119,7 @@ settings.inlay.java.inheritors:
 settings.inlay.java.methods.with.same.named.numbered.parameters:
     text: Métodos con parámetros numerados con el mismo nombre
 settings.inlay.java.new.expressions:
-    text: Expresiones 'new'
+    text: "Expresiones 'new'"
 settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
     text: No literales en caso de múltiples parámetros con el mismo tipo
 settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:

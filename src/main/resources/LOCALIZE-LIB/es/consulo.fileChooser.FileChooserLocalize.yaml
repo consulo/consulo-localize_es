@@ -1,7 +1,9 @@
 file.chooser.default.title:
     text: Seleccionar ruta
 file.chooser.save.dialog.confirmation:
-    text: "{0} ya existe.\n¿Desea reemplazarlo?"
+    text: |-
+        {0} ya existe.
+        ¿Desea reemplazarlo?
 file.chooser.save.dialog.confirmation.title:
     text: Confirmar guardar como
 file.chooser.save.dialog.default.title:

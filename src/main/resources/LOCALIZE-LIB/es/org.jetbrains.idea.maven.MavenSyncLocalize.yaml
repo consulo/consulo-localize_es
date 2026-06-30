@@ -15,7 +15,9 @@ is.not.correct.maven.home.reverting.to.embedded:
 maven.cannot.reconnect:
     text: 'No se puede conectar al proceso Maven. Si el problema persiste, compruebe la configuración de la red y del equipo local. Consulte este artículo para obtener más detalles: https://intellij-support.jetbrains.com/hc/en-us/articles/360014262940'
 maven.core.plexus.init.issue.description:
-    text: "No se puede inicializar Maven debido a un error crítico fatal:\n Posibles soluciones:"
+    text: |-
+        No se puede inicializar Maven debido a un error crítico fatal:
+         Posibles soluciones:
 maven.core.plexus.init.issue.description.exception:
     text: 'Mensaje de la excepción y traza de la pila a continuación:'
 maven.core.plexus.init.issue.fix.downgrade:
@@ -149,7 +151,9 @@ maven.sync.wsl.jdk.set.to.project:
 maven.sync.wsl.maven.is.not.wsl:
     text: La distribución de Maven parece incorrecta
 maven.sync.wsl.maven.is.not.wsl.description:
-    text: "El directorio principal de Maven se ha resuelto en {0}.\n Por motivos de rendimiento, es mejor utilizar Maven instalado en la distribución de WSL. <a href=\"{1}\">Abrir configuración</a>"
+    text: |-
+        El directorio principal de Maven se ha resuelto en {0}.
+         Por motivos de rendimiento, es mejor utilizar Maven instalado en la distribución de WSL. <a href="{1}">Abrir configuración</a>
 maven.sync.wsl.userhome.cannot.resolve:
     text: No se puede resolver la variable $HOME en WSL. Parece que el proceso de integración de WSL se ha bloqueado. Intente reiniciar WSL o la máquina anfitriona.
 maven.wrapper.notification.downloading.error.action:

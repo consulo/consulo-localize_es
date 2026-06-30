@@ -237,13 +237,13 @@ action.structureview.sort.by.visibility:
 action.sync.completed.successfully:
     text: La sincronización de archivos se completó correctamente.
 action.synchronize.file:
-    text: Sincronizar ''{0}''
+    text: "Sincronizar ''{0}''"
 action.synchronize.selected.files:
     text: Sincronizar archivos seleccionados
 action.text.remove.0:
     text: Eliminar {0}
 action.text.remove.abbreviation.0:
-    text: Eliminar abreviatura ''{0}''
+    text: "Eliminar abreviatura ''{0}''"
 action.todo.edit.filters:
     text: Editar filtros
 action.todo.show.all:
@@ -277,7 +277,7 @@ bean.property:
 browsers.settings:
     text: Navegadores web y vista previa
 bundled.jre.version.message:
-    text: Considere cambiar al entorno de ejecución Java integrado, que se adapta mejor al IDE (su entorno de ejecución Java actual es {0} de {1} en ''{2}'').
+    text: "Considere cambiar al entorno de ejecución Java integrado, que se adapta mejor al IDE (su entorno de ejecución Java actual es {0} de {1} en ''{2}'')."
 button.add.separator:
     text: Agregar &separador
 button.cancel:
@@ -341,7 +341,7 @@ button.wizard.previous:
 button.yes:
     text: Sí(_Y)
 change.encoding.command.name:
-    text: Cambiar codificación para ''{0}''
+    text: "Cambiar codificación para ''{0}''"
 checkbox.confirm.application.exit:
     text: Confirmar antes de salir del IDE
 checkbox.copy.javadoc:
@@ -445,9 +445,9 @@ command.renaming.module:
 command.select.all:
     text: Seleccionar todo
 conversion.dialog.text.1:
-    text: El proyecto ''{0}'' tiene un formato desactualizado y se convertirá. Es posible que no pueda abrir el proyecto con versiones anteriores de {1}.
+    text: "El proyecto ''{0}'' tiene un formato desactualizado y se convertirá. Es posible que no pueda abrir el proyecto con versiones anteriores de {1}."
 conversion.dialog.text.2:
-    text: '<b> </b><a href="details">Detalles…</a><br/><br/>Las versiones anteriores de los archivos del proyecto se guardarán en: ''''{0}'''''
+    text: "<b> </b><a href=\"details\">Detalles…</a><br/><br/>Las versiones anteriores de los archivos del proyecto se guardarán en: ''{0}''"
 copy.reference:
     text: Cop&iar referencia
 copy.references:
@@ -471,7 +471,7 @@ dialog.directory.for.downloaded.files.title:
 dialog.message.cannot.save.the.file.0:
     text: No se puede guardar el archivo {0}
 dialog.message.incompatible.encoding:
-    text: La codificación que ha elegido (''{0}'') puede cambiar el contenido de ''{1}''.<br>¿Desea<br>1. <b>Volver a cargar</b> el archivo desde el disco con la nueva codificación ''{0}'' y sobrescribir el contenido del editor o<br>2. <b>Convertir</b> el texto y sobrescribir el archivo con la nueva codificación?
+    text: "La codificación que ha elegido (''{0}'') puede cambiar el contenido de ''{1}''.<br>¿Desea<br>1. <b>Volver a cargar</b> el archivo desde el disco con la nueva codificación ''{0}'' y sobrescribir el contenido del editor o<br>2. <b>Convertir</b> el texto y sobrescribir el archivo con la nueva codificación?"
 dialog.title.abbreviation:
     text: Abreviatura
 dialog.title.choose.color:
@@ -487,9 +487,9 @@ dialog.title.convert.project:
 dialog.title.error.writing.file:
     text: Error al escribir el archivo
 dialog.title.file.0.can.t.be.reloaded:
-    text: El archivo ''{0}'' no puede ser recargado en la codificación ''{1}''.{2}
+    text: "El archivo ''{0}'' no puede ser recargado en la codificación ''{1}''.{2}"
 dialog.title.file.0.most.likely.isn.t.stored:
-    text: Es muy probable que el archivo ''{0}'' no esté guardado con la codificación ''{1}''.{2}
+    text: "Es muy probable que el archivo ''{0}'' no esté guardado con la codificación ''{1}''.{2}"
 dialog.title.go.to.line.column:
     text: Ir a la línea:columna
 dialog.title.unable.to.save:
@@ -497,11 +497,13 @@ dialog.title.unable.to.save:
 diff.dialog.title:
     text: Diferencias entre esquemas
 directory.module.content.root:
-    text: "Raíz del contenido del módulo\n"
+    text: |
+        Raíz del contenido del módulo
 directory.module.file:
     text: Directorio de archivos del módulo
 directory.project.file.directory:
-    text: "El directorio {0}\n"
+    text: |
+        El directorio {0}
 display.balloon.notifications:
     text: Mostrar notificaciones de globo
 display.name.firefox.settings:
@@ -545,13 +547,13 @@ empty.text.recent.files:
 empty.text.search.everywhere:
     text: Buscar en todas partes
 encoding.do.not.convert.message:
-    text: Por favor, no convierta a ''{0}''.
+    text: "Por favor, no convierta a ''{0}''."
 encoding.name.system.default:
     text: '<Predeterminado del sistema: {0}>'
 encoding.not.available:
     text: No disponible
 encoding.unsupported.characters.message:
-    text: La codificación ''{0}'' no admite algunos caracteres del texto.
+    text: "La codificación ''{0}'' no admite algunos caracteres del texto."
 encodings.dialog.caption:
     text: Añada la ruta a un archivo o directorio y seleccione la codificación que debe usar {0}.<br>Los archivos y directorios heredan la codificación del directorio padre o de la codificación del proyecto.<br>Las codificaciones de archivo integradas en archivos JSP, HTML y XML invalidan estos ajustes.
 error.0.browser.path.not.specified:
@@ -571,13 +573,13 @@ error.connection.failed.redirects:
 error.failed.to.create.directory:
     text: No se pudo crear el directorio "{0}"
 error.favorites.list.already.exists:
-    text: La lista de favoritos ''{0}'' ya existe
+    text: "La lista de favoritos ''{0}'' ya existe"
 error.file.does.not.exist:
     text: El archivo {0} no existe.
 error.file.download.failed:
     text: "Error al descargar ''{0}'':\n{1}"
 error.file.not.found.message:
-    text: No se encontró el archivo ''{0}''
+    text: "No se encontró el archivo ''{0}''"
 error.files.of.this.type.cannot.be.opened:
     text: No se pueden abrir archivos de este tipo en {0}
 error.invalid.template.file.name.or.extension:
@@ -587,13 +589,15 @@ error.loading.package.list:
 error.malformed.url:
     text: 'URL mal formada: {0}'
 error.message.cannot.make.files.writable:
-    text: "No se pueden desbloquear los siguientes archivos:\n{0}"
+    text: |-
+        No se pueden desbloquear los siguientes archivos:
+        {0}
 error.message.cannot.modify.file.0:
-    text: No se puede modificar el archivo ''{0}''
+    text: "No se puede modificar el archivo ''{0}''"
 error.message.unable.to.create.file:
-    text: No se puede crear el archivo ''{0}''
+    text: "No se puede crear el archivo ''{0}''"
 error.module.already.exists:
-    text: Ya existe un módulo llamado ''{0}''
+    text: "Ya existe un módulo llamado ''{0}''"
 error.module.with.name.already.exists:
     text: Ya existe un módulo con el nombre {0}
 error.name.cannot.be.empty:
@@ -615,25 +619,37 @@ error.project.file.does.not.exist:
 error.reading.settings.file:
     text: "Error al leer el archivo {0}.\nAsegúrese de que haya sido generado por la función ''Archivo | Gestionar ajustes del IDE | Exportar ajustes…''\n\n{1}"
 error.reading.settings.file.2:
-    text: "Error al leer el archivo {0}.\n\n{1}"
+    text: |-
+        Error al leer el archivo {0}.
+
+        {1}
 error.saving.license.data:
-    text: "Error al guardar los datos de la licencia.\n{0}"
+    text: |-
+        Error al guardar los datos de la licencia.
+        {0}
 error.saving.statistics:
     text: 'Error al guardar la información del sistema: {0}'
 error.source.directory.should.be.under.module.content.root.directory:
     text: El directorio de fuentes debe estar bajo el directorio raíz de contenido del módulo
 error.text.file.already.exists:
-    text: "El archivo {0} ya existe\n¿Desea sobrescribirlo o añadir?"
+    text: |-
+        El archivo {0} ya existe
+        ¿Desea sobrescribirlo o añadir?
 error.tips.not.found:
     text: No se encontraron los consejos. Asegúrese de haber instalado {0} correctamente.
 error.unable.to.parse.template.message:
-    text: "No se pudo analizar la plantilla \"{0}\"\nMensaje de error: {1}"
+    text: |-
+        No se pudo analizar la plantilla "{0}"
+        Mensaje de error: {1}
 error.unable.to.read.tip.of.the.day:
     text: <html><body>No se pudo leer el consejo del día ({0}). Asegúrese de que {1} esté instalado correctamente.</body></html>
 error.updating.package.list:
     text: 'Error al actualizar la lista de paquetes: {0}'
 error.writing.settings:
-    text: "Error al escribir la configuración.\n\n{0}"
+    text: |-
+        Error al escribir la configuración.
+
+        {0}
 error.writing.to.file:
     text: 'Error al escribir en el archivo: {0}'
 errortree.information:
@@ -645,7 +661,7 @@ errortree.prefix.line:
 errortree.warning:
     text: 'Advertencia:'
 failed.to.install.package.dialog.title:
-    text: Error al instalar ''{0}''
+    text: "Error al instalar ''{0}''"
 failed.to.install.packages.dialog.title:
     text: Error al instalar paquetes
 favorites.list.unnamed:
@@ -699,7 +715,7 @@ general.settings:
 go.to.class.action.description:
     text: Navegar rápidamente a {0} por nombre
 go.to.class.dumb.mode.message:
-    text: La acción ''Ir a {0}'' no está disponible durante el análisis del proyecto, se usará ''Ir a archivo'' en su lugar
+    text: "La acción ''Ir a {0}'' no está disponible durante el análisis del proyecto, se usará ''Ir a archivo'' en su lugar"
 go.to.class.kind.text:
     text: Tipo
 go.to.file.toolwindow.title:
@@ -763,7 +779,7 @@ idea.intellij.look.and.feel:
 incompatible.encoding.dialog.title:
     text: 'Codificación incompatible: {0}'
 install.package.failure:
-    text: Se produjo un error al instalar el paquete ''{0}''. <a href="xxx">Detalles…</a>
+    text: "Se produjo un error al instalar el paquete ''{0}''. <a href=\"xxx\">Detalles…</a>"
 label.appearance.caret.blinking:
     text: 'Apariencia: Parpadeo del cursor'
 label.appearance.show.inner.whitespaces:
@@ -797,7 +813,10 @@ label.icon.path:
 label.inactive.timeout.sec:
     text: segundos
 label.java.source.files.have.been.found:
-    text: "Se han encontrado archivos de código fuente para su módulo. Seleccione los directorios que se\nmarcarán como rutas de origen. Estas rutas corresponden a paquetes predeterminados (raíz, sin nombre, nivel superior).\nNota: el programa solo reconocerá los archivos de código fuente que se encuentren en estos directorios."
+    text: |-
+        Se han encontrado archivos de código fuente para su módulo. Seleccione los directorios que se
+        marcarán como rutas de origen. Estas rutas corresponden a paquetes predeterminados (raíz, sin nombre, nivel superior).
+        Nota: el programa solo reconocerá los archivos de código fuente que se encuentren en estos directorios.
 label.library.will.be.created.description.text:
     text: Se creará la biblioteca de nivel {0} <b>{1}</b> con {2} {2, choice, 1#archivo|2#archivos}
 label.line.column:
@@ -807,7 +826,7 @@ label.macro.preview:
 label.missed.libraries.prefix:
     text: 'Faltan las siguientes bibliotecas:'
 label.missed.libraries.text:
-    text: No se encontró la biblioteca ''{0}'' en la lista de dependencias del módulo
+    text: "No se encontró la biblioteca ''{0}'' en la lista de dependencias del módulo"
 label.name:
     text: Nombre
 label.no.actions.found:
@@ -829,7 +848,10 @@ label.please.enter.project.name:
 label.project.jdk:
     text: 'SDK del proyecto:'
 label.project.roots.have.been.found:
-    text: "Se han encontrado archivos de origen para su proyecto. Elija los directorios que se\nagregarán a las raíces del proyecto. Estas rutas corresponden a paquetes predeterminados (raíz, sin nombre, nivel superior).\nNota: el programa solo reconocerá los archivos de origen situados en estos directorios."
+    text: |-
+        Se han encontrado archivos de origen para su proyecto. Elija los directorios que se
+        agregarán a las raíces del proyecto. Estas rutas corresponden a paquetes predeterminados (raíz, sin nombre, nivel superior).
+        Nota: el programa solo reconocerá los archivos de origen situados en estos directorios.
 label.project.roots.not.found:
     text: No se encontraron los archivos de origen de su proyecto.
 label.scope:
@@ -851,7 +873,7 @@ license.panel.perpetual.license.description:
 listbox.customfiletype.keywords:
     text: Palabras clave
 loading.in.progress:
-    text: '<html><body style=''text-align: center;padding-top:20px;''>Cargando…</body></html>'
+    text: "<html><body style='text-align: center;padding-top:20px;'>Cargando…</body></html>"
 local.scopes.node.text:
     text: Ámbitos locales
 low.disk.space.message:
@@ -943,9 +965,9 @@ message.educational.license:
 message.expiration.date:
     text: 'Fecha de vencimiento: {0}'
 message.macro.exists:
-    text: La macro ''{0}'' ya existe. ¿Desea sobrescribirla?
+    text: "La macro ''{0}'' ya existe. ¿Desea sobrescribirla?"
 message.module:
-    text: módulo ''{0}''
+    text: "módulo ''{0}''"
 message.module.file.has.an.older.format.do.you.want.to.convert.it:
     text: El archivo de módulo tiene un formato anterior. ¿Desea convertirlo?
 message.modules:
@@ -957,17 +979,19 @@ message.no.targets.available:
 message.occurrence.N.of.M:
     text: Coincidencia {0} de {1}
 message.open.file.is.project:
-    text: "{0} es un archivo de proyecto.\n¿Desea abrir el proyecto?"
+    text: |-
+        {0} es un archivo de proyecto.
+        ¿Desea abrir el proyecto?
 message.open.source.project.license:
     text: Licencia de proyecto de código abierto. {0}
 message.path.to.fqn.has.been.copied:
-    text: '''''{0}'''' se ha copiado.'
+    text: "''{0}'' se ha copiado."
 message.personal.license:
     text: Licencia personal
 message.please.select.element.for.javadoc:
     text: Seleccione el elemento para el que desea ver la documentación
 message.reference.to.fqn.has.been.copied:
-    text: Se ha copiado la referencia a ''{0}''.
+    text: "Se ha copiado la referencia a ''{0}''."
 message.server.protocol.hijacked:
     text: 'La respuesta del servidor de licencias no superó la comprobación de integridad de datos: {0}'
 message.settings.exported.successfully:
@@ -981,7 +1005,7 @@ message.text.error.creating.deployment.descriptor:
 message.text.unlock.read.only.files:
     text: <html><body>Los siguientes archivos son de solo lectura. {0} los desbloqueará.<br>{1}</body></html>
 message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
-    text: <html><body>Su módulo se convirtió correctamente. <br>La versión anterior se guardó en ''{0}''</body></html>
+    text: "<html><body>Su módulo se convirtió correctamente. <br>La versión anterior se guardó en ''{0}''</body></html>"
 new.library.file.chooser.title:
     text: Nuevos archivos de biblioteca
 no.charset.set.reason.charset.auto.detected.by.bom:
@@ -1025,11 +1049,11 @@ open.url.in.browser.tooltip:
 option.hide.tool.window.bars:
     text: Ocultar barras de la ventana de herramientas
 package.0.installed.successfully:
-    text: El paquete ''{0}'' se instaló correctamente
+    text: "El paquete ''{0}'' se instaló correctamente"
 package.installed.successfully:
     text: El paquete se ha instalado correctamente.
 package.successfully.uninstalled:
-    text: El paquete ''{0}'' se ha desinstalado correctamente
+    text: "El paquete ''{0}'' se ha desinstalado correctamente"
 package.successfully.upgraded:
     text: El paquete {0} se ha actualizado correctamente
 packages.settings.latest.version:
@@ -1089,7 +1113,7 @@ progress.window.empty.text:
 progress.window.title:
     text: Procesos
 project.directory.is.not.writable:
-    text: El directorio ''{0}'' no parece tener permisos de escritura. Por favor, elija otra ubicación.
+    text: "El directorio ''{0}'' no parece tener permisos de escritura. Por favor, elija otra ubicación."
 project.import.default.name:
     text: Importado de {0}
 project.import.default.name.dotIdea:
@@ -1117,9 +1141,13 @@ prompt.choose.export.settings.file.path:
 prompt.choose.import.file.path:
     text: Seleccione el archivo de configuración para importar o el directorio donde se encuentra el archivo
 prompt.confirm.project.no.jdk:
-    text: "¿Desea crear un proyecto sin ningún SDK asignado?\nSe requiere un SDK para compilar, depurar y ejecutar aplicaciones, así como para la resolución de clases estándar del SDK."
+    text: |-
+        ¿Desea crear un proyecto sin ningún SDK asignado?
+        Se requiere un SDK para compilar, depurar y ejecutar aplicaciones, así como para la resolución de clases estándar del SDK.
 prompt.create.non.existing.package:
-    text: "El paquete {0} no existe.\n¿Desea crearlo?"
+    text: |-
+        El paquete {0} no existe.
+        ¿Desea crearlo?
 prompt.delete.and:
     text: y
 prompt.delete.class:
@@ -1183,7 +1211,7 @@ prompt.gotofile.enter.file.name:
 prompt.gotosymbol.enter.symbol.name:
     text: 'Introduzca el nombre del símbolo:'
 prompt.input.favorites.list.new.name:
-    text: 'Cambiar el nombre de la lista de favoritos ''''{0}'''' a:'
+    text: "Cambiar el nombre de la lista de favoritos ''{0}'' a:"
 prompt.input.new.favorites.list.name:
     text: Introduzca un nombre para la nueva lista de favoritos
 prompt.new.project.file.name:
@@ -1191,17 +1219,25 @@ prompt.new.project.file.name:
 prompt.open.project.in.new.frame:
     text: <html><body>¿Dónde desea abrir el proyecto?</body></html>
 prompt.overwrite.project.folder:
-    text: "La carpeta {0} ya existe en {1}.\nSu contenido podría ser sobrescrito.\n¿Desea continuar?"
+    text: |-
+        La carpeta {0} ya existe en {1}.
+        Su contenido podría ser sobrescrito.
+        ¿Desea continuar?
 prompt.overwrite.settings.file:
-    text: ¿Sobrescribir ''{0}''?
+    text: "¿Sobrescribir ''{0}''?"
 prompt.please.check.all.components.to.export:
     text: 'Por favor, compruebe los ajustes a exportar:'
 prompt.please.select.module.jdk:
     text: Seleccione el {0} que se establecerá para este módulo
 prompt.please.select.project.jdk:
-    text: "Seleccione el SDK del proyecto.\nEste SDK se utilizará de forma predeterminada en todos los módulos del proyecto."
+    text: |-
+        Seleccione el SDK del proyecto.
+        Este SDK se utilizará de forma predeterminada en todos los módulos del proyecto.
 prompt.please.specify.java.sources.directory:
-    text: "Por favor, especifique un directorio donde se puedan encontrar los archivos fuente de su proyecto.\nEsta ruta debe corresponder al paquete predeterminado (raíz, sin nombre, nivel superior).\nNota: el programa solo reconocerá los archivos fuente que se encuentren bajo estos directorios."
+    text: |-
+        Por favor, especifique un directorio donde se puedan encontrar los archivos fuente de su proyecto.
+        Esta ruta debe corresponder al paquete predeterminado (raíz, sin nombre, nivel superior).
+        Nota: el programa solo reconocerá los archivos fuente que se encuentren bajo estos directorios.
 prompt.relative.path.to.sources.empty:
     text: "La ruta relativa a las fuentes está vacía.\n¿Desea marcar la raíz del contenido del módulo\n''{0}''\ncomo un directorio de fuentes?"
 prompt.reset.to.original.template:
@@ -1209,9 +1245,13 @@ prompt.reset.to.original.template:
 prompt.select.source.directory:
     text: Seleccionar directorio de código fuente
 prompt.specify.module.group.name:
-    text: "Especifique el nombre del grupo bajo el cual se mostrará {0}.\n\n"
+    text: |+
+        Especifique el nombre del grupo bajo el cual se mostrará {0}.
+
 prompt.specify.name.of.module.subgroup:
-    text: "Especifique el nombre del subgrupo de {0} en el que se mostrará {1}.\n\n"
+    text: |+
+        Especifique el nombre del subgrupo de {0} en el que se mostrará {1}.
+
 prompt.stop.searching.for.sources:
     text: '{0} está buscando fuentes actualmente. ¿Desea detener la búsqueda?'
 quick.lists.presentable.name:
@@ -1255,7 +1295,9 @@ run.anything.ad.run.with.debug:
 run.anything.console.error.title:
     text: No se puede ejecutar el comando
 run.anything.console.process.finished:
-    text: "\nProceso finalizado con el código de salida {0}."
+    text: |4-
+
+        Proceso finalizado con el código de salida {0}.
 run.anything.context.browse.directory:
     text: Examinar directorio…
 run.anything.context.project:
@@ -1283,7 +1325,7 @@ run.anything.main.list.empty.primary.text:
 run.anything.main.list.empty.secondary.text:
     text: Escriba "?" para ver todos los comandos
 run.anything.notification.warning.content:
-    text: No se pudo ejecutar el comando ''{0}''.
+    text: "No se pudo ejecutar el comando ''{0}''."
 run.anything.notification.warning.title:
     text: Ejecución de comando fallida
 run.anything.recent.group.title:
@@ -1309,11 +1351,11 @@ run.canceled.by.user.message:
 run.configuration.error.executable.not.specified:
     text: No se ha especificado el ejecutable
 run.configuration.error.working.directory.does.not.exist:
-    text: No se puede iniciar el proceso, el directorio de trabajo ''{0}'' no existe
+    text: "No se puede iniciar el proceso, el directorio de trabajo ''{0}'' no existe"
 run.configuration.error.working.directory.not.directory:
-    text: No se puede iniciar el proceso, el directorio de trabajo ''{0}'' no es un directorio
+    text: "No se puede iniciar el proceso, el directorio de trabajo ''{0}'' no es un directorio"
 scope.banner.text:
-    text: Ámbito ''{0}''
+    text: "Ámbito ''{0}''"
 scope.class.hierarchy:
     text: Jerarquía de clases
 scope.current.file:
@@ -1379,15 +1421,15 @@ search.for.usages.and.delete.elements:
 searcheverywhere.commands.tab.name:
     text: Comandos
 searcheverywhere.found.matches.title:
-    text: Coincidencias de ''{0}'' en [{1}]
+    text: "Coincidencias de ''{0}'' en [{1}]"
 searcheverywhere.found.targets.title:
     text: Resultados sin ordenar
 searcheverywhere.history.shortcuts.hint:
     text: Presione {0} o {1} para navegar por el historial de búsqueda
 searcheverywhere.indexing.incomplete.results:
-    text: Los resultados de la búsqueda en ''{0}'' pueden estar incompletos, analizando el proyecto…
+    text: "Los resultados de la búsqueda en ''{0}'' pueden estar incompletos, analizando el proyecto…"
 searcheverywhere.indexing.mode.not.supported:
-    text: La búsqueda en ''{0}'' estará disponible una vez que finalice el análisis del proyecto
+    text: "La búsqueda en ''{0}'' estará disponible una vez que finalice el análisis del proyecto"
 searcheverywhere.nothing.found.for.all.anywhere:
     text: No se encontró nada
 searcheverywhere.nothing.found.for.contributor.anywhere:
@@ -1395,9 +1437,9 @@ searcheverywhere.nothing.found.for.contributor.anywhere:
 searcheverywhere.run.configs.tab.name:
     text: Configuraciones de ejecución
 searcheverywhere.runconfigurations.command.debug.description:
-    text: Iniciar la configuración de ejecución en modo 'Depuración'
+    text: "Iniciar la configuración de ejecución en modo 'Depuración'"
 searcheverywhere.runconfigurations.command.run.description:
-    text: Iniciar la configuración de ejecución en modo 'Ejecutar'
+    text: "Iniciar la configuración de ejecución en modo 'Ejecutar'"
 searcheverywhere.textfield.hint:
     text: Escriba {0} para ver los comandos
 select.in.favorites:
@@ -1645,10 +1687,18 @@ upgrade.packages.failed:
 upgrade.packages.failed.dialog.title:
     text: Error al actualizar paquetes
 warning.delete.all.files.and.subdirectories:
-    text: "\nSe eliminarán todos los archivos y subdirectorios de \"{0}\".\n¡Es posible que no se pueda deshacer esta operación por completo!"
+    text: |4-
+
+        Se eliminarán todos los archivos y subdirectorios de "{0}".
+        ¡Es posible que no se pueda deshacer esta operación por completo!
 warning.delete.all.files.and.subdirectories.in.the.selected.directory:
-    text: "\nSe eliminarán todos los archivos y subdirectorios del directorio o directorios seleccionados.\n¡Es posible que no pueda deshacer esta operación por completo!"
+    text: |4-
+
+        Se eliminarán todos los archivos y subdirectorios del directorio o directorios seleccionados.
+        ¡Es posible que no pueda deshacer esta operación por completo!
 warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
-    text: El archivo del módulo ''{0}'' ya existe.
+    text: "El archivo del módulo ''{0}'' ya existe."
 warning.text.0.do.you.want.to.overwrite.these.files:
-    text: "{0}\n¿Desea sobrescribir {1,choice,1#este archivo|2#estos archivos}?"
+    text: |-
+        {0}
+        ¿Desea sobrescribir {1,choice,1#este archivo|2#estos archivos}?

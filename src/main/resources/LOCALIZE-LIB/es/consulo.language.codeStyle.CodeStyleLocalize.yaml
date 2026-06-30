@@ -89,13 +89,13 @@ checkbox.line.comment.at.first.column:
 checkbox.spaces.additive.operators:
     text: Operadores aditivos (+, -)
 checkbox.spaces.after.colon:
-    text: Después de ':'
+    text: "Después de ':'"
 checkbox.spaces.after.comma:
     text: Después de la coma
 checkbox.spaces.after.question:
-    text: Después de '?'
+    text: "Después de '?'"
 checkbox.spaces.after.semicolon:
-    text: Después del punto y coma de 'for'
+    text: "Después del punto y coma de 'for'"
 checkbox.spaces.after.type.cast:
     text: Después de la conversión de tipo
 checkbox.spaces.annotation.array.initializer.left.brace:
@@ -115,23 +115,23 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: Operadores de asignación (=, +=, …)
 checkbox.spaces.before.colon:
-    text: Antes de ':'
+    text: "Antes de ':'"
 checkbox.spaces.before.comma:
     text: Antes de la coma
 checkbox.spaces.before.opening.angle.bracket:
     text: Antes del corchete angular de apertura
 checkbox.spaces.before.question:
-    text: Antes de '?'
+    text: "Antes de '?'"
 checkbox.spaces.before.semicolon:
-    text: Antes del punto y coma de 'for'
+    text: "Antes del punto y coma de 'for'"
 checkbox.spaces.bitwise.operators:
     text: Operadores de bits (&, |, ^)
 checkbox.spaces.catch.keyword:
-    text: Palabra clave 'catch'
+    text: "Palabra clave 'catch'"
 checkbox.spaces.catch.left.brace:
-    text: llave de apertura de 'catch'
+    text: "llave de apertura de 'catch'"
 checkbox.spaces.catch.parentheses:
-    text: paréntesis de 'catch'
+    text: "paréntesis de 'catch'"
 checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
     text: Paréntesis de llamada a método vacía
 checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
@@ -143,25 +143,25 @@ checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
 checkbox.spaces.class.left.brace:
     text: Llave izquierda de la clase
 checkbox.spaces.do.left.brace:
-    text: Llave de apertura de 'do'
+    text: "Llave de apertura de 'do'"
 checkbox.spaces.else.keyword:
-    text: palabra clave 'else'
+    text: "palabra clave 'else'"
 checkbox.spaces.else.left.brace:
-    text: '''else'' llave izquierda'
+    text: "'else' llave izquierda"
 checkbox.spaces.equality.operators:
     text: Operadores de igualdad (==, !=)
 checkbox.spaces.finally.keyword:
-    text: Palabra clave 'finally'
+    text: "Palabra clave 'finally'"
 checkbox.spaces.finally.left.brace:
-    text: Llave izquierda de 'finally'
+    text: "Llave izquierda de 'finally'"
 checkbox.spaces.for.left.brace:
-    text: llave de apertura de 'for'
+    text: "llave de apertura de 'for'"
 checkbox.spaces.for.parentheses:
-    text: paréntesis de 'for'
+    text: "paréntesis de 'for'"
 checkbox.spaces.if.left.brace:
-    text: Llave de apertura de 'if'
+    text: "Llave de apertura de 'if'"
 checkbox.spaces.if.parentheses:
-    text: Paréntesis de 'if'
+    text: "Paréntesis de 'if'"
 checkbox.spaces.logical.operators:
     text: Operadores lógicos (&&, ||)
 checkbox.spaces.method.call.parentheses:
@@ -177,25 +177,25 @@ checkbox.spaces.relational.operators:
 checkbox.spaces.shift.operators:
     text: Operadores de desplazamiento (<<, >>, >>>)
 checkbox.spaces.switch.left.brace:
-    text: '''switch'' llave de apertura'
+    text: "'switch' llave de apertura"
 checkbox.spaces.switch.parentheses:
-    text: paréntesis de 'switch'
+    text: "paréntesis de 'switch'"
 checkbox.spaces.synchronized.left.brace:
-    text: '''synchronized'' llave de apertura'
+    text: "'synchronized' llave de apertura"
 checkbox.spaces.synchronized.parentheses:
-    text: Paréntesis de 'synchronized'
+    text: "Paréntesis de 'synchronized'"
 checkbox.spaces.try.left.brace:
-    text: Llave de apertura de 'try'
+    text: "Llave de apertura de 'try'"
 checkbox.spaces.try.parentheses:
-    text: Paréntesis de 'try'
+    text: "Paréntesis de 'try'"
 checkbox.spaces.type.cast.parentheses:
     text: Paréntesis de conversión de tipo
 checkbox.spaces.while.keyword:
-    text: palabra clave 'while'
+    text: "palabra clave 'while'"
 checkbox.spaces.while.left.brace:
-    text: '''while'' llave izquierda'
+    text: "'while' llave izquierda"
 checkbox.spaces.while.parentheses:
-    text: paréntesis de 'while'
+    text: "paréntesis de 'while'"
 checkbox.spaces.within.array.initializer.braces:
     text: Llaves del inicializador de array
 checkbox.spaces.within.braces:
@@ -287,7 +287,7 @@ wrapping.align.parenthesised.when.multiline:
 wrapping.align.simple.methods.in.columns:
     text: Alinear métodos simples en columnas
 wrapping.align.throws.keyword:
-    text: Alinear 'throws' al inicio del método
+    text: "Alinear 'throws' al inicio del método"
 wrapping.align.variables.in.columns:
     text: Alinear variables en columnas
 wrapping.align.when.multiline:
@@ -323,9 +323,9 @@ wrapping.brace.placement.next.line.shifted:
 wrapping.brace.placement.other:
     text: Otro
 wrapping.case.statements.on.one.line:
-    text: Cada 'case' en una línea separada
+    text: "Cada 'case' en una línea separada"
 wrapping.catch.on.new.line:
-    text: '''catch'' en una nueva línea'
+    text: "'catch' en una nueva línea"
 wrapping.chained.method.call.first.on.new.line:
     text: Ajustar primera llamada
 wrapping.chained.method.calls:
@@ -335,7 +335,7 @@ wrapping.chop.down.if.long:
 wrapping.classes.annotation:
     text: Anotaciones de clase
 wrapping.colon.signs.on.next.line:
-    text: Signos ':' en la siguiente línea
+    text: "Signos ':' en la siguiente línea"
 wrapping.comments:
     text: Comentarios
 wrapping.comments.wrap.at.right.margin:
@@ -343,9 +343,9 @@ wrapping.comments.wrap.at.right.margin:
 wrapping.do.not.wrap:
     text: No ajustar línea
 wrapping.dowhile.statement:
-    text: sentencia 'do … while()'
+    text: "sentencia 'do … while()'"
 wrapping.else.on.new.line:
-    text: '''else'' en una nueva línea'
+    text: "'else' en una nueva línea"
 wrapping.enum.constants:
     text: Constantes de enumeración
 wrapping.extends.implements.keyword:
@@ -355,9 +355,9 @@ wrapping.extends.implements.list:
 wrapping.fields.annotation:
     text: Anotaciones de campo
 wrapping.finally.on.new.line:
-    text: '''finally'' en nueva línea'
+    text: "'finally' en nueva línea"
 wrapping.for.statement:
-    text: Sentencia 'for()'
+    text: "Sentencia 'for()'"
 wrapping.force.braces:
     text: Forzar llaves
 wrapping.force.braces.always:
@@ -367,11 +367,11 @@ wrapping.force.braces.do.not.force:
 wrapping.force.braces.when.multiline:
     text: Cuando es multilínea
 wrapping.if.statement:
-    text: Sentencia 'if()'
+    text: "Sentencia 'if()'"
 wrapping.indent.break.from.case:
-    text: Indentar 'break' desde 'case'
+    text: "Indentar 'break' desde 'case'"
 wrapping.indent.case.from.switch:
-    text: Indentar las ramas 'case'
+    text: "Indentar las ramas 'case'"
 wrapping.keep.comment.at.first.column:
     text: Comentario en la primera columna
 wrapping.keep.line.breaks:
@@ -403,23 +403,23 @@ wrapping.methods.annotation:
 wrapping.modifier.list:
     text: Lista de modificadores
 wrapping.new.line.after.lbrace:
-    text: Nueva línea después de '{'
+    text: "Nueva línea después de '{'"
 wrapping.new.line.after.lpar:
-    text: Nueva línea después de '('
+    text: "Nueva línea después de '('"
 wrapping.operation.sign.on.next.line:
     text: Signo de operación en la siguiente línea
 wrapping.parameters.annotation:
     text: Anotaciones de parámetros
 wrapping.quest.and.colon.signs.on.next.line:
-    text: Signos '?' y ':' en la siguiente línea
+    text: "Signos '?' y ':' en la siguiente línea"
 wrapping.rbrace.on.new.line:
-    text: Colocar '}' en una nueva línea
+    text: "Colocar '}' en una nueva línea"
 wrapping.rpar.on.new.line:
-    text: Colocar ')' en una nueva línea
+    text: "Colocar ')' en una nueva línea"
 wrapping.special.else.if.braces.treatment:
-    text: Tratamiento especial de 'else if'
+    text: "Tratamiento especial de 'else if'"
 wrapping.switch.statement:
-    text: sentencia 'switch'
+    text: "sentencia 'switch'"
 wrapping.take.priority.over.call.chain.wrapping:
     text: Tener prioridad sobre el ajuste de línea de la cadena de llamadas
 wrapping.ternary.operation:
@@ -427,13 +427,13 @@ wrapping.ternary.operation:
 wrapping.throws.keyword:
     text: Palabra clave throws
 wrapping.throws.list:
-    text: Lista de 'throws'
+    text: "Lista de 'throws'"
 wrapping.try.statement:
-    text: Sentencia 'try'
+    text: "Sentencia 'try'"
 wrapping.while.on.new.line:
-    text: '''while'' en una nueva línea'
+    text: "'while' en una nueva línea"
 wrapping.while.statement:
-    text: Sentencia 'while()'
+    text: "Sentencia 'while()'"
 wrapping.wrap.always:
     text: Ajustar siempre
 wrapping.wrap.if.long:

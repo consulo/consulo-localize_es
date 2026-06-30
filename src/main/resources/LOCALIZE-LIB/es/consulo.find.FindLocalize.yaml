@@ -35,7 +35,7 @@ find.empty.search.text.error:
 find.excessive.total.size.prompt:
     text: Se han encontrado coincidencias en archivos con un tamaño total de {0}. {1} podría dejar de responder o incluso fallar con un error OutOfMemoryError si continúa. ¿Desea continuar?
 find.field.accessors.prompt:
-    text: ¿Buscar accesores del campo ''{0}''?
+    text: "¿Buscar accesores del campo ''{0}''?"
 find.field.accessors.title:
     text: Buscar descriptores de acceso
 find.filter.empty.file.mask.error:
@@ -55,7 +55,9 @@ find.invalid.regular.expression.error:
 find.new.line:
     text: Nueva línea
 find.no.usages.at.cursor.error:
-    text: "No se pueden buscar usos desde esta ubicación.\nColoque el cursor sobre el elemento para el que desea buscar usos e inténtelo de nuevo."
+    text: |-
+        No se pueden buscar usos desde esta ubicación.
+        Coloque el cursor sobre el elemento para el que desea buscar usos e inténtelo de nuevo.
 find.open.in.new.tab.action:
     text: Abrir resultados en una nueva pestaña (&B)
 find.open.in.new.tab.checkbox:
@@ -69,7 +71,7 @@ find.options.search.for.text.occurrences.checkbox:
 find.options.skip.results.tab.with.one.usage.checkbox:
     text: Omitir pestaña de resultados con un solo uso (&K)
 find.parameter.usages.in.overriding.methods.prompt:
-    text: ¿Desea buscar usos del parámetro ''{0}'' en los métodos de sobrescritura?
+    text: "¿Desea buscar usos del parámetro ''{0}'' en los métodos de sobrescritura?"
 find.pointcut.applications.not.found.title:
     text: Información
 find.popup.case.sensitive:
@@ -105,7 +107,7 @@ find.replace.accessible.name:
 find.replace.all.action:
     text: Reempl&azar todo
 find.replace.all.confirmation:
-    text: <html><body>¿Reemplazar {0} apariciones de ''{1}''<br>en {2} archivos por ''{3}''?
+    text: "<html><body>¿Reemplazar {0} apariciones de ''{1}''<br>en {2} archivos por ''{3}''?"
 find.replace.all.confirmation.title:
     text: Reemplazar todo
 find.replace.command:
@@ -131,11 +133,11 @@ find.scope.directory.recursive.checkbox:
 find.scope.directory.title:
     text: Directorio {0}
 find.scope.files.with.mask:
-    text: con la máscara ''{0}''
+    text: "con la máscara ''{0}''"
 find.scope.label:
     text: '&Ámbito:'
 find.scope.module.title:
-    text: Módulo ''{0}''
+    text: "Módulo ''{0}''"
 find.scope.project.title:
     text: Proyecto
 find.search.accessible.name:
@@ -153,13 +155,15 @@ find.search.history:
 find.search.string.not.found.message:
     text: No se encontró "{0}"
 find.searched.elements.have.been.changed.error:
-    text: "Los elementos buscados han cambiado.\nNo se pueden buscar los usos."
+    text: |-
+        Los elementos buscados han cambiado.
+        No se pueden buscar los usos.
 find.searching.for.references.to.class.progress:
     text: Buscando referencias a la clase {0}…
 find.searching.for.string.in.file.occurrences.progress:
     text: '{0,choice,0#No se han encontrado|1#{0}} {0,choice,0#coincidencias|1#coincidencia|2#coincidencias} hasta ahora'
 find.searching.for.string.in.file.progress:
-    text: Buscando ''{0}'' en {1}…
+    text: "Buscando ''{0}'' en {1}…"
 find.selection.only:
     text: Buscar en la selección
 find.super.method.warning.action.verb:
@@ -169,9 +173,9 @@ find.text.dialog.title:
 find.usage.view.no.usages.text:
     text: No se encontraron usos
 find.usage.view.tab.text:
-    text: Ocurrencias de ''{0}''{1}
+    text: "Ocurrencias de ''{0}''{1}"
 find.usage.view.toolwindow.title:
-    text: Coincidencias de ''{0}'' en {1}{2}
+    text: "Coincidencias de ''{0}'' en {1}{2}"
 find.usages.ambiguous.title:
     text: Buscar usos de
 find.usages.dialog.title:
@@ -239,7 +243,7 @@ message.nothingFound.used.options:
 notification.content.one.or.more.malformed.replacement.strings:
     text: Una o más cadenas de reemplazo tienen un formato incorrecto
 notification.find.usages.is.not.available.during.indexing:
-    text: '''Buscar usos'' estará disponible una vez que finalice el análisis del proyecto'
+    text: "'Buscar usos' estará disponible una vez que finalice el análisis del proyecto"
 notification.title.regular.expression.failed.to.match:
     text: La expresión regular no coincidió
 occurrence:
@@ -255,7 +259,7 @@ progress.title.updating.usage.view:
 recent.find.usages.action.nothing:
     text: No hay entradas recientes de búsqueda de usos
 recent.find.usages.action.popup:
-    text: '{0} ''''{1}'''' en {2}'
+    text: "{0} ''{1}'' en {2}"
 recent.find.usages.action.title:
     text: Búsquedas de usos recientes
 se.text.header.action.all.filetypes:

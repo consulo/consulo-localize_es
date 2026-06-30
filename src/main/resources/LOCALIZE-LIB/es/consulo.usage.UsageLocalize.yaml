@@ -63,7 +63,7 @@ message.part.number.of.unloaded.modules:
 message.part.small.number.of.unloaded.modules:
     text: '{0} módulos descargados: {1}'
 message.part.unloaded.module.0:
-    text: módulo ''{0}'' descargado
+    text: "módulo ''{0}'' descargado"
 message.usage.search.was.canceled:
     text: Se canceló la búsqueda de usos
 no.usages.found.in:
@@ -101,9 +101,11 @@ references.to.be.changed:
 select.the.usage.to.preview:
     text: Seleccionar elemento para previsualizar
 several.occurrences.selected:
-    text: "Se seleccionaron varios archivos.\nSeleccione las coincidencias de un archivo para previsualizarlas."
+    text: |-
+        Se seleccionaron varios archivos.
+        Seleccione las coincidencias de un archivo para previsualizarlas.
 show.usages.advertisement:
-    text: Presione {0} de nuevo para buscar en ''{1}''
+    text: "Presione {0} de nuevo para buscar en ''{1}''"
 show.usages.only.usage:
     text: Es el único uso en {0}
 sort.alphabetically.action.text:

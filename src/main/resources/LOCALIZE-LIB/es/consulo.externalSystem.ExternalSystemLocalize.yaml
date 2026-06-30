@@ -13,23 +13,26 @@ error.project.already.registered:
 error.project.undefined:
     text: No se ha definido ningún archivo de configuración de proyecto externo
 error.resolve.already.running:
-    text: 'Ya se está ejecutando otra tarea de ''''Sincronizar proyecto'''' para el proyecto: {0}'
+    text: "Ya se está ejecutando otra tarea de ''Sincronizar proyecto'' para el proyecto: {0}"
 error.resolve.generic:
     text: Error de resolución
 error.resolve.with.reason:
-    text: "{0}\n\nConsulte el registro del IDE para obtener más detalles (Ayuda | Mostrar registro)"
+    text: |-
+        {0}
+
+        Consulte el registro del IDE para obtener más detalles (Ayuda | Mostrar registro)
 module.type.description:
     text: Los módulos {0} se utilizan para desarrollar aplicaciones <b>basadas en la JVM</b> con dependencias gestionadas por <b>{0}</b>
 notification.messages.project.sync.tab.name:
     text: Sincronización de {0}
 notification.project.refresh.fail.title:
-    text: Falló la sincronización del proyecto {0} ''{1}''
+    text: "Falló la sincronización del proyecto {0} ''{1}''"
 orphan.modules.text:
     text: Los siguientes módulos de IDE se eliminaron mediante la sincronización del proyecto {0}:<p>{1}</p><br/>Puede <a href="#">abrir un cuadro de diálogo</a> para seleccionar los que desee restaurar.
 progress.import.text:
-    text: Construyendo información del proyecto ''{0}'' {1}
+    text: "Construyendo información del proyecto ''{0}'' {1}"
 progress.refresh.text:
-    text: Importando el proyecto {1} ''{0}''
+    text: "Importando el proyecto {1} ''{0}''"
 run.configuration.description:
     text: Aplicación Quarkus
 run.configuration.settings.label.project:
@@ -57,7 +60,7 @@ settings.label.select.project:
 settings.title.system.settings:
     text: Configuración general
 tasks.before.run:
-    text: Ejecutar tarea {0} ''{1}''
+    text: "Ejecutar tarea {0} ''{1}''"
 tasks.before.run.empty:
     text: Ejecutar tarea {0}
 tasks.edit.task.title:

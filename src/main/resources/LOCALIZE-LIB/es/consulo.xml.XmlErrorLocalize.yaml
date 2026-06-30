@@ -19,19 +19,19 @@ dtd.parser.message.whitespace.expected:
 element.is.not.closed:
     text: El elemento no está cerrado
 expected.attribute.eq.sign:
-    text: Se esperaba el signo '='
+    text: "Se esperaba el signo '='"
 jsp.directive.end.expected:
     text: Se esperaba el fin de la directiva
 quote.expected:
     text: Se esperaba una comilla
 rename.end.tag.name.intention:
-    text: Renombrar la etiqueta de cierre ''{0}'' a ''{1}''
+    text: "Renombrar la etiqueta de cierre ''{0}'' a ''{1}''"
 rename.start.tag.name.intention:
-    text: Renombrar la etiqueta de inicio ''{0}'' a ''{1}''
+    text: "Renombrar la etiqueta de inicio ''{0}'' a ''{1}''"
 tag.has.wrong.closing.tag.name:
     text: La etiqueta de inicio tiene una etiqueta de cierre incorrecta
 unknown.encoding.0:
-    text: 'Codificación desconocida: ''''{0}'''''
+    text: "Codificación desconocida: ''{0}''"
 xml.parsing.absent.root.tag:
     text: Un documento XML válido debe tener una etiqueta raíz
 xml.parsing.attribute.value.expected:
@@ -63,8 +63,8 @@ xml.parsing.unterminated.processing.instruction:
 xml.schema.validation.attr.not.allowed.with.ref:
     text: El atributo {0} no está permitido aquí cuando se utiliza una referencia de elemento
 xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
-    text: los atributos 'default' y 'fixed' no deben estar presentes al mismo tiempo
+    text: "los atributos 'default' y 'fixed' no deben estar presentes al mismo tiempo"
 xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
     text: El valor de maxOccurs debe ser mayor que el valor de minOccurs
 xml.schema.validation.name.or.ref.should.present:
-    text: Debe estar presente el atributo 'name' o 'ref'
+    text: "Debe estar presente el atributo 'name' o 'ref'"

@@ -11,13 +11,13 @@
 adapter.to.listener.intention.family.name:
     text: Reemplazar la extensión del adaptador por una implementación de listener
 adapter.to.listener.intention.name:
-    text: Reemplazar la extensión de ''{0}'' por la implementación de ''Listener''
+    text: "Reemplazar la extensión de ''{0}'' por la implementación de ''Listener''"
 annotate.overridden.methods.intention.family.name:
     text: Anotar los métodos de sobrescritura y sus parámetros
 annotate.overridden.methods.intention.method.name:
-    text: Anotar los métodos que sobrescriben como ''{0}''
+    text: "Anotar los métodos que sobrescriben como ''{0}''"
 annotate.overridden.methods.intention.parameters.name:
-    text: Anotar el mismo parámetro de los métodos que sobrescriben como ''{0}''
+    text: "Anotar el mismo parámetro de los métodos que sobrescriben como ''{0}''"
 change.to.c.style.comment.intention.family.name:
     text: Reemplazar con comentario de bloque
 change.to.c.style.comment.intention.name:
@@ -29,19 +29,19 @@ change.to.end.of.line.comment.intention.name:
 change.variable.type.to.rhs.type.intention.family.name:
     text: Cambiar el tipo de variable al tipo del inicializador
 change.variable.type.to.rhs.type.intention.name:
-    text: Declarar ''{0}'' con el tipo ''{1}''
+    text: "Declarar ''{0}'' con el tipo ''{1}''"
 char.to.string.intention.family.name:
     text: Reemplazar char por string
 char.to.string.intention.name:
     text: Reemplazar literal de carácter por cadena
 constant.expression.intention.name:
-    text: Calcular el valor constante de ''{0}''
+    text: "Calcular el valor constante de ''{0}''"
 constant.subexpression.intention.family.name:
     text: Calcular el valor constante de la subexpresión
 convert.catch.to.throws.intention.family.name:
     text: Reemplazar la sección catch por una declaración throws
 convert.catch.to.throws.intention.name:
-    text: Reemplazar la sección 'catch' por la declaración 'throws'
+    text: "Reemplazar la sección 'catch' por la declaración 'throws'"
 convert.integer.to.binary.intention.family.name:
     text: Convertir a binario
 convert.integer.to.binary.intention.name:
@@ -61,11 +61,11 @@ convert.integer.to.octal.intention.name:
 convert.interface.to.class.intention.family.name:
     text: Convertir interfaz en clase
 convert.interface.to.class.intention.name:
-    text: Convertir a 'class'
+    text: "Convertir a 'class'"
 convert.to.nested.if.intention.family.name:
     text: Expandir booleano a múltiples ifs
 convert.to.nested.if.intention.name:
-    text: Convertir en múltiples 'if'
+    text: "Convertir en múltiples 'if'"
 copy.concatenated.string.to.clipboard.intention.family.name:
     text: Copiar el texto de concatenación de cadenas al portapapeles
 copy.concatenated.string.to.clipboard.intention.name:
@@ -77,9 +77,9 @@ create.assert.intention.name:
 demorgans.intention.family.name:
     text: Leyes de De Morgan
 demorgans.intention.name1:
-    text: Reemplazar '&&' por '||'
+    text: "Reemplazar '&&' por '||'"
 demorgans.intention.name2:
-    text: Reemplazar '||' por '&&'
+    text: "Reemplazar '||' por '&&'"
 detail.exceptions.intention.family.name:
     text: Detalle de excepciones
 detail.exceptions.intention.name:
@@ -89,27 +89,27 @@ expand.boolean.intention.family.name:
 extract.increment.intention.family.name:
     text: Extraer incremento
 extract.increment.intention.name:
-    text: Extraer ''{0}''
+    text: "Extraer ''{0}''"
 extract.while.loop.condition.to.if.statement.intention.family.name:
     text: Extraer la condición del bucle while a una sentencia if interna
 extract.while.loop.condition.to.if.statement.intention.name:
-    text: Extraer condición a una sentencia 'if' interna
+    text: "Extraer condición a una sentencia 'if' interna"
 flip.assert.literal.intention.family.name:
     text: Invertir literal de aserción
 flip.commutative.method.call.intention.family.name:
     text: Invertir llamada a método conmutativo
 flip.commutative.method.call.intention.name:
-    text: Invertir ''.{0}()''
+    text: "Invertir ''.{0}()''"
 flip.commutative.method.call.intention.name1:
-    text: Invertir ''.{0}()'' (puede cambiar la semántica)
+    text: "Invertir ''.{0}()'' (puede cambiar la semántica)"
 flip.comparison.intention.family.name:
     text: Invertir comparación
 flip.comparison.intention.name:
-    text: Invertir ''{0}'' a ''{1}''
+    text: "Invertir ''{0}'' a ''{1}''"
 flip.conditional.intention.family.name:
     text: Invertir condicional
 flip.conditional.intention.name:
-    text: Invertir '?:'
+    text: "Invertir '?:'"
 flip.conjunction.intention.family.name:
     text: Intercambiar operandos de conjunción
 flip.expression.intention.family.name:
@@ -117,9 +117,9 @@ flip.expression.intention.family.name:
 flip.setter.call.intention.family.name:
     text: Invertir llamada al setter
 flip.smth.intention.name:
-    text: Invertir ''{0}''
+    text: "Invertir ''{0}''"
 flip.smth.intention.name1:
-    text: Invertir ''{0}'' (cambia la semántica)
+    text: "Invertir ''{0}'' (cambia la semántica)"
 intention.category.annotations:
     text: Java/Anotaciones
 intention.category.comments:
@@ -153,23 +153,23 @@ merge.call.sequence.to.chain.intention.name:
 merge.else.if.intention.family.name:
     text: Combinar else if
 merge.else.if.intention.name:
-    text: Fusionar 'else if'
+    text: "Fusionar 'else if'"
 merge.if.and.intention.family.name:
-    text: Fusionar sentencias 'if' anidadas
+    text: "Fusionar sentencias 'if' anidadas"
 merge.if.and.intention.name:
-    text: Fusionar sentencias 'if' anidadas
+    text: "Fusionar sentencias 'if' anidadas"
 merge.if.or.intention.family.name:
-    text: Combinar sentencias 'if' secuenciales
+    text: "Combinar sentencias 'if' secuenciales"
 merge.if.or.intention.name:
-    text: Fusionar sentencias 'if' secuenciales
+    text: "Fusionar sentencias 'if' secuenciales"
 merge.nested.try.statements.intention.family.name:
     text: Fusionar sentencias try anidadas
 merge.nested.try.statements.intention.name:
-    text: Combinar sentencias 'try' anidadas
+    text: "Combinar sentencias 'try' anidadas"
 merge.parallel.ifs.intention.family.name:
     text: Combinar ifs paralelos
 merge.parallel.ifs.intention.name:
-    text: Combinar 'if's
+    text: "Combinar 'if's"
 move.comment.to.separate.line.intention.family.name:
     text: Mover comentario a una línea aparte
 move.comment.to.separate.line.intention.name:
@@ -177,9 +177,9 @@ move.comment.to.separate.line.intention.name:
 negate.comparison.intention.family.name:
     text: Negar comparación
 negate.comparison.intention.name:
-    text: Negar ''{0}''
+    text: "Negar ''{0}''"
 negate.comparison.intention.name1:
-    text: Negar ''{0}'' a ''{1}''
+    text: "Negar ''{0}'' a ''{1}''"
 obscure.thrown.exceptions.intention.family.name:
     text: Reemplazar las excepciones en la cláusula throws con una sola excepción más general
 press.escape.to.remove.highlighting.message:
@@ -187,43 +187,43 @@ press.escape.to.remove.highlighting.message:
 replace.arm.with.try.finally.intention.family.name:
     text: Reemplazar try-with-resources por try-finally
 replace.arm.with.try.finally.intention.name:
-    text: Reemplazar 'try-with-resources' por 'try finally'
+    text: "Reemplazar 'try-with-resources' por 'try finally'"
 replace.assert.literal.with.assert.equals.intention.family.name:
     text: Reemplazar assertTrue, assertFalse o assertNull por assertEquals
 replace.assert.literal.with.assert.equals.intention.name:
-    text: Reemplazar ''{0}()'' por ''assertEquals({1}, …)''
+    text: "Reemplazar ''{0}()'' por ''assertEquals({1}, …)''"
 replace.assert.literal.with.assert.equals.intention.name1:
-    text: Reemplazar ''{0}()'' por ''assertEquals(…, {1}, …)''
+    text: "Reemplazar ''{0}()'' por ''assertEquals(…, {1}, …)''"
 replace.assert.literal.with.assert.equals.intention.name2:
-    text: Reemplazar ''{0}()'' por ''assertEquals()''
+    text: "Reemplazar ''{0}()'' por ''assertEquals()''"
 replace.assignment.with.postfix.expression.intention.family.name:
     text: Reemplazar asignación con expresión postfija
 replace.concatenation.with.format.string.intention.family.name:
     text: Reemplazar la concatenación de cadenas con String.format()
 replace.concatenation.with.format.string.intention.name:
-    text: Reemplazar '+' por 'String.format()'
+    text: "Reemplazar '+' por 'String.format()'"
 replace.concatenation.with.string.buffer.intention.family.name:
     text: Reemplazar + por StringBuilder.append()
 replace.concatenation.with.string.buffer.intention.name:
-    text: Reemplazar '+' por 'StringBuffer.append()'
+    text: "Reemplazar '+' por 'StringBuffer.append()'"
 replace.concatenation.with.string.builder.intention.name:
-    text: Reemplazar '+' por 'StringBuilder.append()'
+    text: "Reemplazar '+' por 'StringBuilder.append()'"
 replace.do.while.loop.with.while.loop.intention.family.name:
     text: Reemplazar bucle do-while por bucle while
 replace.do.while.loop.with.while.loop.intention.name:
-    text: Reemplazar el bucle 'do while' por un bucle 'while'
+    text: "Reemplazar el bucle 'do while' por un bucle 'while'"
 replace.for.each.loop.with.indexed.for.loop.intention.family.name:
     text: Reemplazar bucle for-each por un bucle for indexado
 replace.for.each.loop.with.indexed.for.loop.intention.name:
-    text: Reemplazar el bucle for-each por un bucle 'for' indexado
+    text: "Reemplazar el bucle for-each por un bucle 'for' indexado"
 replace.for.each.loop.with.iterator.for.loop.intention.family.name:
     text: Reemplazar el bucle for-each con un bucle for con iterador
 replace.for.each.loop.with.iterator.for.loop.intention.name:
-    text: Reemplazar el bucle for-each por un bucle 'for' con iterador
+    text: "Reemplazar el bucle for-each por un bucle 'for' con iterador"
 replace.for.each.loop.with.optimized.indexed.for.loop.intention.family.name:
     text: Reemplazar bucle for-each por un bucle for indexado optimizado
 replace.for.each.loop.with.optimized.indexed.for.loop.intention.name:
-    text: Reemplazar el bucle for-each con un bucle 'for' indexado optimizado
+    text: "Reemplazar el bucle for-each con un bucle 'for' indexado optimizado"
 replace.multiply.with.shift.intention.family.name:
     text: Reemplazar multiplicación por desplazamiento
 replace.on.demand.import.intention.family.name:
@@ -243,7 +243,7 @@ replace.shift.with.multiply.intention.family.name:
 replace.switch.with.if.intention.family.name:
     text: Reemplazar switch por if
 replace.switch.with.if.intention.name:
-    text: Reemplazar 'switch' por 'if'
+    text: "Reemplazar 'switch' por 'if'"
 reverse.for.loop.direction.intention.family.name:
     text: Invertir la dirección del bucle for
 reverse.for.loop.direction.intention.name:
@@ -255,7 +255,7 @@ split.declaration.and.initialization.intention.name:
 split.else.if.intention.family.name:
     text: Dividir else if
 split.else.if.intention.name:
-    text: Dividir 'else if'
+    text: "Dividir 'else if'"
 wrap.vararg.arguments.with.explicit.array.intention.family.name:
     text: Envolver los argumentos vararg con la creación explícita de un array
 wrap.vararg.arguments.with.explicit.array.intention.name:

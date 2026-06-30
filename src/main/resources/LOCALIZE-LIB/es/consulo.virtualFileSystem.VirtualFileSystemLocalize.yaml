@@ -1,25 +1,25 @@
 cannot.create.local.file:
     text: 'No se puede crear el archivo local: {0}'
 cannot.delete.root.directory:
-    text: No se puede eliminar el directorio raíz ''{0}''
+    text: "No se puede eliminar el directorio raíz ''{0}''"
 cannot.load.remote.file:
-    text: 'No se puede cargar ''''{0}'''': {1}'
+    text: "No se puede cargar ''{0}'': {1}"
 cannot.rename.root.directory:
-    text: No se puede renombrar el directorio raíz ''{0}''
+    text: "No se puede renombrar el directorio raíz ''{0}''"
 dialog.title.clear.read.only.file.status:
     text: Quitar el estado de solo lectura
 dir.already.exists.error:
-    text: El directorio ''{0}'' ya existe.
+    text: "El directorio ''{0}'' ya existe."
 directory.create.wrong.parent.error:
     text: No es un directorio. No se puede crear un nuevo directorio dentro.
 directory.invalid.name.error:
-    text: 'Nombre de directorio no válido: ''''{0}'''''
+    text: "Nombre de directorio no válido: ''{0}''"
 download.progress.connecting:
-    text: Conectando a ''{0}''…
+    text: "Conectando a ''{0}''…"
 download.progress.downloading:
-    text: Descargando ''{0}''…
+    text: "Descargando ''{0}''…"
 file.already.exists.error:
-    text: El archivo ''{0}'' ya existe.
+    text: "El archivo ''{0}'' ya existe."
 file.copy.error:
     text: No se puede copiar el archivo a {0}
 file.copy.target.must.be.directory:
@@ -31,7 +31,7 @@ file.create.wrong.parent.error:
 file.delete.root.error:
     text: No se puede eliminar el archivo raíz {0}.
 file.invalid.name.error:
-    text: 'Nombre de archivo no válido: ''''{0}'''''
+    text: "Nombre de archivo no válido: ''{0}''"
 file.move.error:
     text: No se puede mover el archivo a {0}
 file.read.error:
@@ -53,8 +53,8 @@ url.parse.error:
 url.parse.unhandled.exception:
     text: No se pudo analizar la URL, se produjo una excepción no controlada
 vfs.file.not.exist.error:
-    text: '''''{0}'''' no existe en VFS'
+    text: "''{0}'' no existe en VFS"
 vfs.target.already.exists.error:
-    text: '''''{0}'''' ya existe en el VFS'
+    text: "''{0}'' ya existe en el VFS"
 vfs.target.not.directory.error:
-    text: '''''{0}'''' no es un directorio en VFS'
+    text: "''{0}'' no es un directorio en VFS"

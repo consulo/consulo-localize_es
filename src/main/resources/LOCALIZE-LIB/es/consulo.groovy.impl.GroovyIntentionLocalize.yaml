@@ -93,17 +93,17 @@ create.parameter.for.field.intention.family.name:
 create.parameter.for.field.intention.name:
     text: Añadir parámetro al constructor para el campo
 demorgans.intention.name1:
-    text: Reemplazar '&&' por '||'
+    text: "Reemplazar '&&' por '||'"
 demorgans.intention.name2:
-    text: Reemplazar '||' por '&&'
+    text: "Reemplazar '||' por '&&'"
 demorgans.law.intention.family.name:
     text: Leyes de De Morgan
 do.you.want.to.change.method.return.type:
-    text: ¿Desea cambiar el tipo de retorno del método ''{0}''?
+    text: "¿Desea cambiar el tipo de retorno del método ''{0}''?"
 do.you.want.to.change.type.of.parameter.in.method:
-    text: ¿Desea cambiar el tipo del parámetro ''{0}'' en el método ''{1}''?
+    text: "¿Desea cambiar el tipo del parámetro ''{0}'' en el método ''{1}''?"
 do.you.want.to.change.variable.type:
-    text: ¿Desea cambiar el tipo de ''{0}''?
+    text: "¿Desea cambiar el tipo de ''{0}''?"
 each.to.for.intention.family.name:
     text: Reemplazar each por for-in
 each.to.for.intention.name:
@@ -115,7 +115,7 @@ field.already.exists:
 field.is.used.in.argument.label:
     text: El campo <b>{0}</b> se utiliza en la etiqueta del argumento
 flip.comparison.intention.name:
-    text: Invertir ''{0}'' a ''{1}''
+    text: "Invertir ''{0}'' a ''{1}''"
 flip.conditional.intention.family.name:
     text: Invertir condicional
 flip.conjunction.intention.family.name:
@@ -125,7 +125,7 @@ flip.if.intention.family.name:
 flip.if.intention.name:
     text: Invertir sentencias if
 flip.smth.intention.name:
-    text: Invertir ''{0}''
+    text: "Invertir ''{0}''"
 for.to.each.intention.family.name:
     text: Reemplazar for-in con each
 for.to.each.intention.name:
@@ -149,25 +149,25 @@ gr.convert.type.cast.to.safe.cast.intention.name:
 gr.copy.string.concatenation.content.intention.family.name:
     text: Copiar el texto de la concatenación de cadenas al portapapeles
 gr.create.missing.switch.branches.intention.family.name:
-    text: Crear las ramas de 'switch' faltantes
+    text: "Crear las ramas de 'switch' faltantes"
 gr.create.missing.switch.branches.intention.name:
-    text: Crear las ramas 'switch' que faltan
+    text: "Crear las ramas 'switch' que faltan"
 gr.introduce.local.variable.intention.family.name:
     text: Introducir variable local
 gr.introduce.local.variable.intention.name:
     text: Introducir variable local
 gr.make.member.private.intention.family.name:
-    text: Hacer 'private'
+    text: "Hacer 'private'"
 gr.make.member.private.intention.name:
-    text: Hacer 'private'
+    text: "Hacer 'private'"
 gr.make.member.protected.intention.family.name:
-    text: Hacer 'protected'
+    text: "Hacer 'protected'"
 gr.make.member.protected.intention.name:
-    text: Hacer 'protected'
+    text: "Hacer 'protected'"
 gr.make.member.public.intention.family.name:
-    text: Hacer 'public'
+    text: "Hacer 'public'"
 gr.make.member.public.intention.name:
-    text: Hacer 'public'
+    text: "Hacer 'public'"
 gr.remove.annotation.intention.name:
     text: Eliminar
 gr.set.strong.type.intention.family.name:
@@ -207,9 +207,9 @@ intention.category.groovy.other:
 intention.category.groovy.style:
     text: Groovy/Estilo Groovy
 invert.if.intention.family.name:
-    text: Invertir la condición 'if'
+    text: "Invertir la condición 'if'"
 invert.if.intention.name:
-    text: Invertir la condición 'if'
+    text: "Invertir la condición 'if'"
 java.style.properties.invocation.intention.family.name:
     text: Cambiar invocación de accesor estilo Java a referencia de propiedad estilo Groovy
 java.style.properties.invocation.intention.name:
@@ -227,7 +227,7 @@ map.param.name:
 merge.else.if.intention.family.name:
     text: Combinar else if
 merge.if.and.intention.family.name:
-    text: Fusionar sentencias 'if' anidadas
+    text: "Fusionar sentencias 'if' anidadas"
 method.is.used.outside.of.groovy:
     text: El método se utiliza fuera de Groovy
 method.with.signature.already.exists:
@@ -237,7 +237,7 @@ move.class.to.new.file.intention.family.name:
 move.class.to.new.file.intention.name:
     text: Mover a un archivo separado
 move.to.correct.dir:
-    text: Mover al paquete ''{0}''
+    text: "Mover al paquete ''{0}''"
 move.to.correct.dir.family.name:
     text: Mover archivo al paquete correcto
 negate.comparison.intention.family.name:
@@ -249,7 +249,7 @@ remove.catch.block:
 remove.exception:
     text: Eliminar excepción
 remove.parameter.0:
-    text: Eliminar el parámetro ''{0}''
+    text: "Eliminar el parámetro ''{0}''"
 remove.parentheses.from.method.call.intention.family.name:
     text: Eliminar paréntesis innecesarios de la llamada al método
 remove.parentheses.from.method.call.intention.name:
@@ -267,13 +267,13 @@ remove.unnecessary.escape.characters.intention.family.name:
 remove.unnecessary.escape.characters.intention.name:
     text: Eliminar caracteres de escape innecesarios
 remove.unnecessary.return.intention.family.name:
-    text: Eliminar la palabra clave 'return' innecesaria
+    text: "Eliminar la palabra clave 'return' innecesaria"
 remove.unnecessary.return.intention.name:
-    text: Eliminar la palabra clave 'return'
+    text: "Eliminar la palabra clave 'return'"
 remove.unused.parameter:
     text: Eliminar parámetro no utilizado
 rename.file.to.0:
-    text: Renombrar archivo a ''{0}''
+    text: "Renombrar archivo a ''{0}''"
 rename.file.with.class.intention.family.name:
     text: Renombrar el archivo al nombre de clase correspondiente
 rename.file.with.class.intention.name:
@@ -293,11 +293,11 @@ replace.qualified.reference.with.import.intention.family.name:
 replace.qualified.reference.with.import.intention.name:
     text: Reemplazar con importación
 replace.ternary.with.if.else.intention.family.name:
-    text: Reemplazar '?:' por if else
+    text: "Reemplazar '?:' por if else"
 replace.ternary.with.if.else.intention.name:
-    text: Reemplazar '?:' con if else
+    text: "Reemplazar '?:' con if else"
 replace.with.wrapper:
-    text: Reemplazar con ''{0}''
+    text: "Reemplazar con ''{0}''"
 simplify.ternary.operator.intention.family.name:
     text: Simplificar expresión condicional
 simplify.ternary.operator.intention.name:
@@ -305,9 +305,9 @@ simplify.ternary.operator.intention.name:
 split.else.if.intention.family.name:
     text: Dividir else if
 split.if.intention.family.name:
-    text: Dividir en 2 sentencias 'if'
+    text: "Dividir en 2 sentencias 'if'"
 split.if.intention.name:
-    text: Dividir en 2 sentencias 'if'
+    text: "Dividir en 2 sentencias 'if'"
 split.into.declaration.and.assignment:
     text: Dividir en declaración y asignación
 split.into.separate.declaration:

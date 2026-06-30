@@ -31,11 +31,11 @@ build.artifacts.before.run.description.empty:
 build.artifacts.before.run.description.multiple:
     text: Compilar {0} artefactos
 build.artifacts.before.run.description.single:
-    text: Compilar el artefacto ''{0}''
+    text: "Compilar el artefacto ''{0}''"
 build.artifacts.before.run.selector.title:
     text: Seleccionar artefactos
 chooser.description.select.output.directory.for.0.artifact:
-    text: Seleccione el directorio de salida para el artefacto ''{0}''
+    text: "Seleccione el directorio de salida para el artefacto ''{0}''"
 classes.up.to.date.check:
     text: Comprobación de clases actualizadas
 compiler.configurable.display.name:
@@ -49,11 +49,13 @@ compiler.results.export.text.prefix:
 compiler.running.dialog.title:
     text: Compilador en ejecución
 dialog.message.output.dir.artifact:
-    text: artefacto ''{0}'' (''{1}'')
+    text: "artefacto ''{0}'' (''{1}'')"
 dialog.message.output.dir.contains.source.roots:
-    text: El directorio de salida ''{0}'' del artefacto ''{1}'' contiene raíces de código fuente del proyecto. ¿Desea continuar y limpiarlo?
+    text: "El directorio de salida ''{0}'' del artefacto ''{1}'' contiene raíces de código fuente del proyecto. ¿Desea continuar y limpiarlo?"
 dialog.message.output.dirs.contain.source.roots:
-    text: "Los directorios de salida de los siguientes artefactos contienen raíces de código fuente:\n{0}¿Desea continuar y limpiar estos directorios?"
+    text: |-
+        Los directorios de salida de los siguientes artefactos contienen raíces de código fuente:
+        {0}¿Desea continuar y limpiar estos directorios?
 dialog.title.choose.artifacts:
     text: Seleccionar artefactos
 dialog.title.output.directory.for.artifact:
@@ -71,15 +73,25 @@ element.type.name.module.test.output:
 error.bad.resource.patterns:
     text: Los siguientes patrones de recursos tienen un formato incorrecto:{0}
 error.chunk.modules.must.have.same.jdk:
-    text: "Los siguientes módulos deben tener asignado el mismo JDK debido a las dependencias cíclicas entre ellos:\n{0}\nPor favor, actualice la configuración de los módulos."
+    text: |-
+        Los siguientes módulos deben tener asignado el mismo JDK debido a las dependencias cíclicas entre ellos:
+        {0}
+        Por favor, actualice la configuración de los módulos.
 error.chunk.modules.must.have.same.language.level:
-    text: "Los siguientes módulos deben tener asignado el mismo nivel de lenguaje debido a dependencias cíclicas entre ellos:\n{0}\nActualice la configuración de los módulos"
+    text: |-
+        Los siguientes módulos deben tener asignado el mismo nivel de lenguaje debido a dependencias cíclicas entre ellos:
+        {0}
+        Actualice la configuración de los módulos
 error.compiler.configurable.malformed.patterns:
-    text: "Los siguientes patrones de recursos tienen un formato incorrecto:\n{0}"
+    text: |-
+        Los siguientes patrones de recursos tienen un formato incorrecto:
+        {0}
 error.javac.out.of.memory:
     text: Memoria insuficiente. Aumente el tamaño máximo del heap en Propiedades del proyecto|Configuración del compilador.
 error.output.not.specified:
-    text: "No se ha especificado la ruta de salida para {0,choice, 1#el módulo|2#los módulos\n} {1}"
+    text: |-
+        No se ha especificado la ruta de salida para {0,choice, 1#el módulo|2#los módulos
+        } {1}
 exclude.from.compile.table.path.column.name:
     text: Ruta
 exclude.from.compile.table.recursively.column.name:
@@ -107,7 +119,7 @@ label.text.class.path:
 label.text.main.class:
     text: 'Clase principal (&M):'
 mesage.text.deployment.descriptor.file.not.exist:
-    text: El archivo de descriptor de despliegue ''{0}'' no existe
+    text: "El archivo de descriptor de despliegue ''{0}'' no existe"
 message.category.information:
     text: INFORMACIÓN
 message.category.statistics:
@@ -119,15 +131,15 @@ message.resource.patterns.format.changed:
 message.text.deployment.description.invalid.file:
     text: Archivo no válido
 message.text.error.copying.file.to.file:
-    text: Error al copiar ''{0}'' a ''{1}''.
+    text: "Error al copiar ''{0}'' a ''{1}''."
 message.text.xml.file.invalid:
-    text: El archivo XML ''{0}'' no es válido
+    text: "El archivo XML ''{0}'' no es válido"
 no.excludes:
     text: Sin exclusiones
 no.validators:
     text: No hay validadores disponibles
 node.text.0.directory.content:
-    text: Contenido del directorio ''{0}''
+    text: "Contenido del directorio ''{0}''"
 option.use.compiler.text:
     text: 'Usar compilador:'
 packaging.element.text.output.root:
@@ -149,9 +161,9 @@ progress.parsing.file:
 progress.updating.caches:
     text: Actualizando cachés…
 rebuild.lvcs.label.no.errors:
-    text: '''''{0}'''' sin errores'
+    text: "''{0}'' sin errores"
 rebuild.lvcs.label.with.errors:
-    text: '''''{0}'''' con errores'
+    text: "''{0}'' con errores"
 rmi.compiler.description:
     text: Compilador RMI
 rmic.option.enable.rmi.stubs:

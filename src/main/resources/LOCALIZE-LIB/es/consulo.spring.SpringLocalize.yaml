@@ -11,23 +11,23 @@ aop.warning.aspectj.isnt.enabled:
 aop.warnings.inspection.display.name:
     text: Elemento de aspecto o pointcut de Spring AOP incorrecto
 bean.autowiring.by.type:
-    text: 'No se pudo realizar la vinculación automática. Hay más de un bean de tipo ''''{0}''''. Beans: {1}. Propiedades: ''''{2}'''''
+    text: "No se pudo realizar la vinculación automática. Hay más de un bean de tipo ''{0}''. Beans: {1}. Propiedades: ''{2}''"
 bean.autowiring.by.type.none:
-    text: No se pudo autovincular. No se encontraron beans de tipo ''{0}''.
+    text: "No se pudo autovincular. No se encontraron beans de tipo ''{0}''."
 bean.bad.property.type:
-    text: La propiedad de tipo ''{0}'' no puede ser inyectada por ''{1}''
+    text: "La propiedad de tipo ''{0}'' no puede ser inyectada por ''{1}''"
 bean.class.autowired.by.type:
-    text: No se pudo realizar la autovinculación. Hay más de un bean de tipo ''{0}''.
+    text: "No se pudo realizar la autovinculación. Hay más de un bean de tipo ''{0}''."
 bean.class.autowired.incorrect.qualifier.type:
-    text: No se pudo realizar la autovinculación. El bean calificado debe ser de tipo ''{0}''.
+    text: "No se pudo realizar la autovinculación. El bean calificado debe ser de tipo ''{0}''."
 bean.class.unknown.qualifier.bean:
-    text: No se puede encontrar el bean con el calificador ''{0}''
+    text: "No se puede encontrar el bean con el calificador ''{0}''"
 bean.must.be.of.type:
-    text: El bean debe ser de tipo ''{0}''
+    text: "El bean debe ser de tipo ''{0}''"
 cannot.autowire.bean.of.type:
-    text: No se pudo realizar el autowire. El bean debe ser de tipo ''{0}''
+    text: "No se pudo realizar el autowire. El bean debe ser de tipo ''{0}''"
 cannot.find.bean.constructor.with.parameters.count:
-    text: No se encontró ningún constructor coincidente en la clase ''{0}''
+    text: "No se encontró ningún constructor coincidente en la clase ''{0}''"
 cannot.find.bean.qualified.by:
     text: No se puede encontrar el bean calificado con {0}
 cannot.find.constructor.arg.index:
@@ -39,7 +39,7 @@ cannot.find.factory.method.index:
 cannot.find.factory.method.with.parameters.count:
     text: No se encontró ningún método de fábrica coincidente en la clase
 cannot.resolve.method:
-    text: No se puede resolver el método ''{0}''
+    text: "No se puede resolver el método ''{0}''"
 config.display.name:
     text: Configuración
 config.file.is.not.spring:
@@ -51,7 +51,7 @@ config.new.file:
 constructor.arg.incorrect.value.type:
     text: El tipo de valor inyectado debe corresponder al tipo del argumento del constructor
 create.missing.mappings:
-    text: Crear mapeos faltantes para ''{0}''
+    text: "Crear mapeos faltantes para ''{0}''"
 create.missing.properties:
     text: Crear propiedades faltantes
 create.new.spring.configuration.file:
@@ -63,7 +63,9 @@ create.spring.context.file.dtd.2.0:
 create.spring.context.file.schema.2.0:
     text: Spring XSD
 custom.bean.no.id:
-    text: "IntelliJ IDEA no puede encontrar el ID de este bean en un archivo de configuración. Cambiar el nombre probablemente produzca\ncódigo incorrecto. ¿Desea continuar?"
+    text: |-
+        IntelliJ IDEA no puede encontrar el ID de este bean en un archivo de configuración. Cambiar el nombre probablemente produzca
+        código incorrecto. ¿Desea continuar?
 custom.bean.no.id.title:
     text: Advertencia
 do.you.want.to.move.bean.to.the.top.level:
@@ -71,7 +73,7 @@ do.you.want.to.move.bean.to.the.top.level:
 error.pointcut.or.pointcut.ref.should.be.defined:
     text: Se debe definir el atributo pointcut o pointcut-ref
 idref.cannot.be.added.in.collection:
-    text: No se puede añadir a una colección de tipo ''{0}''
+    text: "No se puede añadir a una colección de tipo ''{0}''"
 incorrect.constructor.arg.index.not.unique:
     text: El índice debe ser único
 interface.not.allowed:
@@ -79,25 +81,25 @@ interface.not.allowed:
 introduce.bean.intention:
     text: Introducir bean
 jdk.proxy.intercepts.class:
-    text: 'La propiedad Bean debe tener un tipo de interfaz: ''''{0}'''''
+    text: "La propiedad Bean debe tener un tipo de interfaz: ''{0}''"
 mark.bean.as.abstract:
     text: Marcar bean como abstracto
 method.cannot.instantiate.bean:
-    text: El método factory ''{0}'' no puede instanciar el bean
+    text: "El método factory ''{0}'' no puede instanciar el bean"
 method.must.be.public:
-    text: El método de factoría ''{0}'' debe ser público
+    text: "El método de factoría ''{0}'' debe ser público"
 method.must.be.static:
-    text: El método de factoría ''{0}'' debe ser estático
+    text: "El método de factoría ''{0}'' debe ser estático"
 method.must.not.be.static:
-    text: El método de fábrica ''{0}'' no debe ser static
+    text: "El método de fábrica ''{0}'' no debe ser static"
 missing.aspectj.autoproxy.inspection.display.name:
     text: Falta aspectj-autoproxy
 model.add.constructor.args.for.method.quickfix.message:
-    text: Añadir <constructor-arg>(s) para ''{0}''
+    text: "Añadir <constructor-arg>(s) para ''{0}''"
 model.bean.error.message:
-    text: No se puede resolver el bean ''{0}''
+    text: "No se puede resolver el bean ''{0}''"
 model.bean.quickfix.message:
-    text: Crear nuevo bean ''{0}''
+    text: "Crear nuevo bean ''{0}''"
 model.inspection.bean.autowiring:
     text: Autowiring de beans XML de Spring incorrecto
 model.inspection.bean.constructor.arg:
@@ -109,7 +111,7 @@ model.inspection.bean.property.value:
 model.inspection.display.bean.name.convention:
     text: El nombre del bean de Spring infringe las convenciones
 model.inspection.display.name:
-    text: Elemento 'flow' configurado incorrectamente
+    text: "Elemento 'flow' configurado incorrectamente"
 model.inspection.group.name:
     text: WebSocket
 model.inspection.injection.value.add.list:
@@ -137,15 +139,15 @@ model.inspection.injection.value.style.ref.message:
 model.inspection.injection.value.style.value.fix:
     text: Reemplazar el elemento <value> con el atributo "{0}"
 model.inspection.invalid.identifier.message:
-    text: '''''{0}'''' no cumple con la convención de nomenclatura de beans'
+    text: "''{0}'' no cumple con la convención de nomenclatura de beans"
 model.inspection.invalid.lowercase.name.message:
-    text: '''''{0}'''' debe comenzar con una letra minúscula'
+    text: "''{0}'' debe comenzar con una letra minúscula"
 model.inspection.validator.description.text:
     text: Modelo de Spring
 model.inspection.validator.progress.text:
     text: Validando el modelo Spring…
 model.property.error.message:
-    text: No se puede resolver la propiedad ''{0}''
+    text: "No se puede resolver la propiedad ''{0}''"
 model.qualifiers.in.class.inspection.display.name:
     text: Autowiring incorrecto en componentes de bean de Spring
 move.bean:
@@ -163,11 +165,13 @@ parse.custom.bean.success:
 parse.no.custom.beans:
     text: El analizador no produjo beans
 parse.no.namespace.handler:
-    text: No se encontró el controlador personalizado para el espacio de nombres ''{0}''
+    text: "No se encontró el controlador personalizado para el espacio de nombres ''{0}''"
 parse.only.infrastructure.beans:
     text: El analizador solo generó beans de infraestructura
 parse.these.beans:
-    text: "El manejador de espacio de nombres personalizado generó las siguientes definiciones de bean:\n{0}"
+    text: |-
+        El manejador de espacio de nombres personalizado generó las siguientes definiciones de bean:
+        {0}
 parse.these.beans.induct:
     text: "El manejador de espacios de nombres personalizado generó la siguiente definición de bean:\n{0}\n\n¿Desea asumir que todos los beans\ndel espacio de nombres ''{1}'' con el nombre local ''{2}''\ntienen la misma clase y toman su id del atributo ''{3}''?"
 parse.these.beans.induct.only.this:
@@ -179,9 +183,9 @@ process.unexpectedly.terminated:
 required.properties.inspection:
     text: La propiedad del bean de Spring @Required no se ha inyectado
 required.properties.missed:
-    text: 'Faltan propiedades requeridas: ''''{0}'''''
+    text: "Faltan propiedades requeridas: ''{0}''"
 required.property.not.mapped:
-    text: No se ha inyectado la propiedad requerida ''{0}''
+    text: "No se ha inyectado la propiedad requerida ''{0}''"
 required.spring.bean.type.inspection:
     text: Tipo de bean inyectado incorrecto
 scopes.inspection.display.name:
@@ -225,7 +229,7 @@ spring.bean.instantiation.inspection:
 spring.bean.instantiation.using.factory.method:
     text: Spring Bean (instanciado mediante un método de fábrica estático)
 spring.bean.lookup.method.bean.has.no.class:
-    text: El bean ''{0}'' no tiene clase
+    text: "El bean ''{0}'' no tiene clase"
 spring.bean.lookup.method.constructor.not.allowed:
     text: No se permite un constructor aquí
 spring.bean.lookup.method.incorrect.return.type:
@@ -239,7 +243,7 @@ spring.bean.lookup.method.must.be.public.or.protected:
 spring.bean.lookup.method.must.have.no.parameters:
     text: El método no debe tener parámetros
 spring.bean.lookup.method.return.type.mismatch:
-    text: El tipo de retorno del método lookup no coincide con la clase bean ''{0}''
+    text: "El tipo de retorno del método lookup no coincide con la clase bean ''{0}''"
 spring.bean.map.entry:
     text: Entrada de mapa
 spring.bean.properties.chooser.title:
@@ -297,7 +301,7 @@ use.cglib.proxying:
 use.p.namespace:
     text: Convertir a p-namespace
 util.schema.inspection.name:
-    text: Beans del esquema 'util' configurados incorrectamente definidos en el contexto de aplicación XML
+    text: "Beans del esquema 'util' configurados incorrectamente definidos en el contexto de aplicación XML"
 warning.pointcut.should.have.id:
     text: El pointcut debe tener un id
 xml.schema.update.is.required:

@@ -5,7 +5,8 @@ add.property:
 annotation.types.cannot.be.inlined:
     text: Los tipos de anotación no se pueden insertar en línea
 cannot.perform.the.refactoring:
-    text: "No se puede realizar la refactorización.\n"
+    text: |
+        No se puede realizar la refactorización.
 choose.destination.package.label:
     text: Seleccionar paquete de destino
 class.cannot.be.inlined.because.a.call.to.its.constructor.is.unresolved:
@@ -29,13 +30,13 @@ class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
 class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
     text: No se puede integrar la clase porque tiene usos de sus clases internas
 class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
-    text: La clase no se puede integrar en línea porque se utiliza como calificador 'this'
+    text: "La clase no se puede integrar en línea porque se utiliza como calificador 'this'"
 class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
-    text: La clase no se puede incluir en línea porque se utiliza en una cláusula 'catch'
+    text: "La clase no se puede incluir en línea porque se utiliza en una cláusula 'catch'"
 class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
-    text: No se puede aplicar inline a la clase porque se utiliza en una cláusula 'throws'
+    text: "No se puede aplicar inline a la clase porque se utiliza en una cláusula 'throws'"
 class.cannot.be.inlined.because.its.constructor.contains.return.statements:
-    text: No se puede aplicar inline a la clase porque su constructor contiene sentencias 'return'
+    text: "No se puede aplicar inline a la clase porque su constructor contiene sentencias 'return'"
 class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
     text: No se puede integrar la clase porque no se puede resolver su superclase
 class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
@@ -73,7 +74,7 @@ extract.delegate.unable.create.warning.message:
 extracted.class.command.name:
     text: Clase extraída {0}
 extracted.class.should.have.unique.name:
-    text: La clase extraída debe tener un nombre único. El nombre ''{0}'' ya está en uso por una de las clases internas
+    text: "La clase extraída debe tener un nombre único. El nombre ''{0}'' ya está en uso por una de las clases internas"
 extracting.from.class:
     text: 'Extrayendo de la clase:'
 field.selected.is.not.used.as.a.delegate:
@@ -115,7 +116,7 @@ inline.super.class.label:
 inline.super.no.anonymous.class:
     text: No se puede realizar inline en una clase anónima.
 inline.super.no.inner.class:
-    text: No se puede realizar el inline en la clase interna. Mueva ''{0}'' al nivel superior.
+    text: "No se puede realizar el inline en la clase interna. Mueva ''{0}'' al nivel superior."
 inline.super.non.project.class.warning.message:
     text: No se puede inlinear una clase que no pertenece al proyecto
 interfaces.cannot.be.inlined:
@@ -125,7 +126,7 @@ introduce.parameter.object:
 introduce.type.parameter:
     text: Introducir parámetro de tipo
 invalid.extracted.class.name:
-    text: '''''{0}'''' no es un nombre de clase extraída válido'
+    text: "''{0}'' no es un nombre de clase extraída válido"
 invert.boolean.title:
     text: Invertir booleano
 library.classes.cannot.be.inlined:
@@ -135,7 +136,7 @@ members.to.extract.label:
 method.selected.has.no.parameters:
     text: El método seleccionado no tiene parámetros.
 method.selected.returns.void:
-    text: El método seleccionado devuelve 'void'.
+    text: "El método seleccionado devuelve 'void'."
 method.to.wrap.returns.from.label:
     text: 'Método desde el cual envolver los retornos:'
 method.whose.return.are.to.wrapped:

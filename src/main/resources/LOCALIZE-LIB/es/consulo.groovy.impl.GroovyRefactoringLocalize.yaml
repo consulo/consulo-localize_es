@@ -9,21 +9,21 @@ cannot.find.a.single.definition.to.inline.local.var:
 cannot.inline.0.:
     text: No se puede aplicar inline a {0}
 cannot.inline.reference.0:
-    text: No se puede insertar en línea la referencia ''{0}''
+    text: "No se puede insertar en línea la referencia ''{0}''"
 cannot.introduce.field.in.interface:
     text: No se puede introducir un campo en una interfaz
 cannot.introduce.field.in.script:
     text: No hay ninguna clase en el ámbito
 cannot.rename.property.0:
-    text: No se puede renombrar la propiedad <bold>''{0}''</bold> que sobrescribe el método <bold>''{1}''</bold>
+    text: "No se puede renombrar la propiedad <bold>''{0}''</bold> que sobrescribe el método <bold>''{1}''</bold>"
 changeSignature.no.type.for.exception:
     text: Especificar el tipo de la excepción
 changeSignature.not.throwable.type:
-    text: 'Tipo incorrecto: ''''{0}'''' para la excepción, debe extender java.lang.Throwable'
+    text: "Tipo incorrecto: ''{0}'' para la excepción, debe extender java.lang.Throwable"
 changeSignature.refactoring.name:
     text: Cambiar firma
 changeSignature.wrong.type.for.exception:
-    text: 'Tipo incorrecto: ''''{0}'''' para la excepción'
+    text: "Tipo incorrecto: ''{0}'' para la excepción"
 changing.signature.of.0:
     text: Cambiando la firma de {0}
 class.does.not.exist.in.the.module:
@@ -59,9 +59,9 @@ files.to.be.converted:
 final.field.cant.be.initialized.in.cur.method:
     text: El campo final no se puede inicializar en el método actual
 inline.local.variable.prompt.0.1:
-    text: ¿Insertar en línea la variable local ''{0}''?
+    text: "¿Insertar en línea la variable local ''{0}''?"
 inline.method.label:
-    text: Incorporar método ''{0}''
+    text: "Incorporar método ''{0}''"
 inline.method.title:
     text: Incorporar método
 inline.variable.title:
@@ -83,7 +83,7 @@ method.is.not.accessible.form.context.0:
 multiple.output.values:
     text: Hay múltiples valores de salida para el fragmento de código seleccionado
 name.is.wrong:
-    text: El nombre ''{0}'' es incorrecto
+    text: "El nombre ''{0}'' es incorrecto"
 name.label:
     text: '&Nombre:'
 only.in.groovy.files:
@@ -93,7 +93,7 @@ parameters.border.title:
 press.escape.to.remove.the.highlighting:
     text: Presione Escape para eliminar el resaltado
 ref.0.will.not.be.resolved.outside.of.current.context:
-    text: La referencia ''{0}'' no se resolverá fuera del contexto actual
+    text: "La referencia ''{0}'' no se resolverá fuera del contexto actual"
 refactoring.cannot.be.applied.to.abstract.methods:
     text: La refactorización no se puede aplicar a métodos abstractos
 refactoring.cannot.be.applied.to.constructors:
@@ -105,7 +105,7 @@ refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow
 reference.to.accessor.0.is.used:
     text: La referencia al accesor <bold>{0}<bold> no se puede aplicar inline.
 remove.parameter.0.no.longer.used:
-    text: Eliminar el parámetro ''{0}'' que ya no se utiliza
+    text: "Eliminar el parámetro ''{0}'' que ya no se utiliza"
 rename.groovy.property:
     text: Renombrar propiedad &Groovy
 rename.is.not.applicable.to.implicit.elements:
@@ -113,13 +113,13 @@ rename.is.not.applicable.to.implicit.elements:
 rename.member:
     text: Renombrar {0}
 rename.property:
-    text: Renombrar propiedad ''{0}''
+    text: "Renombrar propiedad ''{0}''"
 replace.all.occurrences:
     text: Reemplazar todas las ocurrencias
 replace.getter.for.property:
-    text: El getter predeterminado de la propiedad ''{0}'' será sobrescrito
+    text: "El getter predeterminado de la propiedad ''{0}'' será sobrescrito"
 replace.setter.for.property:
-    text: El setter predeterminado para la propiedad ''{0}'' será sobrescrito
+    text: "El setter predeterminado para la propiedad ''{0}'' será sobrescrito"
 return.type.is.wrong:
     text: El tipo de retorno es incorrecto
 row.move.down:
@@ -139,7 +139,7 @@ selected.variable.is.used.for.write:
 signature.preview.border.title:
     text: Vista previa de la firma
 specify.default.value:
-    text: Especificar el valor predeterminado o el inicializador para el parámetro ''{0}''
+    text: "Especificar el valor predeterminado o el inicializador para el parámetro ''{0}''"
 super.reference.is.used:
     text: La llamada a super utilizada en el método insertado no será válida después de la inserción.
 target.class.must.not.be.script:
@@ -147,11 +147,11 @@ target.class.must.not.be.script:
 this.invocation.only.and.keep.the.method:
     text: Incorporar solo esta invocación y conservar el método (&K)
 type.for.parameter.is.incorrect:
-    text: El tipo para el parámetro ''{0}'' es incorrecto
+    text: "El tipo para el parámetro ''{0}'' es incorrecto"
 variable.conflicts.with.field.0:
     text: El nombre elegido entrará en conflicto con el campo {0}
 variable.is.accessed.for.writing:
-    text: Se accede a la variable ''{0}'' para escritura
+    text: "Se accede a la variable ''{0}'' para escritura"
 variable.of.type:
     text: 'Variable de &tipo:'
 visibility.border.title:
@@ -163,4 +163,4 @@ visibility.protected:
 visibility.public:
     text: Pú&blico
 you.cannot.pass.as.parameter.0.because.you.remove.1.from.base.method:
-    text: No puede pasar ''{0}'' como parámetro porque ha eliminado del método el parámetro ''{1}'' asociado. Debe desmarcar ''Eliminar el parámetro ''{0}'' que ya no se utiliza'' o desmarcar el parámetro ''{1}'' en la tabla de parámetros.
+    text: "No puede pasar ''{0}'' como parámetro porque ha eliminado del método el parámetro ''{1}'' asociado. Debe desmarcar ''Eliminar el parámetro ''{0}'' que ya no se utiliza'' o desmarcar el parámetro ''{1}'' en la tabla de parámetros."

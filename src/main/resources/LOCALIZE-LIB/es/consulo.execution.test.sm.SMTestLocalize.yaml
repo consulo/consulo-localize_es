@@ -1,5 +1,5 @@
 checkbox.run.tests.before.commit:
-    text: Ejecutar ''{0}''
+    text: "Ejecutar ''{0}''"
 dialog.message.target.does.not.exist:
     text: El destino {0} no existe
 dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
@@ -9,7 +9,7 @@ dialog.message.unable.to.run.configuration.settings.are.corrupted:
 link.label.choose.configuration.before.commit:
     text: Seleccionar configuración
 progress.text.running.tests:
-    text: Ejecutando ''{0}''…
+    text: "Ejecutando ''{0}''…"
 sm.test.runner.abstract.import.test.error.title:
     text: Error al importar
 sm.test.runner.import.test:

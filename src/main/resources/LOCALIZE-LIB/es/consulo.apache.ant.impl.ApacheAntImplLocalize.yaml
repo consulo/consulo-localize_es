@@ -15,7 +15,7 @@ additional.classpath.tab.add.all.in.directory.button:
 additional.classpath.tab.classpath.border:
     text: 'Classpath (&P):'
 ant.build.local.history.label:
-    text: 'Ejecutando Ant: ''''{0}'''''
+    text: "Ejecutando Ant: ''{0}''"
 ant.build.message.node.prefix.text:
     text: 'Compilación:'
 ant.build.progress.dialog.title:
@@ -29,7 +29,7 @@ ant.create.meta.target.action.description:
 ant.create.meta.target.action.name:
     text: Crear objetivo meta
 ant.create.target.intention.description:
-    text: Crear objetivo ''{0}''
+    text: "Crear objetivo ''{0}''"
 ant.event.after.compilation.presentable.name:
     text: Después de la compilación
 ant.event.before.compilation.presentable.name:
@@ -59,7 +59,7 @@ ant.is.active.terminate.confirmation.text:
 ant.jar.is.directory.error.message:
     text: '{0} es un directorio'
 ant.jar.not.found.in.directory.error.message:
-    text: No se encontró ant.jar en el directorio ''{0}''
+    text: "No se encontró ant.jar en el directorio ''{0}''"
 ant.process.is.active.terminate.confirmation.text:
     text: El proceso Ant está activo. ¿Desea terminar el proceso Ant?
 ant.property.value.editor.insert.macro.tooltip.text:
@@ -77,7 +77,7 @@ ant.setup.dialog.title:
 ant.target:
     text: objetivo
 ant.target.before.run.description:
-    text: Ejecutar el objetivo de Ant ''{0}''
+    text: "Ejecutar el objetivo de Ant ''{0}''"
 ant.target.before.run.description.empty:
     text: Ejecutar destino Ant
 ant.target.choser.title:
@@ -139,11 +139,13 @@ cannot.add.ant.files.dialog.title:
 cannot.add.build.file.dialog.title:
     text: No se puede añadir el archivo de construcción
 cannot.add.build.files.from.excluded.directories.error.message:
-    text: "No se pueden añadir archivos de compilación de directorios excluidos\n{0}"
+    text: |-
+        No se pueden añadir archivos de compilación de directorios excluidos
+        {0}
 cannot.resolve.refid:
-    text: No se puede resolver el refid ''{0}''
+    text: "No se puede resolver el refid ''{0}''"
 cannot.resolve.target:
-    text: Objetivo ''{0}'' desconocido
+    text: "Objetivo ''{0}'' desconocido"
 cannot.start.build.name.error.message:
     text: No se puede iniciar {0}
 cant.add.file.error.message:
@@ -151,7 +153,7 @@ cant.add.file.error.message:
 cant.read.from.ant.jar.error.message:
     text: No se puede leer de {0}
 cant.run.ant.ant.reference.is.not.configured.error.message:
-    text: Ant ''{0}'' no está configurado
+    text: "Ant ''{0}'' no está configurado"
 cant.run.ant.no.ant.configured.error.message:
     text: Ant no está configurado
 close.ant.build.messages.dialog.title:
@@ -191,7 +193,7 @@ filter.ant.targets.action.description:
 filter.ant.targets.action.name:
     text: Filtrar objetivos
 integer.attribute.has.invalid.value:
-    text: El atributo ''{0}'' debe tener un valor entero
+    text: "El atributo ''{0}'' debe tener un valor entero"
 intention.configure.highlighting.family.name:
     text: Configurar resaltado
 intention.configure.highlighting.text:
@@ -199,7 +201,7 @@ intention.configure.highlighting.text:
 jdk.with.name.bad.configured.error.message:
     text: El JDK ({0}) requerido para ejecutar este objetivo de Ant no está configurado correctamente. Actualice su configuración en el diálogo "Estructura del proyecto".
 jdk.with.name.not.configured.error.message:
-    text: El JDK ({0}) necesario para ejecutar este objetivo Ant no está configurado. Actualice su configuración en el cuadro de diálogo ''Estructura del proyecto''.
+    text: "El JDK ({0}) necesario para ejecutar este objetivo Ant no está configurado. Actualice su configuración en el cuadro de diálogo ''Estructura del proyecto''."
 lib.directory.not.found.in.ant.path.error.message:
     text: No se encontró el directorio lib en {0}
 meta.target.build.sequence.name.display.name:
@@ -271,13 +273,13 @@ starting.ant.build.dialog.title:
 stop.ant.action.name:
     text: Detener
 target.is.duplicated:
-    text: El destino ''{0}'' está duplicado
+    text: "El destino ''{0}'' está duplicado"
 target.is.duplicated.in.imported.file:
-    text: El objetivo ''{0}'' está duplicado en el archivo ''{1}''
+    text: "El objetivo ''{0}'' está duplicado en el archivo ''{1}''"
 target.tag.name.status.text:
     text: 'Objetivo: {0}'
 unknown.macro.attribute:
-    text: Atributo de macro ''{0}'' desconocido
+    text: "Atributo de macro ''{0}'' desconocido"
 unknown.property:
     text: Propiedad desconocida {0}
 user.inout.request.ant.build.input.dialog.title:

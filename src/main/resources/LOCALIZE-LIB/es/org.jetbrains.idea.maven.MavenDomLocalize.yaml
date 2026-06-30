@@ -15,7 +15,7 @@ fix.create.module:
 fix.create.module.with.parent:
     text: Crear módulo con el elemento primario
 fix.open.file:
-    text: Abrir ''{0}''
+    text: "Abrir ''{0}''"
 fix.parent.path:
     text: Corregir ruta relativa
 fix.update.indices:
@@ -49,7 +49,7 @@ navigate.parent.dependency.title:
 navigate.parent.plugin.title:
     text: Seleccionar el plugin al que navegar
 overriden.plugin.title:
-    text: Navegar a la sección 'pluginManagement'
+    text: "Navegar a la sección 'pluginManagement'"
 overriding.dependency.title:
     text: Navegar a los usos de la dependencia
 overriding.plugin.title:

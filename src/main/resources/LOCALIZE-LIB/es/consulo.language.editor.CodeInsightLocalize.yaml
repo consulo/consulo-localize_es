@@ -9,13 +9,15 @@ action.text.move:
 block.comment.intersects.existing.comment:
     text: La región seleccionada interseca un comentario existente
 block.comment.nested.comment:
-    text: "La región seleccionada contenía {0, choice, 1#un comentario|2#comentarios} de bloque,\nse comentaron los rangos circundantes."
+    text: |-
+        La región seleccionada contenía {0, choice, 1#un comentario|2#comentarios} de bloque,
+        se comentaron los rangos circundantes.
 block.comment.wrapping.suffix:
     text: La región seleccionada contiene el sufijo de comentario de bloque
 cast.expression:
     text: Insertar expresión de conversión
 cast.to.0:
-    text: Convertir a ''{0}''
+    text: "Convertir a ''{0}''"
 choose.type.popup.title:
     text: Seleccionar tipo
 class.completion.file.path:
@@ -39,7 +41,7 @@ command.wrap.with.template:
 completion.automatic.command.name:
     text: Autocompletado
 copy.abstract.method.intention.name:
-    text: Usar la implementación existente de ''{0}''
+    text: "Usar la implementación existente de ''{0}''"
 copy.abstract.method.no.existing.implementations.found:
     text: No se encontraron implementaciones existentes
 copy.abstract.method.popup.title:
@@ -131,21 +133,21 @@ dialog.title.move.to.a.new.group:
 dialog.title.rename:
     text: Renombrar
 disable.intention.action:
-    text: Desactivar ''{0}''
+    text: "Desactivar ''{0}''"
 display.coverage.prompt:
-    text: ¿Desea mostrar los datos de cobertura de ''{0}''?
+    text: "¿Desea mostrar los datos de cobertura de ''{0}''?"
 documentation.message.documentation.is.not.available:
     text: La documentación no estará disponible hasta que se construyan los índices.
 enable.intention.action:
-    text: Habilitar ''{0}''
+    text: "Habilitar ''{0}''"
 error.attempt.to.generate.constructor.for.anonymous.class:
     text: No se puede añadir un constructor a una clase anónima
 error.cannot.resolve.0.1:
-    text: No se puede resolver {0} ''{1}''
+    text: "No se puede resolver {0} ''{1}''"
 error.cannot.resolve.class:
-    text: No se puede resolver la clase ''{0}''
+    text: "No se puede resolver la clase ''{0}''"
 error.cannot.resolve.default.message:
-    text: No se puede resolver el símbolo ''{0}''
+    text: "No se puede resolver el símbolo ''{0}''"
 error.dialog.readonly.file.title:
     text: El archivo es de solo lectura
 error.hint.file.is.readonly:
@@ -239,13 +241,13 @@ i18n.quickfix.property.panel.title:
 i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
     text: Actualizar todos los archivos de propiedades en el paquete de &recursos
 i18nize.cant.create.properties.file.because.its.name.is.associated:
-    text: No se puede crear el archivo de propiedades ''{0}'' porque su nombre está asociado con {1}.
+    text: "No se puede crear el archivo de propiedades ''{0}'' porque su nombre está asociado con {1}."
 i18nize.dialog.error.jdk.message:
     text: "No se pudo encontrar la clase 'java.util.ResourceBundle'.\nPor favor, configure el JDK correctamente."
 i18nize.dialog.error.jdk.title:
     text: Clase no encontrada
 i18nize.dialog.error.property.already.defined.message:
-    text: La propiedad ''{0}'' ya existe en el archivo ''{1}''. ¿Desea sobrescribir su valor?
+    text: "La propiedad ''{0}'' ya existe en el archivo ''{1}''. ¿Desea sobrescribir su valor?"
 i18nize.dialog.error.property.already.defined.title:
     text: La propiedad ya existe
 i18nize.dialog.property.file.chooser.title:
@@ -259,11 +261,16 @@ i18nize.empty.file.path:
 i18nize.error.creating.properties.file:
     text: Error al crear el archivo de propiedades
 i18nize.error.message:
-    text: "Solo puede internacionalizar literales de cadena de Java o subcadenas de los mismos.\nPor favor, sitúe el cursor dentro de un literal de cadena de Java o seleccione una parte del mismo."
+    text: |-
+        Solo puede internacionalizar literales de cadena de Java o subcadenas de los mismos.
+        Por favor, sitúe el cursor dentro de un literal de cadena de Java o seleccione una parte del mismo.
 i18nize.error.title:
     text: No se puede internacionalizar la selección
 i18nize.jsp.error:
-    text: "Seleccione el texto JSP para internacionalizar.\nAsegúrese de no haber seleccionado ningún scriptlet, etiquetas personalizadas ni otros elementos de lenguajes externos.\nAdemás, las etiquetas HTML dentro de la selección deben estar balanceadas."
+    text: |-
+        Seleccione el texto JSP para internacionalizar.
+        Asegúrese de no haber seleccionado ningún scriptlet, etiquetas personalizadas ni otros elementos de lenguajes externos.
+        Además, las etiquetas HTML dentro de la selección deben estar balanceadas.
 implementation.view.title:
     text: Definición de {0}
 incremental.search.tooltip.prefix:
@@ -273,13 +280,13 @@ inlay.hints.base.exclude.list.description:
 inlay.hints.disable.action.text:
     text: Desactivar sugerencias
 inlay.hints.disable.option:
-    text: Desactivar ''{0}''
+    text: "Desactivar ''{0}''"
 inlay.hints.enable.action.text:
     text: Habilitar sugerencias de nombres de parámetros
 inlay.hints.exclude.list.method:
     text: No mostrar sugerencias para el método actual
 inlay.hints.show.settings:
-    text: Desactivar sugerencias para el método ''{0}''
+    text: "Desactivar sugerencias para el método ''{0}''"
 insert.code.template.command:
     text: Insertar plantilla de código
 inspection.i18n.display.name:
@@ -291,13 +298,13 @@ inspection.i18n.message.general.with.value:
 inspection.i18n.quickfix:
     text: Internacionalizar el literal de cadena codificado de forma rígida
 inspection.i18n.quickfix.annotate.as:
-    text: Anotar como ''@{0}''
+    text: "Anotar como ''@{0}''"
 inspection.i18n.quickfix.annotate.element.as:
-    text: Anotar {0} ''{1}'' como ''@{2}''
+    text: "Anotar {0} ''{1}'' como ''@{2}''"
 inspection.invalid.resource.bundle.reference:
-    text: Referencia de paquete de recursos no válida ''{0}''
+    text: "Referencia de paquete de recursos no válida ''{0}''"
 inspection.unresolved.property.key.reference.message:
-    text: '''''{0}'''' no parece ser una clave de propiedad válida'
+    text: "''{0}'' no parece ser una clave de propiedad válida"
 inspection.unresolved.property.key.reference.name:
     text: Clave de propiedad no válida
 intention.add.annotation.family:
@@ -305,15 +312,15 @@ intention.add.annotation.family:
 intention.add.on.demand.static.import.family:
     text: Añadir importación estática bajo demanda
 intention.add.on.demand.static.import.text:
-    text: Añadir importación estática bajo demanda para ''{0}''
+    text: "Añadir importación estática bajo demanda para ''{0}''"
 intention.add.single.member.static.import.family:
     text: Añadir importación estática de un solo miembro
 intention.add.single.member.static.import.text:
-    text: Añadir importación estática para ''{0}''
+    text: "Añadir importación estática para ''{0}''"
 intention.assign.field.from.parameter.family:
     text: Asignar parámetro al campo
 intention.assign.field.from.parameter.text:
-    text: Asignar parámetro al campo ''{0}''
+    text: "Asignar parámetro al campo ''{0}''"
 intention.bind.fields.from.parameters.family:
     text: Vincular parámetros a campos
 intention.bind.fields.from.parameters.text:
@@ -325,11 +332,11 @@ intention.color.chooser.dialog:
 intention.convert.color.representation.family:
     text: Convertir representación de color
 intention.convert.color.representation.text:
-    text: Convertir a ''new Color{0}''
+    text: "Convertir a ''new Color{0}''"
 intention.create.field.from.parameter.family:
     text: Crear campo para el parámetro
 intention.create.field.from.parameter.text:
-    text: Crear campo para el parámetro ''{0}''
+    text: "Crear campo para el parámetro ''{0}''"
 intention.create.test:
     text: Crear prueba
 intention.create.test.dialog.choose.super.class:
@@ -353,11 +360,11 @@ intention.create.test.dialog.testing.library:
 intention.encapsulate.field.text:
     text: Encapsular campo
 intention.error.cannot.create.class.message:
-    text: No se puede crear la clase ''{0}''
+    text: "No se puede crear la clase ''{0}''"
 intention.error.cannot.create.class.title:
     text: Error al crear la clase
 intention.extract.if.condition.family:
-    text: Extraer condición 'if'
+    text: "Extraer condición 'if'"
 intention.extract.if.condition.text:
     text: Extraer if ({0})
 intention.implement.abstract.class.default.text:
@@ -381,17 +388,17 @@ intention.implement.abstract.method.family:
 intention.implement.abstract.method.searching.for.descendants.progress:
     text: Buscando descendientes…
 intention.implement.abstract.method.text:
-    text: Implementar método ''{0}''
+    text: "Implementar método ''{0}''"
 intention.intercept.ejb.method.or.class.class.text:
-    text: Añadir interceptor para la clase EJB ''{0}''
+    text: "Añadir interceptor para la clase EJB ''{0}''"
 intention.intercept.ejb.method.or.class.family:
     text: Añadir interceptor EJB
 intention.intercept.ejb.method.or.class.method.text:
-    text: Añadir interceptor para el método de negocio ''{0}''
+    text: "Añadir interceptor para el método de negocio ''{0}''"
 intention.introduce.variable.text:
     text: Introducir variable local
 intention.invert.if.condition:
-    text: Invertir la condición 'if'
+    text: "Invertir la condición 'if'"
 intention.move.field.assignment.to.declaration:
     text: Mover asignación a la declaración de campo
 intention.move.initializer.to.constructor:
@@ -399,11 +406,11 @@ intention.move.initializer.to.constructor:
 intention.move.initializer.to.set.up:
     text: Mover el inicializador al método setUp
 intention.override.method.text:
-    text: Sobrescribir el método ''{0}''
+    text: "Sobrescribir el método ''{0}''"
 intention.replace.concatenation.with.formatted.output.family:
     text: Reemplazar concatenación con salida formateada
 intention.replace.concatenation.with.formatted.output.text:
-    text: Reemplazar '+' con 'java.text.MessageFormat.format()'
+    text: "Reemplazar '+' con 'java.text.MessageFormat.format()'"
 intention.settings:
     text: Intenciones
 intention.settings.category.text:
@@ -413,9 +420,9 @@ intention.split.declaration.assignment.text:
 intention.split.declaration.family:
     text: Dividir declaración
 intention.split.if.family:
-    text: Dividir 'if'
+    text: "Dividir 'if'"
 intention.split.if.text:
-    text: Dividir en 2 sentencias 'if'
+    text: "Dividir en 2 sentencias 'if'"
 intention.surround.resource.with.ARM.block:
     text: Rodear con bloque try-with-resources
 javadoc.action.back:
@@ -433,7 +440,9 @@ javadoc.description.copied.from.class:
 javadoc.description.copied.from.interface:
     text: 'Desde la interfaz:'
 javadoc.documentation.not.found.message:
-    text: "No se encontró la documentación para este elemento.\nPor favor, añada todas las rutas necesarias a la documentación de la API en la Configuración del proyecto."
+    text: |-
+        No se encontró la documentación para este elemento.
+        Por favor, añada todas las rutas necesarias a la documentación de la API en la Configuración del proyecto.
 javadoc.documentation.not.found.title:
     text: Documentación no encontrada
 javadoc.error.resolving.url:
@@ -475,9 +484,9 @@ link.define.context:
 livetemplate.description.geti:
     text: Inserta el método singleton getInstance
 livetemplate.description.if.not.null:
-    text: Inserta la sentencia 'if not null'
+    text: "Inserta la sentencia 'if not null'"
 livetemplate.description.if.null:
-    text: Inserta una sentencia 'if null'
+    text: "Inserta una sentencia 'if null'"
 livetemplate.description.inst:
     text: Comprueba el tipo de objeto con instanceof y realiza un downcast
 livetemplate.description.itar:
@@ -571,7 +580,7 @@ n.of.m:
 no.documentation.found:
     text: No se encontró ninguna documentación.
 no.methods.overriding.0.are.found:
-    text: No se han encontrado métodos que sobrescriban {0, choice, 0#|1# ''''{1}''''|2#estas clases}
+    text: "No se han encontrado métodos que sobrescriban {0, choice, 0#|1# ''''{1}''''|2#estas clases}"
 node.abstract.flag.tooltip:
     text: Abstracto
 node.annotation.tooltip:
@@ -611,7 +620,7 @@ parameter.info.switch.overload.shortcuts:
 parameter.info.switch.overload.shortcuts.single:
     text: Cambiar con {0}
 popup.title.next.error.action.0.goes.through:
-    text: La acción ''Siguiente error''{0} pasa por
+    text: "La acción ''Siguiente error''{0} pasa por"
 postfix.template.description.under.construction:
     text: En construcción
 process.optimize.imports:
@@ -629,11 +638,11 @@ process.reformat.code.before.commit:
 process.scope.changed.files:
     text: Procesar solo archivos con cambios no confirmados en el &VCS
 process.scope.directory:
-    text: Directorio ''{0}''
+    text: "Directorio ''{0}''"
 process.scope.module:
-    text: Módulo ''{0}''
+    text: "Módulo ''{0}''"
 process.scope.project:
-    text: Proyecto ''{0}''
+    text: "Proyecto ''{0}''"
 progress.reformat.and.optimize.common.command.text:
     text: Reformatear y optimizar importaciones
 progress.reformat.stage.applying.changes:
@@ -645,7 +654,7 @@ progress.reformat.stage.wrapping.blocks:
 progress.text.optimizing.imports:
     text: Optimizando importaciones…
 property.has.more.parameters.than.passed:
-    text: La propiedad ''{0}'' esperaba {1} {1, choice, 1#parámetro|2#parámetros}, se han pasado {2}
+    text: "La propiedad ''{0}'' esperaba {1} {1, choice, 1#parámetro|2#parámetros}, se han pasado {2}"
 quick.definition.back:
     text: Atrás
 quick.definition.edit.source:
@@ -655,7 +664,7 @@ quick.definition.forward:
 quickfix.add.variable.family.name:
     text: Inicializar variable
 quickfix.add.variable.text:
-    text: Inicializar variable ''{0}''
+    text: "Inicializar variable ''{0}''"
 quickfix.i18n.command.name:
     text: Internacionalizar
 quickfix.i18n.concatentation:
@@ -681,7 +690,7 @@ remove.annotation:
 remove.catch:
     text: Eliminar bloque catch
 remove.else:
-    text: Eliminar 'else…'
+    text: "Eliminar 'else…'"
 rename.element.family:
     text: Renombrar elemento
 rename.file.fix:
@@ -691,9 +700,9 @@ rename.file.reference.family:
 rename.file.reference.text:
     text: Renombrar la referencia del archivo a {0}
 rename.named.element.text:
-    text: Renombrar ''{0}'' a ''{1}''
+    text: "Renombrar ''{0}'' a ''{1}''"
 rename.public.class.text:
-    text: Renombrar la clase ''{0}'' a ''{1}''
+    text: "Renombrar la clase ''{0}'' a ''{1}''"
 searching.for.implementations:
     text: Buscando implementaciones…
 set.language.level:
@@ -757,28 +766,28 @@ templates.surround.no.defined:
 under.construction.string:
     text: En construcción.
 unknown.encoding.0:
-    text: 'Codificación desconocida: ''''{0}'''''
+    text: "Codificación desconocida: ''{0}''"
 unwrap.anonymous:
-    text: Quitar envoltorio de 'anonymous…'
+    text: "Quitar envoltorio de 'anonymous…'"
 unwrap.braces:
     text: Quitar llaves
 unwrap.conditional:
-    text: 'Deshacer ''f ? a : b'''
+    text: "Deshacer 'f ? a : b'"
 unwrap.else:
-    text: Desempaquetar 'else…'
+    text: "Desempaquetar 'else…'"
 unwrap.for:
-    text: Quitar 'for…'
+    text: "Quitar 'for…'"
 unwrap.if:
-    text: Desenvolver 'if…'
+    text: "Desenvolver 'if…'"
 unwrap.popup.title:
     text: Seleccione la sentencia para extraer/eliminar
 unwrap.synchronized:
-    text: Quitar 'synchronized…'
+    text: "Quitar 'synchronized…'"
 unwrap.try:
-    text: Quitar 'try…'
+    text: "Quitar 'try…'"
 unwrap.while:
-    text: Quitar 'while…'
+    text: "Quitar 'while…'"
 unwrap.with.placeholder:
-    text: Quitar envoltorio de ''{0}''
+    text: "Quitar envoltorio de ''{0}''"
 xml.tag.info.no.attributes:
     text: <sin atributos>
